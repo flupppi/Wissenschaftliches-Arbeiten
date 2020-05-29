@@ -1,0 +1,23 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{CLH{\etalchar{+}}05}
+
+\bibitem[CLH{\etalchar{+}}05]{Principles:05}
+{\sc Choset, Howie}, {\sc Kevin~M. Lynch}, {\sc Seth Hutchinson}, {\sc
+  George~A. Kantor}, {\sc Wolfram Burgard}, {\sc Lydia~E. Kavraki}
+  \btxandlong{}\ {\sc Sebastian Thrun}: {\em Principles of Robot Motion:
+  Theory, Algorithms, and Implementations}.
+\newblock MIT Press, 2005.
+
+\bibitem[HAM92]{Yong:92}
+{\sc Hwang, Yong~K.}, {\sc Narendra Ahuja} \btxandlong{}\ {\sc Senior Member}:
+  {\em A potential field approach to path planning}.
+\newblock T-RA, 1992.
+
+\bibitem[Yap02]{Grid:02}
+{\sc Yap, Peter}: {\em Grid-Based Path-Finding}.
+\newblock \Btxinlong{}\ {\sc Cohen, Robin} \btxandlong{}\ {\sc Bruce Spencer}\
+  (\btxeditorslong{}): {\em Advances in Artificial Intelligence},
+  \btxpageslong{}\ 44--55, Berlin, Heidelberg, 2002. Springer Berlin
+  Heidelberg.
+
+\end{thebibliography}

@@ -1,0 +1,242 @@
+\chapter{Grundlagen}
+
+\section{Was ist Pfadplanung?}
+%SOME OF the most significant challenges confronting autonomous robotics lie in the
+%area of automatic motion planning. The goal is to be able to specify a task in a highlevel
+%language and have the robot automatically compile this specification into a set of
+%low-level motion primitives, or feedback controllers, to accomplish the task. The prototypical
+%task is to find a path for a robot, whether it is a robot arm, a mobile robot, or a
+%magically free-flying piano, from one configuration to another while avoiding obstacles.
+%Proper work
+%%(S.1)
+%Path planning means to find a collisionfree path for a robot to move from one configuration to another \cite[~S. 1]{Principles:05}. This of course has several constraints given that a robot exists in the real world with physical constraints and limited movement options. 
+%(S.1)
+Pfadplanung bedeutet, eine kollisionsfreie Weg zu finden, auf der sich ein Roboter von eine Punkt zu einer anderen bewegen kann \cite[~S. 1]{Principles:05}. Dies hat nat"urlich mehrere Grenzen, da ein Roboter in der realen Welt physischen Einschr"ankungen und begrenzten Bewegungsoptionen hat. Dazu ist der Konfigurationsraum des Roboters wichtig, der seiner Bewegungsraum beschreibt. F"ur Traversieren des Raumes gibt es mehrere Optionen, in diese Kapitel werden drei beschrieben: Potentialfeld, Roadmaps und Zelldekomposition.
+\\\\
+Pfadplanung kann auch in andere Bereich genutzt werden. Wie (...) . 
+%Mention more Fields
+
+\section{Konfigurationsraum}
+%\cite{Principles:05}
+%TO CREATE motion plans for robots, we must be able to specify the position of the
+%robot. More specifically, we must be able to give a specification of the location of
+%every point on the robot, since we need to ensure that no point on the robot collides
+%with an obstacle. (S. 39)
+%
+%(S. 40)
+%The configuration of a robot system is a complete specification of the position of every
+%point of that system. The configuration space, or C-space, of the robot system is the
+%space of all possible configurations of the system. Thus a configuration is simply a
+%point in this abstract configuration space.
+%
+%A simple way to represent the robot’s configuration is
+%to specify the location of its center, (x, y), relative to some fixed coordinate frame.
+%If we know the radius r of the robot, we can easily determine from the configuration
+%q = (x, y) the set of points occupied by the robot. We will use the notation R(q) to
+%denote this set. When we define the configuration as q = (x, y), we have
+%R(x, y) = {(x, y) | (x − x)2 + (y − y)2 ≤ r 2},
+%and we see that these two parameters, x and y, are sufficient to completely determine
+%the configuration of the circular robot.
+%
+%Robots move in a two- or three-dimensional Euclidean ambient space, represented
+%by R2 or R3, respectively.We sometimes refer to this ambient space as the workspace.
+%
+%(S. 43)
+%We define a configuration space obstacleQOi to be the set of
+%configurations at which the robot intersects an obstacle WOi in the workspace,
+%
+%The free space or free configuration space Qfree is the set of configurations at which
+%the robot does not intersect any obstacle, i.e.,
+%
+%free path = do not touch obstacles
+%semifree path = touch obstacles
+%
+%%Beispiel for workspace (S. 41)
+%We define the workspace of the two-joint manipulator to be the reachable points
+%by the end effector. The workspace for our two-joint manipulator is an annulus
+%(figure 3.3), which is a subset of R2. All points in the interior of the annulus are
+%reachable in two ways, with the arm in a right-arm and a left-arm configuration,
+%sometimes called elbow-up and elbow-down. Therefore, the position of the end effector
+%is not a valid configuration (not a complete description of the location of all points
+%of the robot), so the annulus is not a configuration space for this robot.
+%Bild (S. 42)
+%
+%Proper work
+%In order to move a robot it's necessary to know the points of the robot that will be moved in order to ensure that no point collides with any obstacles. Therefore the configuration of a robot system is defined as a complete specification of the position of every one of its points. The configuration space of the robot system is the space of all possible configurations of the robot. The workspace can be defined as a two- or three-dimensional Euclidean ambient space in which they move, represented by A and B respectively. 
+%
+%In the configuration space, an obstacle is defined as the set of configurations at which the robot intersects an obstacle in the workspace. Conversely, the free space or free configuration space is the set of configurations at which the robot does not intersect any obstacle.
+%
+%The obstacle space of a robot is the configurations of a robot, where he collides with an obstacle
+%
+%(S. 40, 43)
+\cite{Principles:05} bietet einige wichtige Definitionen. Ein Roboter befindet sich in einen zwei- oder dreidimensionaler euklidischer Umgebung, die durch $\mathbb{R}^{2}$ bzw. $\mathbb{R}^{3}$ dargestellt ist und wird als der Arbeitsraum definiert. Hier ist f"ur seine Bewegung notwendig, seine zu bewegende Punkte zu kennen, um sicherzustellen, dass kein Punkt mit irgendwelchen Hindernissen kollidiert. Daher wird die Konfiguration eines Roboters als eine vollst"andige Spezifikation der Position jedes einzelnen seiner Teilen definiert. Folgenderma{"s}en ist der Konfigurationsraum des Roboters der Raum aller seiner m"oglichen Konfigurationen. Dies wir genutzt, um den Roboter zu bewegen.\\
+% Beispiel? 
+%(S. 43)
+Ein Hindernis im Konfigurationsraum wird als das Set von Konfigurationen definiert, bei denen der Roboter dieser Hindernis im Arbeitsraum schneidet. Umgekehrt ist der freie Raum oder freie Konfigurationsraum die Gruppe von Konfigurationen, in denen der Roboter kein Hindernis kreuzt.
+% Mention Obstacle space?
+
+
+\section{Potential Funktion und Potentialfeld}
+%(S. 77, 78)
+%A potential function is a differentiable real-valued function $U : \mathbb{R}^{n} \rightarrow \mathbb{R}$. The value
+%of a potential function can be viewed as energy and hence the gradient of the potential
+%is force. The gradient is a vector which points in the direction that locally maximally increases U. See appendix C.5 for a
+%more rigorous definition of the gradient. We use the gradient to define a vector field,
+%which assigns a vector to each point on a manifold. A gradient vector field, as its name
+%suggests, assigns the gradient of some function to each point. When U is energy, the
+%gradient vector field has the property that work done along any closed path is zero.
+%The potential function approach directs a robot as if it were a particle moving
+%in a gradient vector field. Gradients can be intuitively viewed as forces acting on a
+%positively charged particle robot which is attracted to the negatively charged goal.
+%Obstacles also have a positive charge which forms a repulsive force directing the robot
+%away from obstacles. The combination of repulsive and attractive forces hopefully
+%directs the robot from the start location to the goal location while avoiding obstacles
+%(figure 4.1).
+%Potential functions can be viewed as a landscape where the robots move from a
+%“high-value” state to a “low-value” state. The robot follows a path “downhill” by
+%following the negated gradient of the potential function. Following such a path is
+%called gradient descent, i.e.,
+%
+%%Gradient (483)
+%Von \cite[~S. 483]{Principles:05}: Gegeben die Funktion $g : \mathbb{R}^{n} \rightarrow \mathbb{R}$, die Gradient von \textit{g} ist definiert als:
+%$$
+%\nabla g =
+%\begin{bmatrix}
+%frac{\partial g}{
+%\partial x1}
+%frac{\partial g}{
+%\partial x2}
+%...
+%frac{\partial g}{
+%\partial xn}
+%\end{bmatrix}
+%$$
+%%(A Potential Field Approach to Path Planning) \cite{Yong:92}
+%In the potential field approach, obstacles are assumed to
+%carry electric charges, and the resulting scalar potential field
+%is used to represent the free space. Collisions between the obstacles
+%and the robot are avoided by a repulsive force between
+%them, which is simply the negative gradient of the potential
+%field.
+%%Proper Work
+%%(77,78)
+%A potential function is a differentiable function $U : \mathbb{R}^{n} \rightarrow \mathbb{R}$, which can be viewed as energy. Its gradient is a vector which points in the direction that locally maximally increases U. (Definition gradient) By assigning a gradient to each point of a vector field, a potential field is created. 
+%In order to move the robot along said field, it is treated as a particle with a positive charge. The obstacle are positively charge, causing them to repel each other, and the goal is negatively charged, causing it to move towards it. This means the robot follows a path “downhill” by following the negated gradient of the potential function.
+%Bild
+Laut \cite{Principles:05} ist eine potential Funktion eine differenzierbare Funktion $U : \mathbb{R}^{n} \rightarrow \mathbb{R}$, die als Energie betrachtet werden kann. Sein Gradient ist ein Vektor, der in die Richtung zeigt, wo U lokal maximal zunimmt. Indem jedem Punkt eines Vektorfeldes ein Gradient zugeordnet wird, entsteht ein Potentialfeld.\\
+Um den Roboter entlang dieses Feldes zu bewegen, wird er wie ein Teilchen mit einer positiven Ladung behandelt. Die Hindernisse sind positiv geladen, so dass sie und der Roboter sich gegenseitig absto{"s}en, und das Ziel ist negativ geladen, so dass der Roboter sich darauf zu bewegt \cite{Yong:92}. Dies bedeutet, dass einem absteigenden Weg gefolgt wird, indem er dem negativen Gradienten der Potentialfunktion folgt.
+%Bild?
+
+
+\section{Roadmaps}
+%(S. 107)
+%If we knew that many paths were to
+%be planned in the same environment, then it would make sense to construct a data
+%structure once and then use that data structure to plan subsequent paths more quickly.
+%This data structure is often called a map, and mapping is the task of generating models
+%of robot environments from sensor data.
+%(107 - 108)
+%In the context of indoor systems, three
+%map concepts prevail: topological, geometric, and grids
+%%-Topological representations aim at representing environments with graphlike structures,
+%%where nodes correspond to “something distinct” and edges represent an adjacency
+%%relationship between nodes.
+%%-Geometric models use geometric primitives for representing the environment. Mapping
+%%then amounts to estimating the parameters of the primitives to best fit the sensor
+%%observations
+%%-Finally occupancy grids are grid structures, similar as those described in chapter 4,
+%%where the value of each pixel corresponds to the likelihood that its corresponding
+%%portion of workspace or configuration space is occupied
+%(108)
+%This chapter focuses on a class of topological maps called roadmaps [91, 262]. A
+%roadmap is embedded in the free space and hence the nodes and edges of a roadmap
+%also carry physical meaning. For example, a roadmap node corresponds to a specific
+%location and an edge corresponds to a path between neighboring locations. So, in
+%addition to being a graph, a roadmap is a collection of one-dimensional manifolds
+%that captures the salient topology of the free space.
+%(108)
+%Likewise, using a roadmap, the planner can construct a path between any two
+%points in a connected component of the robot’s free space by first finding a collisionfree
+%path onto the roadmap, traversing the roadmap to the vicinity of the goal, and
+%then constructing a collision-free path from a point on the roadmap to the goal. The
+%bulk of the motion occurs on the roadmap and thus searching does not occur in a
+%multidimensional space, whether it be the workspace or the configuration space. If
+%the robot knows the roadmap, then it in essence knows the environment. So one way a
+%robot can explore an unknown environment is by relying on sensor data to construct a
+%roadmap and then using that roadmap to plan future excursions into the environment.
+%
+%In this chapter, we consider five types of roadmaps: visibility maps, deformation
+%retracts, retract-like structures, piecewise retracts and silhouettes.
+%Visibility Map Beispiel?
+%(S. 12)
+%In chapter 5, we introduce more concise representations of the robot’s free space
+%that a planner can use to plan paths between two configurations. These structures are
+%called roadmaps. A planner can also use a roadmap to explore an unknown space. By
+%using sensors to incrementally construct the roadmap, the robot can then use the
+%roadmap for future navigation problems.
+%
+%(110)
+%The defining characteristics of a visibility map are that its nodes share an edge if they
+%are within line of sight of each other, and that all points in the robot’s free space are
+%within line of sight of at least one node on the visibility map. This second statement
+%implies that visibility maps, by definition, possess the properties of accessibility
+%and departability. Connectivity must then be explicitly proved for each map for the
+%structure to be a roadmap. In this section, we consider the simplest visibility map,
+%called the visibility graph
+%Proper Work
+%(12, 107, 108)
+%A Robot can use its sensor data in order to connect points in its free space and creating collisonfree paths between them. This creates a topological map, in this case called a roadmap. A planner can use this map in order to explore unknown space by progressively building the roadmap with its sensors.
+%The three important steps for a planner to navigate the roadmap are: Finding a road into the roadmap, moving through the roadmap to the vicinity of the goal and finally making a path to the goal.
+%(12, 107, 108)
+Nach \cite{Principles:05} kann ein Roboter seine Sensordaten verwenden, um Punkte in seinem freien Raum zu verbinden (Knoten) und kollisionsfreie Pfade zwischen ihnen zu erzeugen (Kanten). Dadurch entsteht eine topologische Karte, in diesem Fall eine so genannte Roadmap. Diese Karte kann verwendet werden, um unbekannten Raum zu erkunden, indem er zunehmend die Stra{"s}enkarte mit seinen Sensoren aufbaut.\\
+Die drei wichtigen Schritte, um der Roadmap durchzulaufen, sind: Einen Weg in die Roadmap zu finden, sich durch die Roadmap in die N"ahe des Ziels zu bewegen und schlie{"s}lich einen Weg zum Ziel zu finden.
+%Formal Definition?
+%(109)
+%A few types of roadmaps are: visibility maps, deformation retracts, retract-like structures, piecewise retracts and silhouettes.
+Eine berühmte Typ von Roadmaps sind Sichtbarkeitsgraphen.
+%More Info on Visibility Graph?
+%Voronoi Diagram?
+
+
+\section{Zelldekomposition}
+%(161, 162)
+%NEXT, WE consider a different type of representation of the free space called an exact
+%cell decomposition. These structures represent the free space by the union of simple
+%regions called cells. The shared boundaries of cells often have a physical meaning
+%such as a change in the closest obstacle or a change in line of sight to surrounding
+%obstacles. Two cells are adjacent if they share a common boundary. An adjacency
+%graph, as its name suggests, encodes the adjacency relationships of the cells, where
+%a node corresponds to a cell and an edge connects nodes of adjacent cells.
+%Assuming the decomposition is computed, path planning with a cell decomposition
+%is usually done in two steps: first, the planner determines the cells that contain the start
+%and goal, respectively, and then the planner searches for a path within the adjacency
+%graph. Note that the adjacency graph could serve as a roadmap of the free space as
+%well. Therefore, mapping can be achieved by incrementally constructing the adjacency
+%graph.
+%Cell decompositions, however, distinguish themselves from other methods in that
+%they can be used to achieve coverage. A coverage path planner determines a path
+%that passes an effector (e.g., a robot, a detector, etc.) over all points in a free space.
+%Since each cell has a simple structure, each cell can be covered with simple motions
+%such as back-and-forth farming maneuvers; once the robot visits each cell, coverage
+%is achieved. In other words, coverage can be reduced to finding an exhaustive walk
+%through the adjacency graph. Sensor-based coverage is achieved by simultaneously
+%covering an unknown space and constructing its adjacency graph.
+%The most popular cell decomposition is the trapezoidal decomposition [356].
+%This decomposition relies heavily on the polygonal representation of the planar
+%configuration space. A more general class of decompositions, which are termed
+%Morse Decompositions [12], allow for representations of nonpolygonal and nonplanar
+%spaces. Morse decompositions are based on ideas from Canny’s roadmap work.
+%We then consider a broader class of decompositions which includes those based on
+%visibility constraints. One such decomposition serves as a basis for the pursuit/evasion
+%problem which is introduced section 6.3.
+
+%Proper work
+%Cell decomposition consists of dividing the free space into cells, each division signifying an important change in the space. For Example a change in line of sight to surrounding obstacles. Taking each cell as a node and their shared boundaries as an edge, an adjacency graph can be created.
+%Using this graph the path planer follows two steps: determining the start and end nodes, and searching for a path in the adjacency graph.
+%A big dvantage they provide is coverage. The graph can be used to visit all points in the free space by exploring the relative simple structure of the cells.
+%(161, 162)
+In \cite{Principles:05} ist beschrieben, dass Zelldekomposition aus der Teilung des freien Raumes in Zellen besteht, wobei jede Trennung eine wichtige Ver"anderung des Raumes bedeutet. Zum Beispiel eine "Anderung der Sichtlinie zu umgebenden Hindernissen. Wird jede Zelle als einen Knoten und ihre gemeinsamen Grenzen als eine Kante genommen, kann ein Adjazenzgraph erstellt werden. 
+Mit diese Information werden zwei Schritten gefolgt: Bestimmung der Zellen mit der Start- und Endkonfiguration, und Suche nach einem Pfad im Adjazenzgraph.\\
+Ein gro{"s}er Vorteil von Zelldekomposition ist die Bedeckung. Mit der Graph k"onnen alle Punkte im freien Raum besucht werden, indem die relativ einfache Struktur der Zellen untersucht wird.
+%Trapezoidal dekomposition
+
