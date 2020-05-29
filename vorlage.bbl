@@ -13,6 +13,9 @@
   {\em A potential field approach to path planning}.
 \newblock T-RA, 1992.
 
+\bibitem[Mii18]{Mesh:18}
+{\sc MiiMii1205}: {\em Navigation Meshes and Pathfinding}, 2018.
+
 \bibitem[Yap02]{Grid:02}
 {\sc Yap, Peter}: {\em Grid-Based Path-Finding}.
 \newblock \Btxinlong{}\ {\sc Cohen, Robin} \btxandlong{}\ {\sc Bruce Spencer}\
