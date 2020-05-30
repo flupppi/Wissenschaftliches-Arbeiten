@@ -1,7 +1,7 @@
 \chapter{Graphen}
 
-F"ur Pfadfindung braucht man eine Traversieren zu machen. Dazu sind Graphen nutzlich (besser)...
-Diese sind gut f"ur Pfadplanung bzw. Pfadfindung weil ...
+Um Pfadplanung zu machen, braucht man nat"urlich auch Pfadfindung. Dazu sind Graphen wichtig, da eine Traversieren durch ihnen gemacht wird, um ein Pfad zu finden. Gewichtete Graphen bestehen aus Knoten, Kanten und Kantenkosten, die beim Pfadfindung Algorithmen genutzt werden.
+(Suche cite)
 
 \section{Navigationsnetze (\textit{eng.} Navigation Meshes)}
 %\cite{Mesh:11}
@@ -13,16 +13,53 @@ Diese sind gut f"ur Pfadplanung bzw. Pfadfindung weil ...
 %axis is the set of all points in an environment that have
 %more than one distinct closest point on the boundary of the
 %environment
+%\cite{Mesh:16}
+%(91)
+%The behavior of characters may also include crawling, running, and other
+%surface-based movement, but we will speak of walking and walkable
+%surfaces for simplicity. The walkable surfaces of an environment
+%form the free space Efree, which is usually less complex than
+%the environment itself.
+%A navigation mesh is a representation of Efree as a set of (usually
+%polygonal) regions, along with a graph that describes how these
+%regions are connected.
+%(92)
+%Let n be the number of vertices required to define Eobs or Efree
+%using simple polygons. We call n the complexity of E.
+%(93)
+%A walkable environment (WE) is a set of interior-disjoint polygons
+%in R3 on which characters can stand and walk. Thus, a WE is a
+%clean representation of the free space Efree of a 3DE, based on the
+%filtering parameters and character properties mentioned earlier. Any
+%two polygons are directly connected if and only if characters can
+%walk directly between them.
+%
+%Now that we have a definition of the free space Efree, we can define
+%a navigation mesh as a tupleM= (R; G):
+% R = fR0;R1; : : :g is a collection of geometric regions in R3
+%that represents Efree. Each region Ri is P-simple, by which
+%we mean that a region cannot intersect itself when projected
+%onto the ground plane P.
+% G = (V;E) is an undirected graph that describes how characters
+%can navigate between the regions in R.
 %Proper Work
-TODO
+%(91,93) \cite{Mesh:16}
+%A Navigation mesh is a representation of the free space as polygonal areas alongside a navigation graph that describes how they are connected. The polygonal areas are the regions where an actor can move, refered to as walkable areas. The navigation graph describes how said actor can move to the next area, as in any surface based movement such as walking. As well as providing the requirements for path planning. pathfinding A navigation mesh can be applied to 3D and 2D environments.
+%(91,93)
+Nach \cite{Mesh:16} ist ein Navigationsnetz eine Darstellung des freien Raums als polygonale Bereiche und einem Navigationsgraphen, der beschreibt, wie sie miteinander verbunden sind. Die polygonalen Bereiche sind die Regionen, in denen sich ein Akteur bewegen kann, und werden als begehbare Fl"achen (\textit{eng. walkable areas}) bezeichnet. Der Navigationsgraph beschreibt, wie sich der Akteur in den n"achsten Bereich bewegen kann, wie bei jeder oberfl"achen-basierten Bewegung, wie z.B. Gehen. Ein Navigationsnetz kann sowohl auf 3D- als auch auf 2D-Umgebungen angewendet werden.
 
+\begin{figure} %Von Website
+	\centering
+	\includegraphics[width=\textwidth]{images/navigation_mesh.png}
+	\caption{Von \cite[~S. 93]{Mesh:16} die Figur 2: Verschiedene Darstellungen einer Umgebung und ein Beispiel f"ur ihr Navigationsnetz. (a) Eine 3D-Umgebung besteht aus unbearbeiteten 3D-Geometrie. (b) Eine begehbare Umgebung enth"alt nur begehbare Oberfl"achen. Es ist der freie Raum einer 3D-Umgebung. (c) Eine mehrschichtige Umgebung ist in Schichten unterteilt. (d) Ein Navigationsnetz ist eine Beschreibung eines begehbare Umgebung f"ur Pfadplanungszwecke.}
+	\label{sec1a}
+\end{figure}
 \begin{figure} %Von Website
 	\centering
 	\includegraphics[width=\textwidth]{images/mesh_with_path.png}
 	\caption{Von \cite{Mesh:18}: Navigation Mesh mit ein Pfad von Startpunkt C1 bis Endpunkt C2}
-	\label{sec1a}
+	\label{sec1b}
 \end{figure}
-
 
 
 \section{Rastergraph (\textit{eng.} Grid Graph)}
