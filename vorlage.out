@@ -12,18 +12,19 @@
 \BOOKMARK [1][-]{section.3.4}{Punktgraphen \(Point Graphs\)}{chapter.3}% 12
 \BOOKMARK [1][-]{section.3.5}{\(Automatic Navmesh Calculation\)}{chapter.3}% 13
 \BOOKMARK [2][-]{subsection.3.5.1}{Zerteilung des Navmesh \(Navmesh Cutting\)}{section.3.5}% 14
-\BOOKMARK [0][-]{chapter.4}{Algorithmen}{}% 15
-\BOOKMARK [1][-]{section.4.1}{Globale vs. lokale Pfadplanung }{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.2}{Sampling Algorithmen}{chapter.4}% 17
-\BOOKMARK [1][-]{section.4.3}{Heuristiken}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.4}{Pfadoptimierung}{chapter.4}% 19
-\BOOKMARK [2][-]{subsection.4.4.1}{Umgebungswahrnehmung}{section.4.4}% 20
-\BOOKMARK [2][-]{subsection.4.4.2}{Abh\344ngigkeit von dem Einsatzgebiet}{section.4.4}% 21
-\BOOKMARK [1][-]{section.4.5}{Funktionsweise popul\344rer Algorithmen}{chapter.4}% 22
-\BOOKMARK [2][-]{subsection.4.5.1}{A*-Algorithmus}{section.4.5}% 23
-\BOOKMARK [2][-]{subsection.4.5.2}{IDA*-Algorithmus}{section.4.5}% 24
-\BOOKMARK [2][-]{subsection.4.5.3}{RRT-Algorithmus}{section.4.5}% 25
-\BOOKMARK [2][-]{subsection.4.5.4}{Weitere}{section.4.5}% 26
-\BOOKMARK [0][-]{chapter.5}{Zusammenfassung und Ausblick}{}% 27
-\BOOKMARK [0][-]{chapter*.5}{Literaturverzeichnis}{}% 28
-\BOOKMARK [0][-]{appendix.A}{Glossar}{}% 29
+\BOOKMARK [0][-]{chapter.4}{Algorithmen zur Pfadplanung}{}% 15
+\BOOKMARK [1][-]{section.4.1}{Algorithmen}{chapter.4}% 16
+\BOOKMARK [1][-]{section.4.2}{Klassifizierung von Pfadplanungsalgorithmen}{chapter.4}% 17
+\BOOKMARK [1][-]{section.4.3}{Diskrete Pfadplanung}{chapter.4}% 18
+\BOOKMARK [2][-]{subsection.4.3.1}{Feasible Planning}{section.4.3}% 19
+\BOOKMARK [1][-]{section.4.4}{Bewegungsplanung}{chapter.4}% 20
+\BOOKMARK [2][-]{subsection.4.4.1}{Sampling-Based Motion Planning}{section.4.4}% 21
+\BOOKMARK [2][-]{subsection.4.4.2}{Combinatorial Motion Planning}{section.4.4}% 22
+\BOOKMARK [1][-]{section.4.5}{Planen mit Unsicherheit}{chapter.4}% 23
+\BOOKMARK [2][-]{subsection.4.5.1}{Entscheidungstheorie}{section.4.5}% 24
+\BOOKMARK [2][-]{subsection.4.5.2}{Planen mit Unsicherheiten in der Sensorik}{section.4.5}% 25
+\BOOKMARK [1][-]{section.4.6}{Planen mit Differentialen Einschr\344nkungen}{chapter.4}% 26
+\BOOKMARK [2][-]{subsection.4.6.1}{Sampling-Based Planning under Differential Constraints}{section.4.6}% 27
+\BOOKMARK [0][-]{chapter.5}{Zusammenfassung und Ausblick}{}% 28
+\BOOKMARK [0][-]{chapter*.10}{Literaturverzeichnis}{}% 29
+\BOOKMARK [0][-]{appendix.A}{Glossar}{}% 30

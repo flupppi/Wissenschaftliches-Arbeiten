@@ -1,51 +1,92 @@
-\chapter{Algorithmen}
+\chapter{Algorithmen zur Pfadplanung}
+\section{Algorithmen}
+%Es stellt sich die Frage was ein Pfadplanungsalgorithmus "uberhaupt ist, nach [Lavalle] ist es nicht sinnvoll eine genaue Mathematische Definition abzugeben, sondern das Ziel ist eine generelle Idee zu vermitteln und diese mit Beispielen zu veranschaulichen.
+%Als eine Antwort zu der Frage wird eine Turing Maschine beschrieben, da damit die meisten Pfadplanungsalgorithmen modelliert werden k"onnen. Turing Maschinen sind "finite-state-machines" welche informationen als String einlesen, diese verarbeiten und aktzeptieren oder ablehnen k"onnen. 
+%Mit einer Erweiterung dieses Konzepts kann am ende auch ein Pfadplan ausgegeben werden. Das Problem bei der Pfadplanung kommt daher, dass die Maschine auf die Umgebung oft reagieren muss, und informationen die durch Sensoren gegeben werden mit einbeziehen m"ussen. 
+%Dadurch gibt es keine klare Trennung von der Umwelt und der Maschine solange nicht alle Daten dem System im Vorhinein bekannt sind.[Lavalle]
+%\newline
+%Ein Ansatzpunkt w"are ein \"on-line algorithmus" der sich aktiv aktualisiert, aber auch dieser kann nicht die gesamte komplexit"at wiederspiegeln. 
 
-TODO
+Es stellt sich die Frage was ein Pfadplanungsalgorithmus überhaupt ist, nach [Lavalle] ist es nicht sinnvoll eine genaue Mathematische Definition abzugeben, sondern das Ziel ist eine generelle Idee zu vermitteln und diese mit Beispielen zu veranschaulichen.
+Als ein erster Ansatz wird eine Turing Maschine beschrieben, wobei sich jedoch schnell herausstellt, das diese nicht nicht in allen F"allen den Anforderungen an solche gerechtwerden kann. 
+Daher werden von [Lavalle] im 2.Schritt Planer definiert als eine Algorithmus definiert welcher einen Plan konstruiert, das kann sowohl eine Maschine als auch ein Mensch sein.
+Dieser kann dem Konzept einer Turing Maschine entsprechen, ist aber nicht darauf limitiert, sondern kann den Anspr"uchen entsprechend erweitert werden.
+\newline\\
+Ein Plan kann auf drei verschiedene weisen verwendet werden. Darunter fallen Ausf"uhrung, Verbesserung und die Hierarchische Einbindung des Plans.
+%Ausführung
+Die Ausf"uhrung kann auf zwei Arten geschehen, wobei beim ersten ein Plan als Eingabe in eine Maschine gegeben wird welche so programmiert werden kann. Auf diese weise wird die Maschine bei der Ausf"uhrung autonom und kann nicht mehr mit dem Planer interagieren. 
+Im zweiten Fall erzeugt der Planer eine Spezialmaschine welche dazu entworfen ist eine Aufgabe zu l"osen. 
+%Verbesserung
+Hier wir dein Plan als Eingabe einem Planer "ubergeben der daraus einen verbesserten Plan erzeugen soll.
+Diese Verbesserung kann nach verschiedenen Kriterien passieren, z.B. mehr effizienz, oder einbidung von mehr aspekten der Problemstellung.
+\newline\\
+%Hierarchische Einbindung
+Bei der Hierarchischen Einbindung werden Pl"ane in verschiedenen Ebenen eingeordnet. 
+Der Originalplan wird als eine Aktion betrachtet,
+ welche teil eines gr"osseren Plan ist. Damit dies
+  gelingt muss der Plan garantiert beenden.
+Aus dem Aufruf der Subroutinen kann dann ein Baum entstehen, der dem Modell der Hierarchischen Planung entspricht.\newline
 
-\section{Globale vs. lokale Pfadplanung }
+\section{Klassifizierung von Pfadplanungsalgorithmen}
 
-TODO
+F"ur unterschiedliche Aufgaben werden verschiedene Pfadplanungsalgortithmen ben"otigt, da durch die Verschiedenen Vorgaben der Einsatzgebiete unterschiedliche Anspr"uche aufkommen. 
+Auf die Genaue Einteilung der Einsatzgebiete wird im dritten Teil noch eingegangen, jedoch ist es f"ur das Verst"andnis der Algorithmen wichtig eine Einsch"atzung der verschiedenen Anforderungen zu erhalten. 
+Diskrete Pfadplanung ist der einfachste Typ von Pfadplanung, da der \"state space" in meissten F"allen endlich oder mindestens z"ahlbar unendlich ist. \newline
+Damit geht einher, dass geometrische Modelle und Differentialgleichungen nicht betrachtet werden m"ussen um Planungsprobleme zu diskretisieren. 
+\section{Diskrete Pfadplanung}
+% Der Planer weis über alles bescheit, die struktur ist regelmäßig
+Die Diskrete Pfadplanung kann in drei Teilgebiete eingeteilt werden. Dabei wird zwischen feasible planning, optimal planning und logik basierten repr"asentationen unterschieden. Im weiteren wird nur Feasible Planning betrachtet, da es alle Grunds"atze die Diskrete Pfadplanung auszechnet zur gen"uge darstellt.  
+Die Vorherrschenden Algorithmen in diesem Bereich sind der Dijkstra Algorithmus aus der Graphentheorie und der daraus abgeleitete A*-Algorithmus. Es gibt von diesem noch viele weitere Abwandlungen die alle eine Optimierung auf ein bestimmtes Einsatzgebiet zum Ziel haben. 
+\newline
+Diskrete Pfadplanung hat das in [Kapitelmarke] eingef"uhrte state-space modell als grundlage f"ur sein Planungsmodell. Dabei kann zwischen Zust"anden durch die Ausf"uhrung von Aktionen gewechselt werden. Die verf"ugbaren Aktionen werden in einem Aktiosraum zusammengefasst, ausserdem ist als teil des Plangungproblem ein Satz von \"goal states" definiert.[Lavalle]
+Im Allgemeinen wird nicht der Gesamte Zustandsgraph mit allen "uberg"angen "ubergeben, sondern diese werden im Laufe des Plangunsprozess aufgedeckt.
 
-\begin{figure} %Von Website
-	\centering
-	\includegraphics[width=\textwidth]{images/mesh_with_path.png}
-	\caption{Von \cite{Mesh:18}: Navigation Mesh mit ein Pfad von Startpunkt C1 bis Endpunkt C2}
-	\label{sec1a}
-\end{figure}
+\subsection {Feasible Planning}
+Ein allgemeiner Beispielalgorithmus ist in [Lavalle] gegeben. Als Beispiel f"ur diskrete Pfadplanung kann die Bewegung auf einem endlichen 2D Netz mit Hindernissen gesehen werden. 
+Dieses hat einen Startpunkt und einen Zielpunkt und muss einen Pfad zwischen diesen Punkten finden. Bei der Feasible Planning ist es ausreichend einen funktionierenden Pfad zu finden und es wird noch nicht darauf geachtet ob dieser optimal in Hinblick auf L"ange ist.
+\newline
+Die Algorithmen die hier verwendet werden sind Algorithmen zur Graphensuche die das Problem aus einer Planungsperspektive angehen. Es ist wichtig, dass diese Algorithmen systematisch sind. Das bedeutet, dass bei einem endlichen Graphen alle zust"ande besucht werden, au"serdem muss beachtet werden welche Zust"ande schon besucht wurden. Bei einem unendlichen Graphen ist die Definition insofern anders ist, dass es ausreicht, dass der Algorithmus zu einer L"osung bei l"osbaren Problemen kommt. 
+\newline 
+Eine generelle Template f"ur einen Suchalgorithmus kann durch drei Zust"ande repr"asentiert werden. 
+Ein unentdecktes Feld wurde noch nicht besucht und ist daher auch noch nicht bekannt. Ein Totes Feld kann nichts mehr zur Suche Beitragen, da schon die angrenzenden Felder entdeckt wurden. Felder die noch am Leben sind haben noch potentielle Nachbarfelder die am leben sind.  
+\newline
+Der einzige wirkliche Unterschied zwischen Planungsalgorithmen kommt durch die Auswahl eines Sortieralgorithmus f"ur die Priority Queue in welcher die n"achsten abzuarbeitenden Elemente enthalten sind. Die einfachsten Varianten sind hier FIFO(First-In First-Out), hier wird immer das Element gew"ahlt das am l"angsten gewartet hat. Dadurch entsteht eine kreisf"ormig expandierende Suche. 
+\newline
+Damit der gefundene Weg vom Start zum Ziel rekonstruiert werden kann muss jeder Knoten seinen Vorg"angerknoten abspeichern. Das erm"oglicht es den Weg sp"ater zur"uckzuverfolgen. 
+\newline
+Um darzustellen welchen einfluss die Sortierfunktion auf das Verhalten der Algorithmus hat werden im folgenden einige Algorithmen pr"asentiert.
+Diese sind alle eine Abwandlung des Algorithmus aus der Abbildung. 
+\newline
+\newline
+\subsubsection{Breath-first search} Breadth first search verwendet die oben angesprochene FIFO Warteschlange wodurch sich eine kreisf"ormige expansion ergibt, die auch die vorraussetzung f"ur systematische Algorithmen erf"ullt. Bei diesem algorithmus k"onnen einige kontrollmechanismen eingespart werden die sonst zur kontrolle der Expanionn"otig werden, jedoch verschwendet dieser Algorithmus durch die gleichm"assige ausbreitung relativ viele Zyklen. 
+\newline
+\newline
+\subsubsection{Depth first search} Depth first search verwendet einen Stack als warteschlange, das heisst LIFO(Last-In First-Out) dies erzeugt eine aggresive Expansion in eine bestimmte Richtung.
+Da die Richtung in die am anfang zum expandieren gew"ahlt wird zuf"allig ist, ist diese Methode nicht wirklich zielf"uhrend, da sie nur bei endlich vielen Knoten systematisch ist. 
+\subsubsection{Djikstra Algorithmus}
+Der Djiksta Algorithmus findet einen optimalen Pfad kann aber auch feasible pfade finden. Der Unterschied zu den vorhergehenden Algorithmen ist das hier Aktionen mit einander verglichen werden um die die mit den besseren Chancen ein gutes ergebnis zu finden erst auszuf"uhren. Das vorgehen von Dijkstra ist weitgehend bekannt und kann bei [Lavalle] nachgelesen werden.
 
+\subsubsection{A-Stern} 
+Der A* Suchalgorithmus ist eine Erweiterung von Dijkstra's Algorithmus und mit dem Ziel, die Anzahl der gesamtschritte zu minimieren,
+indem eine Heuristik eingef"uhrt wird die die Suche in die Richtung des Ziels f"uhrt. Dabei k"onnen unterschiedliche Werte f"ur die Heuristik gew"ahlt werden,
+jedoch wird meistens die der direkte Abstand zwischen dem Start und dem Endpunkt als Wert genommen. Das daraus entstehende verhalten zeichnet sich dadurch aus dass der Algorithmus solange in die Richtun des Ziels sucht, bis er auf ein hindernis st"o"st und erst dann versucht dieses Hindernis zu umgehen.
+\newline
+TODO Mehr informationen
+\subsubsection{weitere}
+Weitere Abwandlungen sind Best first search, hier wird die Warteschlange nach einer erwarteten \"cost-to-go" sortiert. 
+Desweiteren gibt es noch abwandlungen wie Interative Deepening das den Depth first Algorithmus in abgewandelter form einsetzt. 
+R"uckw"artssuche und Bidirektionale suche verhalten sich so wie ihr es beschreibt und kommen alle mit eigenheiten. 
 
-
-\section{Sampling Algorithmen}
-TODO
-
-
-
-\section{Heuristiken}
-TODO
-
-
-\section{Pfadoptimierung}
-TODO
-
-
-\subsection{Umgebungswahrnehmung}
-TODO
-
-
-\subsection{Abh"angigkeit von dem Einsatzgebiet} 
-TODO
-
-\section{Funktionsweise popul"arer Algorithmen}
-TODO
-
-\subsection{A*-Algorithmus}
-TODO
-
-\subsection{IDA*-Algorithmus}
-TODO
-
-\subsection{RRT-Algorithmus}
-TODO
-
-\subsection{Weitere}
-TODO
+ 
+%oder einer Grafik die ich noch schreiben muss. 
+\section{Bewegungsplanung}
+% Die Planung muss zus"atzlich noch die Bewegung in der Umgebung in betracht ziehen. 
+\subsection{Sampling-Based Motion Planning}
+\subsection{Combinatorial Motion Planning}
+\section{Planen mit Unsicherheit}
+% Hier kommt noch unsicherheit in der Umgebung hinzu, also auch dynamische Systeme
+\subsection{Entscheidungstheorie}
+\subsection{Planen mit Unsicherheiten in der Sensorik}
+\section{Planen mit Differentialen Einschr"ankungen}
+% Hier müssen bewegungseinschr"ankungen die durch den Verwendeten Roboter einhergehen beachtet werden. 
+\subsection{Sampling-Based Planning under Differential Constraints}
