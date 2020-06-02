@@ -14,6 +14,24 @@
 \contentsline {section}{\numberline {3.4}Punktgraphen (Point Graphs)}{5}{section.3.4}%
 \contentsline {section}{\numberline {3.5}(Automatic Navmesh Calculation)}{5}{section.3.5}%
 \contentsline {subsection}{\numberline {3.5.1}Zerteilung des Navmesh (Navmesh Cutting)}{5}{subsection.3.5.1}%
-\contentsline {chapter}{\numberline {4}Zusammenfassung und Ausblick}{7}{chapter.4}%
-\contentsline {chapter}{Literaturverzeichnis}{8}{chapter*.5}%
-\contentsline {chapter}{Glossar}{9}{appendix.A}%
+\contentsline {chapter}{\numberline {4}Algorithmen zur Pfadplanung}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Algorithmen}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Klassifizierung von Pfadplanungsalgorithmen}{8}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Diskrete Pfadplanung}{8}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Feasible Planning}{8}{subsection.4.3.1}%
+\contentsline {subsubsection}{Breath-first search}{9}{section*.5}%
+\contentsline {subsubsection}{Depth first search}{9}{section*.6}%
+\contentsline {subsubsection}{Djikstra Algorithmus}{9}{section*.7}%
+\contentsline {subsubsection}{A-Stern}{10}{section*.8}%
+\contentsline {subsubsection}{weitere}{10}{section*.9}%
+\contentsline {section}{\numberline {4.4}Bewegungsplanung}{10}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Sampling-Based Motion Planning}{10}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Combinatorial Motion Planning}{10}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Planen mit Unsicherheit}{10}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Entscheidungstheorie}{10}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Planen mit Unsicherheiten in der Sensorik}{10}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Planen mit Differentialen Einschr"ankungen}{10}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Sampling-Based Planning under Differential Constraints}{10}{subsection.4.6.1}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{11}{chapter.5}%
+\contentsline {chapter}{Literaturverzeichnis}{12}{chapter*.10}%
+\contentsline {chapter}{Glossar}{13}{appendix.A}%
