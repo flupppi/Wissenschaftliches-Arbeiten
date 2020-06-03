@@ -1,50 +1,50 @@
-This is BibTeX, Version 0.99d (MiKTeX 2.9.7400 64-bit)
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+This is BibTeX, Version 0.99d (MiKTeX 2.9.7350 64-bit)
+Capacity: max_strings=4000, hash_size=5000, hash_prime=4253
 The top-level auxiliary file: vorlage.aux
 The style file: geralpha.bst
 A level-1 auxiliary file: chapters/Glossar.aux
 Database file #1: literatur.bib
 Warning--entry type for "Mesh:18" isn't style-file defined
---line 75 of file literatur.bib
-You've used 4 entries,
+--line 103 of file literatur.bib
+You've used 6 entries,
             2768 wiz_defined-function locations,
-            632 strings with 5667 characters,
-and the built_in function-call counts, 1789 in all, are:
-= -- 168
-> -- 94
-< -- 3
-+ -- 33
-- -- 32
-* -- 144
-:= -- 291
-add.period$ -- 8
-call.type$ -- 4
-change.case$ -- 24
-chr.to.int$ -- 4
-cite$ -- 4
-duplicate$ -- 80
-empty$ -- 131
-format.name$ -- 37
-if$ -- 377
+            649 strings with 6098 characters,
+and the built_in function-call counts, 2888 in all, are:
+= -- 279
+> -- 158
+< -- 4
++ -- 57
+- -- 55
+* -- 234
+:= -- 456
+add.period$ -- 14
+call.type$ -- 6
+change.case$ -- 39
+chr.to.int$ -- 6
+cite$ -- 6
+duplicate$ -- 135
+empty$ -- 204
+format.name$ -- 61
+if$ -- 619
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 5
-newline$ -- 19
-num.names$ -- 14
-pop$ -- 37
+missing$ -- 8
+newline$ -- 27
+num.names$ -- 20
+pop$ -- 55
 preamble$ -- 1
-purify$ -- 32
+purify$ -- 51
 quote$ -- 0
-skip$ -- 64
+skip$ -- 110
 stack$ -- 0
-substring$ -- 53
-swap$ -- 27
-text.length$ -- 3
+substring$ -- 80
+swap$ -- 52
+text.length$ -- 4
 text.prefix$ -- 2
 top$ -- 0
-type$ -- 28
+type$ -- 40
 warning$ -- 0
-while$ -- 14
-width$ -- 7
-write$ -- 48
+while$ -- 21
+width$ -- 8
+write$ -- 75
 (There was 1 warning)

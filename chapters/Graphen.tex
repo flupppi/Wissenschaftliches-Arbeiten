@@ -1,7 +1,24 @@
 \chapter{Graphen}
 
-Um Pfadplanung zu machen, braucht man nat"urlich auch Pfadfindung. Dazu sind Graphen wichtig, da eine Traversieren durch ihnen gemacht wird, um ein Pfad zu finden. Gewichtete Graphen bestehen aus Knoten, Kanten und Kantenkosten, die beim Pfadfindung Algorithmen genutzt werden.
-(Suche cite)
+Um Pfadplanung zu machen, braucht man nat"urlich auch Pfadfindung. Dazu sind Graphen wichtig, da eine Traversieren durch ihnen gemacht wird, um ein Pfad zu finden. Laut \cite{Turau:15} bestehen Gewichtete Graphen aus Knoten, Kanten und ihre Kosten, die beim Pfadfindung Algorithmen genutzt werden. Kanten k"onnen eine Richtung haben, was sie unidirektional statt bidirektional macht und auch hilfreich f"ur die Unterscheidung zwischen ausgehenden und eingehenden Kanten ist.
+
+\begin{figure} %Von Website
+	\centering
+	\includegraphics[width=0.9\textwidth]{images/kk_graph_S6.png}
+	\caption{Abb. 1.5 von \cite[~S. 6]{Turau:15}. Gewichtete Graph mit Kantenkosten}
+	\label{sec0a}
+\end{figure}
+
+\section{B"aume}
+Laut \cite{Turau:15} ist B"aume sind Graphen, die h"aufig f"ur Darstellung von hierarchische Relationen genutzt werden. Ein Baum mit $m$ Kanten hat $m-1$ Knoten.\\
+Gegeben ist ein Baum mit Wurzel $w$. Die Niveau eines Knotens $e$ ist die Anzahl der Kanten von $w$ nach $e$. Die Wurzel $w$ hat Niveau 0. Die H"ohe des Baumes ist die maximale Niveau seines Knotens. Zum Beispiel in Abb. \ref{sec0b} ist die H"ohe des Baumes 3 und die Niveau des Knotens $e$ ist 3.
+
+\begin{figure} %Von Website
+	\centering
+	\includegraphics[width=0.6\textwidth]{images/Tree_Graph.png}
+	\caption{Ein Baum mit Wurzel \textit{w}}
+	\label{sec0b}
+\end{figure}
 
 \section{Navigationsnetze (\textit{eng.} Navigation Meshes)}
 %\cite{Mesh:11}
@@ -48,16 +65,16 @@ Um Pfadplanung zu machen, braucht man nat"urlich auch Pfadfindung. Dazu sind Gra
 %(91,93)
 Nach \cite{Mesh:16} ist ein Navigationsnetz eine Darstellung des freien Raums als polygonale Bereiche und einem Navigationsgraphen, der beschreibt, wie sie miteinander verbunden sind. Die polygonalen Bereiche sind die Regionen, in denen sich ein Akteur bewegen kann, und werden als begehbare Fl"achen (\textit{eng. walkable areas}) bezeichnet. Der Navigationsgraph beschreibt, wie sich der Akteur in den n"achsten Bereich bewegen kann, wie bei jeder oberfl"achen-basierten Bewegung, wie z.B. Gehen. Ein Navigationsnetz kann sowohl auf 3D- als auch auf 2D-Umgebungen angewendet werden.
 
-\begin{figure} %Von Website
+\begin{figure}[H] %Von Website
 	\centering
-	\includegraphics[width=\textwidth]{images/navigation_mesh.png}
+	\includegraphics[width=\textwidth]{images/navigation_mesh_16.png}
 	\caption{Von \cite[~S. 93]{Mesh:16} die Figur 2: Verschiedene Darstellungen einer Umgebung und ein Beispiel f"ur ihr Navigationsnetz. (a) Eine 3D-Umgebung besteht aus unbearbeiteten 3D-Geometrie. (b) Eine begehbare Umgebung enth"alt nur begehbare Oberfl"achen. Es ist der freie Raum einer 3D-Umgebung. (c) Eine mehrschichtige Umgebung ist in Schichten unterteilt. (d) Ein Navigationsnetz ist eine Beschreibung eines begehbare Umgebung f"ur Pfadplanungszwecke.}
 	\label{sec1a}
 \end{figure}
-\begin{figure} %Von Website
+\begin{figure}[H] %Von Website
 	\centering
-	\includegraphics[width=\textwidth]{images/mesh_with_path.png}
-	\caption{Von \cite{Mesh:18}: Navigation Mesh mit ein Pfad von Startpunkt C1 bis Endpunkt C2}
+	\includegraphics[width=0.9\textwidth]{images/mesh_with_path.png}
+	\caption{Von \cite{Mesh:18}: Navigation Mesh mit ein Pfad von Startpunkt C1 bis Endpunkt C2.}
 	\label{sec1b}
 \end{figure}
 
@@ -74,7 +91,7 @@ F"ur den Graph hat eine Kachel typischerweise 4 benachbarte Kacheln, es sind jed
 \begin{figure} %Gemacht mit Paint
 	\centering
 	\includegraphics[width=\textwidth]{images/Grid_Tiles.png}
-	\caption{Von links nach rechts: Kachel mit 4 Bewegungsoptionen, Hexagon mit 6 Bewegungsoptionen, Kachel mit 8 Bewegungsoptionen}
+	\caption{Von links nach rechts: Kachel mit 4 Bewegungsoptionen, Hexagon mit 6 Bewegungsoptionen, Kachel mit 8 Bewegungsoptionen.}
 	\label{sec2a}
 \end{figure}
 
@@ -97,7 +114,7 @@ F"ur den Graph hat eine Kachel typischerweise 4 benachbarte Kacheln, es sind jed
 %(110)
 In \cite{Principles:05} ist beschrieben, dass Sichtbarkeitsgraphen aus Knoten bestehen, die sich eine Kante teilen, wenn sie in Sichtlinie zueinander stehen und kein Hindernisse zwischen ihnen liegt. Der Standardgraph ist zweidimensional. Der Startpunkt, der Endpunkt und die Eckpunkte der Polygone, die Hindernisse darstellen, werden als Knoten dargestellt.
 \\\\
-Ein Beispiel f"ur ein Sichtbarkeitsgraph finden Sie in Bild \ref{sec3a}.
+Ein Beispiel f"ur ein Sichtbarkeitsgraph finden sich in Bild \ref{sec3a}.
 \begin{figure} %Genommen aus Buch
 	\centering
 	\includegraphics[width=\textwidth]{images/Robot_Motion_Visibility_Graph.png}
@@ -106,10 +123,13 @@ Ein Beispiel f"ur ein Sichtbarkeitsgraph finden Sie in Bild \ref{sec3a}.
 \end{figure}
 
 
-\section{Punktgraphen (Point Graphs)}
-
-
-\section{(Automatic Navmesh Calculation)}
-
-
-\subsection{Zerteilung des Navmesh (Navmesh Cutting)} 
+%\section{Adjacency graph}
+%%bbbb
+%
+%\section{Punktgraphen (Point Graphs)}
+%
+%
+%\section{(Automatic Navmesh Calculation)}
+%
+%
+%\subsection{Zerteilung des Navmesh (Navmesh Cutting)} 

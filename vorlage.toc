@@ -3,35 +3,34 @@
 \contentsline {chapter}{\numberline {1}Einleitung und Problemstellung}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Grundlagen}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Was ist Pfadplanung?}{2}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Konfigurationsraum und freie Raum}{2}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Potential Funktion und Potentialfeld}{2}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Roadmaps}{3}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Zelldekomposition}{3}{section.2.5}%
-\contentsline {chapter}{\numberline {3}Graphen}{4}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Navigationsnetze (\textit {eng.} Navigation Meshes)}{4}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Rastergraph (\textit {eng.} Grid Graph)}{4}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Sichtbarkeitsgraph (\textit {eng.} Visibility Graph)}{5}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Punktgraphen (Point Graphs)}{6}{section.3.4}%
-\contentsline {section}{\numberline {3.5}(Automatic Navmesh Calculation)}{6}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Zerteilung des Navmesh (Navmesh Cutting)}{6}{subsection.3.5.1}%
-\contentsline {chapter}{\numberline {4}Algorithmen zur Pfadplanung}{8}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Algorithmen}{8}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Klassifizierung von Pfadplanungsalgorithmen}{9}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Diskrete Pfadplanung}{9}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Feasible Planning}{9}{subsection.4.3.1}%
-\contentsline {subsubsection}{Breath-first search}{10}{section*.5}%
-\contentsline {subsubsection}{Depth first search}{10}{section*.6}%
-\contentsline {subsubsection}{Djikstra Algorithmus}{10}{section*.7}%
-\contentsline {subsubsection}{A-Stern}{11}{section*.8}%
-\contentsline {subsubsection}{weitere}{11}{section*.9}%
-\contentsline {section}{\numberline {4.4}Bewegungsplanung}{11}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Sampling-Based Motion Planning}{11}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Combinatorial Motion Planning}{11}{subsection.4.4.2}%
-\contentsline {section}{\numberline {4.5}Planen mit Unsicherheit}{11}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Entscheidungstheorie}{11}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Planen mit Unsicherheiten in der Sensorik}{11}{subsection.4.5.2}%
-\contentsline {section}{\numberline {4.6}Planen mit Differentialen Einschr"ankungen}{11}{section.4.6}%
-\contentsline {subsection}{\numberline {4.6.1}Sampling-Based Planning under Differential Constraints}{11}{subsection.4.6.1}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{12}{chapter.5}%
-\contentsline {chapter}{Literaturverzeichnis}{13}{chapter*.10}%
-\contentsline {chapter}{Glossar}{14}{appendix.A}%
+\contentsline {section}{\numberline {2.2}Aufgaben}{2}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Konfigurationsraum und freie Raum}{2}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Potential Funktion und Potentialfeld}{3}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Roadmaps}{3}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Zelldekomposition}{3}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Graphen}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}B"aume}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Navigationsnetze (\textit {eng.} Navigation Meshes)}{6}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Rastergraph (\textit {eng.} Grid Graph)}{7}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Sichtbarkeitsgraph (\textit {eng.} Visibility Graph)}{8}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Algorithmen zur Pfadplanung}{10}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Algorithmen}{10}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Klassifizierung von Pfadplanungsalgorithmen}{11}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Diskrete Pfadplanung}{11}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Feasible Planning}{11}{subsection.4.3.1}%
+\contentsline {subsubsection}{Breath-first search}{12}{section*.4}%
+\contentsline {subsubsection}{Depth first search}{12}{section*.5}%
+\contentsline {subsubsection}{Djikstra Algorithmus}{12}{section*.6}%
+\contentsline {subsubsection}{A-Stern}{13}{section*.7}%
+\contentsline {subsubsection}{weitere}{13}{section*.8}%
+\contentsline {section}{\numberline {4.4}Bewegungsplanung}{13}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Sampling-Based Motion Planning}{13}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Combinatorial Motion Planning}{13}{subsection.4.4.2}%
+\contentsline {section}{\numberline {4.5}Planen mit Unsicherheit}{13}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Entscheidungstheorie}{13}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Planen mit Unsicherheiten in der Sensorik}{13}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}Planen mit Differentialen Einschr"ankungen}{13}{section.4.6}%
+\contentsline {subsection}{\numberline {4.6.1}Sampling-Based Planning under Differential Constraints}{13}{subsection.4.6.1}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{14}{chapter.5}%
+\contentsline {chapter}{Literaturverzeichnis}{15}{chapter*.9}%
+\contentsline {chapter}{Glossar}{16}{appendix.A}%

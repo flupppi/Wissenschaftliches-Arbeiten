@@ -1,5 +1,5 @@
 \newcommand{\etalchar}[1]{$^{#1}$}
-\begin{thebibliography}{CLH{\etalchar{+}}05}
+\begin{thebibliography}{vTTK{\etalchar{+}}16}
 
 \bibitem[CLH{\etalchar{+}}05]{Principles:05}
 {\sc Choset, Howie}, {\sc Kevin~M. Lynch}, {\sc Seth Hutchinson}, {\sc
@@ -15,6 +15,19 @@
 
 \bibitem[Mii18]{Mesh:18}
 {\sc MiiMii1205}: {\em Navigation Meshes and Pathfinding}, 2018.
+
+\bibitem[TW15]{Turau:15}
+{\sc Turau, V.} \btxandlong{}\ {\sc C.~Weyer}: {\em Algorithmische
+  Graphentheorie}.
+\newblock De Gruyter Studium. De Gruyter, 2015.
+
+\bibitem[vTTK{\etalchar{+}}16]{Mesh:16}
+{\sc Toll, Wouter~van}, {\sc Roy Triesscheijn}, {\sc Marcelo Kallmann}, {\sc
+  Ramon Oliva}, {\sc Nuria Pelechano}, {\sc Julien Pettr\'{e}} \btxandlong{}\
+  {\sc Roland Geraerts}: {\em A Comparative Study of Navigation Meshes}.
+\newblock \Btxinlong{}\ {\em Proceedings of the 9th International Conference on
+  Motion in Games}, MIG ?16, \btxpagelong{}\ 91?100, New York, NY, USA, 2016.
+  Association for Computing Machinery.
 
 \bibitem[Yap02]{Grid:02}
 {\sc Yap, Peter}: {\em Grid-Based Path-Finding}.

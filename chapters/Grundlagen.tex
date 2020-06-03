@@ -11,10 +11,37 @@
 %%(S.1)
 %Path planning means to find a collisionfree path for a robot to move from one configuration to another \cite[~S. 1]{Principles:05}. This of course has several constraints given that a robot exists in the real world with physical constraints and limited movement options. 
 %(S.1)
-Pfadplanung bedeutet, eine kollisionsfreie Weg zu finden, auf der sich ein Roboter von eine Punkt zu einer anderen bewegen kann \cite[~S. 1]{Principles:05}. Dies hat nat"urlich mehrere Grenzen, da ein Roboter in der realen Welt physischen Einschr"ankungen und begrenzten Bewegungsoptionen hat. Dazu ist der Konfigurationsraum des Roboters wichtig, der seiner Bewegungsraum beschreibt. F"ur Traversieren des Raumes gibt es mehrere Optionen, in diese Kapitel werden drei beschrieben: Potentialfeld, Roadmaps und Zelldekomposition.
+Pfadplanung bedeutet, die Spezifikation einer Aufgabe in einer Hochsprache, die ein Roboter verstehen und ausf"uhren soll. Typischerweise ist es eine kollisionsfreie Weg zu finden, auf der sich ein Roboter von eine Punkt zu einer anderen bewegen kann \cite[~S. 1]{Principles:05}. Dies hat nat"urlich mehrere Grenzen, da ein Roboter in der realen Welt physischen Einschr"ankungen und begrenzten Bewegungsoptionen hat. Dazu ist der Konfigurationsraum des Roboters wichtig, der seiner Bewegungsraum beschreibt. F"ur Traversieren des Raumes gibt es mehrere Optionen, in diese Kapitel werden drei beschrieben: Potentialfeld, Roadmaps und Zelldekomposition.
 \\\\
 Pfadplanung kann auch in andere Bereich genutzt werden. Wie (...) . 
 %Mention more Fields
+
+\section{Aufgaben}
+%(9, 10)
+%The most important characterization of a motion planner is according to the problem
+%it solves. This book considers four tasks: navigation, coverage, localization, and
+%mapping. Navigation is the problem of finding a collision-free motion for the robot
+%system from one configuration (or state) to another. The robot could be a robot arm,
+%a mobile robot, or something else. Coverage is the problem of passing a sensor or
+%tool over all points in a space, such as in demining or painting. Localization is the
+%problem of using a map to interpret sensor data to determine the configuration of the
+%robot. Mapping is the problem of exploring and sensing an unknown environment
+%to construct a representation that is useful for navigation, coverage, or localization.
+%Localization and mapping can be combined, as in SLAM.
+%There are a number of interesting motion planning tasks not covered in detail in this
+%book, such as navigation among moving obstacles, manipulation and grasp planning,
+%assembly planning, and coordination of multiple robots. Nonetheless, algorithms in
+%this book can be adapted to those problems.
+
+%Proper work
+Die Aufgaben f"ur Pfadplanung sind vielf"altig und ein Roboter kann mehrere davon ausf"uhren. Einige Beispiel dazu sind \cite[~S. 9,10]{Principles:05}:
+\begin{enumerate}
+	\item Navigation: Es ist die kollisionsfreie Pfadfindung. Es kann mit station"aren und/oder beweglichen Hindernissen durchgef"uhrt werden.
+	\item Lokalisierung: Interpretation von Sensordaten zur Bestimmung der Konfiguration des Roboters.
+	\item Bedeckung: Ein Werkzeug "uber bestimmte Punkte der Konfigurationsraum f"uhren.
+	\item Kartographie: Exploration einer unbekannte Umgebung und ein aussagekr"aftige Darstellung davon machen.
+\end{enumerate}
+
 
 \section{Konfigurationsraum und freie Raum}
 %\cite{Principles:05}
@@ -193,7 +220,7 @@ Die drei wichtigen Schritte, um der Roadmap durchzulaufen, sind: Einen Weg in di
 %Formal Definition?
 %(109)
 %A few types of roadmaps are: visibility maps, deformation retracts, retract-like structures, piecewise retracts and silhouettes.
-Eine berühmte Typ von Roadmaps sind Sichtbarkeitsgraphen.
+Eine ber"uhmte Typ von Roadmaps sind Sichtbarkeitsgraphen.
 %More Info on Visibility Graph?
 %Voronoi Diagram?
 
