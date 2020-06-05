@@ -13,6 +13,11 @@
   {\em A potential field approach to path planning}.
 \newblock T-RA, 1992.
 
+\bibitem[LaV06]{Lav06}
+{\sc LaValle, S.~M.}: {\em Planning Algorithms}.
+\newblock Cambridge University Press, ,Cambridge U.K., 2006.
+\newblock Available at http://planning.cs.uiuc.edu/.
+
 \bibitem[Mii18]{Mesh:18}
 {\sc MiiMii1205}: {\em Navigation Meshes and Pathfinding}, 2018.
 

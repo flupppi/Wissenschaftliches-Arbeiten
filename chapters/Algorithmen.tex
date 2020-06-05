@@ -1,5 +1,5 @@
 \chapter{Algorithmen zur Pfadplanung}
-\section{Algorithmen}
+\section{Was sind Algorithmen zur Pfadplanung?}
 %Es stellt sich die Frage was ein Pfadplanungsalgorithmus "uberhaupt ist, nach [Lavalle] ist es nicht sinnvoll eine genaue Mathematische Definition abzugeben, sondern das Ziel ist eine generelle Idee zu vermitteln und diese mit Beispielen zu veranschaulichen.
 %Als eine Antwort zu der Frage wird eine Turing Maschine beschrieben, da damit die meisten Pfadplanungsalgorithmen modelliert werden k"onnen. Turing Maschinen sind "finite-state-machines" welche informationen als String einlesen, diese verarbeiten und aktzeptieren oder ablehnen k"onnen. 
 %Mit einer Erweiterung dieses Konzepts kann am ende auch ein Pfadplan ausgegeben werden. Das Problem bei der Pfadplanung kommt daher, dass die Maschine auf die Umgebung oft reagieren muss, und informationen die durch Sensoren gegeben werden mit einbeziehen m"ussen. 
@@ -7,41 +7,57 @@
 %\newline
 %Ein Ansatzpunkt w"are ein \"on-line algorithmus" der sich aktiv aktualisiert, aber auch dieser kann nicht die gesamte komplexit"at wiederspiegeln. 
 
-Es stellt sich die Frage was ein Pfadplanungsalgorithmus überhaupt ist, nach [Lavalle] ist es nicht sinnvoll eine genaue Mathematische Definition abzugeben, sondern das Ziel ist eine generelle Idee zu vermitteln und diese mit Beispielen zu veranschaulichen.
-Als ein erster Ansatz wird eine Turing Maschine beschrieben, wobei sich jedoch schnell herausstellt, das diese nicht nicht in allen F"allen den Anforderungen an solche gerechtwerden kann. 
-Daher werden von [Lavalle] im 2.Schritt Planer definiert als eine Algorithmus definiert welcher einen Plan konstruiert, das kann sowohl eine Maschine als auch ein Mensch sein.
-Dieser kann dem Konzept einer Turing Maschine entsprechen, ist aber nicht darauf limitiert, sondern kann den Anspr"uchen entsprechend erweitert werden.
-\newline\\
-Ein Plan kann auf drei verschiedene weisen verwendet werden. Darunter fallen Ausf"uhrung, Verbesserung und die Hierarchische Einbindung des Plans.
+Algorithmen zur Pfadplanung sind schwierig mathematisch pr"azise zu definieren. Ein Ansatz ist eine Definition für einen Algorithmus abzugeben und diese anschlie"send zu erweitern, sodass sie den Anspr"uchen der Pfadplanung entspricht. Nach der Church-Turing These ist ein Algorithmus eine Turing Maschine cite{462,891}. Dieser Definition fehlt aber unter anderem, die Repr"asentation der Interaktion eines Roboters mit der Umgebung, wie es in \ref{lav01} dargestellt wird. Daher wird ein Planer \footnote{Planer (engl. planner)} als ein Algorithmus definiert, welcher einen Plan \footnote{Plan (engl. plan)} konstruiert. Der Planer kann sowohl eine Maschine als auch ein Mensch sein und kann dem Konzept einer Turing Maschine entsprechen. Er ist aber nicht darauf limitiert, sondern kann den Anspr"uchen entsprechend erweitert werden.\cite[~S. 19ff]{Lav06} 
+
+\begin{figure} % Hier lieber eine eigene Kombination an Grafiken
+	\centering
+	\includegraphics[width=0.6\textwidth]{images/img224.png}
+	\caption{Abb. 1.5 von \cite[~S. 20]{Lav06}:  (a) Die Grenze zwischen Maschine und Umgebung ist flie"send, es ist eine Linie die stark in Abh"angigkeit vom Kontext gezogen wird. (b) Ist die Grenze festgelegt, wird angenommen, dass die Maschine M mit der Umgebung U durch Sensorik und den Antrieb interagiert.}
+	\label{lav01}
+\end{figure}
+ 
+
+
+
+Ein solcher Plan, kann drei unterschiedliche Funktionen erf"ullen. Darunter fallen die Ausf"uhrung \footnote{Ausf"uhrung (engl. Execution)} der Anweisungen in einer Simulation oder durch einen Roboter, die Verbesserung\footnote{Verbesserung (engl. Refinement)} der Eigenschaften in bestimmten Parametern und die hierarchische Einbindung \footnote{Hierarchische Einbindung (engl. Hierarchical Inclusion)} des Plans.
 %Ausführung
-Die Ausf"uhrung kann auf zwei Arten geschehen, wobei beim ersten ein Plan als Eingabe in eine Maschine gegeben wird welche so programmiert werden kann. Auf diese weise wird die Maschine bei der Ausf"uhrung autonom und kann nicht mehr mit dem Planer interagieren. 
-Im zweiten Fall erzeugt der Planer eine Spezialmaschine welche dazu entworfen ist eine Aufgabe zu l"osen. 
+Pl"ane k"onnen auf zwei weisen ausgef"uhrt werden. Zum einen kann ein Plan als kodierte Eingabe f"ur eine Maschine erstellt werden, welche dadurch programmiert werden kann. Auf diese weise wird die Maschine bei der Ausf"uhrung autonom und kann nicht mehr mit dem Planer interagieren. 
+Im zweiten Fall erzeugt der Planer eine Spezialmaschine \footnote{Spezialmaschine (engl. special-purpose machine)}, welche dazu entworfen ist eine Aufgabe zu l"osen.
+\newline\\
 %Verbesserung
-Hier wir dein Plan als Eingabe einem Planer "ubergeben der daraus einen verbesserten Plan erzeugen soll.
-Diese Verbesserung kann nach verschiedenen Kriterien passieren, z.B. mehr effizienz, oder einbidung von mehr aspekten der Problemstellung.
+Um einen Plan zu verbessern, wird dieser als Eingabe einem Planer "ubergeben, der daraus einen verbesserten Plan erzeugen soll. 
+Anhand von \ref{lav02} wird ersichtlich, wie der gleiche Plan verbessert werden kann, indem verschiedene Aspekte der Problemstellung fokussiert werden.
+Die Auswahl der richtigen Kriterien ist schon seit l"angerer Zeit ein Forschungsgebiet in der Robotik, da auch hier Vor- und Nachteile mit verschiedenen Kriterien einhergehen.
 \newline\\
 %Hierarchische Einbindung
-Bei der Hierarchischen Einbindung werden Pl"ane in verschiedenen Ebenen eingeordnet. 
-Der Originalplan wird als eine Aktion betrachtet,
- welche teil eines gr"osseren Plan ist. Damit dies
-  gelingt muss der Plan garantiert beenden.
-Aus dem Aufruf der Subroutinen kann dann ein Baum entstehen, der dem Modell der Hierarchischen Planung entspricht.\newline
+Bei der Hierarchischen Einbindung, wird ein Baum aus Pl"anen erzeugt. Dabei steht an der Wurzel der Hauptplan \footnote{Hauptplan (engl. masterplan)}, welcher andere Pl"ane als Bl"atter in einer Hierarchie einbindet. Ein Plan wird als Aktion betrachtet, die nur als Teil des Gesamtsystem funktioniert. Es wird dadurch erreicht, dass die Abgrenzung zwischen Maschine und Umgebung an verschiedenen stellen gezogen wird.
+\newline\cite[~S. 21ff]{Lav06} 
 
-\section{Klassifizierung von Pfadplanungsalgorithmen}
+\begin{figure} % Hier lieber eine eigene Kombination an Grafiken
+	\centering
+	\includegraphics[width=0.6\textwidth]{images/img247.png}
+	\caption{Abb. 1.5 von \cite[~S. 20]{Lav06}:  Ein Verbesserungsprozess, der sich in der Robotik bew"ahrt hat.}
+	\label{lav02}
+\end{figure}
 
-F"ur unterschiedliche Aufgaben werden verschiedene Pfadplanungsalgortithmen ben"otigt, da durch die Verschiedenen Vorgaben der Einsatzgebiete unterschiedliche Anspr"uche aufkommen. 
-Auf die Genaue Einteilung der Einsatzgebiete wird im dritten Teil noch eingegangen, jedoch ist es f"ur das Verst"andnis der Algorithmen wichtig eine Einsch"atzung der verschiedenen Anforderungen zu erhalten. 
-Diskrete Pfadplanung ist der einfachste Typ von Pfadplanung, da der \"state space" in meissten F"allen endlich oder mindestens z"ahlbar unendlich ist. \newline
-Damit geht einher, dass geometrische Modelle und Differentialgleichungen nicht betrachtet werden m"ussen um Planungsprobleme zu diskretisieren. 
-\section{Diskrete Pfadplanung}
-% Der Planer weis über alles bescheit, die struktur ist regelmäßig
-Die Diskrete Pfadplanung kann in drei Teilgebiete eingeteilt werden. Dabei wird zwischen feasible planning, optimal planning und logik basierten repr"asentationen unterschieden. Im weiteren wird nur Feasible Planning betrachtet, da es alle Grunds"atze die Diskrete Pfadplanung auszechnet zur gen"uge darstellt.  
-Die Vorherrschenden Algorithmen in diesem Bereich sind der Dijkstra Algorithmus aus der Graphentheorie und der daraus abgeleitete A*-Algorithmus. Es gibt von diesem noch viele weitere Abwandlungen die alle eine Optimierung auf ein bestimmtes Einsatzgebiet zum Ziel haben. 
-\newline
-Diskrete Pfadplanung hat das in [Kapitelmarke] eingef"uhrte state-space modell als grundlage f"ur sein Planungsmodell. Dabei kann zwischen Zust"anden durch die Ausf"uhrung von Aktionen gewechselt werden. Die verf"ugbaren Aktionen werden in einem Aktiosraum zusammengefasst, ausserdem ist als teil des Plangungproblem ein Satz von \"goal states" definiert.[Lavalle]
-Im Allgemeinen wird nicht der Gesamte Zustandsgraph mit allen "uberg"angen "ubergeben, sondern diese werden im Laufe des Plangunsprozess aufgedeckt.
+\section{Klassifizierung von Pfadplanungsalgorithmen} % Hier bitte noch ein Bild, das die Unterschiede der einzelnen Klassen sichtbar macht. 
+Der Bereich der Pfadplanung ist "au"serst heterogen, da die Umsetzung der Pfadplanung stark von den Vorgaben des Einsatzgebiets abh"angt. 
+Es wird Planen in einem diskreten und in einem kontinuierlichen Zustandsraum\footnote{Zustandsraum (engl. state space) Der Zustandsraum beschreibt alle potentiell aufkommenden Zust"ande.} unterschieden. Planen in einem kontinuierlichen Zustandsraum wird Bewegungsplanung genannt, dabei klassifiziert man zwischen Planung mit allen Umgebungsinformationen vorhanden, Planen mit Unsicherheit, sowie Planung mit Bewegungseinschr"ankungen.
+Auf die genaue Einteilung der Einsatzgebiete wird in \ref{Kapitel5} noch eingegangen, jedoch ist es f"ur das Verst"andnis der Algorithmen wichtig eine Einsch"atzung der verschiedenen Anforderungen zu erhalten. Im folgenden behandeln wir vor allem die diskrete Pfadplanung, da man daran die Grundlagen erkl"aren kann. \cite[~S. 24ff]{Lav06} 
 
-\subsection {Feasible Planning}
+\section{Diskrete Pfadplanung} % In diesem Kapitel hätte ich gerne noch ein Bild, das das Konzept der diskreten Pfadplanung auf einen Blick veranschaulicht veranschaulicht
+
+Diskrete Pfadplanung dient in der meisten Literatur als Einstiegspunkt. Das kommt daher, da der state space entweder endlich oder z"ahlbar unendlich ist.\\
+Au"serdem müssen dadurch keine geometrischen Modelle oder Bewegungseinschr"ankungen \footnote{Bewegungseinschr"ankungen (engl. differential constraints)} im Entwurf des Algorithmus beachtet werden.
+% Der Planer weis über alles bescheit, die struktur ist regelmaeßig
+Je nach Anforderung werden die drei Teilgebiete feasible planning \footnote{feasible planning (Dt. durchführbares Planen) im folgenden FP}, optimales planen und logik basierte repr"asentation unterschieden. Die vorherrschenden Algorithmen in diesem Bereich, sind der Dijkstra Algorithmus aus der Graphentheorie und der daraus abgeleitete A*-Algorithmus. Von diesem gibt es noch eine Reihe weiterer Abwandlungen, die alle eine Optimierung auf ein bestimmtes Einsatzgebiet zum Ziel haben.\cite[~S. 27]{Lav06} \\
+Wie man diese Optimierung durchführen kann wird im folgenden an verschiedenen Algorithmen erl"autert. Optimales Planen unterscheidet sich nur insofern vom feasible planning, als das der gefundene Pfad in verschiedenen Kriterien wie Zeit, Distanz oder auch der Anzahl an Drehungen eines Roboters optimiert werden kann.\cite[~S. 43]{Lav06} \\
+Der state space spielt in der Pfadplanung eine zentrale Rolle, dabei kann zwischen Zust"anden durch die Ausf"uhrung von Aktionen gewechselt werden. Die verf"ugbaren Aktionen werden in einem Aktiosraum\footnote{Aktionsraum (engl. action space) } zusammengefasst, au"serdem ist als Teil des Planungsproblem ein Satz von Zielzust"anden\footnote{Zielzust"ande (engl. goal states)} definiert. 
+Da ein Zustandsgraph schnell sehr gro"s werden kann wird dieser meist nicht komplett "ubergebe, sondern diese wird im Laufe des Planungsprozess aufgedeckt.
+\cite[~S. 43]{Lav06} \\
+Wie man effektiv durch den Zustandsraum navigiert um einen goal state zu erreichen ist das Thema des folgenden Absatz.
+
+\subsection {Feasible Planning} % Hier sollte mit einem Code Beispiel ein allgemeingültiger algorithmus veranschaulicht werden. Darauf kann dann später wieder eingegangen werden und veränderungen im code können mit veränderungen in der Funktionalität in kontakt gesetzt werden.
 Ein allgemeiner Beispielalgorithmus ist in [Lavalle] gegeben. Als Beispiel f"ur diskrete Pfadplanung kann die Bewegung auf einem endlichen 2D Netz mit Hindernissen gesehen werden. 
 Dieses hat einen Startpunkt und einen Zielpunkt und muss einen Pfad zwischen diesen Punkten finden. Bei der Feasible Planning ist es ausreichend einen funktionierenden Pfad zu finden und es wird noch nicht darauf geachtet ob dieser optimal in Hinblick auf L"ange ist.
 \newline
@@ -78,15 +94,15 @@ Desweiteren gibt es noch abwandlungen wie Interative Deepening das den Depth fir
 R"uckw"artssuche und Bidirektionale suche verhalten sich so wie ihr es beschreibt und kommen alle mit eigenheiten. 
 
  
-%oder einer Grafik die ich noch schreiben muss. 
-\section{Bewegungsplanung}
-% Die Planung muss zus"atzlich noch die Bewegung in der Umgebung in betracht ziehen. 
-\subsection{Sampling-Based Motion Planning}
-\subsection{Combinatorial Motion Planning}
-\section{Planen mit Unsicherheit}
-% Hier kommt noch unsicherheit in der Umgebung hinzu, also auch dynamische Systeme
-\subsection{Entscheidungstheorie}
-\subsection{Planen mit Unsicherheiten in der Sensorik}
-\section{Planen mit Differentialen Einschr"ankungen}
-% Hier müssen bewegungseinschr"ankungen die durch den Verwendeten Roboter einhergehen beachtet werden. 
-\subsection{Sampling-Based Planning under Differential Constraints}
+%%oder einer Grafik die ich noch schreiben muss. 
+%\section{Bewegungsplanung}
+%% Die Planung muss zus"atzlich noch die Bewegung in der Umgebung in betracht ziehen. 
+%\subsection{Sampling-Based Motion Planning}
+%\subsection{Combinatorial Motion Planning}
+%\section{Planen mit Unsicherheit}
+%% Hier kommt noch unsicherheit in der Umgebung hinzu, also auch dynamische Systeme
+%\subsection{Entscheidungstheorie}
+%\subsection{Planen mit Unsicherheiten in der Sensorik}
+%\section{Planen mit Differentialen Einschr"ankungen}
+%% Hier müssen bewegungseinschr"ankungen die durch den Verwendeten Roboter einhergehen beachtet werden. 
+%\subsection{Sampling-Based Planning under Differential Constraints}

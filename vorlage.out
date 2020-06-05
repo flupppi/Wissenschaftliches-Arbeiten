@@ -12,18 +12,10 @@
 \BOOKMARK [1][-]{section.3.3}{Rastergraph \(eng. Grid Graph\)}{chapter.3}% 12
 \BOOKMARK [1][-]{section.3.4}{Sichtbarkeitsgraph \(eng. Visibility Graph\)}{chapter.3}% 13
 \BOOKMARK [0][-]{chapter.4}{Algorithmen zur Pfadplanung}{}% 14
-\BOOKMARK [1][-]{section.4.1}{Algorithmen}{chapter.4}% 15
+\BOOKMARK [1][-]{section.4.1}{Was sind Algorithmen zur Pfadplanung?}{chapter.4}% 15
 \BOOKMARK [1][-]{section.4.2}{Klassifizierung von Pfadplanungsalgorithmen}{chapter.4}% 16
 \BOOKMARK [1][-]{section.4.3}{Diskrete Pfadplanung}{chapter.4}% 17
 \BOOKMARK [2][-]{subsection.4.3.1}{Feasible Planning}{section.4.3}% 18
-\BOOKMARK [1][-]{section.4.4}{Bewegungsplanung}{chapter.4}% 19
-\BOOKMARK [2][-]{subsection.4.4.1}{Sampling-Based Motion Planning}{section.4.4}% 20
-\BOOKMARK [2][-]{subsection.4.4.2}{Combinatorial Motion Planning}{section.4.4}% 21
-\BOOKMARK [1][-]{section.4.5}{Planen mit Unsicherheit}{chapter.4}% 22
-\BOOKMARK [2][-]{subsection.4.5.1}{Entscheidungstheorie}{section.4.5}% 23
-\BOOKMARK [2][-]{subsection.4.5.2}{Planen mit Unsicherheiten in der Sensorik}{section.4.5}% 24
-\BOOKMARK [1][-]{section.4.6}{Planen mit Differentialen Einschr\344nkungen}{chapter.4}% 25
-\BOOKMARK [2][-]{subsection.4.6.1}{Sampling-Based Planning under Differential Constraints}{section.4.6}% 26
-\BOOKMARK [0][-]{chapter.5}{Zusammenfassung und Ausblick}{}% 27
-\BOOKMARK [0][-]{chapter*.9}{Literaturverzeichnis}{}% 28
-\BOOKMARK [0][-]{appendix.A}{Glossar}{}% 29
+\BOOKMARK [0][-]{chapter.5}{Zusammenfassung und Ausblick}{}% 19
+\BOOKMARK [0][-]{chapter*.9}{Literaturverzeichnis}{}% 20
+\BOOKMARK [0][-]{appendix.A}{Glossar}{}% 21
