@@ -17,12 +17,12 @@
 \contentsline {section}{\numberline {4.1}Was sind Algorithmen zur Pfadplanung?}{9}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Klassifizierung von Pfadplanungsalgorithmen}{10}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Diskrete Pfadplanung}{11}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Feasible Planning}{11}{subsection.4.3.1}%
-\contentsline {subsubsection}{Breath-first search}{12}{section*.4}%
-\contentsline {subsubsection}{Depth first search}{12}{section*.5}%
-\contentsline {subsubsection}{Djikstra Algorithmus}{12}{section*.6}%
-\contentsline {subsubsection}{A-Stern}{13}{section*.7}%
-\contentsline {subsubsection}{weitere}{13}{section*.8}%
+\contentsline {subsection}{\numberline {4.3.1}Feasible Planning}{12}{subsection.4.3.1}%
+\contentsline {subsubsection}{Breath-first search}{12}{section*.5}%
+\contentsline {subsubsection}{Depth first search}{13}{section*.6}%
+\contentsline {subsubsection}{Djikstra Algorithmus}{13}{section*.7}%
+\contentsline {subsubsection}{A-Stern}{13}{section*.8}%
+\contentsline {subsubsection}{weitere}{13}{section*.9}%
 \contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{14}{chapter.5}%
-\contentsline {chapter}{Literaturverzeichnis}{15}{chapter*.9}%
+\contentsline {chapter}{Literaturverzeichnis}{15}{chapter*.10}%
 \contentsline {chapter}{Glossar}{16}{appendix.A}%

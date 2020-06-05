@@ -56,6 +56,26 @@ Der state space spielt in der Pfadplanung eine zentrale Rolle, dabei kann zwisch
 Da ein Zustandsgraph schnell sehr gro"s werden kann wird dieser meist nicht komplett "ubergebe, sondern diese wird im Laufe des Planungsprozess aufgedeckt.
 \cite[~S. 43]{Lav06} \\
 Wie man effektiv durch den Zustandsraum navigiert um einen goal state zu erreichen ist das Thema des folgenden Absatz.
+\begin{figure}
+\centering
+\subsection*{Formulierung 4.3 (Discrete Feasible Planning)}
+\begin{enumerate}
+	\item Ein nichtleerer Zustandsraum $X$, der endlich viele oder z"ahlbar unendlich viele Zust"ande beschreibt.  
+	\item F"ur jeden Zustand $x \in X$ , ein endlicher Aktionsraum $U( \, x) \,$.
+	\item Eine Zustands"ubergangsfunktion $f$ welche einen Zustand  $f( \, x,u) \, \in X$ für jedes $x \in X$  und $u \in U( \, x) \,$ erzeugt. Die Zustands"ubergangsgleichung ist von $f$ als $x' = f( \, x,u )\, $ abgeleitet.
+	\item Ein Anfangszustand $ x_{I} \in X$.
+	\item Ein Satz mit Zielzust"anden $X_{G} \subset X$.
+\end{enumerate}
+\caption{In Anlehnung an Formulation 2.1 von \cite[~S. 29]{Lav06}}
+\label{lav02}
+\end{figure}
+%1. A nonempty state space X, which is a ﬁnite or countably inﬁnite set of states.
+%2. For each state x ∈ X, a ﬁnite action space U(x).
+%3. A state transition function f that produces a state f(x, u) ∈ X for every
+%x ∈ X and u ∈ U(x). The state transition equation is derived from f as
+%x′ = f(x, u).
+%4. An initial state xI ∈ X.
+%5. A goal set XG ⊂ X.
 
 \subsection {Feasible Planning} % Hier sollte mit einem Code Beispiel ein allgemeingültiger algorithmus veranschaulicht werden. Darauf kann dann später wieder eingegangen werden und veränderungen im code können mit veränderungen in der Funktionalität in kontakt gesetzt werden.
 Ein allgemeiner Beispielalgorithmus ist in [Lavalle] gegeben. Als Beispiel f"ur diskrete Pfadplanung kann die Bewegung auf einem endlichen 2D Netz mit Hindernissen gesehen werden. 
