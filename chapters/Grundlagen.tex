@@ -11,7 +11,7 @@
 %%(S.1)
 %Path planning means to find a collisionfree path for a robot to move from one configuration to another \cite[~S. 1]{Principles:05}. This of course has several constraints given that a robot exists in the real world with physical constraints and limited movement options. 
 %(S.1)
-Pfadplanung bedeutet, die Spezifikation einer Aufgabe in einer Hochsprache, die ein Roboter verstehen und ausf"uhren soll. Typischerweise ist es eine kollisionsfreie Weg zu finden, auf der sich ein Roboter von eine Punkt zu einer anderen bewegen kann \cite[~S. 1]{Principles:05}. Dies hat nat"urlich mehrere Grenzen, da ein Roboter in der realen Welt physischen Einschr"ankungen und begrenzten Bewegungsoptionen hat. Dazu ist der Konfigurationsraum des Roboters wichtig, der seiner Bewegungsraum beschreibt. F"ur Traversieren des Raumes gibt es mehrere Optionen, in diese Kapitel werden drei beschrieben: Potentialfeld, Roadmaps und Zelldekomposition.
+Pfadplanung bedeutet, die Spezifizierung einer Aufgabe in einer Hochsprache, die ein Roboter verstehen und ausf"uhren soll. Typischerweise ist ein kollisionsfreie Weg zu finden, auf der sich ein Roboter von eine Punkt zu einer anderen bewegen kann \cite[~S. 1]{Principles:05}. Dies hat mehrere Grenzen, da ein Roboter in der realen Welt physische Einschr"ankungen und begrenzte Bewegungsoptionen hat. Dazu ist der Konfigurationsraum des Roboters wichtig, der seinen Bewegungsraum beschreibt. F"ur Darstellung des Raumes gibt es mehrere Optionen, in diesem Kapitel werden drei beschrieben: Potentialfeld, Roadmaps und Zelldekomposition.
 \\\\
 Pfadplanung kann auch in andere Bereich genutzt werden. Wie (...) . 
 %Mention more Fields
@@ -35,12 +35,12 @@ Pfadplanung kann auch in andere Bereich genutzt werden. Wie (...) .
 
 %Proper work
 Die Aufgaben f"ur Pfadplanung sind vielf"altig und ein Roboter kann mehrere davon ausf"uhren. Einige Beispiel dazu sind \cite[~S. 9,10]{Principles:05}:
-\begin{enumerate}
-	\item Navigation: Es ist die kollisionsfreie Pfadfindung. Es kann mit station"aren und/oder beweglichen Hindernissen durchgef"uhrt werden.
-	\item Lokalisierung: Interpretation von Sensordaten zur Bestimmung der Konfiguration des Roboters.
-	\item Bedeckung: Ein Werkzeug "uber bestimmte Punkte der Konfigurationsraum f"uhren.
-	\item Kartographie: Exploration einer unbekannte Umgebung und ein aussagekr"aftige Darstellung davon machen.
-\end{enumerate}
+\begin{itemize}
+	\item \textit{Navigation} ist die kollisionsfreie Pfadfindung, sie kann mit station"aren und/oder beweglichen Hindernissen durchgef"uhrt werden.
+	\item \textit{Lokalisierung} ist die Interpretation von Sensordaten zur Bestimmung der Konfiguration des Roboters.
+	\item \textit{Bedeckung} meint, ein Werkzeug "uber bestimmte Punkte der Konfigurationsraum f"uhren.
+	\item \textit{Kartographie} ist die Exploration einer unbekannte Umgebung und ein aussagekr"aftige Darstellung davon zu machen.
+\end{itemize}
 
 
 \section{Konfigurationsraum und freie Raum}
@@ -96,10 +96,11 @@ Die Aufgaben f"ur Pfadplanung sind vielf"altig und ein Roboter kann mehrere davo
 %The obstacle space of a robot is the configurations of a robot, where he collides with an obstacle
 %
 %(S. 40, 43)
-\cite{Principles:05} bietet einige wichtige Definitionen. Ein Roboter befindet sich in einen zwei- oder dreidimensionaler euklidischer Umgebung, die durch $\mathbb{R}^{2}$ bzw. $\mathbb{R}^{3}$ dargestellt ist und wird als der Arbeitsraum definiert. Hier ist f"ur seine Bewegung notwendig, seine zu bewegende Punkte zu kennen, um sicherzustellen, dass kein Punkt mit irgendwelchen Hindernissen kollidiert. Daher wird die Konfiguration eines Roboters als eine vollst"andige Spezifikation der Position jedes einzelnen seiner Teilen definiert. Folgenderma{"s}en ist der Konfigurationsraum des Roboters der Raum aller seiner m"oglichen Konfigurationen. Dies wir genutzt, um den Roboter zu bewegen.\\
+\cite{Principles:05} bietet einige wichtige Definitionen. Ein Roboter befindet sich in einer zwei- oder dreidimensionalen euklidischen Umgebung, die durch $\mathbb{R}^{2}$ bzw. $\mathbb{R}^{3}$ dargestellt ist. Sie wird als der Arbeitsraum definiert. Für seine Bewegung ist es notwendig, seine zu bewegende Punkte im Arbeitsraum zu kennen, um sicherzustellen, dass kein Punkt mit irgendwelchen Hindernissen kollidiert. Daher wird die Konfiguration eines Roboters, als eine vollst"andige Spezifikation der Position jedes einzelnen seiner Teilen definiert. Folglich ist der Konfigurationsraum des Roboters, der Raum aller  m"oglichen Konfigurationen. Dies wir genutzt, um den Roboter zu bewegen.\\
 % Beispiel? 
 %(S. 43)
-Ein Hindernis im Konfigurationsraum wird als das Set von Konfigurationen definiert, bei denen der Roboter dieser Hindernis im Arbeitsraum schneidet. Umgekehrt ist der freie Raum oder freie Konfigurationsraum die Gruppe von Konfigurationen, in denen der Roboter kein Hindernis kreuzt.
+% Fussnote ?
+Ein Hindernis im Konfigurationsraum wird als Satz von Konfigurationen definiert, bei denen der Roboter dieses Hindernis im Arbeitsraum schneidet. Umgekehrt ist der freie Raum oder freie Konfigurationsraum die Gruppe von Konfigurationen, in denen der Roboter kein Hindernis kreuzt.
 % Mention Obstacle space?
 
 
@@ -150,8 +151,9 @@ Ein Hindernis im Konfigurationsraum wird als das Set von Konfigurationen definie
 %A potential function is a differentiable function $U : \mathbb{R}^{n} \rightarrow \mathbb{R}$, which can be viewed as energy. Its gradient is a vector which points in the direction that locally maximally increases U. (Definition gradient) By assigning a gradient to each point of a vector field, a potential field is created. 
 %In order to move the robot along said field, it is treated as a particle with a positive charge. The obstacle are positively charge, causing them to repel each other, and the goal is negatively charged, causing it to move towards it. This means the robot follows a path “downhill” by following the negated gradient of the potential function.
 %Bild
-Laut \cite{Principles:05} ist eine potential Funktion eine differenzierbare Funktion $U : \mathbb{R}^{n} \rightarrow \mathbb{R}$, die als Energie betrachtet werden kann. Sein Gradient ist ein Vektor, der in die Richtung zeigt, wo U lokal maximal zunimmt. Indem jedem Punkt eines Vektorfeldes ein Gradient zugeordnet wird, entsteht ein Potentialfeld.\\
-Um den Roboter entlang dieses Feldes zu bewegen, wird er wie ein Teilchen mit einer positiven Ladung behandelt. Die Hindernisse sind positiv geladen, so dass sie und der Roboter sich gegenseitig absto{"s}en, und das Ziel ist negativ geladen, so dass der Roboter sich darauf zu bewegt \cite{Yong:92}. Dies bedeutet, dass einem absteigenden Weg gefolgt wird, indem er dem negativen Gradienten der Potentialfunktion folgt.
+% Sein Gradient ist ein Vektos .... -> Verbessern
+Laut \cite{Principles:05} ist eine potential Funktion eine differenzierbare Funktion $U : \mathbb{R}^{n} \rightarrow \mathbb{R}$, die als Energie betrachtet werden kann. Sein Gradient ist ein Vektor, der in die Richtung zeigt, in der $U$ lokal maximal zunimmt. Indem jedem Punkt eines Vektorfeldes ein Gradient zugeordnet wird, entsteht ein Potentialfeld.\\
+Um den Roboter entlang dieses Feldes zu bewegen, wird er wie ein Teilchen mit einer positiven Ladung behandelt. Die Hindernisse sind positiv geladen, sodass sie und der Roboter sich gegenseitig absto{"s}en. Das Ziel ist negativ geladen, sodass der Roboter sich darauf zu bewegt \cite{Yong:92}. Dies bedeutet, dass einem absteigenden Weg gefolgt wird, indem er dem negativen Gradienten der Potentialfunktion folgt.
 %Bild?
 
 
@@ -216,11 +218,16 @@ Um den Roboter entlang dieses Feldes zu bewegen, wird er wie ein Teilchen mit ei
 %The three important steps for a planner to navigate the roadmap are: Finding a road into the roadmap, moving through the roadmap to the vicinity of the goal and finally making a path to the goal.
 %(12, 107, 108)
 Nach \cite{Principles:05} kann ein Roboter seine Sensordaten verwenden, um Punkte in seinem freien Raum zu verbinden (Knoten) und kollisionsfreie Pfade zwischen ihnen zu erzeugen (Kanten). Dadurch entsteht eine topologische Karte, in diesem Fall eine so genannte Roadmap. Diese Karte kann verwendet werden, um unbekannten Raum zu erkunden, indem er zunehmend die Stra{"s}enkarte mit seinen Sensoren aufbaut.\\
-Die drei wichtigen Schritte, um der Roadmap durchzulaufen, sind: Einen Weg in die Roadmap zu finden, sich durch die Roadmap in die N"ahe des Ziels zu bewegen und schlie{"s}lich einen Weg zum Ziel zu finden.
+Die drei Schritte, die Roadmap durchzulaufen, sind: 
+\begin{enumerate}
+	\item Ein Weg in der Roadmap zu finden.
+	\item Durch die Roadmap in die N"ahe des Ziels bewegen.
+	\item Einen Weg zum Ziel finden.
+\end{enumerate}
 %Formal Definition?
 %(109)
 %A few types of roadmaps are: visibility maps, deformation retracts, retract-like structures, piecewise retracts and silhouettes.
-Eine ber"uhmte Typ von Roadmaps sind Sichtbarkeitsgraphen.
+Ein ber"uhmte Typ von Roadmaps ist der Sichtbarkeitsgraph.
 %More Info on Visibility Graph?
 %Voronoi Diagram?
 
@@ -262,8 +269,12 @@ Eine ber"uhmte Typ von Roadmaps sind Sichtbarkeitsgraphen.
 %Using this graph the path planer follows two steps: determining the start and end nodes, and searching for a path in the adjacency graph.
 %A big dvantage they provide is coverage. The graph can be used to visit all points in the free space by exploring the relative simple structure of the cells.
 %(161, 162)
-In \cite{Principles:05} ist beschrieben, dass Zelldekomposition aus der Teilung des freien Raumes in Zellen besteht, wobei jede Trennung eine wichtige Ver"anderung des Raumes bedeutet. Zum Beispiel eine "Anderung der Sichtlinie zu umgebenden Hindernissen. Wird jede Zelle als einen Knoten und ihre gemeinsamen Grenzen als eine Kante genommen, kann ein Adjazenzgraph erstellt werden. 
-Mit diese Information werden zwei Schritten gefolgt: Bestimmung der Zellen mit der Start- und Endkonfiguration, und Suche nach einem Pfad im Adjazenzgraph.\\
-Ein gro{"s}er Vorteil von Zelldekomposition ist die Bedeckung. Mit der Graph k"onnen alle Punkte im freien Raum besucht werden, indem die relativ einfache Struktur der Zellen untersucht wird.
+In \cite{Principles:05} ist beschrieben, dass Zelldekomposition aus der Teilung des freien Raumes in Zellen besteht, wobei jede Trennung eine wichtige Ver"anderung des Raumes bedeutet. Beispielsweise eine "Anderung der Sichtlinie zu umgebenden Hindernissen. Wird jede Zelle als ein Knoten und ihre gemeinsamen Grenzen als eine Kante genommen, kann ein Adjazenzgraph erstellt werden. 
+Aus diesen Information folgen zwei Schritte: 
+\begin{enumerate}
+	\item Bestimmung der Zellen mit der Start- und Endkonfiguration. 
+	\item Suche nach einem Pfad im Adjazenzgraph.
+\end{enumerate}
+Ein gro{"s}er Vorteil von Zelldekomposition ist die \textit{Bedeckung} Aufgabe. Mit dem Graphen k"onnen alle Punkte im freien Raum besucht werden, indem die Struktur der Zellen untersucht wird.
 %Trapezoidal dekomposition
 
