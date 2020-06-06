@@ -1,4 +1,12 @@
+<<<<<<< refs/remotes/origin/master
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.27)  6 JUN 2020 18:51
+=======
+<<<<<<< Updated upstream
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.27)  6 JUN 2020 06:15
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.7)  6 JUN 2020 02:53
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "master" and "origin/master"
 entering extended mode
 **./vorlage.tex
 (vorlage.tex
@@ -327,8 +335,39 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip51
 )
+<<<<<<< Updated upstream
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.sty
 "
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algori
+thmicx\algpseudocode.sty"
+Package: algpseudocode 
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\i
+fthen.sty"
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algori
+thmicx\algorithmicx.sty"
+Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
+
+Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
+\c@ALG@line=\count199
+\c@ALG@rem=\count266
+\c@ALG@nested=\count267
+\ALG@tlm=\skip52
+\ALG@thistlm=\skip53
+\c@ALG@Lnr=\count268
+\c@ALG@blocknr=\count269
+\c@ALG@storecount=\count270
+\c@ALG@tmpcounter=\count271
+\ALG@tmplength=\skip54
+)
+Document Style - pseudocode environments for use with the `algorithmicx' style
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs\color.sty"
+>>>>>>> Stashed changes
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
@@ -361,6 +400,21 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\engl
 ish.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
+<<<<<<< Updated upstream
+=======
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
+l\babel.def"
+File: babel.def 2020/03/22 3.42 Babel common definitions
+\babel@savecnt=\count272
+\U@D=\dimen171
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
+l\txtbabel.def")
+\bbl@readstream=\read2
+\bbl@dirlevel=\count273
+)
+>>>>>>> Stashed changes
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
@@ -386,26 +440,32 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\latin1.def"
 File: latin1.def 2018/08/11 v1.3c Input encoding file
 ))
+<<<<<<< Updated upstream
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
 sty"
 \lst@mode=\count267
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listin
+gs\listings.sty"
+\lst@mode=\count274
+>>>>>>> Stashed changes
 \lst@gtempboxa=\box91
 \lst@token=\toks18
-\lst@length=\count268
+\lst@length=\count275
 \lst@currlwidth=\dimen172
-\lst@column=\count269
-\lst@pos=\count270
+\lst@column=\count276
+\lst@pos=\count277
 \lst@lostspace=\dimen173
 \lst@width=\dimen174
-\lst@newlines=\count271
-\lst@lineno=\count272
+\lst@newlines=\count278
+\lst@lineno=\count279
 \lst@maxwidth=\dimen175
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.s
 ty"
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count273
-\lst@skipnumbers=\count274
+\c@lstnumber=\count280
+\lst@skipnumbers=\count281
 \lst@framebox=\box92
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
@@ -444,7 +504,7 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
 y"
 Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip52
+\@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
@@ -456,13 +516,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 "
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count275
+\inf@bad=\count282
 LaTeX Info: Redefining \frac on input line 227.
-\uproot@=\count276
-\leftroot@=\count277
+\uproot@=\count283
+\leftroot@=\count284
 LaTeX Info: Redefining \overline on input line 389.
-\classnum@=\count278
-\DOTSCASE@=\count279
+\classnum@=\count285
+\DOTSCASE@=\count286
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
@@ -471,15 +531,15 @@ LaTeX Info: Redefining \cdots on input line 610.
 \big@size=\dimen178
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
-\macc@depth=\count280
-\c@MaxMatrixCols=\count281
+\macc@depth=\count287
+\c@MaxMatrixCols=\count288
 \dotsspace@=\muskip17
-\c@parentequation=\count282
-\dspbrk@lvl=\count283
+\c@parentequation=\count289
+\dspbrk@lvl=\count290
 \tag@help=\toks21
-\row@=\count284
-\column@=\count285
-\maxfields@=\count286
+\row@=\count291
+\column@=\count292
+\maxfields@=\count293
 \andhelp@=\toks22
 \eqnshift@=\dimen179
 \alignsep@=\dimen180
@@ -488,8 +548,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \totwidth@=\dimen183
 \lineht@=\dimen184
 \@envbody=\toks23
-\multlinegap=\skip53
-\multlinetaggap=\skip54
+\multlinegap=\skip56
+\multlinetaggap=\skip57
 \mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
@@ -497,17 +557,22 @@ LaTeX Info: Redefining \] on input line 2860.
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algorithm2e\algori
 thm2e.sty"
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+<<<<<<< Updated upstream
 \c@AlgoLine=\count287
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \algocf@hangindent=\skip55
+=======
+\c@AlgoLine=\count294
+\algocf@hangindent=\skip58
+>>>>>>> Stashed changes
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifoddpage\ifoddpag
 e.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count288
+\c@checkoddpage=\count295
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -516,39 +581,39 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 y"
 Package: relsize 2013/03/29 ver 4.1
 )
-\skiptotal=\skip56
-\skiplinenumber=\skip57
-\skiprule=\skip58
-\skiphlne=\skip59
-\skiptext=\skip60
-\skiplength=\skip61
-\algomargin=\skip62
-\skipalgocfslide=\skip63
+\skiptotal=\skip59
+\skiplinenumber=\skip60
+\skiprule=\skip61
+\skiphlne=\skip62
+\skiptext=\skip63
+\skiplength=\skip64
+\algomargin=\skip65
+\skipalgocfslide=\skip66
 \algowidth=\dimen185
 \inoutsize=\dimen186
 \inoutindent=\dimen187
 \interspacetitleruled=\dimen188
 \interspacealgoruled=\dimen189
 \interspacetitleboxruled=\dimen190
-\algocf@ruledwidth=\skip64
+\algocf@ruledwidth=\skip67
 \algocf@inoutbox=\box95
 \algocf@inputbox=\box96
-\AlCapSkip=\skip65
-\AlCapHSkip=\skip66
-\algoskipindent=\skip67
+\AlCapSkip=\skip68
+\AlCapHSkip=\skip69
+\algoskipindent=\skip70
 \algocf@nlbox=\box97
 \algocf@hangingbox=\box98
 \algocf@untilbox=\box99
-\algocf@skipuntil=\skip68
+\algocf@skipuntil=\skip71
 \algocf@capbox=\box100
-\algocf@lcaptionbox=\skip69
-\algoheightruledefault=\skip70
-\algoheightrule=\skip71
-\algotitleheightruledefault=\skip72
-\algotitleheightrule=\skip73
-\c@algocfline=\count289
-\c@algocfproc=\count290
-\c@algocf=\count291
+\algocf@lcaptionbox=\skip72
+\algoheightruledefault=\skip73
+\algoheightrule=\skip74
+\algotitleheightruledefault=\skip75
+\algotitleheightrule=\skip76
+\c@algocfline=\count296
+\c@algocfproc=\count297
+\c@algocf=\count298
 \algocf@algoframe=\box101
 \algocf@algobox=\box102
 )
@@ -560,9 +625,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 "
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count292
-\Gm@cntv=\count293
-\c@Gm@tempcnt=\count294
+\Gm@cnth=\count299
+\Gm@cntv=\count300
+\c@Gm@tempcnt=\count301
 \Gm@bindingoffset=\dimen191
 \Gm@wd@mp=\dimen192
 \Gm@odd@mp=\dimen193
@@ -589,8 +654,8 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \ar@mcellbox=\box103
 \extrarowheight=\dimen256
 \NC@list=\toks26
-\extratabsurround=\skip74
-\backup@length=\skip75
+\extratabsurround=\skip77
+\backup@length=\skip78
 \ar@cellbox=\box104
 )
 \@indexfile=\write3
@@ -600,16 +665,23 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 Writing index file vorlage.idx
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count295
+\c@float@type=\count302
 \float@exts=\toks27
 \float@box=\box105
 \@float@everytoks=\toks28
 \@floatcapt=\box106
 )
+<<<<<<< Updated upstream
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
 d-pdfmode.def"
 File: l3backend-pdfmode.def 2020-05-05 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count296
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3back
+end\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count303
+>>>>>>> Stashed changes
 \l__pdf_internal_box=\box107
 ) (vorlage.aux
 
@@ -618,40 +690,40 @@ LaTeX Warning: Label `lav02' multiply defined.
 (chapters/Glossar.aux))
 \openout1 = `vorlage.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 75.
-LaTeX Font Info:    ... okay on input line 75.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count297
+\scratchcounter=\count304
 \scratchdimen=\dimen257
 \scratchbox=\box108
-\nofMPsegments=\count298
-\nofMParguments=\count299
+\nofMPsegments=\count305
+\nofMParguments=\count306
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count300
+\MPscratchCnt=\count307
 \MPscratchDim=\dimen258
-\MPnumerator=\count301
-\makeMPintoPDFobject=\count302
+\MPnumerator=\count308
+\makeMPintoPDFobject=\count309
 \everyMPtoPDFconversion=\toks30
 )
 \AtBeginShipoutBox=\box109
-Package hyperref Info: Link coloring OFF on input line 75.
+Package hyperref Info: Link coloring OFF on input line 77.
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
@@ -665,18 +737,18 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count303
+\c@section@level=\count310
 )
-LaTeX Info: Redefining \ref on input line 75.
-LaTeX Info: Redefining \pageref on input line 75.
-LaTeX Info: Redefining \nameref on input line 75.
+LaTeX Info: Redefining \ref on input line 77.
+LaTeX Info: Redefining \pageref on input line 77.
+LaTeX Info: Redefining \nameref on input line 77.
  (vorlage.out) (vorlage.out)
 \@outlinefile=\write4
 \openout4 = `vorlage.out'.
 
 
 Man spricht deutsch.
-\c@lstlisting=\count304
+\c@lstlisting=\count311
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -723,7 +795,7 @@ to.pdf>
 (epstopdf)                    size: 15230 bytes
 (epstopdf)             Command: <epstopdf --outfile=Logo_Hauptcampus_Informatik
 -eps-converted-to.pdf Logo_Hauptcampus_Informatik.eps>
-(epstopdf)             \includegraphics on input line 92.
+(epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
 
 
@@ -735,7 +807,7 @@ wed
 File: Logo_Hauptcampus_Informatik-eps-converted-to.pdf Graphic file (type pdf)
 <use Logo_Hauptcampus_Informatik-eps-converted-to.pdf>
 Package pdftex.def Info: Logo_Hauptcampus_Informatik-eps-converted-to.pdf  used
- on input line 92.
+ on input line 94.
 (pdftex.def)             Requested size: 292.77629pt x 56.81606pt.
 [1
 
@@ -780,12 +852,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--18
 
 ] [3]) (chapters/Graphen.tex [4]
 Kapitel 3.
+<<<<<<< refs/remotes/origin/master
 <images/kk_graph_S6.png, id=212, 721.94719pt x 336.50719pt>
+=======
+<<<<<<< Updated upstream
+<images/kk_graph_S6.png, id=205, 721.94719pt x 336.50719pt>
+=======
+<images/kk_graph_S6.png, id=172, 721.94719pt x 336.50719pt>
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "master" and "origin/master"
 File: images/kk_graph_S6.png Graphic file (type png)
 <use images/kk_graph_S6.png>
 Package pdftex.def Info: images/kk_graph_S6.png  used on input line 7.
 (pdftex.def)             Requested size: 376.42575pt x 175.45712pt.
+<<<<<<< refs/remotes/origin/master
 <images/Tree_Graph.png, id=217, 2095.83pt x 1704.3675pt>
+=======
+<<<<<<< Updated upstream
+<images/Tree_Graph.png, id=210, 2095.83pt x 1704.3675pt>
+=======
+<images/Tree_Graph.png, id=177, 2095.83pt x 1704.3675pt>
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "master" and "origin/master"
 File: images/Tree_Graph.png Graphic file (type png)
 <use images/Tree_Graph.png>
 Package pdftex.def Info: images/Tree_Graph.png  used on input line 18.
@@ -800,12 +888,28 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.67 
       <./images/kk_graph_S6.png>]
+<<<<<<< refs/remotes/origin/master
 <images/navigation_mesh_16.png, id=227, 586.44093pt x 117.43875pt>
+=======
+<<<<<<< Updated upstream
+<images/navigation_mesh_16.png, id=220, 586.44093pt x 117.43875pt>
+=======
+<images/navigation_mesh_16.png, id=187, 586.44093pt x 117.43875pt>
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "master" and "origin/master"
 File: images/navigation_mesh_16.png Graphic file (type png)
 <use images/navigation_mesh_16.png>
 Package pdftex.def Info: images/navigation_mesh_16.png  used on input line 70.
 (pdftex.def)             Requested size: 418.25368pt x 83.75659pt.
+<<<<<<< refs/remotes/origin/master
 <images/mesh_with_path.png, id=230, 1104.125pt x 599.23875pt>
+=======
+<<<<<<< Updated upstream
+<images/mesh_with_path.png, id=223, 1104.125pt x 599.23875pt>
+=======
+<images/mesh_with_path.png, id=190, 1104.125pt x 599.23875pt>
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "master" and "origin/master"
 File: images/mesh_with_path.png Graphic file (type png)
 <use images/mesh_with_path.png>
 Package pdftex.def Info: images/mesh_with_path.png  used on input line 76.
@@ -823,7 +927,15 @@ l.80
                                                   \fi \fi 
 l.80 
       <./images/Tree_Graph.png> <./images/navigation_mesh_16.png>]
+<<<<<<< refs/remotes/origin/master
 <images/Grid_Tiles.png, id=244, 1647.15375pt x 536.0025pt>
+=======
+<<<<<<< Updated upstream
+<images/Grid_Tiles.png, id=237, 1647.15375pt x 536.0025pt>
+=======
+<images/Grid_Tiles.png, id=204, 1647.15375pt x 536.0025pt>
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "master" and "origin/master"
 File: images/Grid_Tiles.png Graphic file (type png)
 <use images/Grid_Tiles.png>
 Package pdftex.def Info: images/Grid_Tiles.png  used on input line 93.
@@ -848,7 +960,15 @@ ady used, duplicate ignored
 l.99 \section
              {Sichtbarkeitsgraph (\textit{eng.} Visibility Graph)} <./images/me
 sh_with_path.png> <./images/Grid_Tiles.png>]
+<<<<<<< refs/remotes/origin/master
 <images/Robot_Motion_Visibility_Graph.png, id=256, 377.91188pt x 209.28188pt>
+=======
+<<<<<<< Updated upstream
+<images/Robot_Motion_Visibility_Graph.png, id=249, 377.91188pt x 209.28188pt>
+=======
+<images/Robot_Motion_Visibility_Graph.png, id=216, 377.91188pt x 209.28188pt>
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "master" and "origin/master"
 File: images/Robot_Motion_Visibility_Graph.png Graphic file (type png)
 <use images/Robot_Motion_Visibility_Graph.png>
 Package pdftex.def Info: images/Robot_Motion_Visibility_Graph.png  used on inpu
@@ -868,7 +988,15 @@ l.1 \chapter
             {Algorithmen zur Pfadplanung} <./images/Robot_Motion_Visibility_Gra
 ph.png>]
 Kapitel 4.
+<<<<<<< refs/remotes/origin/master
 <images/img224.png, id=269, 392.21532pt x 125.71968pt>
+=======
+<<<<<<< Updated upstream
+<images/img224.png, id=262, 392.21532pt x 125.71968pt>
+=======
+<images/img224.png, id=229, 392.21532pt x 125.71968pt>
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "master" and "origin/master"
 File: images/img224.png Graphic file (type png)
 <use images/img224.png>
 Package pdftex.def Info: images/img224.png  used on input line 14.
@@ -893,7 +1021,15 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.35 
       <./images/img224.png>]
+<<<<<<< refs/remotes/origin/master
 <images/img247.png, id=293, 417.81094pt x 103.88812pt>
+=======
+<<<<<<< Updated upstream
+<images/img247.png, id=287, 417.81094pt x 103.88812pt>
+=======
+<images/img247.png, id=252, 417.81094pt x 103.88812pt>
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "master" and "origin/master"
 File: images/img247.png Graphic file (type png)
 <use images/img247.png>
 Package pdftex.def Info: images/img247.png  used on input line 38.
@@ -902,19 +1038,22 @@ Package pdftex.def Info: images/img247.png  used on input line 38.
 
 LaTeX Warning: Reference `Kapitel5' on page 10 undefined on input line 46.
 
+
+LaTeX Warning: Reference `La03' on page 10 undefined on input line 58.
+
 [10pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.79 
+l.80 
       <./images/img247.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 81--97
+Underfull \hbox (badness 10000) in paragraph at lines 82--98
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--97
+Underfull \hbox (badness 10000) in paragraph at lines 82--98
 
  []
 
@@ -923,19 +1062,302 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--97
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.97 \subsubsection
+l.98 \subsubsection
                    {Breath-first search} Breadth first search verwendet die ...
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 97--100
+Underfull \hbox (badness 10000) in paragraph at lines 98--101
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--100
+Underfull \hbox (badness 10000) in paragraph at lines 98--101
 
  []
 
+[12]
+! You can't use `\prevdepth' in horizontal mode.
+\nointerlineskip ->\prevdepth 
+                              -\@m \p@ 
+l.122 		\Comment{forever}
+                         
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.122 		\Comment{forever}
+                         
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \let 
+l.122 		\Comment{forever}
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \let 
+l.122 		\Comment{forever}
+                         
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! You can't use `\moveright' in math mode.
+\algocf@push ...dvance \skiptotal by #1\moveright 
+                                                  #1
+l.122 		\Comment{forever}
+                         
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \hbox 
+l.122 		\Comment{forever}
+                         
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \hbox 
+l.122 		\Comment{forever}
+                         
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+                   relax 
+l.122 		\Comment{forever}
+                         
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+                   relax 
+l.122 		\Comment{forever}
+                         
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+                   relax 
+l.122 		\Comment{forever}
+                         
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+! Improper `at' size (0.0pt), replaced by 10pt.
+<to be read again> 
+                   relax 
+l.122 		\Comment{forever}
+                         
+I can only handle fonts at positive sizes that are
+less than 2048pt, so I've changed what you said to 10pt.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 		\State
+               this\Until{you die.}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 		\State
+               this\Until{you die.}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 		\State
+               this\Until{you die.}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 		\State
+               this\Until{you die.}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \item invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 		\State this\Until
+                         {you die.}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 		\State this\Until
+                         {you die.}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 		\State this\Until
+                         {you die.}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 		\State this\Until
+                         {you die.}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \ALG@b@2@Until@0 
+l.123 		\State this\Until
+                         {you die.}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 	\end{algorithmic}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Command \end{list} invalid in math mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 	\end{algorithmic}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 	\end{algorithmic}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 	\end{algorithmic}
+                        
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.124 	\end{algorithmic}
+                        
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+Missing character: There is no è in font cmex10!
+)
+Overfull \hbox (185.75598pt too wide) in paragraph at lines 122--110
+[]\OT1/cmr/bx/n/12 repeat|\OT1/cmr/m/n/12 -$[][] []; []\OML/cmm/m/it/12 this[][
+]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--110
+
+ []
+
+<<<<<<< Updated upstream
 [12]) (chapters/Anwendungen.tex [13]
+=======
+(chapters/ZusammenfassungAusblick.tex [13]
+>>>>>>> Stashed changes
 Kapitel 5.
 <images/img229.png, id=347, 170.88844pt x 159.59625pt>
 File: images/img229.png Graphic file (type png)
@@ -999,7 +1421,7 @@ No file vorlage.ind.
 \openout2 = `chapters/Glossar.aux'.
 
  (chapters/Glossar.tex)
-Underfull \hbox (badness 10000) in paragraph at lines 3--120
+Underfull \hbox (badness 10000) in paragraph at lines 3--122
 
  []
 
@@ -1008,11 +1430,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--120
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
  (vorlage.aux (chapters/Glossar.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 123.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
 Package rerunfilecheck Info: File `vorlage.out' has not changed.
 (rerunfilecheck)             Checksum: 111D3260D89799B9F5CF0A9569761A48;2056.
 
@@ -1022,13 +1444,21 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 123.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< refs/remotes/origin/master
  11178 strings out of 480795
  170345 string characters out of 2895571
  481837 words of memory out of 3000000
  26810 multiletter control sequences out of 15000+200000
+=======
+<<<<<<< Updated upstream
+ 11175 strings out of 480795
+ 172317 string characters out of 2895571
+ 481841 words of memory out of 3000000
+ 26808 multiletter control sequences out of 15000+200000
+>>>>>>> Auto stash before merge of "master" and "origin/master"
  542717 words of font info for 62 fonts, out of 3000000 for 9000
  1146 hyphenation exceptions out of 8191
  34i,8n,36p,924b,627s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1054,7 +1484,49 @@ ts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/simon/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
 Output written on vorlage.pdf (24 pages, 734704 bytes).
 PDF statistics:
+<<<<<<< refs/remotes/origin/master
  473 PDF objects out of 1000 (max. 8388607)
  104 named destinations out of 1000 (max. 500000)
  285 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 465 PDF objects out of 1000 (max. 8388607)
+ 102 named destinations out of 1000 (max. 500000)
+ 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 11512 strings out of 480930
+ 177988 string characters out of 2894132
+ 485694 words of memory out of 3000000
+ 27019 multiletter control sequences out of 15000+200000
+ 543350 words of font info for 64 fonts, out of 3000000 for 9000
+ 1146 hyphenation exceptions out of 8191
+ 34i,8n,36p,924b,528s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\Felix Kalchschmid\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
+n/ec/dpi600\tcrm1200.pk><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Felix Kalchschmid/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:
+/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmcsc10.pfb><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Felix Kalchschmid/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Use
+rs/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmr12.pfb><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Felix Kalchschmid/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Felix
+ Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mr8.pfb><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmr9.pfb><C:/Users/Felix Kalchschmid/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Felix Kalchsc
+hmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb
+><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmti12.pfb><C:/Users/Felix Kalchschmid/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/Felix Kalchschmid/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+>
+Output written on vorlage.pdf (19 pages, 638743 bytes).
+PDF statistics:
+ 392 PDF objects out of 1000 (max. 8388607)
+ 89 named destinations out of 1000 (max. 500000)
+ 214 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> Stashed changes
+>>>>>>> Auto stash before merge of "master" and "origin/master"
 
