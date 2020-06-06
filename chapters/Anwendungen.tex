@@ -7,7 +7,7 @@ Im Folgenden sind einige Beispiele zu Anwendungen von Algorithmen zu Pfadplanung
 Wie in Kapitel \ref{Kapitel 4.3} Disktete Pfadplanung beschrieben, ist der Zustandsraum bei diskreten Zust"anden endlich oder abz"ahlbar unendlich. Diese Parameter sind z.B. f"ur das Rubik's Cube R"atsel zutreffend (siehe Abb. \ref{Abb. 5.1}), bei dem es ebenso einen endlichen Zustandsraum und einen endlichen Aktionsrahmen gibt. Der Zustandsraum ist hierbei die Summe aller Zust"ande, die der W"urfel annehmen kann, also jegliche m"ogliche Farbverteilung. Der Aktionsrahmen ist die Menge aller Richtungen, in die man jedes Element drehen kann.\\ Nun wird bei einem Rubik's Cube kein Pfad im klassischen Sinne geplant, jedoch handelt es sich auch hier um ein diskretes Problem.\\
 \begin{figure}
 	\centering
-	\includegraphics[width=0.4\linewidth]{"../../../../../Desktop/Hochschule/Semester 4/Wissenschaftliches Arbeiten/eigene Unterlagen/Bilder/img229"}
+	\includegraphics[width=0.4\linewidth]{images/img229}
 	\caption{in Anlehnung Abb. 1.1 von \cite[~S. 5]{Lav06}: Rubik's Cube.}
 	\label{Abb. 5.1}
 \end{figure}
@@ -21,10 +21,11 @@ Ein gutes Beispiel f"ur Anwendungen zur Planung, bei der alle Umgebungsinformati
 Eine weitere praxisn"ahere Anwendung ist das automatische An- und Abmontieren eines Scheibenwischermotors an ein Auto, wie in Abb. \ref{Abb. 5.2} dargestellt.
 \begin{figure}
 	\centering
-	\includegraphics[width=0.7\linewidth]{"../../../../../Desktop/Hochschule/Semester 4/Wissenschaftliches Arbeiten/eigene Unterlagen/Bilder/img231"}
+	\includegraphics[width=0.7\linewidth]{images/img231}
 	\caption{Abb. 1.3 von \cite[~S. 7]{Lav06}: Eine Auto-Montierungsaufgabe, die beinhaltet, dass ein Scheibenwischermotor an ein Auto angebracht oder entfernt werden soll.}
 	\label{Abb. 5.2}
 \end{figure}
+
 Eine Software muss entscheiden, ob der Scheibenwischermotor An- und abmontiert werden kann, oder nicht. Das fr"uher zeit- und kostenintensive Entwickeln des Designs wird nun mit Software vereinfacht, indem CAD (computer-aided design) Modelle manipuliert werden. Auch hier hat man einen "uberabz"ahlbar unendlichen Zustandsraum und hat alle Umgebungsinformationen.
 %part 2
 \subsection{Anwendungen zur Planung mit Unsicherheit}
@@ -35,34 +36,13 @@ Dies l"asst sich auf die Navigation von allen mobilen Robotern "ubertragen.
 Da der aktuelle Status nie gewiss sein kann, wird mit allen verf"ugbaren Informationen versucht, den Status so genau wie m"oglich zu bestimmen.
 %(s.25) Part 3
 \subsection{Anwendungen zur Planung mit Bewegungseinschr"ankungen}
-Bei Anwendungen zur Planung mit Bewegungseinschr"ankungen (engl. planning under differential constraints) hat man ebenfalls einen Zustandsraum von "uberabz"ahlbar unendlich, zus"atzlich muss aber noch beachtet werden, dass der schnellste Pfad, der errechnet wird, oft durch Bewegungseinschr"ankungen nicht umgesetzt werden kann. In der Robotik entstehen diese Bewegungseinschr"ankungen h"aufig durch die Kinematik und Dynamik der Roboter selbst.\\
+Bei Anwendungen zur Planung mit Bewegungseinschr"ankungen (engl. planning under differential constraints) hat man ebenfalls einen Zustandsraum von "uberabz"ahlbar unendlich, zus"atzlich muss aber noch beachtet werden, dass der schnellste Pfad, der errechnet w oft durch Bewegungseinschr"ankungen nicht umgesetzt werden kann. In der Robotik entstehen diese Bewegungseinschr"ankungen h"aufig durch die Kinematik und Dynamik der Roboter selbst.\\
 Auch hier kann gut Auto als Beispiel herhalten. Ein Auto kann nicht seitw"arts fahren. Wenn es also seitlich neben einer Parkl"ucke steht und man den Einparkassistenten das Auto einparken lassen will, w"are der k"urzeste Pfad seitw"arts zu fahren. Da die nicht m"oglich ist, muss das bei der Pfadplanung ber"ucksichtigt werden(siehe Abb. \ref{Abb. 5.3}).
 \begin{figure}
 	\centering
-	\includegraphics[width=0.5\linewidth]{"../../../../../Desktop/Hochschule/Semester 4/Wissenschaftliches Arbeiten/eigene Unterlagen/Bilder/img239"}
+	\includegraphics[width=0.5\linewidth]{images/img239}
 	\caption{in Anlehnung an Abb. 1.11 von \cite[~S. 15]{Lav06}}
 	\label{Abb. 5.3}
 \end{figure}
 
 %s26 Part IV
-
-%\section{Navigation von mobilen Robotern}
-%Mobile Roboter finden in vielen Gebieten Verwendung. Von der S"aubern der Wohnung, bei der Der Roboter m"oglichst jede Stelle auf dem Boden abfahren und somit s"aubern muss bis zur Untersuchung des Mars, bei der der Rover sich in einer unbekannten und hindernisreichen Umgebung zurechtfinden muss. Um diese Aufgaben zu erf"ullen, m"ussen die Roboter eine Karte seiner Umgebung erstellen, ihre Position auf einer Karte bestimmen können oder von einem Punkt zum Anderen gelangen. Zur Erf"ullung dieser Aufgaben werden Pfadplanungsalgorithmen verwendet
-%
-%\section{Videospiele}
-%
-%\section{Discrete puzzles, operations, and scheduling}
-%bla bla
-%
-%\section{A motion planning puzzle}
-%bla bla
-%
-%\section{An automotive assembly puzzle}
-%bla bla
-%
-%
-%\section{Parking cars and trailers}
-%bla bla
-%
-%\section{Designing better drugs}
-%bla bla

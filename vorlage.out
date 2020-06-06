@@ -16,12 +16,13 @@
 \BOOKMARK [1][-]{section.4.2}{Klassifizierung von Pfadplanungsalgorithmen}{chapter.4}% 16
 \BOOKMARK [1][-]{section.4.3}{Diskrete Pfadplanung}{chapter.4}% 17
 \BOOKMARK [2][-]{subsection.4.3.1}{Feasible Planning}{section.4.3}% 18
-\BOOKMARK [0][-]{chapter.5}{Anwendungen von Algorithmen}{}% 19
-\BOOKMARK [1][-]{section.5.1}{Anwendungen mit diskretem Zustandsraum}{chapter.5}% 20
-\BOOKMARK [1][-]{section.5.2}{Anwendungen mit kontinuierlichem Zustandsraum}{chapter.5}% 21
-\BOOKMARK [2][-]{subsection.5.2.1}{Anwendungen zur Planung mit allen Umgebungsinformationen vorhanden}{section.5.2}% 22
-\BOOKMARK [2][-]{subsection.5.2.2}{Anwendungen zur Planung mit Unsicherheit}{section.5.2}% 23
-\BOOKMARK [2][-]{subsection.5.2.3}{Anwendungen zur Planung mit Bewegungseinschr\344nkungen}{section.5.2}% 24
-\BOOKMARK [0][-]{chapter.6}{Zusammenfassung und Ausblick}{}% 25
-\BOOKMARK [0][-]{chapter*.10}{Literaturverzeichnis}{}% 26
-\BOOKMARK [0][-]{appendix.A}{Glossar}{}% 27
+\BOOKMARK [1][-]{section.4.4}{Planung mit kontinuierlichem Zustandsraum}{chapter.4}% 19
+\BOOKMARK [0][-]{chapter.5}{Anwendungen von Algorithmen}{}% 20
+\BOOKMARK [1][-]{section.5.1}{Anwendungen mit diskretem Zustandsraum}{chapter.5}% 21
+\BOOKMARK [1][-]{section.5.2}{Anwendungen mit kontinuierlichem Zustandsraum}{chapter.5}% 22
+\BOOKMARK [2][-]{subsection.5.2.1}{Anwendungen zur Planung mit allen Umgebungsinformationen vorhanden}{section.5.2}% 23
+\BOOKMARK [2][-]{subsection.5.2.2}{Anwendungen zur Planung mit Unsicherheit}{section.5.2}% 24
+\BOOKMARK [2][-]{subsection.5.2.3}{Anwendungen zur Planung mit Bewegungseinschr\344nkungen}{section.5.2}% 25
+\BOOKMARK [0][-]{chapter.6}{Zusammenfassung und Ausblick}{}% 26
+\BOOKMARK [0][-]{chapter*.10}{Literaturverzeichnis}{}% 27
+\BOOKMARK [0][-]{appendix.A}{Glossar}{}% 28

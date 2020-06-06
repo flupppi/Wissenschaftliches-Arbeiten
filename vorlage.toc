@@ -23,6 +23,7 @@
 \contentsline {subsubsection}{Djikstra Algorithmus}{13}{section*.7}%
 \contentsline {subsubsection}{A-Stern}{13}{section*.8}%
 \contentsline {subsubsection}{weitere}{13}{section*.9}%
+\contentsline {section}{\numberline {4.4}Planung mit kontinuierlichem Zustandsraum}{13}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Anwendungen von Algorithmen}{14}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Anwendungen mit diskretem Zustandsraum}{14}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Anwendungen mit kontinuierlichem Zustandsraum}{14}{section.5.2}%
