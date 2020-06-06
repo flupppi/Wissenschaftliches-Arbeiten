@@ -23,6 +23,12 @@
 \contentsline {subsubsection}{Djikstra Algorithmus}{13}{section*.7}%
 \contentsline {subsubsection}{A-Stern}{13}{section*.8}%
 \contentsline {subsubsection}{weitere}{13}{section*.9}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{14}{chapter.5}%
-\contentsline {chapter}{Literaturverzeichnis}{15}{chapter*.10}%
-\contentsline {chapter}{Glossar}{16}{appendix.A}%
+\contentsline {chapter}{\numberline {5}Anwendungen von Algorithmen}{14}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Anwendungen mit diskretem Zustandsraum}{14}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Anwendungen mit kontinuierlichem Zustandsraum}{14}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Anwendungen zur Planung mit allen Umgebungsinformationen vorhanden}{15}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Anwendungen zur Planung mit Unsicherheit}{16}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Anwendungen zur Planung mit Bewegungseinschr"ankungen}{16}{subsection.5.2.3}%
+\contentsline {chapter}{\numberline {6}Zusammenfassung und Ausblick}{18}{chapter.6}%
+\contentsline {chapter}{Literaturverzeichnis}{19}{chapter*.10}%
+\contentsline {chapter}{Glossar}{20}{appendix.A}%
