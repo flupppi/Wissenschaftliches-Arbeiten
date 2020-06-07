@@ -40,7 +40,7 @@ Bei der Hierarchischen Einbindung, wird ein Baum aus Pl"anen erzeugt. Dabei steh
 	\label{lav02}
 \end{figure}
 
-\section{Klassifizierung von Pfadplanungsalgorithmen} % Hier bitte noch ein Bild, das die Unterschiede der einzelnen Klassen sichtbar macht. 
+\section{Klassifizierung von Pfadplanungsalgorithmen} \label{Kapitel 4.2} % Hier bitte noch ein Bild, das die Unterschiede der einzelnen Klassen sichtbar macht. 
 Der Bereich der Pfadplanung ist "au"serst heterogen, da die Umsetzung der Pfadplanung stark von den Vorgaben des Einsatzgebiets abh"angt. 
 Es wird Planen in einem diskreten und in einem kontinuierlichen Zustandsraum\footnote{Zustandsraum (engl. state space) Der Zustandsraum beschreibt alle potentiell aufkommenden Zust"ande.} unterschieden. Planen in einem kontinuierlichen Zustandsraum wird Bewegungsplanung genannt, dabei klassifiziert man zwischen Planung mit allen Umgebungsinformationen vorhanden, Planen mit Unsicherheit, sowie Planung mit Bewegungseinschr"ankungen.
 Auf die genaue Einteilung der Einsatzgebiete wird in \ref{konti} noch eingegangen, jedoch ist es f"ur das Verst"andnis der Algorithmen wichtig eine Einsch"atzung der verschiedenen Anforderungen zu erhalten. Im folgenden behandeln wir vor allem die diskrete Pfadplanung, da man daran die Grundlagen erkl"aren kann. \cite[~S. 24ff]{Lav06} 
@@ -143,8 +143,22 @@ Um den gefundenen Weg zu rekonstruieren m"ussen die Vorg"angerknoten jedes Knote
 
 
 %Simon fährt fort
-\section{Planung mit kontinuierlichem Zustandsraum} \label{konti}
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+\section{Pfadplanung im kontinuierlichen Zustandsraum}
+In der Pfadplanung im kontinuierlichen Zustandsraum\footnote{kontinuierlicher Zustandstraum (engl. continuous state space)}, auch Bewegungsplanung\footnote{Bewegungsplanung (engl. motion planning)} genannt, ist im Gegensatz zur diskreten Pfadplanung der Zustandsraum hier "uberabz"ahlbar unendlich.
+Eine klassische Version der Bewegungsplanung wird h"aufig als das \textit{Piano Mover's Problem} bezeichnet. Dabei hat man ein CAD\footnote{computer-aided design} Modell eines Hauses und ein Piano als Input f"ur einen Algorithmus. Dieser Algorithmus muss nun bestimmen, wie man das Piano von einem Raum in den Anderen verfrachtet, ohne etwas zu ber"uhren. 
+Es gibt zwei Motive, die bei der Pfadplanung im kontinuierlichen Zustandsraum immer wieder auftauchen:
+\subsection*{1. Implizite Repr"asentationen des Zustandsraumes}
+Es gibt einen Unterschied zwischen der Welt, in der sich die Modelle befinden und dem Raum, in dem das Planen stattfindet und welcher Konfigurationsraum\footnote{Konfigurationsraum (engl. configuration space)}genannt wird. Die Welt, in der sich die Modelle befinden, wird in geometrische 2D und 3D Modelle transformiert. Beispielsweise nehmen die Sensoren eines Roboters die Umgebung war und erstellen dann eine digitale Karte, mit der dann der Pfad geplant wird.
+\subsection*{2. Von kontinuierlich zu diskret}
+Es werden h"aufig kontinuierliche Modelle in diskrete transformiert. Daher werden viele Algorithmen, die diskrete Zustandsr"aume verwenden, hier in die Bewegungsplanungsalgorithmen eingebettet.
+
+%\subsection{Planung mit allen Umgebungsinformationen vorhanden}
+%
+%\subsection{Planung mit Unsicherheit}
+%
+%\subsection{Planung mit Bewegungseinschr"ankungen}
+
+%Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
  
 %%oder einer Grafik die ich noch schreiben muss. 

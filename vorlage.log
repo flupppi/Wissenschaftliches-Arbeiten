@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 <<<<<<< refs/remotes/origin/master
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.27)  6 JUN 2020 18:51
 =======
@@ -7,6 +8,9 @@ This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preload
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.7)  6 JUN 2020 02:53
 >>>>>>> Stashed changes
 >>>>>>> Auto stash before merge of "master" and "origin/master"
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.27)  6 JUN 2020 23:20
+>>>>>>> Stashed changes
 entering extended mode
 **./vorlage.tex
 (vorlage.tex
@@ -1348,6 +1352,7 @@ Overfull \hbox (185.75598pt too wide) in paragraph at lines 122--110
 ]$
  []
 
+<<<<<<< Updated upstream
 
 Underfull \hbox (badness 10000) in paragraph at lines 122--110
 
@@ -1358,8 +1363,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--110
 =======
 (chapters/ZusammenfassungAusblick.tex [13]
 >>>>>>> Stashed changes
+=======
+[12] [13]) (chapters/Anwendungen.tex [14]
+>>>>>>> Stashed changes
 Kapitel 5.
-<images/img229.png, id=347, 170.88844pt x 159.59625pt>
+<images/img229.png, id=359, 170.88844pt x 159.59625pt>
 File: images/img229.png Graphic file (type png)
 <use images/img229.png>
 Package pdftex.def Info: images/img229.png  used on input line 10.
@@ -1369,16 +1377,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--17
 
  []
 
-[14
+[15
 
 
 ]
-<images/img231.png, id=355, 502.87875pt x 214.55156pt>
+<images/img231.png, id=369, 502.87875pt x 214.55156pt>
 File: images/img231.png Graphic file (type png)
 <use images/img231.png>
 Package pdftex.def Info: images/img231.png  used on input line 24.
 (pdftex.def)             Requested size: 292.77629pt x 124.9114pt.
- [15pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
 1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -1393,12 +1401,12 @@ l.31 \subsection
 l.31 \subsection
                 {Anwendungen zur Planung mit Unsicherheit} <./images/img229.png
 > <./images/img231.png>]
-<images/img239.png, id=367, 186.6975pt x 144.54pt>
+<images/img239.png, id=381, 186.6975pt x 144.54pt>
 File: images/img239.png Graphic file (type png)
 <use images/img239.png>
 Package pdftex.def Info: images/img239.png  used on input line 43.
 (pdftex.def)             Requested size: 209.12683pt x 161.91234pt.
-) (chapters/ZusammenfassungAusblick.tex [16] [17pdfTeX warning (ext4): destinat
+) (chapters/ZusammenfassungAusblick.tex [17] [18pdfTeX warning (ext4): destinat
 ion with the same identifier (name{figure.5.3}) has been already used, duplicat
 e ignored
 
@@ -1407,12 +1415,12 @@ e ignored
 l.1 \chapter
             {Zusammenfassung und Ausblick} <./images/img239.png>]
 Kapitel 6.
-) [18
+) [19
 
 
 ] (vorlage.bbl)
 No file vorlage.ind.
-[19
+[20
 
 
 
@@ -1425,7 +1433,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--122
 
  []
 
-[20
+[21
 
 
 
@@ -1436,7 +1444,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
 Package rerunfilecheck Info: File `vorlage.out' has not changed.
-(rerunfilecheck)             Checksum: 111D3260D89799B9F5CF0A9569761A48;2056.
+(rerunfilecheck)             Checksum: 80C36586C196130B846CADE44B7F2A3F;2071.
 
 
 LaTeX Warning: There were undefined references.
@@ -1447,6 +1455,7 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< Updated upstream
 <<<<<<< refs/remotes/origin/master
  11178 strings out of 480795
  170345 string characters out of 2895571
@@ -1459,6 +1468,12 @@ Here is how much of TeX's memory you used:
  481841 words of memory out of 3000000
  26808 multiletter control sequences out of 15000+200000
 >>>>>>> Auto stash before merge of "master" and "origin/master"
+=======
+ 11186 strings out of 480795
+ 170435 string characters out of 2895571
+ 482908 words of memory out of 3000000
+ 26811 multiletter control sequences out of 15000+200000
+>>>>>>> Stashed changes
  542717 words of font info for 62 fonts, out of 3000000 for 9000
  1146 hyphenation exceptions out of 8191
  34i,8n,36p,924b,627s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1482,11 +1497,16 @@ cm/cmsy8.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
 ic/amsfonts/cm/cmti12.pfb><C:/Users/simon/AppData/Local/Programs/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/simon/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on vorlage.pdf (24 pages, 734704 bytes).
+Output written on vorlage.pdf (25 pages, 738098 bytes).
 PDF statistics:
+<<<<<<< Updated upstream
 <<<<<<< refs/remotes/origin/master
  473 PDF objects out of 1000 (max. 8388607)
  104 named destinations out of 1000 (max. 500000)
+=======
+ 491 PDF objects out of 1000 (max. 8388607)
+ 111 named destinations out of 1000 (max. 500000)
+>>>>>>> Stashed changes
  285 words of extra memory for PDF output out of 10000 (max. 10000000)
 =======
  465 PDF objects out of 1000 (max. 8388607)

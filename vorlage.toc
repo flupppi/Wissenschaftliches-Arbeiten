@@ -23,13 +23,13 @@
 \contentsline {subsubsection}{Djikstra Algorithmus}{13}{section*.7}%
 \contentsline {subsubsection}{A-Stern}{13}{section*.8}%
 \contentsline {subsubsection}{weitere}{13}{section*.9}%
-\contentsline {section}{\numberline {4.4}Planung mit kontinuierlichem Zustandsraum}{13}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Anwendungen von Algorithmen}{14}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Anwendungen mit diskretem Zustandsraum}{14}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Anwendungen mit kontinuierlichem Zustandsraum}{14}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Anwendungen zur Planung mit allen Umgebungsinformationen vorhanden}{15}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Anwendungen zur Planung mit Unsicherheit}{16}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Anwendungen zur Planung mit Bewegungseinschr"ankungen}{16}{subsection.5.2.3}%
-\contentsline {chapter}{\numberline {6}Zusammenfassung und Ausblick}{18}{chapter.6}%
-\contentsline {chapter}{Literaturverzeichnis}{19}{chapter*.10}%
-\contentsline {chapter}{Glossar}{20}{appendix.A}%
+\contentsline {section}{\numberline {4.4}Pfadplanung im kontinuierlichen Zustandsraum}{13}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Anwendungen von Algorithmen}{15}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Anwendungen mit diskretem Zustandsraum}{15}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Anwendungen zur Planung mit kontinuierlichem Zustandsraum}{16}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Anwendungen zur Planung mit allen Umgebungsinformationen vorhanden}{16}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Anwendungen zur Planung mit Unsicherheit}{17}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Anwendungen zur Planung mit Bewegungseinschr"ankungen}{17}{subsection.5.2.3}%
+\contentsline {chapter}{\numberline {6}Zusammenfassung und Ausblick}{19}{chapter.6}%
+\contentsline {chapter}{Literaturverzeichnis}{20}{chapter*.12}%
+\contentsline {chapter}{Glossar}{21}{appendix.A}%
