@@ -43,19 +43,21 @@ Bei der Hierarchischen Einbindung, wird ein Baum aus Pl"anen erzeugt. Dabei steh
 \section{Klassifizierung von Pfadplanungsalgorithmen} % Hier bitte noch ein Bild, das die Unterschiede der einzelnen Klassen sichtbar macht. 
 Der Bereich der Pfadplanung ist "au"serst heterogen, da die Umsetzung der Pfadplanung stark von den Vorgaben des Einsatzgebiets abh"angt. 
 Es wird Planen in einem diskreten und in einem kontinuierlichen Zustandsraum\footnote{Zustandsraum (engl. state space) Der Zustandsraum beschreibt alle potentiell aufkommenden Zust"ande.} unterschieden. Planen in einem kontinuierlichen Zustandsraum wird Bewegungsplanung genannt, dabei klassifiziert man zwischen Planung mit allen Umgebungsinformationen vorhanden, Planen mit Unsicherheit, sowie Planung mit Bewegungseinschr"ankungen.
-Auf die genaue Einteilung der Einsatzgebiete wird in \ref{Kapitel5} noch eingegangen, jedoch ist es f"ur das Verst"andnis der Algorithmen wichtig eine Einsch"atzung der verschiedenen Anforderungen zu erhalten. Im folgenden behandeln wir vor allem die diskrete Pfadplanung, da man daran die Grundlagen erkl"aren kann. \cite[~S. 24ff]{Lav06} 
+Auf die genaue Einteilung der Einsatzgebiete wird in \ref{konti} noch eingegangen, jedoch ist es f"ur das Verst"andnis der Algorithmen wichtig eine Einsch"atzung der verschiedenen Anforderungen zu erhalten. Im folgenden behandeln wir vor allem die diskrete Pfadplanung, da man daran die Grundlagen erkl"aren kann. \cite[~S. 24ff]{Lav06} 
 
 \section{Diskrete Pfadplanung} \label{Kapitel 4.3} % In diesem Kapitel hätte ich gerne noch ein Bild, das das Konzept der diskreten Pfadplanung auf einen Blick veranschaulicht veranschaulicht
 
-Diskrete Pfadplanung dient in der meisten Literatur als Einstiegspunkt. Das kommt daher, da der state space entweder endlich oder z"ahlbar unendlich ist.\\
-Au"serdem m"ussen dadurch keine geometrischen Modelle oder Bewegungseinschr"ankungen \footnote{Bewegungseinschr"ankungen (engl. differential constraints)} im Entwurf des Algorithmus beachtet werden.
+Diskrete Pfadplanung dient in der meisten Literatur als Einstiegspunkt. Das kommt davon das der \textit{state space} entweder endlich, oder z"ahlbar unendlich ist.\\
+Es m"ussen dadurch keine geometrischen Modelle, oder Bewegungseinschr"ankungen \footnote{Bewegungseinschr"ankungen (engl. differential constraints)} im Entwurf des Algorithmus beachtet werden.
 % Der Planer weis "uber alles bescheit, die struktur ist regelmaeßig
-Je nach Anforderung werden die drei Teilgebiete feasible planning \footnote{feasible planning (Dt. durchf"uhrbares Planen) im folgenden FP}, optimales Planen und Logik basierte Repr"asentation unterschieden. Die vorherrschenden Algorithmen in diesem Bereich, sind der Dijkstra-Algorithmus aus der Graphentheorie und der daraus abgeleitete A*-Algorithmus. Von diesem gibt es noch eine Reihe weiterer Abwandlungen, die alle eine Optimierung auf ein bestimmtes Einsatzgebiet zum Ziel haben.\cite[~S. 27]{Lav06} \\
-Wie man diese Optimierung durchf"uhren kann wird im folgenden an verschiedenen Algorithmen erl"autert. Optimales Planen unterscheidet sich nur insofern vom feasible planning, als das der gefundene Pfad in verschiedenen Kriterien wie Zeit, Distanz oder auch der Anzahl an Drehungen eines Roboters optimiert werden kann.\cite[~S. 43]{Lav06} \\
-Der state space spielt in der Pfadplanung eine zentrale Rolle, dabei kann zwischen Zust"anden durch die Ausf"uhrung von Aktionen gewechselt werden. Die verf"ugbaren Aktionen werden in einem Aktiosraum\footnote{Aktionsraum (engl. action space) } zusammengefasst, au"serdem ist als Teil des Planungsproblem ein Satz von Zielzust"anden\footnote{Zielzust"ande (engl. goal states)} definiert. 
-Da ein Zustandsgraph schnell sehr gro"s werden kann wird dieser meist nicht komplett "ubergebe, sondern diese wird im Laufe des Planungsprozess aufgedeckt.
+Je nach Anforderung werden die drei Teilgebiete \textit{feasible planning} \footnote{feasible planning (Dt. durchf"uhrbares Planen) im folgenden FP}, \textit{optimales Planen} und \textit{Logik basierte Repr"asentation} unterschieden.\cite[~S. 27]{Lav06}\\
+% Die vorherrschenden Algorithmen in diesem Bereich, sind der Dijkstra-Algorithmus aus der Graphentheorie und der daraus abgeleitete A*-Algorithmus. Von diesem gibt es noch eine Reihe weiterer Abwandlungen, die alle eine Optimierung auf ein bestimmtes Einsatzgebiet zum Ziel haben. \\
+%Wie man diese Optimierung durchf"uhren kann wird im folgenden an verschiedenen Algorithmen erl"autert. 
+Optimales Planen unterscheidet sich nur insofern vom feasible planning, als das der gefundene Pfad in verschiedenen Kriterien wie Zeit, Distanz oder auch der Anzahl an Drehungen eines Roboters optimiert werden kann.\cite[~S. 43]{Lav06} \\
+Zwischen Zust"anden des \textit{state space} kann durch die Ausf"uhrung von Aktionen gewechselt werden. Die verf"ugbaren Aktionen werden in einem Aktiosraum\footnote{Aktionsraum (engl. action space) } zusammengefasst, au"serdem ist als Teil des Planungsproblem ein Satz von Zielzust"anden\footnote{Zielzust"ande (engl. goal states)} definiert. 
+Da ein Zustandsgraph schnell sehr gro"s werden kann, wird dieser meist nicht komplett "ubergeben, sondern diese wird im Laufe des Planungsprozess aufgedeckt.
 \cite[~S. 43]{Lav06} \\
-Wie man effektiv durch den Zustandsraum navigiert um einen goal state zu erreichen ist das Thema des folgenden Absatz.
+Wie man effektiv durch den Zustandsraum navigiert, um einen \textit{goal state} zu erreichen ist das Thema des folgenden Absatz.
 \begin{figure}
 \centering
 \subsection*{Formulierung 4.3 (Discrete Feasible Planning)}
@@ -141,7 +143,7 @@ Um den gefundenen Weg zu rekonstruieren m"ussen die Vorg"angerknoten jedes Knote
 
 
 %Simon fährt fort
-\section{Planung mit kontinuierlichem Zustandsraum}
+\section{Planung mit kontinuierlichem Zustandsraum} \label{konti}
 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
 
  
