@@ -50,7 +50,7 @@ Auf die genaue Einteilung der Einsatzgebiete wird in \ref{Kapitel5} noch eingega
 Diskrete Pfadplanung dient in der meisten Literatur als Einstiegspunkt. Das kommt daher, da der state space entweder endlich oder z"ahlbar unendlich ist.\\
 Au"serdem müssen dadurch keine geometrischen Modelle oder Bewegungseinschr"ankungen \footnote{Bewegungseinschr"ankungen (engl. differential constraints)} im Entwurf des Algorithmus beachtet werden.
 % Der Planer weis über alles bescheit, die struktur ist regelmaeßig
-Je nach Anforderung werden die drei Teilgebiete feasible planning \footnote{feasible planning (Dt. durchführbares Planen) im folgenden FP}, optimales planen und logik basierte repr"asentation unterschieden. Die vorherrschenden Algorithmen in diesem Bereich, sind der Dijkstra Algorithmus aus der Graphentheorie und der daraus abgeleitete A*-Algorithmus. Von diesem gibt es noch eine Reihe weiterer Abwandlungen, die alle eine Optimierung auf ein bestimmtes Einsatzgebiet zum Ziel haben.\cite[~S. 27]{Lav06} \\
+Je nach Anforderung werden die drei Teilgebiete feasible planning \footnote{feasible planning (Dt. durchführbares Planen) im folgenden FP}, optimales Planen und Logik basierte Repr"asentation unterschieden. Die vorherrschenden Algorithmen in diesem Bereich, sind der Dijkstra-Algorithmus aus der Graphentheorie und der daraus abgeleitete A*-Algorithmus. Von diesem gibt es noch eine Reihe weiterer Abwandlungen, die alle eine Optimierung auf ein bestimmtes Einsatzgebiet zum Ziel haben.\cite[~S. 27]{Lav06} \\
 Wie man diese Optimierung durchführen kann wird im folgenden an verschiedenen Algorithmen erl"autert. Optimales Planen unterscheidet sich nur insofern vom feasible planning, als das der gefundene Pfad in verschiedenen Kriterien wie Zeit, Distanz oder auch der Anzahl an Drehungen eines Roboters optimiert werden kann.\cite[~S. 43]{Lav06} \\
 Der state space spielt in der Pfadplanung eine zentrale Rolle, dabei kann zwischen Zust"anden durch die Ausf"uhrung von Aktionen gewechselt werden. Die verf"ugbaren Aktionen werden in einem Aktiosraum\footnote{Aktionsraum (engl. action space) } zusammengefasst, au"serdem ist als Teil des Planungsproblem ein Satz von Zielzust"anden\footnote{Zielzust"ande (engl. goal states)} definiert. 
 Da ein Zustandsgraph schnell sehr gro"s werden kann wird dieser meist nicht komplett "ubergebe, sondern diese wird im Laufe des Planungsprozess aufgedeckt.
@@ -67,7 +67,7 @@ Wie man effektiv durch den Zustandsraum navigiert um einen goal state zu erreich
 	\item Ein Satz mit Zielzust"anden $X_{G} \subset X$.
 \end{enumerate}
 \caption{In Anlehnung an Formulation 2.1 von \cite[~S. 29]{Lav06}}
-\label{lav02}
+\label{lav03}
 \end{figure}
 %1. A nonempty state space X, which is a ﬁnite or countably inﬁnite set of states.
 %2. For each state x ∈ X, a ﬁnite action space U(x).
@@ -77,41 +77,67 @@ Wie man effektiv durch den Zustandsraum navigiert um einen goal state zu erreich
 %4. An initial state xI ∈ X.
 %5. A goal set XG ⊂ X.
 
-\subsection {Feasible Planning} % Hier sollte mit einem Code Beispiel ein allgemeingültiger algorithmus veranschaulicht werden. Darauf kann dann später wieder eingegangen werden und veränderungen im code können mit veränderungen in der Funktionalität in kontakt gesetzt werden.
-Ein allgemeiner Beispielalgorithmus ist in [Lavalle] gegeben. Als Beispiel f"ur diskrete Pfadplanung kann die Bewegung auf einem endlichen 2D Netz mit Hindernissen gesehen werden. 
-Dieses hat einen Startpunkt und einen Zielpunkt und muss einen Pfad zwischen diesen Punkten finden. Bei der Feasible Planning ist es ausreichend einen funktionierenden Pfad zu finden und es wird noch nicht darauf geachtet ob dieser optimal in Hinblick auf L"ange ist.
-\newline
-Die Algorithmen die hier verwendet werden sind Algorithmen zur Graphensuche die das Problem aus einer Planungsperspektive angehen. Es ist wichtig, dass diese Algorithmen systematisch sind. Das bedeutet, dass bei einem endlichen Graphen alle zust"ande besucht werden, au"serdem muss beachtet werden welche Zust"ande schon besucht wurden. Bei einem unendlichen Graphen ist die Definition insofern anders ist, dass es ausreicht, dass der Algorithmus zu einer L"osung bei l"osbaren Problemen kommt. 
-\newline 
-Eine generelle Template f"ur einen Suchalgorithmus kann durch drei Zust"ande repr"asentiert werden. 
-Ein unentdecktes Feld wurde noch nicht besucht und ist daher auch noch nicht bekannt. Ein Totes Feld kann nichts mehr zur Suche Beitragen, da schon die angrenzenden Felder entdeckt wurden. Felder die noch am Leben sind haben noch potentielle Nachbarfelder die am leben sind.  
-\newline
-Der einzige wirkliche Unterschied zwischen Planungsalgorithmen kommt durch die Auswahl eines Sortieralgorithmus f"ur die Priority Queue in welcher die n"achsten abzuarbeitenden Elemente enthalten sind. Die einfachsten Varianten sind hier FIFO(First-In First-Out), hier wird immer das Element gew"ahlt das am l"angsten gewartet hat. Dadurch entsteht eine kreisf"ormig expandierende Suche. 
-\newline
-Damit der gefundene Weg vom Start zum Ziel rekonstruiert werden kann muss jeder Knoten seinen Vorg"angerknoten abspeichern. Das erm"oglicht es den Weg sp"ater zur"uckzuverfolgen. 
-\newline
-Um darzustellen welchen einfluss die Sortierfunktion auf das Verhalten der Algorithmus hat werden im folgenden einige Algorithmen pr"asentiert.
-Diese sind alle eine Abwandlung des Algorithmus aus der Abbildung. 
-\newline
-\newline
-\subsubsection{Breath-first search} Breadth first search verwendet die oben angesprochene FIFO Warteschlange wodurch sich eine kreisf"ormige expansion ergibt, die auch die vorraussetzung f"ur systematische Algorithmen erf"ullt. Bei diesem algorithmus k"onnen einige kontrollmechanismen eingespart werden die sonst zur kontrolle der Expanionn"otig werden, jedoch verschwendet dieser Algorithmus durch die gleichm"assige ausbreitung relativ viele Zyklen. 
-\newline
-\newline
-\subsubsection{Depth first search} Depth first search verwendet einen Stack als warteschlange, das heisst LIFO(Last-In First-Out) dies erzeugt eine aggresive Expansion in eine bestimmte Richtung.
-Da die Richtung in die am anfang zum expandieren gew"ahlt wird zuf"allig ist, ist diese Methode nicht wirklich zielf"uhrend, da sie nur bei endlich vielen Knoten systematisch ist. 
-\subsubsection{Djikstra Algorithmus}
-Der Djiksta Algorithmus findet einen optimalen Pfad kann aber auch feasible pfade finden. Der Unterschied zu den vorhergehenden Algorithmen ist das hier Aktionen mit einander verglichen werden um die die mit den besseren Chancen ein gutes ergebnis zu finden erst auszuf"uhren. Das vorgehen von Dijkstra ist weitgehend bekannt und kann bei [Lavalle] nachgelesen werden.
 
-\subsubsection{A-Stern} 
-Der A* Suchalgorithmus ist eine Erweiterung von Dijkstra's Algorithmus und mit dem Ziel, die Anzahl der gesamtschritte zu minimieren,
-indem eine Heuristik eingef"uhrt wird die die Suche in die Richtung des Ziels f"uhrt. Dabei k"onnen unterschiedliche Werte f"ur die Heuristik gew"ahlt werden,
-jedoch wird meistens die der direkte Abstand zwischen dem Start und dem Endpunkt als Wert genommen. Das daraus entstehende verhalten zeichnet sich dadurch aus dass der Algorithmus solange in die Richtun des Ziels sucht, bis er auf ein hindernis st"o"st und erst dann versucht dieses Hindernis zu umgehen.
-\newline
-TODO Mehr informationen
-\subsubsection{weitere}
-Weitere Abwandlungen sind Best first search, hier wird die Warteschlange nach einer erwarteten \"cost-to-go" sortiert. 
-Desweiteren gibt es noch abwandlungen wie Interative Deepening das den Depth first Algorithmus in abgewandelter form einsetzt. 
-R"uckw"artssuche und Bidirektionale suche verhalten sich so wie ihr es beschreibt und kommen alle mit eigenheiten. 
+%
+%\begin{algorithm}
+%	\caption{Calculate $y = x^n$}
+%	\begin{algorithmic}
+%		\REQUIRE $n \geq 0 \vee x \neq 0$
+%		\ENSURE $y = x^n$
+%		\STATE $y \leftarrow 1$
+%		\IF{$n < 0$}
+%		\STATE $X \leftarrow 1 / x$
+%		\STATE $N \leftarrow -n$
+%		\ELSE
+%		\STATE $X \leftarrow x$
+%		\STATE $N \leftarrow n$
+%		\ENDIF
+%		\WHILE{$N \neq 0$}
+%		\IF{$N$ is even}
+%		\STATE $X \leftarrow X \times X$
+%		\STATE $N \leftarrow N / 2$
+%		\ELSE[$N$ is odd]
+%		\STATE $y \leftarrow y \times X$
+%		\STATE $N \leftarrow N - 1$
+%		\ENDIF
+%		\ENDWHILE
+%	\end{algorithmic}
+%\end{algorithm}
+
+\subsection {Feasible Planning} % Hier sollte mit einem Code Beispiel ein allgemeingültiger algorithmus veranschaulicht werden. Darauf kann dann später wieder eingegangen werden und veränderungen im code können mit veränderungen in der Funktionalität in kontakt gesetzt werden.\\
+Beim FP werden Algorithmen in Form der in \ref{lav04} gegebenen \textit{Forward Search} verwendet. Diese m"ussen systematisch vorgehen, dass hei"st:
+\begin{enumerate}
+	\item Bei endlich vielen Zust"anden, m"ussen alle besucht werden. (Zeile 2)
+	\item Besuchte Zust"ande m"ussen markiert werden, um wiederholtes absuchen zu verhindern. (Zeile 9)
+	\item Bei einem unendlichen Graphen reicht es aus, zu einer L"osung zu kommen, sollte diese vorhanden sein. (Zeile 5)
+\end{enumerate} \cite[~S. 32]{Lav06}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\textwidth]{images/img225.png}
+	\caption{Abbildung 2.4 von \cite[~S. 33]{Lav06}:  Eine generelle Schablone f"ur die vorw"arts Suche.}
+	\label{lav04}
+\end{figure} 
+
+Felder k"onnen drei Zust"ande einnehmen:
+\begin{enumerate}
+
+\item \textit{unentdeckt}: wurde noch nicht besucht und ist daher auch noch nicht bekannt.
+\item \textit{tot}: kann nichts mehr zur Suche beitragen, da alle angrenzenden Felder entdeckt wurden.
+\item \textit{lebend}: hat noch mindestens ein Nachbarfeld das unentdeckt ist.  
+\end{enumerate} \cite[~S. 33]{Lav06}
+
+
+In der Warteschlange \footnote{Warteschlange (engl. priority queue)}, Abbildung \ref{lav04} Zeile 1, werden die n"achsten Felder gespeichert. Dessen Sortierung hat einen gro"sen Einfluss auf das Verhalten des Algorithmus. 
+	\begin{itemize}
+		\item Die einfachste Variante ist \textit{First-In First-Out} \footnote{FI-FO - Das am l"angsten wartende Element zuerst}, hier entsteht eine kreisf"ormig expandierende Suche. Dies wird im \textbf{Breath-first} Suchalgorithmus verwendet. Er ist systematisch und leicht zu kontrollieren, jedoch verschwendet er relativ viele Suchzyklen.\cite[~S. 35]{Lav06}
+		\item Mit \textit{Last-In First-Out}\footnote{LI-FO - Das neuste Element zuerst}, entsteht eine aggressive Expansion in eine bestimmte Richtung. 
+		Dies w"are ein erstrebenswertes Verhalten, die Richtung kann aber mit LI-FO nicht kontrolliert werden. Der \textbf{Depth-first} Algorithmus setzt das ein, er ist aber aber nur bei endlich vielen Knoten systematisch. \cite[~S. 36]{Lav06}
+		\item Der \textbf{Dijkstra} Algorithmus vergleicht im Laufe der Suche Aktionen mit einander, und erstellt so eine Warteschlange die Knoten mit besseren Chancen bevorzugt. Im normalfall sucht er solange bis der optimale Pfad gefunden wurde. Das Vorgehen ist weitgehend bekannt und kann bei \cite[~S. 36]{Lav06} nachgelesen werden.
+		\item Der \textbf{A*-Suchalgorithmus}\footnote{A-Stern gesprochen} erweitert das Konzept um eine Sch"atzfunktion, welche die gesch"atzten Kosten bis zum Ziel beschreibt.
+		$$f( \, n ) \, = g ( \, n ) \, + h ( \, n ) \,$$
+		So werden Knoten bevorzugt, welche die Suche m"oglichst schnell, n"aher zum Ziel bringen. Das daraus entstehende Verhalten zeichnet sich dadurch aus, dass der Algorithmus solange in Richtung des Ziels sucht, bis er auf ein Hindernis st"o"st. Erst dann versucht dieses zu umgehen. Es wird garantiert, dass immer der optimale Pfad gefunden wird.\cite[~S. 37]{Lav06}
+	\end{itemize}
+Um den gefundenen Weg zu rekonstruieren m"ussen die Vorg"angerknoten jedes Knoten gespeichert werden. Dies w"urde man in \ref{lav04} Zeile 7 vornehmen. 
 
 
 %Simon fährt fort
