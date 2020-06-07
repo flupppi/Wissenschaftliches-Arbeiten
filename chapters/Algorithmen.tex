@@ -7,7 +7,7 @@
 %\newline
 %Ein Ansatzpunkt w"are ein \"on-line algorithmus" der sich aktiv aktualisiert, aber auch dieser kann nicht die gesamte komplexit"at wiederspiegeln. 
 
-Algorithmen zur Pfadplanung sind schwierig mathematisch pr"azise zu definieren. Ein Ansatz ist eine Definition für einen Algorithmus abzugeben und diese anschlie"send zu erweitern, sodass sie den Anspr"uchen der Pfadplanung entspricht. Nach der Church-Turing These ist ein Algorithmus eine Turing Maschine cite{462,891}. Dieser Definition fehlt aber unter anderem, die Repr"asentation der Interaktion eines Roboters mit der Umgebung, wie es in \ref{lav01} dargestellt wird. Daher wird ein Planer \footnote{Planer (engl. planner)} als ein Algorithmus definiert, welcher einen Plan \footnote{Plan (engl. plan)} konstruiert. Der Planer kann sowohl eine Maschine als auch ein Mensch sein und kann dem Konzept einer Turing Maschine entsprechen. Er ist aber nicht darauf limitiert, sondern kann den Anspr"uchen entsprechend erweitert werden.\cite[~S. 19ff]{Lav06} 
+Algorithmen zur Pfadplanung sind schwierig mathematisch pr"azise zu definieren. Ein Ansatz ist eine Definition f"ur einen Algorithmus abzugeben und diese anschlie"send zu erweitern, sodass sie den Anspr"uchen der Pfadplanung entspricht. Nach der Church-Turing These ist ein Algorithmus eine Turing Maschine cite{462,891}. Dieser Definition fehlt aber unter anderem, die Repr"asentation der Interaktion eines Roboters mit der Umgebung, wie es in \ref{lav01} dargestellt wird. Daher wird ein Planer \footnote{Planer (engl. planner)} als ein Algorithmus definiert, welcher einen Plan \footnote{Plan (engl. plan)} konstruiert. Der Planer kann sowohl eine Maschine als auch ein Mensch sein und kann dem Konzept einer Turing Maschine entsprechen. Er ist aber nicht darauf limitiert, sondern kann den Anspr"uchen entsprechend erweitert werden.\cite[~S. 19ff]{Lav06} 
 
 \begin{figure} % Hier lieber eine eigene Kombination an Grafiken
 	\centering
@@ -48,10 +48,10 @@ Auf die genaue Einteilung der Einsatzgebiete wird in \ref{Kapitel5} noch eingega
 \section{Diskrete Pfadplanung} \label{Kapitel 4.3} % In diesem Kapitel hätte ich gerne noch ein Bild, das das Konzept der diskreten Pfadplanung auf einen Blick veranschaulicht veranschaulicht
 
 Diskrete Pfadplanung dient in der meisten Literatur als Einstiegspunkt. Das kommt daher, da der state space entweder endlich oder z"ahlbar unendlich ist.\\
-Au"serdem müssen dadurch keine geometrischen Modelle oder Bewegungseinschr"ankungen \footnote{Bewegungseinschr"ankungen (engl. differential constraints)} im Entwurf des Algorithmus beachtet werden.
-% Der Planer weis über alles bescheit, die struktur ist regelmaeßig
-Je nach Anforderung werden die drei Teilgebiete feasible planning \footnote{feasible planning (Dt. durchführbares Planen) im folgenden FP}, optimales Planen und Logik basierte Repr"asentation unterschieden. Die vorherrschenden Algorithmen in diesem Bereich, sind der Dijkstra-Algorithmus aus der Graphentheorie und der daraus abgeleitete A*-Algorithmus. Von diesem gibt es noch eine Reihe weiterer Abwandlungen, die alle eine Optimierung auf ein bestimmtes Einsatzgebiet zum Ziel haben.\cite[~S. 27]{Lav06} \\
-Wie man diese Optimierung durchführen kann wird im folgenden an verschiedenen Algorithmen erl"autert. Optimales Planen unterscheidet sich nur insofern vom feasible planning, als das der gefundene Pfad in verschiedenen Kriterien wie Zeit, Distanz oder auch der Anzahl an Drehungen eines Roboters optimiert werden kann.\cite[~S. 43]{Lav06} \\
+Au"serdem m"ussen dadurch keine geometrischen Modelle oder Bewegungseinschr"ankungen \footnote{Bewegungseinschr"ankungen (engl. differential constraints)} im Entwurf des Algorithmus beachtet werden.
+% Der Planer weis "uber alles bescheit, die struktur ist regelmaeßig
+Je nach Anforderung werden die drei Teilgebiete feasible planning \footnote{feasible planning (Dt. durchf"uhrbares Planen) im folgenden FP}, optimales Planen und Logik basierte Repr"asentation unterschieden. Die vorherrschenden Algorithmen in diesem Bereich, sind der Dijkstra-Algorithmus aus der Graphentheorie und der daraus abgeleitete A*-Algorithmus. Von diesem gibt es noch eine Reihe weiterer Abwandlungen, die alle eine Optimierung auf ein bestimmtes Einsatzgebiet zum Ziel haben.\cite[~S. 27]{Lav06} \\
+Wie man diese Optimierung durchf"uhren kann wird im folgenden an verschiedenen Algorithmen erl"autert. Optimales Planen unterscheidet sich nur insofern vom feasible planning, als das der gefundene Pfad in verschiedenen Kriterien wie Zeit, Distanz oder auch der Anzahl an Drehungen eines Roboters optimiert werden kann.\cite[~S. 43]{Lav06} \\
 Der state space spielt in der Pfadplanung eine zentrale Rolle, dabei kann zwischen Zust"anden durch die Ausf"uhrung von Aktionen gewechselt werden. Die verf"ugbaren Aktionen werden in einem Aktiosraum\footnote{Aktionsraum (engl. action space) } zusammengefasst, au"serdem ist als Teil des Planungsproblem ein Satz von Zielzust"anden\footnote{Zielzust"ande (engl. goal states)} definiert. 
 Da ein Zustandsgraph schnell sehr gro"s werden kann wird dieser meist nicht komplett "ubergebe, sondern diese wird im Laufe des Planungsprozess aufgedeckt.
 \cite[~S. 43]{Lav06} \\
@@ -62,7 +62,7 @@ Wie man effektiv durch den Zustandsraum navigiert um einen goal state zu erreich
 \begin{enumerate}
 	\item Ein nichtleerer Zustandsraum $X$, der endlich viele oder z"ahlbar unendlich viele Zust"ande beschreibt.  
 	\item F"ur jeden Zustand $x \in X$ , ein endlicher Aktionsraum $U( \, x) \,$.
-	\item Eine Zustands"ubergangsfunktion $f$ welche einen Zustand  $f( \, x,u) \, \in X$ für jedes $x \in X$  und $u \in U( \, x) \,$ erzeugt. Die Zustands"ubergangsgleichung ist von $f$ als $x' = f( \, x,u )\, $ abgeleitet.
+	\item Eine Zustands"ubergangsfunktion $f$ welche einen Zustand  $f( \, x,u) \, \in X$ f"ur jedes $x \in X$  und $u \in U( \, x) \,$ erzeugt. Die Zustands"ubergangsgleichung ist von $f$ als $x' = f( \, x,u )\, $ abgeleitet.
 	\item Ein Anfangszustand $ x_{I} \in X$.
 	\item Ein Satz mit Zielzust"anden $X_{G} \subset X$.
 \end{enumerate}
