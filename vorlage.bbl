@@ -8,6 +8,12 @@
   Theory, Algorithms, and Implementations}.
 \newblock MIT Press, 2005.
 
+\bibitem[CS11]{cui2011based}
+{\sc Cui, Xiao} \btxandlong{}\ {\sc Hao Shi}: {\em A*-based pathfinding in
+  modern computer games}.
+\newblock International Journal of Computer Science and Network Security,
+  11(1):125--130, 2011.
+
 \bibitem[HAM92]{Yong:92}
 {\sc Hwang, Yong~K.}, {\sc Narendra Ahuja} \btxandlong{}\ {\sc Senior Member}:
   {\em A potential field approach to path planning}.

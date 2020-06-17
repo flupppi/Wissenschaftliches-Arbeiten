@@ -1,9 +1,9 @@
 % !TeX encoding = ISO-8859-1
 \chapter{Anwendungen von Algorithmen}
 %Grundeinleitung
-%Nachdem die Grundlagen der Funktionsprinzipien der Algorithmen zu Pfadplanung nun erläutert  wurden, wird nun auf mögliche Anwendungen dieser eingegangen.
+%Nachdem die Grundlagen der Funktionsprinzipien der Algorithmen zu Pfadplanung nun erlÃ¤utert  wurden, wird nun auf mÃ¶gliche Anwendungen dieser eingegangen.
 \section{Anwendungen mit diskretem Zustandsraum}
-Die Klassifizierung des Planens im  diskreten Zustandsraum ist z.B. für das Rubik's Cube Rätsel zutreffend (siehe Abb. \ref{Abb. 5.1}), bei dem es ebenso einen endlichen Zustandsraum und einen endlichen Aktionsrahmen gibt. Der Zustandsraum ist hierbei die Summe aller Zustände, die der Würfel annehmen kann, also jegliche mögliche Farbverteilung. Der Aktionsrahmen ist die Menge aller Richtungen, in die man jedes Element drehen kann. Der bestmögliche Pfad ist in diesem Fall die geringste Anzahl an Drehungen des Würfels in der richtigen Reihenfolge, um ans Ziel bzw. zum Zielzustand zu gelangen, welcher ist, dass jede Seite des Würfels nur noch Elemente einer Farbe hat.\cite[~S. 20]{Lav06}\\
+Die Klassifizierung des Planens im  diskreten Zustandsraum ist z.B. fÃ¼r das Rubik's Cube RÃ¤tsel zutreffend (siehe Abb. \ref{Abb. 5.1}), bei dem es ebenso einen endlichen Zustandsraum und einen endlichen Aktionsrahmen gibt. Der Zustandsraum ist hierbei die Summe aller ZustÃ¤nde, die der WÃ¼rfel annehmen kann, also jegliche mÃ¶gliche Farbverteilung. Der Aktionsrahmen ist die Menge aller Richtungen, in die man jedes Element drehen kann. Der bestmÃ¶gliche Pfad ist in diesem Fall die geringste Anzahl an Drehungen des WÃ¼rfels in der richtigen Reihenfolge, um ans Ziel bzw. zum Zielzustand zu gelangen, welcher ist, dass jede Seite des WÃ¼rfels nur noch Elemente einer Farbe hat.\cite[~S. 20]{Lav06}\\
 \begin{figure}
 	\centering
 	\includegraphics[width=0.4\linewidth]{images/img229}
@@ -11,12 +11,12 @@ Die Klassifizierung des Planens im  diskreten Zustandsraum ist z.B. für das Rubi
 	\label{Abb. 5.1}
 \end{figure}
 
-Die nächste Anwendung ist die Bewegungen eines Roboters oder einer Künstlichen Intelligenz auf einem 2D Netz. Dies geschieht in Strategie-Computerspielen, in denen eine Figur von ihrem aktuellen Standpunkt zu einem Ort gelangen muss, der ihr zugewiesen wird. Hier kommt der Pfadplanungsalgorithmus zum Einsatz.\cite{cui2011based}%genauer drauf neue Quelle eingehen.\\
+Die nÃ¤chste Anwendung ist die Bewegungen eines Roboters oder einer KÃ¼nstlichen Intelligenz auf einem 2D Netz. Dies geschieht in Strategie-Computerspielen, in denen eine Figur von ihrem aktuellen Standpunkt zu einem Ort gelangen muss, der ihr zugewiesen wird. Hier kommt der Pfadplanungsalgorithmus zum Einsatz.\cite{cui2011based}%genauer drauf neue Quelle eingehen.\\
 %s27ff
 \section{Anwendungen zur Planung mit kontinuierlichem Zustandsraum}
-Wie in Kapitel \ref{Kapitel 4.2} schon erwähnt, klassifiziert man bei den Algorithmen zur Planung mit kontinuierlichem Zustandsraum zwischen drei verschiedenen Rubriken, die unterschiedliche Anwendungsbereiche haben, auf die im Folgenden einzeln eingegangen wird.
+Wie in Kapitel \ref{Kapitel 4.2} schon erwÃ¤hnt, klassifiziert man bei den Algorithmen zur Planung mit kontinuierlichem Zustandsraum zwischen drei verschiedenen Rubriken, die unterschiedliche Anwendungsbereiche haben, auf die im Folgenden einzeln eingegangen wird.
 \subsection{Anwendungen zur Planung mit allen Umgebungsinformationen vorhanden}
-Ein gutes Beispiel für Anwendungen zur Planung, bei der alle Umgebungsinformationen vorhanden sind, ist das bereits in \ref{Kapitel 4.2} angesprochene Piano Mover's Problem.\\
+Ein gutes Beispiel fÃ¼r Anwendungen zur Planung, bei der alle Umgebungsinformationen vorhanden sind, ist das bereits in \ref{Kapitel 4.2} angesprochene Piano Mover's Problem.\\
 Eine praktische Anwendung ist das digitale Planen von Fabrik-Robotern, die ein Auto zusammensetzen sollen. In Abb. \ref{Abb. 5.2} ist das digitale Planen des automatischen An- und Abmontierens eines Scheibenwischermotors an ein Auto mittels eines CAD Modells dargestellt.
 \begin{figure}
 	\centering
@@ -25,19 +25,19 @@ Eine praktische Anwendung ist das digitale Planen von Fabrik-Robotern, die ein A
 	\label{Abb. 5.2}
 \end{figure}
 
-Eine Software muss entscheiden, ob und wie der Scheibenwischermotor an- und abmontiert werden kann, oder nicht. Das früher zeit- und kostenintensive Entwickeln des Designs wird nun mit Software vereinfacht, indem CAD Modelle manipuliert werden. Auch hier hat man einen überabzählbar unendlichen Zustandsraum und alle Umgebungsinformationen sind bekannt. \cite[~S. 6 ff]{Lav06}
+Eine Software muss entscheiden, ob und wie der Scheibenwischermotor an- und abmontiert werden kann, oder nicht. Das frÃ¼her zeit- und kostenintensive Entwickeln des Designs wird nun mit Software vereinfacht, indem CAD Modelle manipuliert werden. Auch hier hat man einen Ã¼berabzÃ¤hlbar unendlichen Zustandsraum und alle Umgebungsinformationen sind bekannt. \cite[~S. 6 ff]{Lav06}
 %part 2 QUELLE ANGEBEN
 \subsection{Anwendungen zur Planung mit Unsicherheit}
 Bei der Planung mit Unsicherheit (engl. planning under uncertanty), auch \textit{decision-theoretic planning} genannt, interferieren Ungewissheiten im Allgemeinen mit 2 Aspekten des Planens. Diese beiden Aspekte sind Vorhersehbarkeit und Wahrnehmung. \cite[~S. 435 ff.]{Lav06}\\
-Die Vorhersehbarkeit ist in dem Sinne durch die Unsicherheiten beeinträchtigt, dass nicht bekannt ist, was passieren wird, wenn gewisse Aktionen ausgeführt werden. Die Wahrnehmung ist durch die Unsicherheiten beeinträchtigt, da der aktuelle Status, bzw. die aktuelle Position nicht bekannt ist. Denn den Status erhält man aus den Ausgangsbedingungen, den Sensoren und den Informationen über die vorangegangenen Aktionen.\\
-Ein Beispiel für eine solche Anwendung ist das Autonome Fahren im Allgemeinen. %Quellen suchen
- Hier bewegt sich das Auto nicht über ein festes 2D Netz, sondern durch die unvorhersehbare Realität. Der Bordcomputer des Autos nimmt durch seine Sensoren und eventuelle Außenkameras seine Umgebung wahr und versucht durch diese und GPS-Daten, seinen Status bzw. seine aktuelle Position herauszufinden. Da sich jedoch die Umgebung stets verändert und das Verhalten der anderen Verkehrsteilnehmer nicht vorhersagbar ist, kommt die Unsicherheit ins Spiel.
-Dies lässt sich auf die Navigation von allen mobilen Robotern übertragen.
-Da der aktuelle Status nie gewiss sein kann, wird mit allen verfügbaren Informationen versucht, den Status so genau wie möglich zu bestimmen.
+Die Vorhersehbarkeit ist in dem Sinne durch die Unsicherheiten beeintrÃ¤chtigt, dass nicht bekannt ist, was passieren wird, wenn gewisse Aktionen ausgefÃ¼hrt werden. Die Wahrnehmung ist durch die Unsicherheiten beeintrÃ¤chtigt, da der aktuelle Status, bzw. die aktuelle Position nicht bekannt ist. Denn den Status erhÃ¤lt man aus den Ausgangsbedingungen, den Sensoren und den Informationen Ã¼ber die vorangegangenen Aktionen.\\
+Ein Beispiel fÃ¼r eine solche Anwendung ist das Autonome Fahren im Allgemeinen. %Quellen suchen
+ Hier bewegt sich das Auto nicht Ã¼ber ein festes 2D Netz, sondern durch die unvorhersehbare RealitÃ¤t. Der Bordcomputer des Autos nimmt durch seine Sensoren und eventuelle AuÃŸenkameras seine Umgebung wahr und versucht durch diese und GPS-Daten, seinen Status bzw. seine aktuelle Position herauszufinden. Da sich jedoch die Umgebung stets verÃ¤ndert und das Verhalten der anderen Verkehrsteilnehmer nicht vorhersagbar ist, kommt die Unsicherheit ins Spiel.
+Dies lÃ¤sst sich auf die Navigation von allen mobilen Robotern Ã¼bertragen.
+Da der aktuelle Status nie gewiss sein kann, wird mit allen verfÃ¼gbaren Informationen versucht, den Status so genau wie mÃ¶glich zu bestimmen.
 %(s.25) Part 3
-\subsection{Anwendungen zur Planung mit Bewegungseinschränkungen}
-Bei Anwendungen zur Planung mit Bewegungseinschränkungen (engl. planning under differential constraints) muss beachtet werden, dass der schnellste Pfad, der errechnet wird, oft durch Bewegungseinschränkungen nicht umgesetzt werden kann. In der Robotik entstehen diese Bewegungseinschränkungen häufig durch die Kinematik und Dynamik der Roboter selbst.\\
-Auch hier kann gut das Auto als Beispiel herhalten. Ein Auto kann nicht seitwärts fahren. Wenn es also seitlich neben einer Parklücke steht und man mit Hilfe des Einparkassistenten das Auto einparken lassen will, wäre der kürzeste Pfad seitwärts zu fahren. Da dies nicht möglich ist, muss das bei der Pfadplanung berücksichtigt werden (siehe Abb. \ref{Abb. 5.3}).
+\subsection{Anwendungen zur Planung mit BewegungseinschrÃ¤nkungen}
+Bei Anwendungen zur Planung mit BewegungseinschrÃ¤nkungen (engl. planning under differential constraints) muss beachtet werden, dass der schnellste Pfad, der errechnet wird, oft durch BewegungseinschrÃ¤nkungen nicht umgesetzt werden kann. In der Robotik entstehen diese BewegungseinschrÃ¤nkungen hÃ¤ufig durch die Kinematik und Dynamik der Roboter selbst.\\
+Auch hier kann gut das Auto als Beispiel herhalten. Ein Auto kann nicht seitwÃ¤rts fahren. Wenn es also seitlich neben einer ParklÃ¼cke steht und man mit Hilfe des Einparkassistenten das Auto einparken lassen will, wÃ¤re der kÃ¼rzeste Pfad seitwÃ¤rts zu fahren. Da dies nicht mÃ¶glich ist, muss das bei der Pfadplanung berÃ¼cksichtigt werden (siehe Abb. \ref{Abb. 5.3}).
 \begin{figure}
 	\centering
 	\includegraphics[width=0.5\linewidth]{images/img239}
