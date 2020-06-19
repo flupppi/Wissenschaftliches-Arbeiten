@@ -1,26 +1,23 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.7)  17 JUN 2020 18:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7350 64-bit) (preloaded format=pdflatex 2020.5.5)  19 JUN 2020 09:19
 entering extended mode
 **./vorlage.tex
 (vorlage.tex
 LaTeX2e <2020-02-02> patch level 5
-L3 programming layer <2020-04-06> (i-studis.cls
+L3 programming layer <2020-03-06> (i-studis.cls
 Document Class: i-studis 2005/09/23 v4.11 
 Springer Verlag global LaTeX document class for monographs
-
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\ur
-l.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 Class Springer-SVMono Info: extra/valid Springer sub-package 
 (Springer-SVMono)           not found in option list - using "global" style.
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\a
-rticle.cls"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\article.cl
+s"
 Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
-
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\s
-ize12.clo"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size12.clo
+"
 File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
@@ -72,12 +69,12 @@ LaTeX Font Info:    Redeclaring math symbol \Omega on input line 755.
 \tabcapgap=\dimen155
 \c@merk=\count178
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\m
-akeidx.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\makeidx.st
+y"
 Package: makeidx 2014/09/29 v1.0m Standard LaTeX package
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\
-multicol.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.
+sty"
 Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \c@tracingmulticols=\count179
 \mult@box=\box45
@@ -147,79 +144,79 @@ Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
 \colbreak@box=\box90
 \mc@col@check@num=\count188
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
-cs\graphicx.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphi
+cx.sty"
 Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
-cs\keyval.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval
+.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
-cs\graphics.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphi
+cs.sty"
 Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
-cs\trig.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.s
+ty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
-cs-cfg\graphics.cfg"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\gr
+aphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
-cs-def\pdftex.def"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pd
+ftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen165
 \Gin@req@width=\dimen166
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstop
-df-pkg\epstopdf.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\ep
+stopdf.sty"
 Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infw
-arerr\infwarerr.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\inf
+warerr.sty"
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grfext
-\grfext.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/grfext\grfext.s
+ty"
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvde
-finekeys\kvdefinekeys.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvdefinekeys\
+kvdefinekeys.sty"
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 ))
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvopti
-ons\kvoptions.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvopt
+ions.sty"
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxc
-mds\ltxcmds.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcm
+ds.sty"
 Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvse
-tkeys\kvsetkeys.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvs
+etkeys.sty"
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftex
-cmds\pdftexcmds.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdft
+excmds.sty"
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifte
-x\iftex.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.s
+ty"
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstop
-df-pkg\epstopdf-base.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\ep
+stopdf-base.sty"
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -228,42 +225,42 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 ))
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperr
-ef\hyperref.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hyperr
+ef.sty"
 Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfe
-scape\pdfescape.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfescape\pdf
+escape.sty"
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolo
-r\hycolor.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolor\hycolor
+.sty"
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltx
-macro\letltxmacro.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltxmacro\let
+ltxmacro.sty"
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhoo
-k\auxhook.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhook\auxhook
+.sty"
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 \@linkdim=\dimen167
 \Hy@linkcounter=\count189
 \Hy@pagecounter=\count190
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperr
-ef\pd1enc.def"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc
+.def"
 File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/intc
-alc\intcalc.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/intcalc\intca
+lc.sty"
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etex
-cmds\etexcmds.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etexcmds\etex
+cmds.sty"
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count191
@@ -279,12 +276,12 @@ Package hyperref Info: Bookmarks ON on input line 4800.
 LaTeX Info: Redefining \url on input line 5159.
 \XeTeXLinkMargin=\dimen168
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bits
-et\bitset.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bitset
+.sty"
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigi
-ntcalc\bigintcalc.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigintcalc\bi
+gintcalc.sty"
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -301,8 +298,8 @@ Package hyperref Info: PDF/A mode OFF on input line 6460.
 LaTeX Info: Redefining \ref on input line 6500.
 LaTeX Info: Redefining \pageref on input line 6504.
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbe
-gshi\atbegshi.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\atbe
+gshi.sty"
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
 \Hy@abspage=\count194
@@ -311,24 +308,24 @@ Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
 )
 Package hyperref Info: Driver: hpdftex.
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperr
-ef\hpdftex.def"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdfte
+x.def"
 File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atvery
-end\atveryend.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atveryend\atver
+yend.sty"
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 Package atveryend Info: \enddocument detected (standard20110627).
 )
 \Fld@listcount=\count197
 \c@bookmark@seq@number=\count198
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunf
-ilecheck\rerunfilecheck.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfilecheck\
+rerunfilecheck.sty"
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniq
-uecounter\uniquecounter.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniquecounter
+\uniquecounter.sty"
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -336,45 +333,45 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip51
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
-cs\color.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\color.
+sty"
 Package: color 2019/11/23 v1.2a Standard LaTeX Color (DPC)
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
-cs-cfg\color.cfg"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\co
+lor.cfg"
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
-l\babel.sty"
-Package: babel 2020/03/22 3.42 The Babel package
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.s
+ty"
+Package: babel 2020/02/28 3.41 The Babel package
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
-l\switch.def"
-File: switch.def 2020/03/22 3.42 Babel switching mechanism
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.
+def"
+File: switch.def 2020/02/28 3.41 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
 *
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\
-bblopts.cfg"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.c
+fg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-
-english\english.ldf"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-english\e
+nglish.ldf"
 Language: english 2017/06/06 v3.3r English support from the babel system
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
-l\babel.def"
-File: babel.def 2020/03/22 3.42 Babel common definitions
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.d
+ef"
+File: babel.def 2020/02/28 3.41 Babel common definitions
 \babel@savecnt=\count199
 \U@D=\dimen171
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
-l\txtbabel.def")
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabe
+l.def")
 \bbl@readstream=\read2
 \bbl@dirlevel=\count266
 )
@@ -385,29 +382,29 @@ Package babel Info: \l@australian = using hyphenrules for ukenglish
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
 (babel)             (\language72) on input line 108.
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-
-german\ngerman.ldf"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-german\ng
+erman.ldf"
 Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthogra
 phy)
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-
-german\ngermanb.ldf"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-german\ng
+ermanb.ldf"
 Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogr
 aphy)
 Package babel Info: Making " an active character on input line 121.
 )))
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\i
-nputenc.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.s
+ty"
 Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\f
-ontenc.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\fontenc.st
+y"
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listin
-gs\listings.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listin
+gs.sty"
 \lst@mode=\count267
 \lst@gtempboxa=\box91
 \lst@token=\toks18
@@ -421,30 +418,30 @@ gs\listings.sty"
 \lst@lineno=\count272
 \lst@maxwidth=\dimen175
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listin
-gs\lstmisc.sty"
-File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmis
+c.sty"
+File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 \c@lstnumber=\count273
 \lst@skipnumbers=\count274
 \lst@framebox=\box92
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listin
-gs\listings.cfg"
-File: listings.cfg 2020/03/24 1.8d listings configuration
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listin
+gs.cfg"
+File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
-Package: listings 2020/03/24 1.8d (Carsten Heinz)
+Package: listings 2019/09/10 1.8c (Carsten Heinz)
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listin
-gs\lstlang1.sty"
-File: lstlang1.sty 2020/03/24 1.8d listings language file
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlan
+g1.sty"
+File: lstlang1.sty 2019/09/10 1.8c listings language file
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algori
-thms\algorithm.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algorithms\algo
+rithm.sty"
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\
-float.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty
+"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count275
 \float@exts=\toks19
@@ -452,15 +449,15 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks20
 \@floatcapt=\box94
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\i
-fthen.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty
+"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \@float@every@algorithm=\toks21
 \c@algorithm=\count276
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algori
-thms\algorithmic.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/algorithms\algo
+rithmic.sty"
 Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \c@ALC@unique=\count277
 \c@ALC@line=\count278
@@ -469,16 +466,16 @@ Package: algorithmic 2009/08/24 v0.1 Document Style `algorithmic'
 \ALC@tlm=\skip52
 \algorithmicindent=\skip53
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\t
-extcomp.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\textcomp.s
+ty"
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
-ts\amssymb.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amssym
+b.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
-ts\amsfonts.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfon
+ts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks22
 \symAMSa=\mathgroup4
@@ -487,30 +484,30 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmat
-h\amstext.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext
+.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmat
-h\amsgen.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.
+sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks23
 \ex@=\dimen176
 ))
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmat
-h\amsmath.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath
+.sty"
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmat
-h\amsbsy.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.
+sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen177
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmat
-h\amsopn.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.
+sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count281
@@ -551,12 +548,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geomet
-ry\geometry.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geomet
+ry.sty"
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifte
-x\ifvtex.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.
+sty"
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count293
@@ -572,18 +569,18 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen192
 \Gm@dimlist=\toks28
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geomet
-ry\geometry.cfg"))
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/germbi
-b\bibgerm.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geomet
+ry.cfg"))
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/germbib\bibgerm
+.sty"
 Package: bibgerm 2000/08/18 v0.1 Support for mixed language bibliographies
 
 ** Macros for german `BibTeX'ing added to Style Option `german' 20 Apr 1993 **
 ** idea and languages `german' and `USenglish' implemented by M. Wallmeier **
 ** Modified for LaTeX 2e and german.sty 2.5b by A. Scherer 1 Nov 1995 **
 ** Modified for ngerman.sty and babel.sty by H. Harders 21 August 2000 **)
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\
-array.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty
+"
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen193
 \ar@mcellbox=\box97
@@ -599,12 +596,16 @@ Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 
 Writing index file vorlage.idx
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3back
-end\l3backend-pdfmode.def"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3bac
+kend-pdfmode.def"
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count296
 \l__pdf_internal_box=\box99
-) (vorlage.aux)
+) (vorlage.aux
+
+LaTeX Warning: Label `potentialfield01' multiply defined.
+
+)
 \openout1 = `vorlage.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
@@ -624,8 +625,8 @@ LaTeX Font Info:    ... okay on input line 81.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/context/base
-/mkii\supp-pdf.mkii"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\sup
+p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count297
 \scratchdimen=\dimen195
@@ -642,16 +643,16 @@ LaTeX Font Info:    ... okay on input line 81.
 \AtBeginShipoutBox=\box101
 Package hyperref Info: Link coloring OFF on input line 81.
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperr
-ef\nameref.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\namere
+f.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcou
-nt\refcount.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcount\refcou
+nt.sty"
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gett
-itlestring\gettitlestring.sty"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitlestrin
+g\gettitlestring.sty"
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count303
@@ -704,11 +705,11 @@ Man spricht deutsch.
 bibgerm.sty: babel.sty detected
 
 Package epstopdf Info: Source file: <Logo_Hauptcampus_Informatik.eps>
-(epstopdf)                    date: 2020-05-09 17:27:43
+(epstopdf)                    date: 2020-05-09 19:12:35
 (epstopdf)                    size: 789514 bytes
 (epstopdf)             Output file: <Logo_Hauptcampus_Informatik-eps-converted-
 to.pdf>
-(epstopdf)                    date: 2020-05-29 16:03:43
+(epstopdf)                    date: 2020-05-26 07:30:31
 (epstopdf)                    size: 15230 bytes
 (epstopdf)             Command: <epstopdf --outfile=Logo_Hauptcampus_Informatik
 -eps-converted-to.pdf Logo_Hauptcampus_Informatik.eps>
@@ -719,7 +720,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./Logo_Hauptcampus_Informatik-eps-converted-
 to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
 wed
-<Logo_Hauptcampus_Informatik-eps-converted-to.pdf, id=111, 812.03375pt x 157.58
+<Logo_Hauptcampus_Informatik-eps-converted-to.pdf, id=115, 812.03375pt x 157.58
 875pt>
 File: Logo_Hauptcampus_Informatik-eps-converted-to.pdf Graphic file (type pdf)
 <use Logo_Hauptcampus_Informatik-eps-converted-to.pdf>
@@ -728,19 +729,18 @@ Package pdftex.def Info: Logo_Hauptcampus_Informatik-eps-converted-to.pdf  used
 (pdftex.def)             Requested size: 292.77629pt x 56.81606pt.
 [1
 
-{C:/Users/Felix Kalchschmid/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} 
-<./Logo_Hauptcampus_Informatik-eps-converted-to.pdf>]
-(chapters/Kurzfassung.tex
+{C:/Users/Bernardo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Logo_H
+auptcampus_Informatik-eps-converted-to.pdf>] (chapters/Kurzfassung.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
-ts\umsa.fd"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.f
+d"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
-ts\umsb.fd"
+("C:\Users\Bernardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.f
+d"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )) [2
 
@@ -763,105 +763,121 @@ Kapitel 1.
 
 ]
 Kapitel 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 15--19
-
- []
-
 [2
 
 
-] [3]) (chapters/Graphen.tex [4]
-Kapitel 3.
-<images/kk_graph_S6.png, id=208, 721.94719pt x 336.50719pt>
-File: images/kk_graph_S6.png Graphic file (type png)
-<use images/kk_graph_S6.png>
-Package pdftex.def Info: images/kk_graph_S6.png  used on input line 7.
-(pdftex.def)             Requested size: 376.42575pt x 175.45712pt.
-<images/Tree_Graph.png, id=213, 2095.83pt x 1704.3675pt>
-File: images/Tree_Graph.png Graphic file (type png)
-<use images/Tree_Graph.png>
-Package pdftex.def Info: images/Tree_Graph.png  used on input line 18.
-(pdftex.def)             Requested size: 250.95476pt x 204.07317pt.
-[5
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
-has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.67 
-      <./images/kk_graph_S6.png>]
-<images/navigation_mesh_16.png, id=223, 586.44093pt x 117.43875pt>
-File: images/navigation_mesh_16.png Graphic file (type png)
-<use images/navigation_mesh_16.png>
-Package pdftex.def Info: images/navigation_mesh_16.png  used on input line 70.
-(pdftex.def)             Requested size: 418.25368pt x 83.75659pt.
-<images/mesh_with_path.png, id=226, 1104.125pt x 599.23875pt>
-File: images/mesh_with_path.png Graphic file (type png)
-<use images/mesh_with_path.png>
-Package pdftex.def Info: images/mesh_with_path.png  used on input line 76.
-(pdftex.def)             Requested size: 376.42575pt x 204.29623pt.
- [6pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
+]
+<images/Potential_Field.png, id=193, 465.99094pt x 139.27031pt>
+File: images/Potential_Field.png Graphic file (type png)
+<use images/Potential_Field.png>
+Package pdftex.def Info: images/Potential_Field.png  used on input line 167.
+(pdftex.def)             Requested size: 334.60422pt x 100.00677pt.
+ [3pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.80 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-.3}) has been already used, duplicate ignored
+l.235 \begin{enumerate}
+                        <./images/Potential_Field.png>]
+<images/Cell_Dekomposition.png, id=213, 351.56343pt x 266.49562pt>
+File: images/Cell_Dekomposition.png Graphic file (type png)
+<use images/Cell_Dekomposition.png>
+Package pdftex.def Info: images/Cell_Dekomposition.png  used on input line 296.
+
+(pdftex.def)             Requested size: 292.77629pt x 221.93138pt.
+ [4pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.80 
-      <./images/Tree_Graph.png> <./images/navigation_mesh_16.png>]
-<images/Grid_Tiles.png, id=240, 1647.15375pt x 536.0025pt>
+l.304 
+       <./images/Cell_Dekomposition.png>]
+<images/kk_graph_S6.png, id=229, 721.94719pt x 336.50719pt>
+File: images/kk_graph_S6.png Graphic file (type png)
+<use images/kk_graph_S6.png>
+Package pdftex.def Info: images/kk_graph_S6.png  used on input line 307.
+(pdftex.def)             Requested size: 376.42575pt x 175.45712pt.
+<images/Tree_Graph.png, id=233, 2095.83pt x 1704.3675pt>
+File: images/Tree_Graph.png Graphic file (type png)
+<use images/Tree_Graph.png>
+Package pdftex.def Info: images/Tree_Graph.png  used on input line 319.
+(pdftex.def)             Requested size: 209.12683pt x 170.05663pt.
+<images/navigation_mesh_16.png, id=235, 586.44093pt x 117.43875pt>
+File: images/navigation_mesh_16.png Graphic file (type png)
+<use images/navigation_mesh_16.png>
+Package pdftex.def Info: images/navigation_mesh_16.png  used on input line 371.
+
+(pdftex.def)             Requested size: 418.25368pt x 83.75659pt.
+<images/mesh_with_path.png, id=238, 1104.125pt x 599.23875pt>
+File: images/mesh_with_path.png Graphic file (type png)
+<use images/mesh_with_path.png>
+Package pdftex.def Info: images/mesh_with_path.png  used on input line 377.
+(pdftex.def)             Requested size: 250.95476pt x 136.19444pt.
+ [5pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.380 \end{figure}
+                   <./images/kk_graph_S6.png>]
+<images/Grid_Tiles.png, id=253, 1647.15375pt x 536.0025pt>
 File: images/Grid_Tiles.png Graphic file (type png)
 <use images/Grid_Tiles.png>
-Package pdftex.def Info: images/Grid_Tiles.png  used on input line 93.
+Package pdftex.def Info: images/Grid_Tiles.png  used on input line 395.
 (pdftex.def)             Requested size: 418.25368pt x 136.10222pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--97
+Underfull \hbox (badness 10000) in paragraph at lines 389--399
 
  []
 
-[7pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}
+[6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.99 \section
-             {Sichtbarkeitsgraph (\textit{eng.} Visibility Graph)}pdfTeX warnin
-g (ext4): destination with the same identifier (name{figure.3.5}) has been alre
-ady used, duplicate ignored
+l.399 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.99 \section
-             {Sichtbarkeitsgraph (\textit{eng.} Visibility Graph)} <./images/me
-sh_with_path.png> <./images/Grid_Tiles.png>]
-<images/Robot_Motion_Visibility_Graph.png, id=252, 377.91188pt x 209.28188pt>
+l.399 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.399 
+       <./images/Tree_Graph.png> <./images/navigation_mesh_16.png> <./images/me
+sh_with_path.png>]
+<images/Robot_Motion_Visibility_Graph.png, id=265, 377.91188pt x 209.28188pt>
 File: images/Robot_Motion_Visibility_Graph.png Graphic file (type png)
 <use images/Robot_Motion_Visibility_Graph.png>
 Package pdftex.def Info: images/Robot_Motion_Visibility_Graph.png  used on inpu
-t line 120.
-(pdftex.def)             Requested size: 418.25368pt x 231.62222pt.
+t line 423.
+(pdftex.def)             Requested size: 334.60422pt x 185.29906pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--124
+Underfull \hbox (badness 10000) in paragraph at lines 418--427
 
  []
 
-) (chapters/Algorithmen.tex [8pdfTeX warning (ext4): destination with the same 
-identifier (name{figure.3.6}) has been already used, duplicate ignored
+) (chapters/Algorithmen.tex [7pdfTeX warning (ext4): destination with the same 
+identifier (name{figure.2.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.3 \chapter
+            {Algorithmen zur Pfadplanung} <./images/Grid_Tiles.png>] [8pdfTeX w
+arning (ext4): destination with the same identifier (name{figure.2.8}) has been
+ already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.3 \chapter
             {Algorithmen zur Pfadplanung} <./images/Robot_Motion_Visibility_Gra
 ph.png>]
-Kapitel 4.
-<images/img224.png, id=265, 392.21532pt x 125.71968pt>
+Kapitel 3.
+<images/img224.png, id=284, 392.21532pt x 125.71968pt>
 File: images/img224.png Graphic file (type png)
 <use images/img224.png>
 Package pdftex.def Info: images/img224.png  used on input line 16.
@@ -879,14 +895,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--37
 [9
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.37 
       <./images/img224.png>]
-<images/img247.png, id=289, 417.81094pt x 103.88812pt>
+<images/img247.png, id=306, 417.81094pt x 103.88812pt>
 File: images/img247.png Graphic file (type png)
 <use images/img247.png>
 Package pdftex.def Info: images/img247.png  used on input line 40.
@@ -895,25 +911,25 @@ Package pdftex.def Info: images/img247.png  used on input line 40.
 
 LaTeX Warning: Reference `konti' on page 10 undefined on input line 48.
 
-[10pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+[10pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.83 
       <./images/img247.png>] [11pdfTeX warning (ext4): destination with the sam
-e identifier (name{figure.4.3}) has been already used, duplicate ignored
+e identifier (name{figure.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.117 \end{enumerate}
                       \cite[~S. 32]{Lav06}]
-<images/img225.png, id=333, 1056.51857pt x 526.53857pt>
+<images/img225.png, id=350, 1056.51857pt x 526.53857pt>
 File: images/img225.png Graphic file (type png)
 <use images/img225.png>
 Package pdftex.def Info: images/img225.png  used on input line 120.
 (pdftex.def)             Requested size: 376.42575pt x 187.6014pt.
- [12pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+ [12pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -921,8 +937,8 @@ Package pdftex.def Info: images/img225.png  used on input line 120.
 l.140 		\item D
                er \textbf{A*-Suchalgorithmus}\footnote{A-Stern gesprochen} e...
  <./images/img225.png>]) (chapters/Anwendungen.tex [13]
-Kapitel 5.
-<images/img229.png, id=376, 170.88844pt x 159.59625pt>
+Kapitel 4.
+<images/img229.png, id=393, 170.88844pt x 159.59625pt>
 File: images/img229.png Graphic file (type png)
 <use images/img229.png>
 Package pdftex.def Info: images/img229.png  used on input line 9.
@@ -930,7 +946,7 @@ Package pdftex.def Info: images/img229.png  used on input line 9.
 [14
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1}) 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -938,12 +954,12 @@ has been already used, duplicate ignored
 l.18 \subsection
                 {Anwendungen zur Planung mit allen Umgebungsinformationen vo...
  <./images/img229.png>]
-<images/img231.png, id=389, 502.87875pt x 214.55156pt>
+<images/img231.png, id=406, 502.87875pt x 214.55156pt>
 File: images/img231.png Graphic file (type png)
 <use images/img231.png>
 Package pdftex.def Info: images/img231.png  used on input line 23.
 (pdftex.def)             Requested size: 292.77629pt x 124.9114pt.
- [15pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+ [15pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
 2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
@@ -951,20 +967,20 @@ Package pdftex.def Info: images/img231.png  used on input line 23.
 l.38 \subsection
                 {Anwendungen zur Planung mit Bewegungseinschränkungen} <./imag
 es/img231.png>]
-<images/img239.png, id=401, 186.6975pt x 144.54pt>
+<images/img239.png, id=418, 186.6975pt x 144.54pt>
 File: images/img239.png Graphic file (type png)
 <use images/img239.png>
 Package pdftex.def Info: images/img239.png  used on input line 43.
 (pdftex.def)             Requested size: 209.12683pt x 161.91234pt.
 ) (chapters/ZusammenfassungAusblick.tex [16pdfTeX warning (ext4): destination w
-ith the same identifier (name{figure.5.3}) has been already used, duplicate ign
+ith the same identifier (name{figure.4.3}) has been already used, duplicate ign
 ored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.2 \chapter
             {Zusammenfassung und Ausblick} <./images/img239.png>]
-Kapitel 6.
+Kapitel 5.
 ) [17
 
 
@@ -982,52 +998,51 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 129.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 129.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 129.
 Package rerunfilecheck Info: File `vorlage.out' has not changed.
-(rerunfilecheck)             Checksum: 53F99CC2CFC2A6C66C436B924146DDC5;2026.
+(rerunfilecheck)             Checksum: D2A7DE76283BD20913A96F734281D4EC;2152.
 
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 129.
  ) 
 Here is how much of TeX's memory you used:
- 10309 strings out of 480930
- 155782 string characters out of 2894132
- 595797 words of memory out of 3000000
- 25801 multiletter control sequences out of 15000+200000
- 548413 words of font info for 64 fonts, out of 3000000 for 9000
+ 10313 strings out of 480934
+ 154028 string characters out of 2898514
+ 595695 words of memory out of 3000000
+ 25799 multiletter control sequences out of 15000+200000
+ 547725 words of font info for 63 fonts, out of 3000000 for 9000
  1146 hyphenation exceptions out of 8191
  34i,8n,40p,1047b,553s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\Felix Kalchschmid\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
-n/ec/dpi600\eccc1200.pk> <C:\Users\Felix Kalchschmid\AppData\Local\MiKTeX\2.9\f
-onts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\Felix Kalchschmid\AppD
-ata\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\
-Felix Kalchschmid\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\e
-cti0900.pk> <C:\Users\Felix Kalchschmid\AppData\Local\MiKTeX\2.9\fonts/pk/ljfou
-r/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Felix Kalchschmid\AppData\Local\MiK
-TeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Felix Kalchsc
-hmid\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <
-C:\Users\Felix Kalchschmid\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecti1200.pk> <C:\Users\Felix Kalchschmid\AppData\Local\MiKTeX\2.9\fonts
-/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\Felix Kalchschmid\AppData\
-Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Feli
-x Kalchschmid\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1
-728.pk> <C:\Users\Felix Kalchschmid\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jk
-nappen/ec/dpi600\ecrm1440.pk> <C:\Users\Felix Kalchschmid\AppData\Local\MiKTeX\
-2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/Felix Kalchschmid/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:
-/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi8.pfb><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Felix Kalchschmid/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/F
-elix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr8.pfb><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Felix Kalchschmid/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Felix Ka
-lchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols
-/msbm10.pfb>
-Output written on vorlage.pdf (21 pages, 957612 bytes).
+ <C:\Users\Bernardo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi6
+00\eccc1200.pk> <C:\Users\Bernardo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkn
+appen/ec/dpi600\ecbi1200.pk> <C:\Users\Bernardo\AppData\Local\MiKTeX\2.9\fonts/
+pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\Bernardo\AppData\Local\MiKT
+eX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0900.pk> <C:\Users\Bernardo\AppDa
+ta\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\B
+ernardo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk
+> <C:\Users\Bernardo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecti1200.pk> <C:\Users\Bernardo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jkna
+ppen/ec/dpi600\ecbx1200.pk> <C:\Users\Bernardo\AppData\Local\MiKTeX\2.9\fonts/p
+k/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\Bernardo\AppData\Local\MiKTe
+X\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\Bernardo\AppDat
+a\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\Be
+rnardo\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
+<C:/Users/Bernardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi12.pfb><C:/Users/Bernardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmmi8.pfb><C:/Users/Bernardo/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Bernardo/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/Bernardo/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/U
+sers/Bernardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><C:/Users/Bernardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy8.pfb><C:/Users/Bernardo/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on vorlage.pdf (21 pages, 1068675 bytes).
 PDF statistics:
- 967 PDF objects out of 1000 (max. 8388607)
- 110 named destinations out of 1000 (max. 500000)
- 282 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 980 PDF objects out of 1000 (max. 8388607)
+ 115 named destinations out of 1000 (max. 500000)
+ 300 words of extra memory for PDF output out of 10000 (max. 10000000)
 

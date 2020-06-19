@@ -27,6 +27,11 @@
 \bibitem[Mii18]{Mesh:18}
 {\sc MiiMii1205}: {\em Navigation Meshes and Pathfinding}, 2018.
 
+\bibitem[Pet15]{Petersen:15}
+{\sc Petersen, Hauke}: {\em Pfadplanung und Ausf"uhrung f"ur einen mobilen
+  Roboter im Kontext des RoboCup Wettbewerbs}.
+\newblock \Btxtechreplong{}, Otto-von-Guericke-Universit"atMagdeburg, 2015.
+
 \bibitem[TW15]{Turau:15}
 {\sc Turau, V.} \btxandlong{}\ {\sc C.~Weyer}: {\em Algorithmische
   Graphentheorie}.
