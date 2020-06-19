@@ -1,50 +1,57 @@
-This is BibTeX, Version 0.99d (MiKTeX 2.9.7400 64-bit)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: vorlage.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: geralpha.bst
-A level-1 auxiliary file: chapters/Glossar.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
 Database file #1: literatur.bib
 Warning--entry type for "Mesh:18" isn't style-file defined
 --line 103 of file literatur.bib
+Illegal end of database file---line 448 of file literatur.bib
+ : }
+ :  
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "cui2011based"
+Warning--empty year in Schw83
 You've used 8 entries,
             2768 wiz_defined-function locations,
-            665 strings with 6452 characters,
-and the built_in function-call counts, 3620 in all, are:
-= -- 355
+            664 strings with 6438 characters,
+and the built_in function-call counts, 3611 in all, are:
+= -- 351
 > -- 185
 < -- 5
 + -- 65
 - -- 63
-* -- 289
-:= -- 572
+* -- 290
+:= -- 570
 add.period$ -- 19
 call.type$ -- 8
 change.case$ -- 48
 chr.to.int$ -- 8
-cite$ -- 8
+cite$ -- 9
 duplicate$ -- 168
 empty$ -- 264
 format.name$ -- 72
-if$ -- 774
+if$ -- 773
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 12
 newline$ -- 36
 num.names$ -- 26
-pop$ -- 65
+pop$ -- 69
 preamble$ -- 1
 purify$ -- 64
 quote$ -- 0
-skip$ -- 137
+skip$ -- 134
 stack$ -- 0
-substring$ -- 119
+substring$ -- 115
 swap$ -- 57
 text.length$ -- 5
 text.prefix$ -- 3
 top$ -- 0
 type$ -- 52
-warning$ -- 0
-while$ -- 28
+warning$ -- 1
+while$ -- 27
 width$ -- 10
-write$ -- 101
-(There was 1 warning)
+write$ -- 100
+(There was 1 error message)
