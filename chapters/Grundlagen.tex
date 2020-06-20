@@ -107,7 +107,7 @@ Bei Pfadplanung werden verschiedenen Aufgaben gelöst. Ein Roboter kann ein oder
 	\item \textit{Kartographie} ist die Exploration einer unbekannten Umgebung, um eine aussagekräftige Darstellung davon zu erzeugen.
 \end{itemize}
 
-\section{Umgebungdarstellung}
+\section{Umgebungsdarstellung}
 
 \subsection{Potentialfunktion und Potentialfeld}
 %(S. 77, 78)
@@ -295,7 +295,7 @@ Ein gro{ß}er Vorteil von Zelldekomposition ist ihre Nutzung für die \textit{Co
 	\centering
 	\includegraphics[width=0.7\textwidth]{images/Cell_Dekomposition.png}
 	\caption{Schnitt der Abb. 6.2 von \cite{Principles:05}: Teilung eines polygonalen Konfigurationsraums}
-	\label{potentialfield01}
+	\label{potentialfield02}
 \end{figure}
 
 \section{Graphen}
@@ -386,9 +386,15 @@ Nach \cite{Mesh:16} ist ein Navigationsnetz die Darstellung des freien Raums, al
 %A raster is put on top of the environment where it will be used. Then a Graph Search with its Tiles is used to find a path in it. For that each Tile possess a travel cost. A common Pathfinding Algorthim used here is A*.
 %A common Tile has 4 adjacent Tiles, however more options for a grid are possible. A hextile has six neighbours and the Octile has eight, 4 adjacent like the regular tile and 4 from diagonal movement.
 %(1) Raster bestehen aus Kacheln, die nebeneinander liegen.
-Raster werden aus einem Netz von zusammenhängenden Kacheln gebildet. Laut \cite{Grid:02} wird ein Raster über die Umgebung gelegt, in der es genutzt werden soll. Wenn die Kacheln als Knoten betrachten werden, kann eine Graphensuche verwendet, um einen Pfad darin zu finden. Dafür besitzt jede Kachel Kanten zu ihren Nachbarn. Ein üblicher Pfadfindungsalgorithmus dafür ist A*.
+Raster werden aus einem Netz von zusammenhängenden Kacheln gebildet.
+Laut \cite{Grid:02} wird ein Raster über die Umgebung gelegt, in der es genutzt werden soll.
+Wenn die Kacheln als Knoten betrachten werden, kann eine Graphensuche verwendet werden, um einen Pfad darin zu finden.
+Dafür besitzt jede Kachel Kanten, zu ihren Nachbarn. 
+Ein üblicher Pfadfindungsalgorithmus dafür ist A*.
 \\\\
-Kacheln können eine verschiedene Anzahl von Nachbarn besitzen. Rechteckigen Kacheln haben vier benachbarte Kacheln. Eine sechseckige Kachel hat sechs Nachbarn. Wenn die Diagonalen betrachtet werden, die normale rechteckige Kachel haben dann acht Nachbarn (siehe Abb. \ref{sec2a}):
+Kacheln können eine verschiedene Anzahl von Nachbarn besitzen.
+Rechteckigen Kacheln haben vier benachbarte Kacheln.
+Eine sechseckige Kachel hat sechs Nachbarn. Wenn die Diagonalen betrachtet werden, die normale rechteckige Kachel haben dann acht Nachbarn (siehe Abb. \ref{sec2a}):
 %Für den Graph hat eine Kachel typischerweise vier benachbarte Kacheln, es sind jedoch mehr Optionen möglich. Eine sechseckige Kachel hat sechs Nachbarn und die normale rechteckige Kachel hat dann acht, wenn die Diagonalen betrachtet werden (siehe Abb. \ref{sec2a}).
 \begin{figure} %Gemacht mit Paint
 	\centering
