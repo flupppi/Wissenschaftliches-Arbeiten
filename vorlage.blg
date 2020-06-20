@@ -1,109 +1,62 @@
-<<<<<<< HEAD
-This is BibTeX, Version 0.99d (MiKTeX 2.9.7350 64-bit)
-Capacity: max_strings=4000, hash_size=5000, hash_prime=4253
-=======
-This is BibTeX, Version 0.99d
+This is BibTeX, Version 0.99d (MiKTeX 2.9.7400 64-bit)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
->>>>>>> TODos
 The top-level auxiliary file: vorlage.aux
-Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: geralpha.bst
-<<<<<<< HEAD
+A level-1 auxiliary file: chapters/Glossar.aux
 Database file #1: literatur.bib
 Warning--entry type for "Mesh:18" isn't style-file defined
 --line 111 of file literatur.bib
-You've used 9 entries,
-            2768 wiz_defined-function locations,
-            669 strings with 6596 characters,
-and the built_in function-call counts, 3908 in all, are:
-= -- 388
-> -- 193
-< -- 6
-+ -- 67
-- -- 65
-* -- 306
-:= -- 622
-add.period$ -- 21
-call.type$ -- 9
-change.case$ -- 52
-chr.to.int$ -- 9
-cite$ -- 9
-duplicate$ -- 182
-empty$ -- 285
-format.name$ -- 76
-if$ -- 837
-int.to.chr$ -- 1
-int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 40
-num.names$ -- 29
-=======
-Reallocating 'name_of_file' (item size: 1) to 10 items.
-Database file #1: literatur.bib
-Warning--entry type for "Mesh:18" isn't style-file defined
---line 103 of file literatur.bib
-Illegal end of database file---line 448 of file literatur.bib
- : }
+I was expecting a `,' or a `}'---line 373 of file literatur.bib
  :  
+ :  author={Cort{\'e}s, Juan},
+(Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "cui2011based"
-Warning--empty year in Schw83
-You've used 8 entries,
+I was expecting a `,' or a `}'---line 462 of file literatur.bib
+ :   
+ :   type  = {Vorlesungsskript},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Cor"
+Warning--empty institution in Heitmann:16
+You've used 13 entries,
             2768 wiz_defined-function locations,
-            664 strings with 6438 characters,
-and the built_in function-call counts, 3611 in all, are:
-= -- 351
-> -- 185
-< -- 5
-+ -- 65
-- -- 63
-* -- 290
-:= -- 570
-add.period$ -- 19
-call.type$ -- 8
-change.case$ -- 48
-chr.to.int$ -- 8
-cite$ -- 9
-duplicate$ -- 168
-empty$ -- 264
-format.name$ -- 72
-if$ -- 773
+            695 strings with 7095 characters,
+and the built_in function-call counts, 5207 in all, are:
+= -- 527
+> -- 236
+< -- 9
++ -- 79
+- -- 77
+* -- 395
+:= -- 833
+add.period$ -- 29
+call.type$ -- 13
+change.case$ -- 69
+chr.to.int$ -- 13
+cite$ -- 14
+duplicate$ -- 239
+empty$ -- 388
+format.name$ -- 95
+if$ -- 1120
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 36
-num.names$ -- 26
->>>>>>> TODos
-pop$ -- 69
+missing$ -- 14
+newline$ -- 56
+num.names$ -- 41
+pop$ -- 91
 preamble$ -- 1
-purify$ -- 70
+purify$ -- 95
 quote$ -- 0
-<<<<<<< HEAD
-skip$ -- 150
+skip$ -- 204
 stack$ -- 0
-substring$ -- 126
-swap$ -- 59
-text.length$ -- 6
-text.prefix$ -- 4
+substring$ -- 175
+swap$ -- 69
+text.length$ -- 9
+text.prefix$ -- 7
 top$ -- 0
-type$ -- 60
-warning$ -- 0
-while$ -- 30
-width$ -- 11
-write$ -- 113
-(There was 1 warning)
-=======
-skip$ -- 134
-stack$ -- 0
-substring$ -- 115
-swap$ -- 57
-text.length$ -- 5
-text.prefix$ -- 3
-top$ -- 0
-type$ -- 52
+type$ -- 92
 warning$ -- 1
-while$ -- 27
-width$ -- 10
-write$ -- 100
-(There was 1 error message)
->>>>>>> TODos
+while$ -- 40
+width$ -- 16
+write$ -- 159
+(There were 2 error messages)

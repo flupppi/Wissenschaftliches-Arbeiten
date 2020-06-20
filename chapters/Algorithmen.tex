@@ -1,28 +1,49 @@
 
 
-\chapter{Algorithmen zur Pfadplanung}%TODO erwähnen, dass wir uns auf die Robot Definition aus dem Buch beziehen.
-\section{Was sind Algorithmen zur Pfadplanung?}
-%Es stellt sich die Frage was ein Pfadplanungsalgorithmus Überhaupt ist, nach [Lavalle] ist es nicht sinnvoll eine genaue Mathematische Definition abzugeben, sondern das Ziel ist eine generelle Idee zu vermitteln und diese mit Beispielen zu veranschaulichen.
-%Als eine Antwort zu der Frage wird eine Turing Maschine beschrieben, da damit die meisten Pfadplanungsalgorithmen modelliert werden können. Turing Maschinen sind "finite-state-machines" welche informationen als String einlesen, diese verarbeiten und aktzeptieren oder ablehnen können. 
-%Mit einer Erweiterung dieses Konzepts kann am Ende auch ein Pfadplan ausgegeben werden. Das Problem bei der Pfadplanung kommt daher, dass die Maschine auf die Umgebung oft reagieren muss, und informationen die durch Sensoren gegeben werden mit einbeziehen müssen. 
-%Dadurch gibt es keine klare Trennung von der Umwelt und der Maschine solange nicht alle Daten dem System im Vorhinein bekannt sind.[Lavalle]
-%\newline
-%Ein Ansatzpunkt wäre ein \on-line algorithmus" der sich aktiv aktualisiert, aber auch dieser kann nicht die gesamte komplexität wiederspiegeln. 
+\chapter{Algorithmen zur Pfadplanung}
+\section{Definition von Pfadplanungsalgorithmen}
+ 
 
-Algorithmen zur Pfadplanung sind schwierig mathematisch präzise zu definieren. Ein Ansatz ist eine Definition für einen Algorithmus abzugeben und diese anschließend zu erweitern, sodass sie den Ansprüchen der Pfadplanung entspricht. Nach der Church-Turing These ist ein Algorithmus eine Turing Maschine cite{462,891}. Dieser Definition fehlt aber unter anderem, die Repräsentation der Interaktion eines Roboters mit der Umgebung, wie es in \ref{lav01} dargestellt wird. Daher wird ein Planer \footnote{Planer (engl. planner)} als ein Algorithmus definiert, welcher einen Plan \footnote{Plan (engl. plan)} konstruiert. Der Planer kann sowohl eine Maschine als auch ein Mensch sein und kann dem Konzept einer Turing Maschine entsprechen. Er ist aber nicht darauf limitiert, sondern kann den Ansprüchen entsprechend erweitert werden.\cite[~S. 19ff]{Lav06} 
+Algorithmen zur Pfadplanung sind schwierig mathematisch präzise zu definieren.
+In \cite[~S. 19]{Lav06} wird der Begriff Algorithmus definiert und anschließend so erweitert, dass er den Ansprüchen der Pfadplanungsaufgabe entspricht. 
+Eine \textit{Turing Maschine}\index{Turing Maschine} repräsentiert einen Algorithmus und ist nach der \textit{Church-Turing These}\index{Church-Turing These}, \textit{Turing vollständig} und damit berechenbar \cite{Schmitz:19}. 
+Der Definition fehlt die Repräsentation der Interaktion eines Roboters mit der Umgebung, wie sie in Abbildung \ref{lav01} dargestellt wird. 
+Daher wird ein Planer\index{Planer} als ein Algorithmus definiert, welcher einen Plan\index{Plan} konstruiert. 
+Der Planer kann einer Turing Maschine entsprechen. 
+Er kann damit sowohl eine Maschine, als auch ein Mensch\footnote{intuitiv berechenbar bedeutet in der Church-Turing These, auch vom Mensch berechenbar.} sein.
+Er ist aber nicht darauf limitiert, sondern kann den Ansprüchen entsprechend erweitert werden.\cite[~S. 20]{Lav06}
 
 \begin{figure} % Hier lieber eine eigene Kombination an Grafiken
 	\centering
-	\includegraphics[width=0.6\textwidth]{images/img224.png}
-	\caption{Abb. 1.5 von \cite[~S. 20]{Lav06}:  (a) Die Grenze zwischen Maschine und Umgebung ist fließend, es ist eine Linie die stark in Abhängigkeit vom Kontext gezogen wird. (b) Ist die Grenze festgelegt, wird angenommen, dass die Maschine M mit der Umgebung U durch Sensorik und den Antrieb interagiert.}
+	\includegraphics[width=0.75\textwidth]{images/img224.png}
+	\caption{Abb. 1.5 von \cite[~S. 20]{Lav06}:  (a) Die Grenze zwischen Maschine und Umgebung ist fließend, es ist eine Linie die stark in Abhängigkeit vom Kontext gezogen wird. (b) Ist die Grenze festgelegt, wird angenommen, dass die Maschine $M$ mit der Umgebung $U$ durch Sensorik und den Antrieb interagiert.}
 	\label{lav01}
 \end{figure}
  
-
-
-
-Ein solcher Plan, kann drei unterschiedliche Funktionen erfüllen. Darunter fallen die Ausführung \footnote{Ausführung (engl. Execution)} der Anweisungen in einer Simulation oder durch einen Roboter, die Verbesserung\footnote{Verbesserung (engl. Refinement)} der Eigenschaften in bestimmten Parametern und die hierarchische Einbindung \footnote{Hierarchische Einbindung (engl. Hierarchical Inclusion)} des Plans.
+Ein Plan, kann drei unterschiedliche Funktionen erfüllen.
 %Ausführung
+Für die \textit{Ausführung}\index{Ausführung} der Anweisungen durch einen Roboter, kann im ersten Fall eine kodierte Eingabe für eine Maschine erstellt werden. 
+Diese kann dadurch programmiert werden, wird damit bei der Ausführung autonom und kann nicht mehr mit dem Planer interagieren.
+Im zweiten Fall erzeugt der Planer eine Spezialmaschine, welche dazu entworfen ist die Aufgabe zu lösen.\cite[~S. 21]{Lav06}
+%Verbesserung
+Eine \textit{Verbesserung}\index{Verbesserung} der Eigenschaften, in bestimmten Parametern kann erreicht werden, indem der Plan als Eingabe einem Planer übergeben wird. Anhand von Abbildung \ref{lav02} wird ersichtlich, wie der gleiche Plan verbessert werden kann, indem verschiedene Aspekte der Problemstellung fokussiert werden.\cite[~S. 22]{Lav06}
+
+\begin{figure} % Hier lieber eine eigene Kombination an Grafiken
+	\centering
+	\includegraphics[width=0.6\textwidth]{images/img247.png}
+	\caption{Abb. 5.1 von \cite{Cor}:  Ein Verbesserungsprozess, der sich in der Robotik bewährt hat.}
+	\label{lav02}
+\end{figure}
+
+Bei der \textit{Hierarchischen Inklusion}\index{hierarchische Inklusion} werden Pläne als Aktionen, in einen größeren Plan aufgenommen. In Abbildung \ref{hierarchical}
+
+\begin{figure} % Hier lieber eine eigene Kombination an Grafiken
+	\centering
+	\includegraphics[width=0.6\textwidth]{images/hierarchical.png}
+	\caption{Abb. 1.5 von \cite[~S. 20]{}:  Ein Verbesserungsprozess, der sich in der Robotik bewährt hat.}
+	\label{hierarchical}
+\end{figure}
+ und die hierarchische Einbindung \footnote{Hierarchische Einbindung (engl. Hierarchical Inclusion)} des Plans.
 Pläne können auf zwei weisen ausgeführt werden. Zum einen kann ein Plan als kodierte Eingabe für eine Maschine erstellt werden, welche dadurch programmiert werden kann. Auf diese weise wird die Maschine bei der Ausführung autonom und kann nicht mehr mit dem Planer interagieren. 
 Im zweiten Fall erzeugt der Planer eine Spezialmaschine \footnote{Spezialmaschine (engl. special-purpose machine)}, welche dazu entworfen ist eine Aufgabe zu lösen.
 \newline\\
@@ -35,12 +56,7 @@ Die Auswahl der richtigen Kriterien ist schon seit längerer Zeit ein Forschungs
 Bei der Hierarchischen Einbindung, wird ein Baum aus Plänen erzeugt. Dabei steht an der Wurzel der Hauptplan \footnote{Hauptplan (engl. masterplan)}, welcher andere Pläne als Blätter in einer Hierarchie einbindet. Ein Plan wird als Aktion betrachtet, die nur als Teil des Gesamtsystem funktioniert. Es wird dadurch erreicht, dass die Abgrenzung zwischen Maschine und Umgebung an verschiedenen stellen gezogen wird.
 \newline\cite[~S. 21ff]{Lav06} 
 
-\begin{figure} % Hier lieber eine eigene Kombination an Grafiken
-	\centering
-	\includegraphics[width=0.6\textwidth]{images/img247.png}
-	\caption{Abb. 1.5 von \cite[~S. 20]{Lav06}:  Ein Verbesserungsprozess, der sich in der Robotik bewährt hat.}
-	\label{lav02}
-\end{figure}
+
 
 \section{Klassifizierung von Pfadplanungsalgorithmen} \label{Kapitel 4.2} % Hier bitte noch ein Bild, das die Unterschiede der einzelnen Klassen sichtbar macht. 
 Der Bereich der Pfadplanung ist Äußerst heterogen, da die Umsetzung der Pfadplanung stark von den Vorgaben des Einsatzgebiets abhängt. 

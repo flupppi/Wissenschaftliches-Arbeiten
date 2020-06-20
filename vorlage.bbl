@@ -8,10 +8,20 @@
   Theory, Algorithms, and Implementations}.
 \newblock MIT Press, 2005.
 
+\bibitem[CS11]{cui2011based}
+{\sc Cui, Xiao} \btxandlong{}\ {\sc Hao Shi}: {\em A*-based pathfinding in
+  modern computer games}.
+\newblock International Journal of Computer Science and Network Security,
+  11(1):125--130, 2011.
+
 \bibitem[HAM92]{Yong:92}
 {\sc Hwang, Yong~K.}, {\sc Narendra Ahuja} \btxandlong{}\ {\sc Senior Member}:
   {\em A potential field approach to path planning}.
 \newblock T-RA, 1992.
+
+\bibitem[Hei16]{Heitmann:16}
+{\sc Heitmann, Frank}: {\em {Automatentheorie}}.
+\newblock \Btxtechreplong{}, 2016.
 
 \bibitem[LaV06]{Lav06}
 {\sc LaValle, S.~M.}: {\em Planning Algorithms}.
@@ -21,18 +31,20 @@
 \bibitem[Mii18]{Mesh:18}
 {\sc MiiMii1205}: {\em Navigation Meshes and Pathfinding}, 2018.
 
-<<<<<<< HEAD
 \bibitem[Pet15]{Petersen:15}
 {\sc Petersen, Hauke}: {\em Pfadplanung und Ausf"uhrung f"ur einen mobilen
   Roboter im Kontext des RoboCup Wettbewerbs}.
-\newblock \Btxtechreplong{}, Otto-von-Guericke-Universit"atMagdeburg, 2015.
-=======
-\bibitem[SS]{Schw83}
+\newblock \Btxtechreplong{}, Otto-von-Guericke-Universit"at Magdeburg, 2015.
+
+\bibitem[Sch19]{Schmitz:19}
+{\sc Schmitz, Heinz}: {\em {Theoretische Informatik}}.
+\newblock Vorlesungsskript, Hochschule Trier, 2019.
+
+\bibitem[SS83]{Schw83}
 {\sc Schwartz, Jacob~T.} \btxandlong{}\ {\sc Micha Sharir}: {\em On the ?piano
   movers'? problem I. The case of a two-dimensional rigid polygonal body moving
   amidst polygonal barriers}.
-\newblock Communications on Pure and Applied Mathematics, 36(3):345--398.
->>>>>>> TODos
+\newblock Communications on Pure and Applied Mathematics, 36(3):345--398, 1983.
 
 \bibitem[TW15]{Turau:15}
 {\sc Turau, V.} \btxandlong{}\ {\sc C.~Weyer}: {\em Algorithmische
@@ -46,6 +58,11 @@
 \newblock \Btxinlong{}\ {\em Proceedings of the 9th International Conference on
   Motion in Games}, MIG ?16, \btxpagelong{}\ 91?100, New York, NY, USA, 2016.
   Association for Computing Machinery.
+
+\bibitem[Wik19]{wiki:01}
+{\sc Wikipedia}: {\em Turingmaschine --- Wikipedia{,} Die freie Enzyklopädie},
+  2019.
+\newblock [Online; Stand 20. Juni 2020].
 
 \bibitem[Yap02]{Grid:02}
 {\sc Yap, Peter}: {\em Grid-Based Path-Finding}.

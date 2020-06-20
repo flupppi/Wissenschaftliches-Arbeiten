@@ -1,7 +1,6 @@
 \BOOKMARK [0][-]{chapter.1}{Einleitung und Problemstellung}{}% 1
 \BOOKMARK [0][-]{chapter.2}{Grundlagen}{}% 2
 \BOOKMARK [1][-]{section.2.1}{Was ist Pfadplanung?}{chapter.2}% 3
-<<<<<<< HEAD
 \BOOKMARK [1][-]{section.2.2}{Konfigurationsraum und freier Raum}{chapter.2}% 4
 \BOOKMARK [1][-]{section.2.3}{Aufgaben}{chapter.2}% 5
 \BOOKMARK [1][-]{section.2.4}{Umgebungdarstellung}{chapter.2}% 6
@@ -14,42 +13,17 @@
 \BOOKMARK [2][-]{subsection.2.5.3}{Rastergraph \(eng. Grid Graph\)}{section.2.5}% 13
 \BOOKMARK [2][-]{subsection.2.5.4}{Sichtbarkeitsgraph \(eng. Visibility Graph\)}{section.2.5}% 14
 \BOOKMARK [0][-]{chapter.3}{Algorithmen zur Pfadplanung}{}% 15
-\BOOKMARK [1][-]{section.3.1}{Was sind Algorithmen zur Pfadplanung?}{chapter.3}% 16
+\BOOKMARK [1][-]{section.3.1}{Definition von Pfadplanungsalgorithmen}{chapter.3}% 16
 \BOOKMARK [1][-]{section.3.2}{Klassifizierung von Pfadplanungsalgorithmen}{chapter.3}% 17
 \BOOKMARK [1][-]{section.3.3}{Diskrete Pfadplanung}{chapter.3}% 18
 \BOOKMARK [2][-]{subsection.3.3.1}{Feasible Planning}{section.3.3}% 19
-\BOOKMARK [1][-]{section.3.4}{Pfadplanung im kontinuierlichen Zustandsraum}{chapter.3}% 20
+\BOOKMARK [1][-]{section.3.4}{Kontinuierliche Pfadplanung}{chapter.3}% 20
 \BOOKMARK [0][-]{chapter.4}{Anwendungen von Algorithmen}{}% 21
-\BOOKMARK [1][-]{section.4.1}{Anwendungen mit diskretem Zustandsraum}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.2}{Anwendungen zur Planung mit kontinuierlichem Zustandsraum}{chapter.4}% 23
+\BOOKMARK [1][-]{section.4.1}{Anwendungen der diskreten Pfadplanung}{chapter.4}% 22
+\BOOKMARK [1][-]{section.4.2}{Anwendungen der kontinuierlichen Pfadplanung}{chapter.4}% 23
 \BOOKMARK [2][-]{subsection.4.2.1}{Anwendungen zur Planung mit allen Umgebungsinformationen vorhanden}{section.4.2}% 24
 \BOOKMARK [2][-]{subsection.4.2.2}{Anwendungen zur Planung mit Unsicherheit}{section.4.2}% 25
 \BOOKMARK [2][-]{subsection.4.2.3}{Anwendungen zur Planung mit Bewegungseinschr\344nkungen}{section.4.2}% 26
 \BOOKMARK [0][-]{chapter.5}{Zusammenfassung und Ausblick}{}% 27
 \BOOKMARK [0][-]{chapter*.5}{Literaturverzeichnis}{}% 28
-=======
-\BOOKMARK [1][-]{section.2.2}{Aufgaben}{chapter.2}% 4
-\BOOKMARK [1][-]{section.2.3}{Konfigurationsraum und freier Raum}{chapter.2}% 5
-\BOOKMARK [1][-]{section.2.4}{Potentialfunktion und Potentialfeld}{chapter.2}% 6
-\BOOKMARK [1][-]{section.2.5}{Roadmaps}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.6}{Zelldekomposition}{chapter.2}% 8
-\BOOKMARK [0][-]{chapter.3}{Graphen}{}% 9
-\BOOKMARK [1][-]{section.3.1}{B\344ume}{chapter.3}% 10
-\BOOKMARK [1][-]{section.3.2}{Navigationsnetze \(eng. Navigation Meshes\)}{chapter.3}% 11
-\BOOKMARK [1][-]{section.3.3}{Rastergraph \(eng. Grid Graph\)}{chapter.3}% 12
-\BOOKMARK [1][-]{section.3.4}{Sichtbarkeitsgraph \(eng. Visibility Graph\)}{chapter.3}% 13
-\BOOKMARK [0][-]{chapter.4}{Algorithmen zur Pfadplanung}{}% 14
-\BOOKMARK [1][-]{section.4.1}{Was sind Algorithmen zur Pfadplanung?}{chapter.4}% 15
-\BOOKMARK [1][-]{section.4.2}{Klassifizierung von Pfadplanungsalgorithmen}{chapter.4}% 16
-\BOOKMARK [1][-]{section.4.3}{Diskrete Pfadplanung}{chapter.4}% 17
-\BOOKMARK [2][-]{subsection.4.3.1}{Feasible Planning}{section.4.3}% 18
-\BOOKMARK [1][-]{section.4.4}{Kontinuierliche Pfadplanung}{chapter.4}% 19
-\BOOKMARK [0][-]{chapter.5}{Anwendungen von Algorithmen}{}% 20
-\BOOKMARK [1][-]{section.5.1}{Anwendungen der diskreten Pfadplanung}{chapter.5}% 21
-\BOOKMARK [1][-]{section.5.2}{Anwendungen der kontinuierlichen Pfadplanung}{chapter.5}% 22
-\BOOKMARK [2][-]{subsection.5.2.1}{Anwendungen zur Planung mit allen Umgebungsinformationen vorhanden}{section.5.2}% 23
-\BOOKMARK [2][-]{subsection.5.2.2}{Anwendungen zur Planung mit Unsicherheit}{section.5.2}% 24
-\BOOKMARK [2][-]{subsection.5.2.3}{Anwendungen zur Planung mit Bewegungseinschr\344nkungen}{section.5.2}% 25
-\BOOKMARK [0][-]{chapter.6}{Zusammenfassung und Ausblick}{}% 26
-\BOOKMARK [0][-]{chapter*.5}{Literaturverzeichnis}{}% 27
->>>>>>> TODos
+\BOOKMARK [0][-]{appendix.A}{Glossar}{}% 29
