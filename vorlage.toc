@@ -3,7 +3,6 @@
 \contentsline {chapter}{\numberline {1}Einleitung und Problemstellung}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}Grundlagen}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Was ist Pfadplanung?}{2}{section.2.1}%
-<<<<<<< HEAD
 \contentsline {section}{\numberline {2.2}Konfigurationsraum und freier Raum}{2}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Aufgaben}{3}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Umgebungdarstellung}{3}{section.2.4}%
@@ -16,42 +15,17 @@
 \contentsline {subsection}{\numberline {2.5.3}Rastergraph (\textit {eng.} Grid Graph)}{7}{subsection.2.5.3}%
 \contentsline {subsection}{\numberline {2.5.4}Sichtbarkeitsgraph (\textit {eng.} Visibility Graph)}{7}{subsection.2.5.4}%
 \contentsline {chapter}{\numberline {3}Algorithmen zur Pfadplanung}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Was sind Algorithmen zur Pfadplanung?}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Klassifizierung von Pfadplanungsalgorithmen}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.1}Definition von Pfadplanungsalgorithmen}{9}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Klassifizierung von Pfadplanungsalgorithmen}{11}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Diskrete Pfadplanung}{11}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Feasible Planning}{11}{subsection.3.3.1}%
-\contentsline {section}{\numberline {3.4}Pfadplanung im kontinuierlichen Zustandsraum}{13}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Anwendungen von Algorithmen}{14}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Anwendungen mit diskretem Zustandsraum}{14}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Anwendungen zur Planung mit kontinuierlichem Zustandsraum}{15}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Anwendungen zur Planung mit allen Umgebungsinformationen vorhanden}{15}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Anwendungen zur Planung mit Unsicherheit}{15}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Anwendungen zur Planung mit Bewegungseinschränkungen}{16}{subsection.4.2.3}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{17}{chapter.5}%
-\contentsline {chapter}{Literaturverzeichnis}{18}{chapter*.5}%
-=======
-\contentsline {section}{\numberline {2.2}Aufgaben}{2}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Konfigurationsraum und freier Raum}{2}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Potentialfunktion und Potentialfeld}{3}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Roadmaps}{3}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Zelldekomposition}{3}{section.2.6}%
-\contentsline {chapter}{\numberline {3}Graphen}{5}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Bäume}{5}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Navigationsnetze (\textit {eng.} Navigation Meshes)}{6}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Rastergraph (\textit {eng.} Grid Graph)}{7}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Sichtbarkeitsgraph (\textit {eng.} Visibility Graph)}{8}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Algorithmen zur Pfadplanung}{9}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Was sind Algorithmen zur Pfadplanung?}{9}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Klassifizierung von Pfadplanungsalgorithmen}{10}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Diskrete Pfadplanung}{11}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Feasible Planning}{11}{subsection.4.3.1}%
-\contentsline {section}{\numberline {4.4}Kontinuierliche Pfadplanung}{13}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Anwendungen von Algorithmen}{15}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Anwendungen der diskreten Pfadplanung}{15}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Anwendungen der kontinuierlichen Pfadplanung}{16}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Anwendungen zur Planung mit allen Umgebungsinformationen vorhanden}{16}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Anwendungen zur Planung mit Unsicherheit}{16}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Anwendungen zur Planung mit Bewegungseinschränkungen}{17}{subsection.5.2.3}%
-\contentsline {chapter}{\numberline {6}Zusammenfassung und Ausblick}{18}{chapter.6}%
+\contentsline {subsection}{\numberline {3.3.1}Feasible Planning}{12}{subsection.3.3.1}%
+\contentsline {section}{\numberline {3.4}Kontinuierliche Pfadplanung}{13}{section.3.4}%
+\contentsline {chapter}{\numberline {4}Anwendungen von Algorithmen}{15}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Anwendungen der diskreten Pfadplanung}{15}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Anwendungen der kontinuierlichen Pfadplanung}{16}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Anwendungen zur Planung mit allen Umgebungsinformationen vorhanden}{16}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Anwendungen zur Planung mit Unsicherheit}{16}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Anwendungen zur Planung mit Bewegungseinschränkungen}{17}{subsection.4.2.3}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{18}{chapter.5}%
 \contentsline {chapter}{Literaturverzeichnis}{19}{chapter*.5}%
->>>>>>> TODos
+\contentsline {chapter}{Glossar}{21}{appendix.A}%

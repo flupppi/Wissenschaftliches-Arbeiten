@@ -1,24 +1,24 @@
 \chapter{Beispiel-Kapitel}
 
-In diesem Kapitel wird beschrieben, warum es unterschiedliche Konsistenzmodelle\index{Konsistenzmodelle} gibt. Außerdem werden die Unterschiede zwischen strengen Konsistenzmodellen\index{Linearisierbarkeit} (Linearisierbarkeit, sequentielle Konsistenz)\index{sequentiell!Konsistenz} und schwachen Konsistenzmodellen\index{Konsistenz!schwach} (schwache Konsistenz, Freigabekonsistenz)\index{Freigabekonsistenz} erläutert. Es wird geklärt, was Strenge und Kosten (billig, teuer) in Zusammenhang mit Konsistenzmodellen bedeuten.
+In diesem Kapitel wird beschrieben, warum es unterschiedliche Konsistenzmodelle\index{Konsistenzmodelle} gibt. AuÃŸerdem werden die Unterschiede zwischen strengen Konsistenzmodellen\index{Linearisierbarkeit} (Linearisierbarkeit, sequentielle Konsistenz)\index{sequentiell!Konsistenz} und schwachen Konsistenzmodellen\index{Konsistenz!schwach} (schwache Konsistenz, Freigabekonsistenz)\index{Freigabekonsistenz} erlÃ¤utert. Es wird geklÃ¤rt, was Strenge und Kosten (billig, teuer) in Zusammenhang mit Konsistenzmodellen bedeuten.
 
 \section{Warum existieren unterschiedliche Konsistenzmodelle?}
 
-Laut \cite{Malte:97} sind mit der\index{Replikation} Replikation von Daten immer zwei gegensätzliche Ziele verbunden: die Erhöhung der\index{Verfügbarkeit} Verfügbarkeit und die Sicherung der\index{Konsistenz} Konsistenz der Daten. Die Form der Konsistenzsicherung bestimmt dabei, inwiefern das eine Kriterium erfüllt und das andere dementsprechend nicht erfüllt ist (Trade-off zwischen Verfügbarkeit und der Konsistenz der Daten). Stark konsistente Daten sind stabil, das heißt, falls mehrere Kopien der Daten existieren, dürfen keine Abweichungen auftreten. Die Verfügbarkeit der Daten ist hier jedoch stark eingeschränkt. Je schwächer die Konsistenz wird, desto mehr Abweichungen können zwischen verschiedenen Kopien einer Datei auftreten, wobei die Konsistenz nur an bestimmten Synchronisationspunkten gewährleistet wird. Dafür steigt aber die Verfügbarkeit der Daten, weil sie sich leichter replizieren lassen.
+Laut \cite{Malte:97} sind mit der\index{Replikation} Replikation von Daten immer zwei gegensÃ¤tzliche Ziele verbunden: die ErhÃ¶hung der\index{VerfÃ¼gbarkeit} VerfÃ¼gbarkeit und die Sicherung der\index{Konsistenz} Konsistenz der Daten. Die Form der Konsistenzsicherung bestimmt dabei, inwiefern das eine Kriterium erfÃ¼llt und das andere dementsprechend nicht erfÃ¼llt ist (Trade-off zwischen VerfÃ¼gbarkeit und der Konsistenz der Daten). Stark konsistente Daten sind stabil, das heiÃŸt, falls mehrere Kopien der Daten existieren, dÃ¼rfen keine Abweichungen auftreten. Die VerfÃ¼gbarkeit der Daten ist hier jedoch stark eingeschrÃ¤nkt. Je schwÃ¤cher die Konsistenz wird, desto mehr Abweichungen kÃ¶nnen zwischen verschiedenen Kopien einer Datei auftreten, wobei die Konsistenz nur an bestimmten Synchronisationspunkten gewÃ¤hrleistet wird. DafÃ¼r steigt aber die VerfÃ¼gbarkeit der Daten, weil sie sich leichter replizieren lassen.
 
-Nach \cite{Mosberger:93} kann die Performanzsteigerung der schwächeren Konsistenzmodelle wegen der Optimierung\index{Optimierung} (Pufferung, Code-Scheduling, Pipelines) 10-40 Prozent betragen. Wenn man bedenkt, dass mit der Nutzung der vorhandenen Synchronisierungsmechanismen schwächere Konsistenzmodelle den Anforderungen der strengen Konsistenz genügen, stellt sich der höhere programmiertechnischer Aufwand bei der Implementierung der schwächeren Konsistenzmodelle als ihr einziges Manko dar.
+Nach \cite{Mosberger:93} kann die Performanzsteigerung der schwÃ¤cheren Konsistenzmodelle wegen der Optimierung\index{Optimierung} (Pufferung, Code-Scheduling, Pipelines) 10-40 Prozent betragen. Wenn man bedenkt, dass mit der Nutzung der vorhandenen Synchronisierungsmechanismen schwÃ¤chere Konsistenzmodelle den Anforderungen der strengen Konsistenz genÃ¼gen, stellt sich der hÃ¶here programmiertechnischer Aufwand bei der Implementierung der schwÃ¤cheren Konsistenzmodelle als ihr einziges Manko dar.
 
-In \cite{Cheriton:85} ist beschrieben, wie man sich Formen von DSM vorstellen könnte, für die ein beachtliches Maß an\index{Inkonsistenz} Inkonsistenz akzeptabel wäre. Beispielsweise könnte DSM verwendet werden, um die Auslastung von Computern in einem Netzwerk zu speichern, so dass Clients für die Ausführung ihrer Applikationen die am wenigsten ausgelasteten Computer auswählen können. Weil die Informationen dieser Art innerhalb kürzester Zeit ungenau werden können (und durch die Verwendung der veralteten Daten keine großen Nachteile entstehen können), wäre es vergebliche Mühe, sie ständig für alle Computer im System konsistent zu halten \cite{Coulouris:02}. Die meisten Applikationen stellen jedoch strengere Konsistenzanforderungen.
+In \cite{Cheriton:85} ist beschrieben, wie man sich Formen von DSM vorstellen kÃ¶nnte, fÃ¼r die ein beachtliches MaÃŸ an\index{Inkonsistenz} Inkonsistenz akzeptabel wÃ¤re. Beispielsweise kÃ¶nnte DSM verwendet werden, um die Auslastung von Computern in einem Netzwerk zu speichern, so dass Clients fÃ¼r die AusfÃ¼hrung ihrer Applikationen die am wenigsten ausgelasteten Computer auswÃ¤hlen kÃ¶nnen. Weil die Informationen dieser Art innerhalb kÃ¼rzester Zeit ungenau werden kÃ¶nnen (und durch die Verwendung der veralteten Daten keine groÃŸen Nachteile entstehen kÃ¶nnen), wÃ¤re es vergebliche MÃ¼he, sie stÃ¤ndig fÃ¼r alle Computer im System konsistent zu halten \cite{Coulouris:02}. Die meisten Applikationen stellen jedoch strengere Konsistenzanforderungen.
 
 \section{Klassifizierung eines Konsistenzmodells}
 
-Die zentrale Frage, die für die Klassifizierung\index{streng}\index{schwach} (streng oder schwach) eines Konsistenzmodells von Bedeutung ist \cite{Coulouris:02}: wenn ein Lesezugriff auf eine Speicherposition erfolgt, welche Werte von Schreibzugriffen auf diese Position sollen dann dem Lesevorgang bereitgestellt werden? Die Antwort für das schwächste Konsistenzmodell lautet: von jedem Schreibvorgang, der vor dem Lesen erfolgt ist, oder in der "`nahen"' Zukunft, innerhalb des definierten Betrachtungsraums, erfolgten wird. Also irgendein Wert, der vor oder nach dem Lesen geschrieben wurde.
+Die zentrale Frage, die fÃ¼r die Klassifizierung\index{streng}\index{schwach} (streng oder schwach) eines Konsistenzmodells von Bedeutung ist \cite{Coulouris:02}: wenn ein Lesezugriff auf eine Speicherposition erfolgt, welche Werte von Schreibzugriffen auf diese Position sollen dann dem Lesevorgang bereitgestellt werden? Die Antwort fÃ¼r das schwÃ¤chste Konsistenzmodell lautet: von jedem Schreibvorgang, der vor dem Lesen erfolgt ist, oder in der "`nahen"' Zukunft, innerhalb des definierten Betrachtungsraums, erfolgten wird. Also irgendein Wert, der vor oder nach dem Lesen geschrieben wurde.
 
-Für das strengste Konsistenzmodell, Linearisierbarkeit (atomic consistency), stehen alle geschriebenen Werte allen Prozessoren sofort zur Verfügung: eine Lese-Operation gibt den aktuellsten Wert zurück, der geschrieben wurde, bevor das Lesen stattfand. Diese Definition ist aber in zweierlei Hinsicht problematisch. Erstens treten weder Schreib- noch Lese-Operationen zu genau einem Zeitpunkt auf, deshalb ist die Bedeutung von "`aktuellsten"' nicht immer klar. Zweitens ist es nicht immer möglich, genau festzustellen, ob ein Ereignis vor einem anderen stattgefunden hat, da es Begrenzungen dafür gibt, wie genau Uhren in einem verteilten System synchronisiert werden können.
+FÃ¼r das strengste Konsistenzmodell, Linearisierbarkeit (atomic consistency), stehen alle geschriebenen Werte allen Prozessoren sofort zur VerfÃ¼gung: eine Lese-Operation gibt den aktuellsten Wert zurÃ¼ck, der geschrieben wurde, bevor das Lesen stattfand. Diese Definition ist aber in zweierlei Hinsicht problematisch. Erstens treten weder Schreib- noch Lese-Operationen zu genau einem Zeitpunkt auf, deshalb ist die Bedeutung von "`aktuellsten"' nicht immer klar. Zweitens ist es nicht immer mÃ¶glich, genau festzustellen, ob ein Ereignis vor einem anderen stattgefunden hat, da es Begrenzungen dafÃ¼r gibt, wie genau Uhren in einem verteilten System synchronisiert werden kÃ¶nnen.
 
-Nachfolgend werden einige Konsistenzmodelle absteigend nach ihrer Strenge vorgestellt. Zuvor müssen wir allerdings klären, wie die Lese- und Schreibe-Operationen in dieser Ausarbeitung dargestellt werden.
+Nachfolgend werden einige Konsistenzmodelle absteigend nach ihrer Strenge vorgestellt. Zuvor mÃ¼ssen wir allerdings klÃ¤ren, wie die Lese- und Schreibe-Operationen in dieser Ausarbeitung dargestellt werden.
 
-Sei $x$ eine Speicherposition, dann können Instanzen dieser Operationen wie folgt ausgedrückt werden:
+Sei $x$ eine Speicherposition, dann kÃ¶nnen Instanzen dieser Operationen wie folgt ausgedrÃ¼ckt werden:
 \begin{itemize}
 	\item $R(x)a$ - eine Lese-Operation\index{Operation!Lese}, die den Wert $a$ von der Position $x$ liest.
 	\item $W(x)b$ - eine Schreib-Operation\index{Operation!Schreib}, die den Wert $b$ an der Position $x$ speichert.
@@ -28,8 +28,8 @@ Sei $x$ eine Speicherposition, dann können Instanzen dieser Operationen wie folg
 
 Die Linearisierbarkeit im Zusammenhang mit DSM kann wie folgt definiert werden:
 \begin{itemize}
-	\item Die verzahnte Operationsabfolge findet so statt: wenn $R(x)a$ in der Folge vorkommt, dann ist die letzte Schreib-Operation, die vor ihr in der verzahnten Abfolge auftritt, $W(x)a$, oder es tritt keine Schreib-Operation vor ihr auf und $a$ ist der Anfangswert von $x$. Das bedeutet, dass eine Variable nur durch eine Schreib-Operation geändert werden kann.
-	\item Die Reihenfolge der Operationen in der Verzahnung ist konsistent zu den \underline{Echtzeiten}\index{Echtzeiten}, zu denen die Operationen bei der tatsächlichen Ausführung aufgetreten sind.
+	\item Die verzahnte Operationsabfolge findet so statt: wenn $R(x)a$ in der Folge vorkommt, dann ist die letzte Schreib-Operation, die vor ihr in der verzahnten Abfolge auftritt, $W(x)a$, oder es tritt keine Schreib-Operation vor ihr auf und $a$ ist der Anfangswert von $x$. Das bedeutet, dass eine Variable nur durch eine Schreib-Operation geÃ¤ndert werden kann.
+	\item Die Reihenfolge der Operationen in der Verzahnung ist konsistent zu den \underline{Echtzeiten}\index{Echtzeiten}, zu denen die Operationen bei der tatsÃ¤chlichen AusfÃ¼hrung aufgetreten sind.
 \end{itemize}
 
 Die Bedeutung dieser Definition kann an folgendem Beispiel (Tabelle \ref{tab:1}) nachvollzogen werden. Es sei angenommen, dass alle Werte mit $0$ vorinitialisiert sind.
@@ -42,11 +42,11 @@ Die Bedeutung dieser Definition kann an folgendem Beispiel (Tabelle \ref{tab:1})
 			$P_{1}$ & $W(x)1$ & & $W(y)2$ \\
 			$P_{2}$ & & $R(x)1$ & & $R(y)2$ \\
 		\end{tabular}
-	\caption{Linearisierbarkeit ist erfüllt}
+	\caption{Linearisierbarkeit ist erfÃ¼llt}
 	\label{tab:1}
 \end{table}
 
-Hier sind beide Bedingungen erfüllt, da die Lese-Operationen den zuletzt geschriebenen Wert zurückliefern. Interessanter ist es, zu sehen, wann die Linearisierbarkeit verletzt ist.
+Hier sind beide Bedingungen erfÃ¼llt, da die Lese-Operationen den zuletzt geschriebenen Wert zurÃ¼ckliefern. Interessanter ist es, zu sehen, wann die Linearisierbarkeit verletzt ist.
 
 \begin{table}
 	\centering
@@ -56,11 +56,11 @@ Hier sind beide Bedingungen erfüllt, da die Lese-Operationen den zuletzt geschri
 		$P_{1}$ & $W(x)1$ & $W(x)2$ \\
 		$P_{2}$ & & & \color{red} $R(x)0$ & \color{black} $R(x)2$ \\
 		\end{tabular}
-	\caption{Linearisierbarkeit ist verletzt, sequentielle Konsistenz ist erfüllt.}
+	\caption{Linearisierbarkeit ist verletzt, sequentielle Konsistenz ist erfÃ¼llt.}
 	\label{tab:2}
 \end{table}
 
-In diesem Beispiel (Tabelle \ref{tab:2}) ist die Echtzeit-Anforderung verletzt, da der Prozess $P_{2}$ immer noch den alten Wert liest, obwohl er von Prozess $P_{1}$ bereits geändert wurde. Diese Ausführung wäre aber sequentiell konsistent (siehe kommender Abschnitt), da es eine Verzahnung der Operationen gibt, die diese Werte liefern könnte ($R(x)0$, $W(x)1$, $W(x)2$, $R(y)2$). Würde man beide Lese-Operationen des 2. Prozesses vertauschen, wie in der Tabelle \ref{tab:3} dargestellt, so wäre keine sinnvolle Verzahnung mehr möglich.
+In diesem Beispiel (Tabelle \ref{tab:2}) ist die Echtzeit-Anforderung verletzt, da der Prozess $P_{2}$ immer noch den alten Wert liest, obwohl er von Prozess $P_{1}$ bereits geÃ¤ndert wurde. Diese AusfÃ¼hrung wÃ¤re aber sequentiell konsistent (siehe kommender Abschnitt), da es eine Verzahnung der Operationen gibt, die diese Werte liefern kÃ¶nnte ($R(x)0$, $W(x)1$, $W(x)2$, $R(y)2$). WÃ¼rde man beide Lese-Operationen des 2. Prozesses vertauschen, wie in der Tabelle \ref{tab:3} dargestellt, so wÃ¤re keine sinnvolle Verzahnung mehr mÃ¶glich.
 
 \begin{table}
 	\centering
@@ -75,4 +75,4 @@ In diesem Beispiel (Tabelle \ref{tab:2}) ist die Echtzeit-Anforderung verletzt, 
 	\label{tab:3}
 \end{table}
 
-In diesem Beispiel sind beide Bedingungen verletzt. Selbst wenn die Echtzeit, zu der die Operationen stattgefunden haben, ignoriert wird, gibt es keine Verzahnung einzelner Operationen, die der Definition entsprechen würde.
+In diesem Beispiel sind beide Bedingungen verletzt. Selbst wenn die Echtzeit, zu der die Operationen stattgefunden haben, ignoriert wird, gibt es keine Verzahnung einzelner Operationen, die der Definition entsprechen wÃ¼rde.
