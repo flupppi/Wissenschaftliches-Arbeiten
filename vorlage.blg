@@ -5,58 +5,52 @@ The style file: geralpha.bst
 A level-1 auxiliary file: chapters/Glossar.aux
 Database file #1: literatur.bib
 Warning--entry type for "Mesh:18" isn't style-file defined
---line 111 of file literatur.bib
-I was expecting a `,' or a `}'---line 373 of file literatur.bib
- :  
- :  author={Cort{\'e}s, Juan},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 462 of file literatur.bib
+--line 119 of file literatur.bib
+I was expecting a `,' or a `}'---line 479 of file literatur.bib
  :   
  :   type  = {Vorlesungsskript},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Cor"
 Warning--empty institution in Heitmann:16
-You've used 13 entries,
+You've used 16 entries,
             2768 wiz_defined-function locations,
-            695 strings with 7095 characters,
-and the built_in function-call counts, 5207 in all, are:
-= -- 527
-> -- 236
-< -- 9
-+ -- 79
-- -- 77
-* -- 395
-:= -- 833
-add.period$ -- 29
-call.type$ -- 13
-change.case$ -- 69
-chr.to.int$ -- 13
-cite$ -- 14
-duplicate$ -- 239
-empty$ -- 388
-format.name$ -- 95
-if$ -- 1120
+            709 strings with 7453 characters,
+and the built_in function-call counts, 6200 in all, are:
+= -- 634
+> -- 271
+< -- 11
++ -- 90
+- -- 87
+* -- 464
+:= -- 992
+add.period$ -- 35
+call.type$ -- 16
+change.case$ -- 81
+chr.to.int$ -- 16
+cite$ -- 17
+duplicate$ -- 281
+empty$ -- 467
+format.name$ -- 109
+if$ -- 1331
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 14
-newline$ -- 56
-num.names$ -- 41
-pop$ -- 91
+missing$ -- 16
+newline$ -- 68
+num.names$ -- 50
+pop$ -- 106
 preamble$ -- 1
-purify$ -- 95
+purify$ -- 113
 quote$ -- 0
-skip$ -- 204
+skip$ -- 245
 stack$ -- 0
-substring$ -- 175
-swap$ -- 69
-text.length$ -- 9
-text.prefix$ -- 7
+substring$ -- 222
+swap$ -- 76
+text.length$ -- 11
+text.prefix$ -- 9
 top$ -- 0
-type$ -- 92
+type$ -- 116
 warning$ -- 1
-while$ -- 40
-width$ -- 16
-write$ -- 159
-(There were 2 error messages)
+while$ -- 49
+width$ -- 19
+write$ -- 195
+(There was 1 error message)

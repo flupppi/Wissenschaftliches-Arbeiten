@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.7)  20 JUN 2020 15:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.7)  20 JUN 2020 17:47
 entering extended mode
 **./vorlage.tex
 (vorlage.tex
@@ -886,6 +886,11 @@ File: images/img224.png Graphic file (type png)
 <use images/img224.png>
 Package pdftex.def Info: images/img224.png  used on input line 18.
 (pdftex.def)             Requested size: 313.69025pt x 102.38232pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--30
+
+ []
+
 [9
 
 
@@ -900,71 +905,56 @@ l.30
 File: images/img247.png Graphic file (type png)
 <use images/img247.png>
 Package pdftex.def Info: images/img247.png  used on input line 33.
-(pdftex.def)             Requested size: 250.95476pt x 74.75137pt.
-
-
-LaTeX Warning: Citation `Cor' on page 10 undefined on input line 34.
-
-
-LaTeX Warning: Citation `Cor' on page 10 undefined on input line 34.
-
-<images/hierarchical.png, id=312, 669.78804pt x 497.28642pt>
+(pdftex.def)             Requested size: 313.69025pt x 93.4404pt.
+<images/hierarchical.png, id=316, 669.78804pt x 497.28642pt>
 File: images/hierarchical.png Graphic file (type png)
 <use images/hierarchical.png>
 Package pdftex.def Info: images/hierarchical.png  used on input line 42.
-(pdftex.def)             Requested size: 250.95476pt x 186.3226pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--58
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--58
-
- []
-
-[10pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2
-}) has been already used, duplicate ignored
+(pdftex.def)             Requested size: 313.69025pt x 232.89755pt.
+ [10pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.58 
-     pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-.3}) has been already used, duplicate ignored
+l.47 \section
+             {Klassifizierung von Pfadplanungsalgorithmen} \label{Kapitel 3.2}p
+dfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) h
+as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.58 
-      <./images/img247.png> <./images/hierarchical.png>]
+l.47 \section
+             {Klassifizierung von Pfadplanungsalgorithmen} \label{Kapitel 3.2} 
+<./images/img247.png> <./images/hierarchical.png>] [11pdfTeX warning (ext4): de
+stination with the same identifier (name{figure.3.4}) has been already used, du
+plicate ignored
 
-LaTeX Warning: Reference `konti' on page 11 undefined on input line 64.
-
-[11]
-<images/img225.png, id=349, 1056.51857pt x 526.53857pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.81 
+     ]
+<images/img225.png, id=355, 1056.51857pt x 526.53857pt>
 File: images/img225.png Graphic file (type png)
 <use images/img225.png>
-Package pdftex.def Info: images/img225.png  used on input line 136.
+Package pdftex.def Info: images/img225.png  used on input line 84.
 (pdftex.def)             Requested size: 376.42575pt x 187.6014pt.
  [12pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
-4}) has been already used, duplicate ignored
+5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.153 		\item M
-               it \textit{Last-In First-Out}\footnote{LI-FO - Das neuste Ele...
-] [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3
-.5}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.169 
-       <./images/img225.png>]) (chapters/Anwendungen.tex [14]
+l.108 		\item D
+               er \textbf{A*-Suchalgorithmus}\footnote{A-Stern gesprochen} e...
+ <./images/img225.png>] [13]) (chapters/Anwendungen.tex [14]
 Kapitel 4.
-<images/img229.png, id=406, 170.88844pt x 159.59625pt>
+<images/img229.png, id=393, 170.88844pt x 159.59625pt>
 File: images/img229.png Graphic file (type png)
 <use images/img229.png>
 Package pdftex.def Info: images/img229.png  used on input line 9.
 (pdftex.def)             Requested size: 167.2989pt x 156.25468pt.
+
+LaTeX Warning: Reference `Kapitel 4.2' on page 15 undefined on input line 17.
+
 [15
 
 
@@ -976,7 +966,7 @@ has been already used, duplicate ignored
 l.18 \subsection
                 {Anwendungen zur Planung mit allen Umgebungsinformationen vo...
  <./images/img229.png>]
-<images/img231.png, id=419, 502.87875pt x 214.55156pt>
+<images/img231.png, id=405, 502.87875pt x 214.55156pt>
 File: images/img231.png Graphic file (type png)
 <use images/img231.png>
 Package pdftex.def Info: images/img231.png  used on input line 22.
@@ -989,7 +979,7 @@ Package pdftex.def Info: images/img231.png  used on input line 22.
 l.37 \subsection
                 {Anwendungen zur Planung mit Bewegungseinschr√§nkungen} <./imag
 es/img231.png>]
-<images/img239.png, id=431, 186.6975pt x 144.54pt>
+<images/img239.png, id=417, 186.6975pt x 144.54pt>
 File: images/img239.png Graphic file (type png)
 <use images/img239.png>
 Package pdftex.def Info: images/img239.png  used on input line 42.
@@ -1016,7 +1006,12 @@ No file vorlage.ind.
 [20]
 \openout2 = `chapters/Glossar.aux'.
 
- (chapters/Glossar.tex)
+ (chapters/Glossar.tex
+Overfull \hbox (4.03264pt too wide) in paragraph at lines 10--10
+[]|\T1/cmr/m/n/12 Bewegungseinschr‰nkung| 
+ []
+
+)
 Underfull \hbox (badness 10000) in paragraph at lines 3--127
 
  []
@@ -1043,13 +1038,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 130.
  ) 
 Here is how much of TeX's memory you used:
- 10352 strings out of 480930
- 156921 string characters out of 2894132
- 593797 words of memory out of 3000000
- 25827 multiletter control sequences out of 15000+200000
+ 10345 strings out of 480930
+ 156871 string characters out of 2894132
+ 592797 words of memory out of 3000000
+ 25831 multiletter control sequences out of 15000+200000
  547725 words of font info for 63 fonts, out of 3000000 for 9000
  1146 hyphenation exceptions out of 8191
- 34i,9n,40p,1047b,624s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,10n,40p,1047b,624s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Felix Kalchschmid\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappe
 n/ec/dpi600\eccc1200.pk> <C:\Users\Felix Kalchschmid\AppData\Local\MiKTeX\2.9\f
 onts/pk/ljfour/jknappen/ec/dpi600\ecbi1200.pk> <C:\Users\Felix Kalchschmid\AppD
@@ -1076,9 +1071,9 @@ Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmsy10.pfb><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Felix Kalchschmid/AppData/Loca
 l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on vorlage.pdf (25 pages, 2617781 bytes).
+Output written on vorlage.pdf (25 pages, 2614476 bytes).
 PDF statistics:
- 1019 PDF objects out of 1200 (max. 8388607)
- 121 named destinations out of 1000 (max. 500000)
+ 1000 PDF objects out of 1000 (max. 8388607)
+ 110 named destinations out of 1000 (max. 500000)
  313 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,7 +19,7 @@
 \contentsline {section}{\numberline {3.2}Klassifizierung von Pfadplanungsalgorithmen}{11}{section.3.2}%
 \contentsline {section}{\numberline {3.3}Diskrete Pfadplanung}{11}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Feasible Planning}{12}{subsection.3.3.1}%
-\contentsline {section}{\numberline {3.4}Kontinuierliche Pfadplanung}{14}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Kontinuierliche Pfadplanung}{13}{section.3.4}%
 \contentsline {chapter}{\numberline {4}Anwendungen von Algorithmen}{15}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Anwendungen der diskreten Pfadplanung}{15}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Anwendungen der kontinuierlichen Pfadplanung}{16}{section.4.2}%

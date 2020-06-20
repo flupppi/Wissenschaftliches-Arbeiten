@@ -19,63 +19,49 @@ Er ist aber nicht darauf limitiert, sondern kann den Ansprüchen entsprechend er
 	\caption{Abb. 1.5 von \cite[~S. 20]{Lav06}:  (a) Die Grenze zwischen Maschine und Umgebung ist fließend, es ist eine Linie die stark in Abhängigkeit vom Kontext gezogen wird. (b) Ist die Grenze festgelegt, wird angenommen, dass die Maschine $M$ mit der Umgebung $U$ durch Sensorik und den Antrieb interagiert.}
 	\label{lav01}
 \end{figure}
- 
+
 Ein Plan, kann drei unterschiedliche Funktionen erfüllen.
 %Ausführung
 Für die \textit{Ausführung}\index{Ausführung} der Anweisungen durch einen Roboter, kann im ersten Fall eine kodierte Eingabe für eine Maschine erstellt werden. 
 Diese kann dadurch programmiert werden, wird damit bei der Ausführung autonom und kann nicht mehr mit dem Planer interagieren.
-Im zweiten Fall erzeugt der Planer eine Spezialmaschine, welche dazu entworfen ist die Aufgabe zu lösen.\cite[~S. 21]{Lav06}
-%Verbesserung
+Im zweiten Fall erzeugt der Planer eine Spezialmaschine, welche dazu entworfen ist die Aufgabe zu lösen.\cite[~S. 21]{Lav06}\newline\\
+%Verbesserung 
 Eine \textit{Verbesserung}\index{Verbesserung} der Eigenschaften, in bestimmten Parametern kann erreicht werden, indem der Plan als Eingabe einem Planer übergeben wird. Anhand von Abbildung \ref{lav02} wird ersichtlich, wie der gleiche Plan verbessert werden kann, indem verschiedene Aspekte der Problemstellung fokussiert werden.\cite[~S. 22]{Lav06}
 
-\begin{figure} % Hier lieber eine eigene Kombination an Grafiken
+\begin{figure}
 	\centering
-	\includegraphics[width=0.6\textwidth]{images/img247.png}
-	\caption{Abb. 5.1 von \cite{Cor}:  Ein Verbesserungsprozess, der sich in der Robotik bewährt hat.}
+	\includegraphics[width=0.75\textwidth]{images/img247.png}
+	\caption{Abb. 1.5 von \cite[~S. 20]{Lav06}:  Ein Verbesserungsprozess, der sich in der Robotik bewährt hat.}
 	\label{lav02}
 \end{figure}
 
-Bei der \textit{Hierarchischen Inklusion}\index{hierarchische Inklusion} werden Pläne als Aktionen, in einen größeren Plan aufgenommen. In Abbildung \ref{hierarchical}
+Bei der \textit{Hierarchischen Inklusion}\index{hierarchische Inklusion} werden Pläne als Aktionen, in einen größeren Plan aufgenommen. In Abbildung \ref{cortes01} sieht man einen Roboter der ein Objekt mehrmals hintereinander manipulieren muss, bevor er es aufnehmen kann, um an das Ziel zu kommen \cite{cortes:03}. Dazu wird das Planungsproblem in mehrere Unterprobleme zerteilt. Es entsteht eine hierarchische Baumstruktur, in der ein Hauptplan aus mehreren Plänen besteht\cite[~S. 23]{Lav06}.
 
-\begin{figure} % Hier lieber eine eigene Kombination an Grafiken
+\begin{figure}
 	\centering
-	\includegraphics[width=0.6\textwidth]{images/hierarchical.png}
-	\caption{Abb. 1.5 von \cite[~S. 20]{}:  Ein Verbesserungsprozess, der sich in der Robotik bewährt hat.}
-	\label{hierarchical}
+	\includegraphics[width=0.75\textwidth]{images/hierarchical.png}
+	\caption{Abb. 5.1 von \cite{cortes:03}: Wie kann das Objekt von seiner Ursprungsposition (oben, links) zur finalen Position (unten, links) bewegt werden? Die Lösung (rechts) erfordert mehrere \textit{Verbschiebeoperationen}.}
+	\label{cortes01}
 \end{figure}
- und die hierarchische Einbindung \footnote{Hierarchische Einbindung (engl. Hierarchical Inclusion)} des Plans.
-Pläne können auf zwei weisen ausgeführt werden. Zum einen kann ein Plan als kodierte Eingabe für eine Maschine erstellt werden, welche dadurch programmiert werden kann. Auf diese weise wird die Maschine bei der Ausführung autonom und kann nicht mehr mit dem Planer interagieren. 
-Im zweiten Fall erzeugt der Planer eine Spezialmaschine \footnote{Spezialmaschine (engl. special-purpose machine)}, welche dazu entworfen ist eine Aufgabe zu lösen.
-\newline\\
-%Verbesserung
-Um einen Plan zu verbessern, wird dieser als Eingabe einem Planer übergeben, der daraus einen verbesserten Plan erzeugen soll. 
-Anhand von \ref{lav02} wird ersichtlich, wie der gleiche Plan verbessert werden kann, indem verschiedene Aspekte der Problemstellung fokussiert werden.
-Die Auswahl der richtigen Kriterien ist schon seit längerer Zeit ein Forschungsgebiet in der Robotik, da auch hier Vor- und Nachteile mit verschiedenen Kriterien einhergehen. %TODO Zitat
-\newline\\
-%Hierarchische Einbindung
-Bei der Hierarchischen Einbindung, wird ein Baum aus Plänen erzeugt. Dabei steht an der Wurzel der Hauptplan \footnote{Hauptplan (engl. masterplan)}, welcher andere Pläne als Blätter in einer Hierarchie einbindet. Ein Plan wird als Aktion betrachtet, die nur als Teil des Gesamtsystem funktioniert. Es wird dadurch erreicht, dass die Abgrenzung zwischen Maschine und Umgebung an verschiedenen stellen gezogen wird.
-\newline\cite[~S. 21ff]{Lav06} 
 
+\section{Klassifizierung von Pfadplanungsalgorithmen} \label{Kapitel 3.2} 
+Da die algorithmische Umsetzung der Pfadplanung stark von den Vorgaben des Einsatzgebiets abhängig ist, sind auch die Vorgehensweisen stark heterogen.
+Es wird Planen in einem diskreten und in einem kontinuierlichen \textit{Zustandsraum}\index{Zustandsraum} unterschieden. Planen in einem kontinuierlichen Zustandsraum wird Bewegungsplanung genannt, dabei wird Planen mit allen Umgebungsinformationen, Planen mit Unsicherheit und Planen mit Bewegungseinschränkungen unterschieden\cite[~S. 24-26]{Lav06}.
+Im Kapitel \ref{Kapitel4} werden Anwendungen behandelt, die sich den Gebieten zuordnen lassen. 
+ Die diskrete Pfadplanung dient als Grundlage auch für weitere Algorithmen, da letztendlich auch viele Probleme im kontinuierlichen Zustandsraum mit diskreten Methoden gelöst werden\cite[~S. 25]{Lav06}. 
 
-
-\section{Klassifizierung von Pfadplanungsalgorithmen} \label{Kapitel 4.2} % Hier bitte noch ein Bild, das die Unterschiede der einzelnen Klassen sichtbar macht. 
-Der Bereich der Pfadplanung ist Äußerst heterogen, da die Umsetzung der Pfadplanung stark von den Vorgaben des Einsatzgebiets abhängt. 
-Es wird Planen in einem diskreten und in einem kontinuierlichen Zustandsraum\footnote{Zustandsraum (engl. state space) Der Zustandsraum beschreibt alle potentiell aufkommenden Zustände.} unterschieden. Planen in einem kontinuierlichen Zustandsraum wird Bewegungsplanung genannt, dabei klassifiziert man zwischen Planung mit allen Umgebungsinformationen vorhanden, Planen mit Unsicherheit, sowie Planung mit Bewegungseinschränkungen.
-Auf die genaue Einteilung der Einsatzgebiete wird in \ref{konti} noch eingegangen, jedoch ist es für das Verständnis der Algorithmen wichtig eine Einschätzung der verschiedenen Anforderungen zu erhalten. Im folgenden behandeln wir vor allem die diskrete Pfadplanung, da man daran die Grundlagen erklären kann. \cite[~S. 24ff]{Lav06} 
-
-\section{Diskrete Pfadplanung} \label{Kapitel 4.3} % In diesem Kapitel hätte ich gerne noch ein Bild, das das Konzept der diskreten Pfadplanung auf einen Blick veranschaulicht veranschaulicht
-
-Diskrete Pfadplanung dient in der meisten Literatur als Einstiegspunkt. Das kommt davon das der \textit{state space} entweder endlich, oder zählbar unendlich ist.\\
-Es müssen dadurch keine geometrischen Modelle, oder Bewegungseinschränkungen \footnote{Bewegungseinschränkungen (engl. differential constraints)} im Entwurf des Algorithmus beachtet werden.
+\section{Diskrete Pfadplanung} \label{Kapitel 4.3} 
+Der Zustandsraum ist bei der diskreten Pfadplanung entweder endlich, oder \textit{abzählbar unendlich}\index{abzählbar unendlich}.
+Damit müssen keine geometrischen Modelle, oder \textit{Bewegungseinschränkungen}\index{Bewegungseinschränkungen},  im Entwurf des Algorithmus beachtet werden.
 % Der Planer weis über alles bescheit, die struktur ist regelmaeßig
-Je nach Anforderung werden die drei Teilgebiete \textit{feasible planning} \footnote{feasible planning (Dt. durchführbares Planen) im folgenden FP}, \textit{optimales Planen} und \textit{Logik basierte Repräsentation} unterschieden.\cite[~S. 27]{Lav06}\\
+Je nach Anforderung werden die drei Teilgebiete \textit{feasible planning}\index{feasible planning}, \textit{optimales Planen}\index{optimales planen} und \textit{Logik basierte} Repräsentation unterschieden\cite[~S. 27]{Lav06}.
 % Die vorherrschenden Algorithmen in diesem Bereich, sind der Dijkstra-Algorithmus aus der Graphentheorie und der daraus abgeleitete A*-Algorithmus. Von diesem gibt es noch eine Reihe weiterer Abwandlungen, die alle eine Optimierung auf ein bestimmtes Einsatzgebiet zum Ziel haben. \\
 %Wie man diese Optimierung durchführen kann wird im folgenden an verschiedenen Algorithmen erläutert. 
-Optimales Planen unterscheidet sich nur insofern vom feasible planning, als das der gefundene Pfad in verschiedenen Kriterien wie Zeit, Distanz oder auch der Anzahl an Drehungen eines Roboters optimiert werden kann.\cite[~S. 43]{Lav06} \\
-Zwischen Zuständen des \textit{state space} kann durch die Ausführung von Aktionen gewechselt werden. Die verfügbaren Aktionen werden in einem Aktiosraum\footnote{Aktionsraum (engl. action space) } zusammengefasst, außerdem ist als Teil des Planungsproblem ein Satz von Zielzuständen\footnote{Zielzustände (engl. goal states)} definiert. 
-Da ein Zustandsgraph schnell sehr groß werden kann, wird dieser meist nicht komplett übergeben, sondern diese wird im Laufe des Planungsprozess aufgedeckt.
-\cite[~S. 43]{Lav06} \\
-Wie man effektiv durch den Zustandsraum navigiert, um einen \textit{goal state} zu erreichen ist das Thema des folgenden Absatz.
+Optimales Planen unterscheidet sich nur insofern vom feasible planning, als das der gefundene Pfad in verschiedenen Kriterien wie Zeit, Distanz, oder auch der Anzahl an Drehungen eines Roboters optimiert werden kann\cite[~S. 43]{Lav06}.
+Zwischen Zuständen kann, durch die Ausführung von Aktionen, gewechselt werden. Die verfügbaren Aktionen werden in einem Aktionsraum\footnote{Aktionsraum (engl. action space) } zusammengefasst, und ein Satz von Zielzuständen\footnote{Zielzustände (engl. goal states)} wird definiert. 
+Da ein Zustandsgraph schnell sehr groß werden kann, wird dieser meist nicht komplett übergeben, sondern im Laufe des Planungsprozess aufgedeckt\cite[~S. 43]{Lav06}. 
+Bei Formulierung \ref{lav03} ist der Vergleich mit einem DEA\index{deterministischer endlicher automat} interessant ist hier auch der Vergleich mit \cite[~S. 233]{Schmitz:19}.
+
 \begin{figure}
 \centering
 \subsection*{Formulierung 4.3 (Discrete Feasible Planning)}
@@ -89,75 +75,41 @@ Wie man effektiv durch den Zustandsraum navigiert, um einen \textit{goal state} 
 \caption{In Anlehnung an Formulation 2.1 von \cite[~S. 29]{Lav06}}
 \label{lav03}
 \end{figure}
-%1. A nonempty state space X, which is a ?nite or countably in?nite set of states.
-%2. For each state x ? X, a ?nite action space U(x).
-%3. A state transition function f that produces a state f(x, u) ? X for every
-%x ? X and u ? U(x). The state transition equation is derived from f as
-%x? = f(x, u).
-%4. An initial state xI ? X.
-%5. A goal set XG ? X.
 
+\subsection {Feasible Planning}
+Beim FP werden Algorithmen in Form der in Abbildung \ref{lav04} gegebenen \textit{Forward Search} verwendet. Diese müssen systematisch vorgehen, dass heißt bei endlich vielen Zuständen, müssen alle besucht werden (Zeile 2). Besuchte Zustände müssen markiert werden, um wiederholtes absuchen zu verhindern (Zeile 9). Bei einem unendlichen Graphen reicht es aus, zu einer Lösung zu kommen, sollte diese vorhanden sein (Zeile 5).\cite[~S. 32]{Lav06}
 
-%
-%\begin{algorithm}
-%	\caption{Calculate $y = x^n$}
-%	\begin{algorithmic}
-%		\REQUIRE $n \geq 0 \vee x \neq 0$
-%		\ENSURE $y = x^n$
-%		\STATE $y \leftarrow 1$
-%		\IF{$n < 0$}
-%		\STATE $X \leftarrow 1 / x$
-%		\STATE $N \leftarrow -n$
-%		\ELSE
-%		\STATE $X \leftarrow x$
-%		\STATE $N \leftarrow n$
-%		\ENDIF
-%		\WHILE{$N \neq 0$}
-%		\IF{$N$ is even}
-%		\STATE $X \leftarrow X \times X$
-%		\STATE $N \leftarrow N / 2$
-%		\ELSE[$N$ is odd]
-%		\STATE $y \leftarrow y \times X$
-%		\STATE $N \leftarrow N - 1$
-%		\ENDIF
-%		\ENDWHILE
-%	\end{algorithmic}
-%\end{algorithm}
-
-\subsection {Feasible Planning} % Hier sollte mit einem Code Beispiel ein allgemeingültiger algorithmus veranschaulicht werden. Darauf kann dann später wieder eingegangen werden und veränderungen im code können mit veränderungen in der Funktionalität in kontakt gesetzt werden.\\
-Beim FP werden Algorithmen in Form der in \ref{lav04} gegebenen \textit{Forward Search} verwendet. Diese müssen systematisch vorgehen, dass heißt:
-\begin{enumerate}
-	\item Bei endlich vielen Zuständen, müssen alle besucht werden. (Zeile 2)
-	\item Besuchte Zustände müssen markiert werden, um wiederholtes absuchen zu verhindern. (Zeile 9)
-	\item Bei einem unendlichen Graphen reicht es aus, zu einer Lösung zu kommen, sollte diese vorhanden sein. (Zeile 5)
-\end{enumerate} \cite[~S. 32]{Lav06}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.9\textwidth]{images/img225.png}
 	\caption{Abbildung 2.4 von \cite[~S. 33]{Lav06}:  Eine generelle Schablone für die vorwärts Suche.}
 	\label{lav04}
-\end{figure} 
-
-Felder können drei Zustände einnehmen:
-\begin{enumerate}
-
-\item \textit{unentdeckt}: wurde noch nicht besucht und ist daher auch noch nicht bekannt.
-\item \textit{tot}: kann nichts mehr zur Suche beitragen, da alle angrenzenden Felder entdeckt wurden.
-\item \textit{lebend}: hat noch mindestens ein Nachbarfeld das unentdeckt ist.  
-\end{enumerate} \cite[~S. 33]{Lav06}
-
-
-In der Warteschlange \footnote{Warteschlange (engl. priority queue)}, Abbildung \ref{lav04} Zeile 1, werden die nächsten Felder gespeichert. Dessen Sortierung hat einen großen Einfluss auf das Verhalten des Algorithmus. 
+\end{figure}
+\noindent
+Felder können drei Zustände einnehmen.
+Ein \textit{unentdecktes} Feld wurde noch nicht besucht und ist daher auch noch nicht bekannt.
+Ein \textit{totes} Feld kann nichts mehr mehr zur Suche beitragen, da alle angrenzenden Felder entdeckt wurden.
+Ein \textit{lebendes} Feld hat noch mindestens ein Nachbarfeld das unentdeckt ist.
+%
+%Felder können drei Zustände einnehmen:
+%\begin{enumerate}
+%
+%\item \textit{unentdeckt}: wurde noch nicht besucht und ist daher auch noch nicht bekannt.
+%\item \textit{tot}: kann nichts mehr zur Suche beitragen, da alle angrenzenden Felder entdeckt wurden.
+%\item \textit{lebend}: hat noch mindestens ein Nachbarfeld das unentdeckt ist. 
+%\cite[~S. 33]{Lav06} 
+%\end{enumerate} 
+In der Warteschlange \footnote{Warteschlange (engl. priority queue)}, Abbildung \ref{lav04} (Zeile 1), werden die nächsten Felder gespeichert.Deren Sortierung hat einen großen Einfluss auf das Verhalten des Algorithmus wie an den Suchalgorithmen schnell deutlich wird. 
 	\begin{itemize}
-		\item Die einfachste Variante ist \textit{First-In First-Out} \footnote{FI-FO - Das am längsten wartende Element zuerst}, hier entsteht eine kreisförmig expandierende Suche. Dies wird im \textbf{Breath-first} Suchalgorithmus verwendet. Er ist systematisch und leicht zu kontrollieren, jedoch verschwendet er relativ viele Suchzyklen.\cite[~S. 35]{Lav06}
-		\item Mit \textit{Last-In First-Out}\footnote{LI-FO - Das neuste Element zuerst}, entsteht eine aggressive Expansion in eine bestimmte Richtung. 
-		Dies wäre ein erstrebenswertes Verhalten, die Richtung kann aber mit LI-FO nicht kontrolliert werden. Der \textbf{Depth-first} Algorithmus setzt das ein, er ist aber aber nur bei endlich vielen Knoten systematisch. \cite[~S. 36]{Lav06}
-		\item Der \textbf{Dijkstra} Algorithmus vergleicht im Laufe der Suche Aktionen mit einander, und erstellt so eine Warteschlange die Knoten mit besseren Chancen bevorzugt. Im normalfall sucht er solange bis der optimale Pfad gefunden wurde. Das Vorgehen ist weitgehend bekannt und kann bei \cite[~S. 36]{Lav06} nachgelesen werden.
-		\item Der \textbf{A*-Suchalgorithmus}\footnote{A-Stern gesprochen} erweitert das Konzept um eine Schätzfunktion, welche die geschätzten Kosten bis zum Ziel beschreibt.
+		\item Die einfachste Sortierung ist \textit{First-In First-Out}\index{First-In First-Out}, hier entsteht eine kreisförmig expandierende Suche. Dies wird im \textbf{Breath-first} Suchalgorithmus verwendet. Er ist systematisch und leicht zu kontrollieren, jedoch verschwendet er relativ viele Suchzyklen\cite[~S. 35]{Lav06}.
+		\item Mit \textit{Last-In First-Out}\index{Last-In First-Out}, entsteht eine aggressive Expansion, in eine bestimmte Richtung. 
+		Dies wäre ein erstrebenswertes Verhalten, die Richtung kann aber mit LI-FO nicht kontrolliert werden. Der \textbf{Depth-first} Algorithmus setzt das ein, er ist aber aber nur bei endlich vielen Knoten systematisch\cite[~S. 36]{Lav06}.
+		\item Der \textbf{Dijkstra} Algorithmus vergleicht im Laufe der Suche Aktionen mit einander und erstellt so eine Warteschlange, die Knoten mit besseren Chancen bevorzugt. Im Normalfall sucht er solange, bis der optimale Pfad gefunden wurde. Das Vorgehen wurde zum ersten mal 1959 von E.W. Dijkstra im Artikel \cite{dijkstra:59} beschrieben.
+		\item Der \textbf{A*-Suchalgorithmus}\footnote{A-Stern gesprochen} erweitert Dijkstra um eine Schätzfunktion, welche die geschätzten Kosten bis zum Ziel angibt.
 		$$f( \, n ) \, = g ( \, n ) \, + h ( \, n ) \,$$
 		So werden Knoten bevorzugt, welche die Suche möglichst schnell, näher zum Ziel bringen. Das daraus entstehende Verhalten zeichnet sich dadurch aus, dass der Algorithmus solange in Richtung des Ziels sucht, bis er auf ein Hindernis stößt. Erst dann versucht dieses zu umgehen. Es wird garantiert, dass immer der optimale Pfad gefunden wird.\cite[~S. 37]{Lav06}
 	\end{itemize}
-Um den gefundenen Weg zu rekonstruieren müssen die Vorgängerknoten jedes Knoten gespeichert werden. Dies würde man in \ref{lav04} Zeile 7 vornehmen. 
+Um den gefundenen Weg zu rekonstruieren müssen die Vorgängerknoten jedes Knoten gespeichert werden. Dies würde man in Abbildung \ref{lav04} (Zeile 7) vornehmen. 
 
 
 %Simon fährt fort
