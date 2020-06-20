@@ -159,7 +159,7 @@ Bei Pfadplanung werden verschiedenen Aufgaben gelöst. Ein Roboter kann ein oder
 % Sein Gradient ist ein Vektos .... -> Verbessern
 %Sein Gradient ist ein Vektor, der in die Richtung zeigt, in der $U$ lokal maximal zunimmt.
 Laut \cite{Principles:05} ist eine Potentialfunktion eine differenzierbare Funktion $U : \mathbb{R}^{n} \rightarrow \mathbb{R}$, die als Energie betrachtet werden kann. Sein Gradient ist ein Vektor, welche das Verhalten der Funktion beschreibt. Er zeigt in die Richtung, in der $U$ lokal maximal zunimmt. Indem jedem Punkt eines Konfigurationsraum ein Gradient zugeordnet wird, entsteht ein Potentialfeld.\\
-Um den Roboter entlang dieses Feldes zu bewegen, wird er wie ein Teilchen mit einer positiven Ladung besetzt. Die Hindernisse sind positiv geladen, sodass sie und der Roboter sich gegenseitig absto{ß}en. Das Ziel ist negativ geladen, sodass der Roboter sich darauf zu bewegt \cite{Yong:92}. Dies bedeutet, dass einem absteigenden Weg durchgelaufen wird. Abbildung \ref*{potentialfield01} zeigt ein Potentialfeld mit zwei Hindernisse.
+Um den Roboter entlang dieses Feldes zu bewegen, wird er wie ein Teilchen mit einer positiven Ladung besetzt. Die Hindernisse sind positiv geladen, sodass sie und der Roboter sich gegenseitig absto{ß}en. Das Ziel ist negativ geladen, sodass der Roboter sich darauf zu bewegt. Dies bedeutet, dass einem absteigenden Weg durchgelaufen wird. Abbildung \ref*{potentialfield01} zeigt ein Potentialfeld mit zwei Hindernisse.
 % indem der Roboter dem negativen Gradienten der Potentialfunktion folgt.
 %Bild?
 \begin{figure}[H] %Von Website
@@ -305,7 +305,7 @@ Für Pfadplanung ist Pfadfindung benötigt. Mit Hilfe von Graphen kann ein Pfad 
 \begin{figure} %Von Website
 	\centering
 	\includegraphics[width=0.9\textwidth]{images/kk_graph_S6.png}
-	\caption{Abb. 1.5 von \cite[~S. 6]{Turau:15}. Gewichteter Graph mit Kantenkosten.}
+	\caption{Abb. 1.5 von \cite[~S. 6]{Turau:15}. Gewichteter Graph mit Kantenkosten.(gekennzeichnet)}
 	\label{sec0a}
 \end{figure}
 
@@ -394,7 +394,7 @@ Ein üblicher Pfadfindungsalgorithmus dafür ist A*.
 \\\\
 Kacheln können eine verschiedene Anzahl von Nachbarn besitzen.
 Rechteckigen Kacheln haben vier benachbarte Kacheln.
-Eine sechseckige Kachel hat sechs Nachbarn. Wenn die Diagonalen betrachtet werden, die normale rechteckige Kachel haben dann acht Nachbarn (siehe Abb. \ref{sec2a}):
+Eine sechseckige Kachel hat sechs Nachbarn. Wenn die Diagonalen betrachtet werden, die normale rechteckige Kachel haben dann acht Nachbarn (siehe Abb. \ref{sec2a}).
 %Für den Graph hat eine Kachel typischerweise vier benachbarte Kacheln, es sind jedoch mehr Optionen möglich. Eine sechseckige Kachel hat sechs Nachbarn und die normale rechteckige Kachel hat dann acht, wenn die Diagonalen betrachtet werden (siehe Abb. \ref{sec2a}).
 \begin{figure} %Gemacht mit Paint
 	\centering
