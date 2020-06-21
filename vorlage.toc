@@ -16,16 +16,17 @@
 \contentsline {subsection}{\numberline {2.5.4}Sichtbarkeitsgraph (\textit {eng.} Visibility Graph)}{7}{subsection.2.5.4}%
 \contentsline {chapter}{\numberline {3}Algorithmen zur Pfadplanung}{9}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Definition von Pfadplanungsalgorithmen}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Klassifizierung von Pfadplanungsalgorithmen}{11}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Diskrete Pfadplanung}{11}{section.3.3}%
+\contentsline {section}{\numberline {3.2}Klassifizierung von Pfadplanungsalgorithmen}{10}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Diskrete Pfadplanung}{10}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Feasible Planning}{12}{subsection.3.3.1}%
 \contentsline {section}{\numberline {3.4}Kontinuierliche Pfadplanung}{13}{section.3.4}%
 \contentsline {chapter}{\numberline {4}Anwendungen von Algorithmen}{15}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Anwendungen der diskreten Pfadplanung}{15}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}das Rubik's Cube Rätsel}{15}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Pfadplanung in Videospielen}{16}{subsection.4.1.2}%
 \contentsline {section}{\numberline {4.2}Anwendungen der kontinuierlichen Pfadplanung}{16}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Anwendungen zur Planung mit allen Umgebungsinformationen vorhanden}{16}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Anwendungen zur Planung mit Unsicherheit}{16}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Anwendungen zur Planung mit Bewegungseinschränkungen}{17}{subsection.4.2.3}%
+\contentsline {subsection}{\numberline {4.2.1}Digitales Planen von Fabrikrobotern}{16}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Autonomes Fahren}{16}{subsection.4.2.2}%
 \contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{18}{chapter.5}%
 \contentsline {chapter}{Literaturverzeichnis}{19}{chapter*.5}%
 \contentsline {chapter}{Glossar}{21}{appendix.A}%

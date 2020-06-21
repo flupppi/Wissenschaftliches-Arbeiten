@@ -14,7 +14,7 @@
 \newblock \btxphdthesis{}, Institut National Polytechnique de Toulouse, France,
   2003.
 
-\bibitem[CS11]{cui2011based}
+\bibitem[CS11]{cui:2011}
 {\sc Cui, Xiao} \btxandlong{}\ {\sc Hao Shi}: {\em A*-based pathfinding in
   modern computer games}.
 \newblock International Journal of Computer Science and Network Security,
@@ -25,14 +25,19 @@
   connexion with graphs}.
 \newblock Numerische mathematik, 1(1):269--271, 1959.
 
-\bibitem[HAM92]{Yong:92}
-{\sc Hwang, Yong~K.}, {\sc Narendra Ahuja} \btxandlong{}\ {\sc Senior Member}:
-  {\em A potential field approach to path planning}.
-\newblock T-RA, 1992.
-
 \bibitem[Hei16]{Heitmann:16}
 {\sc Heitmann, Frank}: {\em {Automatentheorie}}.
 \newblock \Btxtechreplong{}, 2016.
+
+\bibitem[LAB{\etalchar{+}}11]{Levinson:2011}
+{\sc {Levinson}, J.}, {\sc J.~{Askeland}}, {\sc J.~{Becker}}, {\sc
+  J.~{Dolson}}, {\sc D.~{Held}}, {\sc S.~{Kammel}}, {\sc J.~Z. {Kolter}}, {\sc
+  D.~{Langer}}, {\sc O.~{Pink}}, {\sc V.~{Pratt}}, {\sc M.~{Sokolsky}}, {\sc
+  G.~{Stanek}}, {\sc D.~{Stavens}}, {\sc A.~{Teichman}}, {\sc M.~{Werling}}
+  \btxandlong{}\ {\sc S.~{Thrun}}: {\em Towards fully autonomous driving:
+  Systems and algorithms}.
+\newblock \Btxinlong{}\ {\em 2011 IEEE Intelligent Vehicles Symposium (IV)},
+  \btxpageslong{}\ 163--168, 2011.
 
 \bibitem[LaV06]{Lav06}
 {\sc LaValle, S.~M.}: {\em Planning Algorithms}.
@@ -51,7 +56,7 @@
 {\sc Schmitz, Heinz}: {\em {Theoretische Informatik}}.
 \newblock Vorlesungsskript, Hochschule Trier, 2019.
 
-\bibitem[SS83]{Schw83}
+\bibitem[SS83]{Schw:83}
 {\sc Schwartz, Jacob~T.} \btxandlong{}\ {\sc Micha Sharir}: {\em On the ?piano
   movers'? problem I. The case of a two-dimensional rigid polygonal body moving
   amidst polygonal barriers}.

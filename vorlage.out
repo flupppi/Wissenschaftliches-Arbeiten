@@ -20,10 +20,11 @@
 \BOOKMARK [1][-]{section.3.4}{Kontinuierliche Pfadplanung}{chapter.3}% 20
 \BOOKMARK [0][-]{chapter.4}{Anwendungen von Algorithmen}{}% 21
 \BOOKMARK [1][-]{section.4.1}{Anwendungen der diskreten Pfadplanung}{chapter.4}% 22
-\BOOKMARK [1][-]{section.4.2}{Anwendungen der kontinuierlichen Pfadplanung}{chapter.4}% 23
-\BOOKMARK [2][-]{subsection.4.2.1}{Anwendungen zur Planung mit allen Umgebungsinformationen vorhanden}{section.4.2}% 24
-\BOOKMARK [2][-]{subsection.4.2.2}{Anwendungen zur Planung mit Unsicherheit}{section.4.2}% 25
-\BOOKMARK [2][-]{subsection.4.2.3}{Anwendungen zur Planung mit Bewegungseinschr\344nkungen}{section.4.2}% 26
-\BOOKMARK [0][-]{chapter.5}{Zusammenfassung und Ausblick}{}% 27
-\BOOKMARK [0][-]{chapter*.5}{Literaturverzeichnis}{}% 28
-\BOOKMARK [0][-]{appendix.A}{Glossar}{}% 29
+\BOOKMARK [2][-]{subsection.4.1.1}{das Rubik's Cube R\344tsel}{section.4.1}% 23
+\BOOKMARK [2][-]{subsection.4.1.2}{Pfadplanung in Videospielen}{section.4.1}% 24
+\BOOKMARK [1][-]{section.4.2}{Anwendungen der kontinuierlichen Pfadplanung}{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.2.1}{Digitales Planen von Fabrikrobotern}{section.4.2}% 26
+\BOOKMARK [2][-]{subsection.4.2.2}{Autonomes Fahren}{section.4.2}% 27
+\BOOKMARK [0][-]{chapter.5}{Zusammenfassung und Ausblick}{}% 28
+\BOOKMARK [0][-]{chapter*.5}{Literaturverzeichnis}{}% 29
+\BOOKMARK [0][-]{appendix.A}{Glossar}{}% 30

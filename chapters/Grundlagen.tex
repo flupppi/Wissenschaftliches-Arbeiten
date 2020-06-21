@@ -11,7 +11,7 @@
 %%(S.1)
 %Path planning means to find a collisionfree path for a robot to move from one configuration to another \cite[~S. 1]{Principles:05}. This of course has several constraints given that a robot exists in the real world with physical constraints and limited movement options. 
 %(S.1)
-Pfadplanung ist die Spezifizierung einer Aufgabe in einer Hochsprache, die ein Roboter verstehen und ausführen soll. Typischerweise ist ein kollisionsfreier Weg zu finden, auf dem sich ein Roboter von einem Punkt zu einem anderen bewegen kann \cite[~S. 1]{Principles:05}. Der Roboter soll die Umgebung wahrnehmen, um es zu verstehen und erkunden. Au"serdem müssen seiner Bewegungseinschränkungen betrachten werden, um gültige Pfade zu finden. Deshalb wird die Umgebung in eine verständliche Sprache für den Roboter dargestellt, wo er seine Bewegungsoptionen kennt. Für die Darstellung des Raumes gibt es mehrere Optionen, in diesem Kapitel werden drei beschrieben: Potentialfeld, Roadmaps und Zelldekomposition.
+Pfadplanung ist die Spezifizierung einer Aufgabe in einer Hochsprache, die ein Roboter verstehen und ausführen soll. Typischerweise ist ein kollisionsfreier Weg zu finden, auf dem sich ein Roboter von einem Punkt zu einem anderen bewegen kann \cite[~S. 1]{Principles:05}. Der Roboter soll die Umgebung wahrnehmen, um sie zu verstehen und erkunden zu können. Außerdem müssen seine Bewegungseinschränkungen betrachten werden, um gültige Pfade zu finden. Deshalb wird die Umgebung in einer für den Roboter verständlichen Sprache dargestellt, die seine Bewegungsoptionen kennt. In diesem Kapitel werden drei Optionen für die Darstellung des Raumes beschrieben: Potentialfeld, Roadmap und Zelldekomposition.
 %\\\\
 %Pfadplanung kann auch in anderen Bereichen genutzt werden. Beispielsweise in selbstfahrenden Fahrzeugen und Videospielen. 
 %Mention more Fields
@@ -70,13 +70,13 @@ Pfadplanung ist die Spezifizierung einer Aufgabe in einer Hochsprache, die ein R
 %The obstacle space of a robot is the configurations of a robot, where he collides with an obstacle
 %
 %(S. 40, 43)
-Das Buch \cite{Principles:05} bietet einige wichtige Definitionen für Pfadplanung. Ein Roboter befindet sich in einer zwei- oder dreidimensionalen euklidischen Umgebung\footnote{Koordinatenraum}, die durch $\mathbb{R}^{2}$ bzw. $\mathbb{R}^{3}$ dargestellt ist. Dies wird als der Arbeitsraum definiert. Für seine Bewegung ist es notwendig, die wichtige Punkte seiner Form im Arbeitsraum zu kennen. Diese Punkte werden genutzt, um sicherzustellen, dass kein Punkt mit Hindernissen kollidiert. Daher wird die Konfiguration eines Roboters, als eine vollständige Spezifikation der Position jedes einzelnen seiner Teile definiert. Folglich ist der Konfigurationsraum des Roboters, der Raum aller möglichen Konfigurationen. Dies wir genutzt, um den Roboter zu bewegen, indem er bewegt sich von eine Konfiguration zu ein anderer.\\
+Das Buch \cite{Principles:05} bietet einige wichtige Definitionen für Pfadplanung. Ein Roboter befindet sich in einer zwei- oder dreidimensionalen euklidischen Umgebung\footnote{Koordinatenraum}, die durch $\mathbb{R}^{2}$ bzw. $\mathbb{R}^{3}$ dargestellt ist. Dies wird als der Arbeitsraum definiert. Für seine Bewegung ist es notwendig, die Position des Roboters im Arbeitsraum zu kennen. Die Positionskoordinaten werden genutzt, um Kollisionen mit Hindernissen zu vermeiden. Daher wird die Konfiguration eines Roboters, als eine vollständige Spezifikation der Position jedes einzelnen seiner Teile definiert. Folglich ist der Konfigurationsraum des Roboters, der Raum aller möglichen Konfigurationen. Dies wir genutzt, um den Roboter zu bewegen, indem er von einer Konfiguration zu einer anderen wechselt.\\
 % Beispiel? 
 %(S. 43)
 % Fussnote ?
-Die Konfigurationen wo der Roboter ein \textit{Hindernis im Arbeitsraum} schneidet erzeugen Kollisionen. Die Satz von diese Konfigurationen ist ein \textit{Hindernis im Konfigurationsraum}. 
+Die Konfigurationen, in denen der Roboter ein \textit{Hindernis im Arbeitsraum} schneidet, erzeugen Kollisionen. Der Satz dieser Konfigurationen ist ein \textit{Hindernis im Konfigurationsraum}. 
 %Ein Hindernis im Konfigurationsraum wird als Satz von Konfigurationen dargestellt, bei denen der Roboter dieses Hindernis im Arbeitsraum schneidet. 
-Umgekehrt ist der freie Raum oder freie Konfigurationsraum die Gruppe von Konfigurationen, in denen der Roboter kein Hindernis kollidiert.
+Umgekehrt ist der freie Raum, oder freie Konfigurationsraum, die Gruppe von Konfigurationen, in denen der Roboter mit keinem Hindernis kollidiert.
 % Mention Obstacle space?
 
 
@@ -98,12 +98,12 @@ Umgekehrt ist der freie Raum oder freie Konfigurationsraum die Gruppe von Konfig
 %this book can be adapted to those problems.
 
 %Proper work
-Bei Pfadplanung werden verschiedenen Aufgaben gelöst. Ein Roboter kann ein oder mehrere Aufgaben lösen. Manche Aufgaben sind \cite[~S. 9,10]{Principles:05}:
+Bei der Pfadplanung werden verschiedenen Aufgaben gelöst. Ein Roboter kann eine oder mehrere Aufgaben lösen. Manche Aufgaben sind nach \cite[~S. 9,10]{Principles:05}:
 %Die Aufgaben für Pfadplanung sind vielfältig und ein Roboter kann mehrere davon ausführen. Einige Aufgabenbeispiele sind \cite[~S. 9,10]{Principles:05}:
 \begin{itemize}
 	\item \textit{Navigation} ist die kollisionsfreie Pfadfindung. Sie kann mit stationären und/oder beweglichen Hindernissen durchgeführt werden.
 	\item \textit{Lokalisierung} ist die Interpretation von Sensordaten zur Bestimmung der Konfiguration des Roboters.
-	\item \textit{Coverage (deu. Bedeckung)} meint, bestimmte Punkte des Konfigurationsraums zu besuchen. Meistens wird ein Werkzeug über ihnen geführt. Beispielsweise eine Reinigungswerkzeug.
+	\item \textit{Bedeckung\footnote{Bedeckung (engl. Coverage)}} bedeutet das Besuchen von Benutzerdefinierten Punkten des Konfigurationsraums.
 	\item \textit{Kartographie} ist die Exploration einer unbekannten Umgebung, um eine aussagekräftige Darstellung davon zu erzeugen.
 \end{itemize}
 
@@ -158,8 +158,8 @@ Bei Pfadplanung werden verschiedenen Aufgaben gelöst. Ein Roboter kann ein oder
 %Bild
 % Sein Gradient ist ein Vektos .... -> Verbessern
 %Sein Gradient ist ein Vektor, der in die Richtung zeigt, in der $U$ lokal maximal zunimmt.
-Laut \cite{Principles:05} ist eine Potentialfunktion eine differenzierbare Funktion $U : \mathbb{R}^{n} \rightarrow \mathbb{R}$, die als Energie betrachtet werden kann. Sein Gradient ist ein Vektor, welche das Verhalten der Funktion beschreibt. Er zeigt in die Richtung, in der $U$ lokal maximal zunimmt. Indem jedem Punkt eines Konfigurationsraum ein Gradient zugeordnet wird, entsteht ein Potentialfeld.\\
-Um den Roboter entlang dieses Feldes zu bewegen, wird er wie ein Teilchen mit einer positiven Ladung besetzt. Die Hindernisse sind positiv geladen, sodass sie und der Roboter sich gegenseitig absto{ß}en. Das Ziel ist negativ geladen, sodass der Roboter sich darauf zu bewegt. Dies bedeutet, dass einem absteigenden Weg durchgelaufen wird. Abbildung \ref*{potentialfield01} zeigt ein Potentialfeld mit zwei Hindernisse.
+Laut \cite{Principles:05} ist eine Potentialfunktion eine differenzierbare Funktion $U : \mathbb{R}^{n} \rightarrow \mathbb{R}$, die als Energie betrachtet werden kann. Ihr Gradient ist ein Vektor, welcher das Verhalten der Funktion beschreibt. Er zeigt in die Richtung, in der $U$ lokal maximal zunimmt. Indem jedem Punkt eines Konfigurationsraum ein Gradient zugeordnet wird, entsteht ein Potentialfeld.\\
+Um den Roboter entlang dieses Feldes zu bewegen, wird er wie ein Teilchen mit einer positiven Ladung besetzt. Die Hindernisse sind positiv geladen, sodass sie und der Roboter sich gegenseitig abstoßen. Das Ziel ist negativ geladen, sodass der Roboter sich darauf zubewegt. Deshalb wird ein absteigender Weg durchgelaufen. Abbildung \ref*{potentialfield01} zeigt ein Potentialfeld mit zwei Hindernissen.
 % indem der Roboter dem negativen Gradienten der Potentialfunktion folgt.
 %Bild?
 \begin{figure}[H] %Von Website
@@ -230,13 +230,8 @@ Um den Roboter entlang dieses Feldes zu bewegen, wird er wie ein Teilchen mit ei
 %A Robot can use its sensor data in order to connect points in its free space and creating collisonfree paths between them. This creates a topological map, in this case called a roadmap. A planner can use this map in order to explore unknown space by progressively building the roadmap with its sensors.
 %The three important steps for a planner to navigate the roadmap are: Finding a road into the roadmap, moving through the roadmap to the vicinity of the goal and finally making a path to the goal.
 %(12, 107, 108)
-Nach \cite{Principles:05} kann ein Roboter seine Sensordaten verwenden, um Punkte in seinem freien Raum zu verbinden und kollisionsfreie Pfade zwischen ihnen zu erzeugen. Dadurch entsteht eine topologische Karte aus Knoten und Kanten, in diesem Fall eine so genannte Roadmap. Diese Karte kann verwendet werden, um unbekannten Raum zu erkunden, indem er zunehmend die Roadmap mit seinen Sensoren aufbaut.\\
-Die drei Schritte, die Roadmap zu durchlaufen, sind: 
-\begin{enumerate}
-	\item Ein Weg in der Roadmap finden.
-	\item Durch die Roadmap in die Nähe des Ziels bewegen.
-	\item Einen Weg zum Ziel finden.
-\end{enumerate}
+Nach \cite{Principles:05} kann ein Roboter seine Sensordaten verwenden, um Punkte in seinem freien Raum zu verbinden und kollisionsfreie Pfade zwischen ihnen zu erzeugen. Dadurch entsteht eine topologische Karte aus Knoten und Kanten, in diesem Fall eine so genannte Roadmap. Diese Karte kann verwendet werden, um unbekannten Raum zu erkunden, indem er zunehmend die Roadmap mit seinen Sensoren aufbaut.
+Die drei Schritte, die Roadmap zu durchlaufen, sind (1) Ein Weg in der Roadmap finden. (2) Durch die Roadmap in die Nähe des Ziels bewegen. (3) Einen Weg zum Ziel finden.
 %Formal Definition?
 %(109)
 %A few types of roadmaps are: visibility maps, deformation retracts, retract-like structures, piecewise retracts and silhouettes.
@@ -282,13 +277,9 @@ Ein populärer Typ von Roadmaps ist der Sichtbarkeitsgraph.
 %Using this graph the path planer follows two steps: determining the start and end nodes, and searching for a path in the adjacency graph.
 %A big dvantage they provide is coverage. The graph can be used to visit all points in the free space by exploring the relative simple structure of the cells.
 %(161, 162)
-In \cite{Principles:05} ist beschrieben, dass Zelldekomposition der Teilung des freien Raumes in Zellen ist, wobei jede Trennung bei eine bemerkenswerte Ver"anderung des Raumes geschieht. Beispielsweise eine "Anderung der Sichtlinie zu umgebenden Hindernissen kann eine Trennung erzeugen. Dadurch ist der komplexere Raum durch weniger komplexe Zellen definiert. Wird jede Zelle als ein Knoten und ihre gemeinsamen Grenzen als eine Kante genommen, kann ein Graph erstellt werden. Die Graph ist Adjazenzgraph genannt, weil sie den anliegenden Zellen beschreibt. 
-Aus diesen Information kann Pfadfindung mit folgenden Schritte gelöst werden: 
-\begin{enumerate}
-	\item Bestimmung der Zellen mit der Start- und Endkonfiguration. 
-	\item Suche nach einem Pfad im Adjazenzgraph.
-\end{enumerate}
-Ein gro{ß}er Vorteil von Zelldekomposition ist ihre Nutzung für die \textit{Coverage} Aufgabe (\ref{AufgabenPP}). Mit dem Graphen können alle Punkte im freien Raum besucht werden, indem die Struktur der Zellen untersucht wird.
+In \cite{Principles:05} ist beschrieben, dass Zelldekomposition die Teilung des freien Raumes in Zellen ist, wobei jede Trennung bei einer bemerkenswerten Veränderung des Raumes geschieht. Beispielsweise kann eine Änderung der Sichtlinie zu umgebenden Hindernissen eine Trennung erzeugen. Dadurch ist der komplexere Raum durch weniger komplexe Zellen definiert. Wird jede Zelle als ein Knoten und ihre gemeinsamen Grenzen als eine Kante genommen, kann ein Graph erstellt werden. Der Graph wird Adjazenzgraph genannt, weil er die anliegenden Zellen beschreibt. 
+Mit dem Graph kann das Pfadfindungsproblem mit den folgenden Schritten gelöst werden: (1) Bestimmung der Zellen mit der Start- und Endkonfiguration. (2) Suche nach einem Pfad im Adjazenzgraphen.\\
+Ein großer Vorteil von Zelldekomposition ist ihre Nutzung für die \textit{Coverage} Aufgabe (\ref{AufgabenPP}). Mit dem Graphen können alle Punkte im freien Raum besucht werden, indem die Zellen erkundet werden.
 %Trapezoidal dekomposition
 
 \begin{figure}[H] %Von Website
@@ -300,7 +291,7 @@ Ein gro{ß}er Vorteil von Zelldekomposition ist ihre Nutzung für die \textit{Co
 
 \section{Graphen}
 % %Dazu sind Graphen wichtig, weil durch ihre Traversierung einen Pfad gefunden werden kann.
-Für Pfadplanung ist Pfadfindung benötigt. Mit Hilfe von Graphen kann ein Pfad gefunden werden. Dazu muss dieser von einem Planer traversiert werden. Laut \cite{Turau:15} bestehen gewichtete Graphen aus Knoten, Kanten und den Kosten. Pfadfindungsalgorithmen nutzen diese Information, um von Startknoten bis Endknoten durch die Kanten zu bewegen. Kanten können nur eine Richtung haben, was sie unidirektional statt bidirektional macht. Dies ist hilfreich für die Unterscheidung zwischen ausgehenden und eingehenden Kanten.
+Pfadfindung ist ein Teil der Pfadplanung. Mit Hilfe von Graphen kann ein Pfad gefunden werden. Dazu muss dieser von einem Planer traversiert werden. Laut \cite{Turau:15} bestehen gewichtete Graphen aus Knoten, Kanten und Kosten (siehe \ref{sec0a}). Pfadfindungsalgorithmen nutzen diese Informationen, um sich vom Startknoten bis Endknoten durch die Kanten zu bewegen. Kanten können nur eine Richtung haben, was sie unidirektional statt bidirektional macht. Dies ist hilfreich für die Unterscheidung zwischen ausgehenden und eingehenden Kanten.
 
 \begin{figure} %Von Website
 	\centering
@@ -310,14 +301,14 @@ Für Pfadplanung ist Pfadfindung benötigt. Mit Hilfe von Graphen kann ein Pfad 
 \end{figure}
 
 \subsection{Bäume}
-Laut \cite{Turau:15} sind Bäume Graphen, die häufig für die Darstellung von hierarchischen Relationen genutzt werden. Ein Baum mit $m$ Knoten hat $m-1$ Kanten.\\
-Gegeben ist ein Baum mit Wurzel $w$. Die Tiefe eines Knotens $e$ ist die Anzahl der Kanten von $w$ nach $e$. Die Wurzel $w$ hat die Tiefe 0. Die Höhe des Baumes ist die maximale Tiefe seiner Knoten. Beispiel aus Abb. \ref{sec0b} hat der Baum die Höhe 3 und die Tiefe des Knoten $e$ beträgt 2.
+Laut \cite{Turau:15} sind Bäume Graphen, die häufig für die Darstellung von hierarchischen Relationen genutzt werden. Ein Baum mit $m$ Knoten hat $m-1$ Kanten.
+Gegeben ist ein Baum mit Wurzel $w$. Die Tiefe eines Knotens $e$ ist die Anzahl der Kanten von $w$ nach $e$. Die Wurzel $w$ hat die Tiefe 0. Die Höhe des Baumes ist die maximale Tiefe seiner Knoten.  Der Baum in Abbildung \ref{sec0b} hat die Höhe 3 und die Tiefe des Knotens $e$ beträgt 2.
 %ist die Höhe des Baumes 3 und die Tiefe des Knotens $e$ ist 2.
 
 \begin{figure} %Von Website
 	\centering
 	\includegraphics[width=0.5\textwidth]{images/Tree_Graph.png}
-	\caption{Ein Baum mit Wurzel \textit{w}}
+	\caption{Ein Baum mit Wurzel $w$}
 	\label{sec0b}
 \end{figure}
 
@@ -364,12 +355,12 @@ Gegeben ist ein Baum mit Wurzel $w$. Die Tiefe eines Knotens $e$ ist die Anzahl 
 %(91,93) \cite{Mesh:16}
 %A Navigation mesh is a representation of the free space as polygonal areas alongside a navigation graph that describes how they are connected. The polygonal areas are the regions where an actor can move, refered to as walkable areas. The navigation graph describes how said actor can move to the next area, as in any surface based movement such as walking. As well as providing the requirements for path planning. pathfinding A navigation mesh can be applied to 3D and 2D environments.
 %(91,93)
-Nach \cite{Mesh:16} ist ein Navigationsnetz die Darstellung des freien Raums, als polygonale Bereiche. Ein Navigationsgraph definiert die Verbindungen zwischen den Gebieten. Die polygonalen Bereiche sind die Regionen, in denen sich ein Akteur bewegen kann. Sie werden als begehbare Flächen (\textit{eng. walkable areas}) bezeichnet. Der Navigationsgraph beschreibt, wie sich der Akteur in den nächsten Bereichen bewegen kann. Dies tritt bei jeder oberflächen-basierten Bewegung auf, beispielsweise Gehen oder Rennen. Ein Navigationsnetz kann sowohl auf 3D- als auch auf 2D-Umgebungen angewendet werden.
+Nach \cite{Mesh:16} ist ein Navigationsnetz die Darstellung des freien Raums, als polygonale Bereiche. Ein Navigationsgraph definiert die Verbindungen zwischen den Gebieten. Die polygonalen Bereiche sind die Regionen, in denen sich ein Akteur bewegen kann. Sie werden als begehbare Flächen\footnote{begehbare Flächen (\textit{eng. walkable areas})} bezeichnet. Der Navigationsgraph beschreibt, wie sich der Akteur zu benachbarten Bereichen bewegen kann. Die Bewegungen sind oberflächenbasiert, beispielsweise Gehen oder Rennen. Ein Navigationsnetz kann sowohl auf 3D- als auch auf 2D-Umgebungen angewandt werden.
 
 \begin{figure}[H] %Von Website
 	\centering
 	\includegraphics[width=\textwidth]{images/navigation_mesh_16.png}
-	\caption{Von \cite[~S. 93]{Mesh:16} \textit{Abb. 2}. Verschiedene Darstellungen einer Umgebung und ein Beispiel für ihr Navigationsnetz. (a) Eine 3D-Umgebung besteht aus unbearbeiteter 3D-Geometrie. (b) Der freie Raum einer 3D-Umgebung. Eine begehbare Umgebung enthält nur begehbare Oberflächen. (c) Eine mehrschichtige Umgebung, ist in Schichten unterteilt. (d) Ein Navigationsnetz ist eine Beschreibung, einer begehbaren Umgebung für Pfadplanungszwecke.}
+	\caption{Von \cite[~S. 93]{Mesh:16} \textit{Abb. 2}. Verschiedene Darstellungen einer Umgebung und ein Beispiel für ihr Navigationsnetz. (a) Eine 3D-Umgebung besteht aus unbearbeiteter 3D-Geometrie. (b) Der freie Raum einer 3D-Umgebung. Eine begehbare Umgebung enthält nur begehbare Oberflächen. (c) Eine mehrschichtige Umgebung, ist in Schichten unterteilt. (d) Ein Navigationsnetz ist die Beschreibung einer begehbaren Umgebung für Pfadplanungszwecke.}
 	\label{sec1a}
 \end{figure}
 \begin{figure}[H] %Von Website
@@ -385,21 +376,21 @@ Nach \cite{Mesh:16} ist ein Navigationsnetz die Darstellung des freien Raums, al
 %Grids are composed of tiles which lie adjacent to each other
 %A raster is put on top of the environment where it will be used. Then a Graph Search with its Tiles is used to find a path in it. For that each Tile possess a travel cost. A common Pathfinding Algorthim used here is A*.
 %A common Tile has 4 adjacent Tiles, however more options for a grid are possible. A hextile has six neighbours and the Octile has eight, 4 adjacent like the regular tile and 4 from diagonal movement.
-%(1) Raster bestehen aus Kacheln, die nebeneinander liegen.
-Raster werden aus einem Netz von zusammenhängenden Kacheln gebildet.
-Laut \cite{Grid:02} wird ein Raster über die Umgebung gelegt, in der es genutzt werden soll.
-Wenn die Kacheln als Knoten betrachten werden, kann eine Graphensuche verwendet werden, um einen Pfad darin zu finden.
-Dafür besitzt jede Kachel Kanten, zu ihren Nachbarn. 
+%(1) Raster bestehen aus Felder, die nebeneinander liegen.
+Raster werden aus einem Netz von zusammenhängenden Feldern gebildet.
+Laut \cite{Grid:02} wird ein Raster über die Umgebung gelegt, in der es genutzt wird.
+Wenn die Felder als Knoten betrachten werden, kann eine Graphensuche verwendet werden, um einen Pfad darin zu finden.
+Dafür besitzt jedes Feld Kanten zu seinen Nachbarn. 
 Ein üblicher Pfadfindungsalgorithmus dafür ist A*.
-\\\\
-Kacheln können eine verschiedene Anzahl von Nachbarn besitzen.
-Rechteckigen Kacheln haben vier benachbarte Kacheln.
-Eine sechseckige Kachel hat sechs Nachbarn. Wenn die Diagonalen betrachtet werden, die normale rechteckige Kachel haben dann acht Nachbarn (siehe Abb. \ref{sec2a}).
-%Für den Graph hat eine Kachel typischerweise vier benachbarte Kacheln, es sind jedoch mehr Optionen möglich. Eine sechseckige Kachel hat sechs Nachbarn und die normale rechteckige Kachel hat dann acht, wenn die Diagonalen betrachtet werden (siehe Abb. \ref{sec2a}).
+\\
+Felder können unterschiedlich viele Nachbarn besitzen.
+Rechteckige Felder haben vier benachbarte Felder.
+Ein sechseckiges Feld hat sechs Nachbarn. Wenn die Diagonalen betrachtet werden, haben die rechteckigen Felder acht Nachbarn (siehe Abbildung \ref{sec2a}).
+%Für den Graph hat eine Feld typischerweise vier benachbarte Felder, es sind jedoch mehr Optionen möglich. Eine sechseckige Feld hat sechs Nachbarn und die normale rechteckige Feld hat dann acht, wenn die Diagonalen betrachtet werden (siehe Abb. \ref{sec2a}).
 \begin{figure} %Gemacht mit Paint
 	\centering
 	\includegraphics[width=\textwidth]{images/Grid_Tiles.png}
-	\caption{Von links nach rechts: Kachel mit 4 Bewegungsoptionen, Hexagon mit 6 Bewegungsoptionen, Kachel mit 8 Bewegungsoptionen.}
+	\caption{Von links nach rechts: Feld mit 4 Bewegungsoptionen, Hexagon mit 6 Bewegungsoptionen, Feld mit 8 Bewegungsoptionen.}
 	\label{sec2a}
 \end{figure}
 
@@ -421,13 +412,13 @@ Eine sechseckige Kachel hat sechs Nachbarn. Wenn die Diagonalen betrachtet werde
 %An example of a visibility graph lies in image ref.
 %(110)
 %In \cite{Principles:05} ist beschrieben, dass Sichtbarkeitsgraphen aus Knoten bestehen, die in Sichtlinie der Roboter stehen.
-In \cite{Principles:05} ist beschrieben, dass aus Knoten, die in Sichtlinie der Roboter stehen, Sichtbarkeitsgraphen gebildet werden. Eine Kante zwischen zwei Punkten gilt nur, wenn keine Hindernisse zwischen ihnen liegen. Der Standardgraph ist zweidimensional. Der Startpunkt und der Endpunkt werden als Knoten dargestellt, sowie die Eckpunkte der Polygone, die Hindernisse darstellen.
+In \cite{Principles:05} ist beschrieben, dass aus Knoten, die in Sichtlinie der Roboter stehen, ein Sichtbarkeitsgraph gebildet wird. Eine Kante zwischen zwei Punkten gilt nur, wenn keine Hindernisse dazwischen liegen. Der Standardgraph ist zweidimensional. Der Startpunkt und der Endpunkt werden als Knoten dargestellt, sowie die Eckpunkte der Polygone, die Hindernisse darstellen.
 \\\\
-Ein Beispiel für einen Sichtbarkeitsgraphen findet zeigt Bild \ref{sec3a}.
+Ein Beispiel für einen Sichtbarkeitsgraphen zeigt Abbildung \ref{sec3a}.
 \begin{figure} %Genommen aus Buch
 	\centering
 	\includegraphics[width=0.8\textwidth]{images/Robot_Motion_Visibility_Graph.png}
-	\caption{Von \cite[~S. 111]{Principles:05} \textit{Abb. 5.4} Die Linien begrenzen die Kanten des Sichtbarkeitsgraphen für die drei, als gefüllte Polygone dargestellten Hindernisse. Die gepunktete Linie, stellt den kürzesten Weg zwischen Start und Ziel dar.}
+	\caption{Von \cite[~S. 111]{Principles:05} \textit{Abb. 5.4} Die Linien begrenzen die Kanten des Sichtbarkeitsgraphen für die drei Hindernisse, die als gefüllte Polygone dargestellt sind. Die gepunktete Linie stellt den kürzesten Weg zwischen Start und Ziel dar.}
 	\label{sec3a}
 \end{figure}
 
