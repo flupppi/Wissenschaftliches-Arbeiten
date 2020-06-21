@@ -1,7 +1,10 @@
-This is BibTeX, Version 0.99d (MiKTeX 2.9.7400 64-bit)
+This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: vorlage.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
 The style file: geralpha.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Reallocating 'name_of_file' (item size: 1) to 21 items.
 A level-1 auxiliary file: chapters/Glossar.aux
 Database file #1: literatur.bib
 Warning--entry type for "Mesh:18" isn't style-file defined
@@ -14,43 +17,43 @@ I'm skipping whatever remains of this entry
 Warning--empty institution in Heitmann:16
 You've used 16 entries,
             2768 wiz_defined-function locations,
-            709 strings with 7728 characters,
-and the built_in function-call counts, 6881 in all, are:
-= -- 680
+            709 strings with 7729 characters,
+and the built_in function-call counts, 6891 in all, are:
+= -- 681
 > -- 336
 < -- 12
 + -- 115
 - -- 113
-* -- 556
-:= -- 1086
+* -- 563
+:= -- 1091
 add.period$ -- 35
 call.type$ -- 16
 change.case$ -- 94
 chr.to.int$ -- 16
 cite$ -- 17
-duplicate$ -- 308
-empty$ -- 505
+duplicate$ -- 302
+empty$ -- 509
 format.name$ -- 134
-if$ -- 1466
+if$ -- 1463
 int.to.chr$ -- 1
 int.to.str$ -- 0
 missing$ -- 15
 newline$ -- 68
 num.names$ -- 50
-pop$ -- 122
+pop$ -- 121
 preamble$ -- 1
 purify$ -- 126
 quote$ -- 0
-skip$ -- 256
+skip$ -- 248
 stack$ -- 0
-substring$ -- 249
-swap$ -- 100
+substring$ -- 264
+swap$ -- 94
 text.length$ -- 12
 text.prefix$ -- 9
 top$ -- 0
 type$ -- 116
 warning$ -- 1
-while$ -- 51
+while$ -- 53
 width$ -- 19
 write$ -- 196
 (There was 1 error message)

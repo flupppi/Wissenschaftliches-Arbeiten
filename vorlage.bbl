@@ -57,8 +57,8 @@
 \newblock Vorlesungsskript, Hochschule Trier, 2019.
 
 \bibitem[SS83]{Schw:83}
-{\sc Schwartz, Jacob~T.} \btxandlong{}\ {\sc Micha Sharir}: {\em On the ?piano
-  movers'? problem I. The case of a two-dimensional rigid polygonal body moving
+{\sc Schwartz, Jacob~T.} \btxandlong{}\ {\sc Micha Sharir}: {\em On the piano
+  movers' problem I. The case of a two-dimensional rigid polygonal body moving
   amidst polygonal barriers}.
 \newblock Communications on Pure and Applied Mathematics, 36(3):345--398, 1983.
 
@@ -72,8 +72,8 @@
   Ramon Oliva}, {\sc Nuria Pelechano}, {\sc Julien Pettr\'{e}} \btxandlong{}\
   {\sc Roland Geraerts}: {\em A Comparative Study of Navigation Meshes}.
 \newblock \Btxinlong{}\ {\em Proceedings of the 9th International Conference on
-  Motion in Games}, MIG ?16, \btxpagelong{}\ 91?100, New York, NY, USA, 2016.
-  Association for Computing Machinery.
+  Motion in Games}, MIG ‘16, \btxpageslong{}\ 91--100, New York, NY, USA,
+  2016. Association for Computing Machinery.
 
 \bibitem[Wik15]{wiki:02}
 {\sc Wikipedia}: {\em Zustandsraum (Informatik) --- Wikipedia{,} Die freie

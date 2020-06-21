@@ -24,7 +24,7 @@ Beim digitalen Planen von Fabrikrobotern, die z.B. ein Auto zusammensetzen solle
 	\caption{\cite[~S. 7, Abb. 1.3]{Lav06}: Eine Auto-Montierungsaufgabe, die beinhaltet, dass ein Scheibenwischermotor an ein Auto angebracht oder entfernt werden soll.}
 	\label{Abb. 4.2}
 \end{figure}
-
+\noindent
 Eine Software muss entscheiden, ob und wie der Scheibenwischermotor an- und abmontiert werden kann. Das früher zeit- und kostenintensive Entwickeln des Designs wird nun mit Software vereinfacht, indem CAD Modelle manipuliert werden. Alle Umgebungsinformationen, in diesem Fall die Positionen der Roboter und der Teile, sind hier bekannt und es gibt keine Ungewissheiten, die das Pfadplanen erschweren\cite[~S. 6 ff]{Lav06}. Das digitale Planen von Fabrikrobotern ist also dem Planen mit Umgebungsinformationen zuzuordnen.
 
 
@@ -43,8 +43,8 @@ Eine Software muss entscheiden, ob und wie der Scheibenwischermotor an- und abmo
 
 \subsection{Autonomes Fahren}
 Beim \textit{autonomen Fahren} bewegt sich das Auto nicht über ein festes 2D Netz, sondern durch die unvorhersehbare Realität. Der Bordcomputer des Autos nimmt durch seine Sensoren und eventuelle Außenkameras seine Umgebung wahr und versucht, durch diese und durch GPS-Daten seinen Status bzw. seine aktuelle Position herauszufinden \cite[~S. 164 f.]{Levinson:2011}. Da sich jedoch die Umgebung stets verändert und das Verhalten der anderen Verkehrsteilnehmer nicht vorhersehbar ist, kommt die Unsicherheit ins Spiel.\\
-Bei der \textit{Planung mit Unsicherheit}\footnote{Planung mit Unsicherheit (engl. planning under uncertanty)}, auch \textit{decision-theoretic planning} genannt, interferieren Ungewissheiten mit zwei Aspekten des Planens. Diese beiden Aspekte sind Vorhersehbarkeit und Wahrnehmung \cite[~S. 435 ff.]{Lav06}.\\
-Die Vorhersehbarkeit ist in dem Sinne durch die Unsicherheiten beeinträchtigt, dass nicht bekannt ist, was passieren wird, wenn gewisse Aktionen ausgeführt werden. Die Wahrnehmung ist durch die Unsicherheiten beeinträchtigt, da der aktuelle Status, bzw. die aktuelle Position nicht bekannt ist. Denn den Status erhält man aus den Ausgangsbedingungen, den Sensoren und den Informationen über die vorangegangenen Aktionen. Beim autonomen Fahren kommt also Planung mit Unsicherheit zum Einsatz.\\
+Bei der \textit{Planung mit Ungewissheit}\footnote{Planung mit Ungewissheit (engl. planning under uncertainty)}, auch \textit{decision-theoretic planning} genannt, interferieren Ungewissheiten mit zwei Aspekten des Planens. Diese beiden Aspekte sind Vorhersehbarkeit und Wahrnehmung \cite[~S. 435 ff.]{Lav06}.\\
+Die Vorhersehbarkeit ist in dem Sinne durch die Ungewissheiten beeinträchtigt, dass nicht bekannt ist, was passieren wird, wenn gewisse Aktionen ausgeführt werden. Die Wahrnehmung ist durch die Ungewissheiten beeinträchtigt, da der aktuelle Status, bzw. die aktuelle Position nicht bekannt ist. Denn den Status erhält man aus den Ausgangsbedingungen, den Sensoren und den Informationen über die vorangegangenen Aktionen. Beim autonomen Fahren kommt also Planung mit Ungewissheit zum Einsatz.\\
 Jedoch trifft auf das autonome Fahren auch noch eine weitere Rubrik zu. Ein Auto kann nicht seitwärts fahren. Wenn es also seitlich neben einer Parklücke steht und es autonom dort einparkten soll, wäre der kürzeste Pfad, seitwärts zu fahren. Da dies nicht möglich ist, muss das bei der Pfadplanung berücksichtigt werden (siehe Abb. \ref{Abb. 4.3}).
 \begin{figure}
 	\centering

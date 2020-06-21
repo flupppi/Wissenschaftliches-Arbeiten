@@ -20,13 +20,13 @@
 \contentsline {section}{\numberline {3.3}Diskrete Pfadplanung}{10}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Feasible Planning}{12}{subsection.3.3.1}%
 \contentsline {section}{\numberline {3.4}Kontinuierliche Pfadplanung}{13}{section.3.4}%
-\contentsline {chapter}{\numberline {4}Anwendungen von Algorithmen}{15}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Anwendungen der diskreten Pfadplanung}{15}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}das Rubik's Cube Rätsel}{15}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Pfadplanung in Videospielen}{16}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Anwendungen der kontinuierlichen Pfadplanung}{16}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Digitales Planen von Fabrikrobotern}{16}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Autonomes Fahren}{16}{subsection.4.2.2}%
-\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{18}{chapter.5}%
-\contentsline {chapter}{Literaturverzeichnis}{19}{chapter*.5}%
-\contentsline {chapter}{Glossar}{21}{appendix.A}%
+\contentsline {chapter}{\numberline {4}Anwendungen von Algorithmen}{14}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Anwendungen der diskreten Pfadplanung}{14}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}das Rubik's Cube Rätsel}{14}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Pfadplanung in Videospielen}{15}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Anwendungen der kontinuierlichen Pfadplanung}{15}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Digitales Planen von Fabrikrobotern}{15}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Autonomes Fahren}{15}{subsection.4.2.2}%
+\contentsline {chapter}{\numberline {5}Zusammenfassung und Ausblick}{17}{chapter.5}%
+\contentsline {chapter}{Literaturverzeichnis}{18}{chapter*.5}%
+\contentsline {chapter}{Glossar}{20}{appendix.A}%
