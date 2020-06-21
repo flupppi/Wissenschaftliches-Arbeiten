@@ -42,12 +42,12 @@ Bei der Hierarchischen Einbindung, wird ein Baum aus Plänen erzeugt. Dabei steh
 	\label{lav02}
 \end{figure}
 
-\section{Klassifizierung von Pfadplanungsalgorithmen} \label{Kapitel 4.2} % Hier bitte noch ein Bild, das die Unterschiede der einzelnen Klassen sichtbar macht. 
+\section{Klassifizierung von Pfadplanungsalgorithmen} \label{Kapitel 3.2} % Hier bitte noch ein Bild, das die Unterschiede der einzelnen Klassen sichtbar macht. 
 Der Bereich der Pfadplanung ist Äußerst heterogen, da die Umsetzung der Pfadplanung stark von den Vorgaben des Einsatzgebiets abhängt. 
 Es wird Planen in einem diskreten und in einem kontinuierlichen Zustandsraum\footnote{Zustandsraum (engl. state space) Der Zustandsraum beschreibt alle potentiell aufkommenden Zustände.} unterschieden. Planen in einem kontinuierlichen Zustandsraum wird Bewegungsplanung genannt, dabei klassifiziert man zwischen Planung mit allen Umgebungsinformationen vorhanden, Planen mit Unsicherheit, sowie Planung mit Bewegungseinschränkungen.
 Auf die genaue Einteilung der Einsatzgebiete wird in \ref{konti} noch eingegangen, jedoch ist es für das Verständnis der Algorithmen wichtig eine Einschätzung der verschiedenen Anforderungen zu erhalten. Im folgenden behandeln wir vor allem die diskrete Pfadplanung, da man daran die Grundlagen erklären kann. \cite[~S. 24ff]{Lav06} 
 
-\section{Diskrete Pfadplanung} \label{Kapitel 4.3} % In diesem Kapitel hätte ich gerne noch ein Bild, das das Konzept der diskreten Pfadplanung auf einen Blick veranschaulicht veranschaulicht
+\section{Diskrete Pfadplanung} \label{Kapitel 3.3} % In diesem Kapitel hätte ich gerne noch ein Bild, das das Konzept der diskreten Pfadplanung auf einen Blick veranschaulicht veranschaulicht
 
 Diskrete Pfadplanung dient in der meisten Literatur als Einstiegspunkt. Das kommt davon das der \textit{state space} entweder endlich, oder zählbar unendlich ist.\\
 Es müssen dadurch keine geometrischen Modelle, oder Bewegungseinschränkungen \footnote{Bewegungseinschränkungen (engl. differential constraints)} im Entwurf des Algorithmus beachtet werden.
@@ -145,17 +145,16 @@ Um den gefundenen Weg zu rekonstruieren müssen die Vorgängerknoten jedes Knote
 
 
 %Simon fährt fort
-\section{Kontinuierliche Pfadplanung} \label{Kapitel 4.4}
+\section{Kontinuierliche Pfadplanung} \label{Kapitel 3.4}
 %Wie unterscheidet sich Kontinuierliche Pfadplanung zu diskreter?
 In der Pfadplanung im kontinuierlichen Zustandsraum\footnote{kontinuierlicher Zustandstraum (engl. continuous state space)}, auch Bewegungsplanung\footnote{Bewegungsplanung (engl. motion planning)} genannt, ist im Gegensatz zur diskreten Pfadplanung der Zustandsraum überabzählbar unendlich.  Der Zustandsraum ist zu groß, um explizit dargestellt zu werden. Dies liegt an der Anzahl oder der kombinatorischen Komplexität der Zustände \cite[~S. 17]{Lav06}.
-Zur Veranschaulichung beschreibt Schwarz in \cite{Schw83} das \textit{Piano Mover's Problem} als eine Aufgabe, bei der ein Körper einen kontinuierlichen Bewegungspfad durch einen Raum finden muss. Dabei gelten geometrische Einschränkungen, die es verbieten, mit den Hindernissen im Raum in Kontakt zu kommen.
+Zur Veranschaulichung beschreibt Schwarz in \cite{Schw:83} das \textit{Piano Mover's Problem} als eine Aufgabe, bei der ein Körper einen kontinuierlichen Bewegungspfad durch einen Raum finden muss. Dabei gelten geometrische Einschränkungen, die es verbieten, mit den Hindernissen im Raum in Kontakt zu kommen.
  %evtl. S.157 Definition of basic motion planning + Formeln des PMPs (Formulation 4.1) einfügen.
-
-Wie in \cite[~S. 79 f.]{Lav06} erläutert, gibt es zwei Motive, die bei der Pfadplanung im kontinuierlichen Zustandsraum immer wieder auftauchen. Zum Einen implizite Repräsentationen des Zustandsraumes und zum Anderen die Transformation von kontinuierlichen Modellen in diskrete.
+Wie in \cite[~S. 79 f.]{Lav06} erläutert, gibt es zwei Motive, die bei der Pfadplanung im kontinuierlichen Zustandsraum immer wieder auftauchen. Zum einen implizite Repräsentationen des Zustandsraumes und zum anderen die Transformation von kontinuierlichen Modellen in diskrete.
 
 Bei impliziten Repräsentationen geht es darum, dass es einen Unterschied gibt zwischen der Welt, in der sich die Modelle befinden und dem Raum, in dem das Planen stattfindet. Dieser Raum wird Konfigurationsraum genannt. Die Welt, in der sich die Modelle befinden, wird in geometrische 2D und 3D Modelle transformiert. Beispielsweise nehmen die Sensoren eines Roboters die Umgebung wahr und erstellen dann eine digitale Karte, mit der dann der Pfad geplant wird.
 
-Da kontinuierliche Modelle in diskrete transformiert werden, werden viele Algorithmen, die diskrete Zustandsräume verwenden, in die Bewegungsplanung eingebettet. Diese Transformation kann auf zwei verschiedene Wege erreicht werden. Beim \textit{combinatorial motion planning} erstellt der Algorithmus eine diskrete Repräsentation, die das Ursprungsproblem \textit{genau} darstellt. Dies ermöglicht vollständige Pfadplanung, die garantiert eine Lösung findet, falls sie existiert. Beim \textit{sampling-based motion planning} tasten Algorithmen durch Kollisionserkennungsmethoden den Konfigurationsraum ab und führen mit Hilfe der entstandenen Ergebnisse diskrete Suchen durch.
+Da kontinuierliche Modelle in diskrete transformiert werden, werden viele Algorithmen, die diskrete Zustandsräume verwenden, in die Bewegungsplanung eingebettet. Diese Transformation kann auf zwei verschiedenen Wegen erreicht werden. Beim \textit{combinatorial motion planning} erstellt der Algorithmus eine diskrete Repräsentation, die das Ursprungsproblem \textit{genau} darstellt. Dies ermöglicht eine vollständige Pfadplanung, die garantiert eine Lösung findet, falls sie existiert. Beim \textit{sampling-based motion planning} tasten Algorithmen durch Kollisionserkennungsmethoden den Konfigurationsraum ab und führen mit Hilfe der entstandenen Ergebnisse diskrete Suchen durch.
 
 
 %\subsection{Planung mit allen Umgebungsinformationen vorhanden}
