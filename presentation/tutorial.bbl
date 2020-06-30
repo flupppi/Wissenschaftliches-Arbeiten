@@ -1,0 +1,8 @@
+\begin{thebibliography}{TWM17}
+
+\bibitem[TWM17]{BeamerDoc}
+{\sc Tantau, Till}, {\sc Joseph Wright} \btxandlong{}\ {\sc Vedran Miletić}:
+  {\em Beamer Documentation}, 2017.
+\newblock \url{https://www.ctan.org/pkg/beamer}.
+
+\end{thebibliography}

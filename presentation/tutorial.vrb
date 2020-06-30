@@ -1,0 +1,10 @@
+\frametitle{fragile}
+\begin{lstlisting}
+//Quellcode-Listings
+//und andere Verbatim-Umgebungen
+//setzen die fragile-Option des Frames voraus.
+#include <iostream>
+void main(){
+	std::cout<<"Hallo Welt"<<std::endl;
+}
+\end{lstlisting}

@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (MiKTeX 2.9.7400 64-bit)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: tutorial.aux
+The style file: geralpha.bst
+Database file #1: tutorial.bib
+You've used 1 entry,
+            2768 wiz_defined-function locations,
+            608 strings with 5180 characters,
+and the built_in function-call counts, 436 in all, are:
+= -- 40
+> -- 25
+< -- 0
++ -- 9
+- -- 9
+* -- 33
+:= -- 78
+add.period$ -- 2
+call.type$ -- 1
+change.case$ -- 6
+chr.to.int$ -- 1
+cite$ -- 1
+duplicate$ -- 14
+empty$ -- 31
+format.name$ -- 10
+if$ -- 90
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 7
+num.names$ -- 3
+pop$ -- 11
+preamble$ -- 1
+purify$ -- 8
+quote$ -- 0
+skip$ -- 17
+stack$ -- 0
+substring$ -- 7
+swap$ -- 5
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 0
+while$ -- 3
+width$ -- 2
+write$ -- 13

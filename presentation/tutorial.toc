@@ -1,0 +1,9 @@
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\beamer@sectionintoc {1}{Grundlagen}{3}{0}{1}
+\beamer@sectionintoc {2}{Algorithmen}{18}{0}{2}
+\beamer@subsectionintoc {2}{1}{Environments}{21}{0}{2}
+\beamer@subsectionintoc {2}{2}{Blocks}{23}{0}{2}
+\beamer@sectionintoc {3}{Anwendungen}{24}{0}{3}
+\beamer@sectionintoc {4}{Animationen}{27}{0}{4}
+\beamer@sectionintoc {5}{Zeichnungen mit Animationen}{68}{0}{5}
