@@ -262,76 +262,209 @@
 		\end{column}
 	\end{columns}
 \end{frame}
-\section{Algorithmen}
 
-\begin{frame}{Graphen}{Sichtbarkeitsgraphen}
+
+\section{Algorithmen zur Pfadplanung}
+\subsection{Definition von Pfadplanungsalgorithmen}
+\begin{frame}{Algorithmen zur Pfadplanung}{Definition von Pfadplanungsalorithmen}
+	
+	\begin{itemize}
+				\item Es gibt keine einfache Definition für Pfadplanungsalgorithmen.
+				\item Die Algorithmen Definition wird aus der \textit{Church-Turing-These} hergeleitet.
+				
+	\end{itemize}
+		\begin{theorem}[Turing-Vollständigkeit]
+			Ein Berechnungsmodell, mit dem alle Funktionen
+			der Klasse WHILE berechnet werden können, heißt
+			Turing-vollständig.
+		\end{theorem}
+		\begin{theorem}[Church-Turing-These]
+			Jede im intuitiven Sinne berechenbare Funktion ist \textbf{WHILE}-berechenbar.
+		\end{theorem}
+\end{frame}
+	
+\begin{frame}{Algorithmen zur Pfadplanung} {Definition von Pfadplanungsalgorithmen}
 	\begin{columns}
 		\begin{column}[T]{0.5\textwidth}
-			\begin{itemize}
-				\item Roadmap aus sichtbare Punkte bilden
-				\item Die Eckpunkte der Hindernisse verbinden
-				\item Sensoren nehmen neue Information für den Roboter, um neue  Kanten zu bilden
-			\end{itemize}
-		\end{column}
+	\begin{itemize}[<+->]
+		\item Diese Definitionen ist Unvollständig
+		\item Es fehlt die Repräsentation der Interaktion des Roboters mit der Umgebung.
+		\item \textbf{Lösung:} Ein Planer ist ein Algorithmus der einen Plan erstellt.
+		\begin{itemize}
+			\item kann einer Turing-Maschine entsprechen.
+			\item kann optional erweitert werden.
+		\end{itemize}	
+	\end{itemize}
+	\end{column}
 		\begin{column}[T]{0.5\textwidth}
-			\begin{figure}
+			\begin{figure}[<+->]
 				\includegraphics[width=6.5cm]{images/img224.png}
-				\caption{Testbild in einem figure float} 
+				\caption{(a) Grenze zwischen Maschine und Umgebung ist fließend.\newline
+						(b) Maschine M interagiert mit der Umgebung U durch Sensorik und Antrieb. } 
 			\end{figure}
 		\end{column}
-	\end{columns}
+	\end{columns}	
 \end{frame}
-\begin{frame}{Graphen}{Sichtbarkeitsgraphen}
+
+\begin{frame}{Algorithmen zur Pfadplanung}{Plan}
 	\begin{columns}
 		\begin{column}[T]{0.5\textwidth}
-			\begin{itemize}
-				\item Roadmap aus sichtbare Punkte bilden
-				\item Die Eckpunkte der Hindernisse verbinden
-				\item Sensoren nehmen neue Information für den Roboter, um neue  Kanten zu bilden
+			\begin{itemize}[<+->]
+				\item Ausführen 
+				\begin{itemize}
+					\item als kodierte Eingabe den Roboter programmieren
+					\item als Spezialmaschine eine spezielle Aufgabe lösen. 
+				\end{itemize}
+				\item Verbesserung
+				\begin{itemize}
+					\item Den Plan dem Planer übergeben und mit Fokus auf verschiedene Aspekte neu berechnen. 
+					\item Es entsteht ein Verbesserungsprozess der viele Aspekte mit einbezieht.
+				\end{itemize}
 			\end{itemize}
 		\end{column}
 		\begin{column}[T]{0.5\textwidth}
 			\begin{figure}
 				\includegraphics[width=6.5cm]{images/img247.png}
-				\caption{Testbild in einem figure float} 
+				\caption{Ein Verbesserungsprozess der sich in der Robotik bewährt hat.} 
 			\end{figure}
 		\end{column}
 	\end{columns}
 \end{frame}
-\begin{frame}{Graphen}{Sichtbarkeitsgraphen}
-	\begin{columns}
-		\begin{column}[T]{0.5\textwidth}
+\begin{frame}{Algorithmen zur Pfadplanung}{Plan}
+\begin{columns}
+	\begin{column}[T]{0.5\textwidth}
+		\begin{itemize}[<+->]
+			\item Hierarchische Inklusion
 			\begin{itemize}
-				\item Roadmap aus sichtbare Punkte bilden
-				\item Die Eckpunkte der Hindernisse verbinden
-				\item Sensoren nehmen neue Information für den Roboter, um neue  Kanten zu bilden
+				\item Plan wird als Aktion in einen Größeren Plan aufgenommen
+				\item Ein problem wird in viele kleine Probleme zerteilt
+				\item Es entsteht eine Baumstruktur
+			\end{itemize}
+			\item Wie kann das Objekt von seiner Ursprungsposition (oben, links) zur finalen Position (unten, links) bewegt werden?
+			\item Die Lösung (rechts) erfordert mehrere \textit{Verschiebeoperationen}.
+			 
+			
+		\end{itemize}
+	\end{column}
+	\begin{column}[T]{0.5\textwidth}
+		\begin{figure}
+			\includegraphics[width=6.5cm]{images/hierarchical.png}
+			\caption{} 
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
+\subsection{Klassifizierung von Pfadplanungsalgorithmen}
+\begin{frame}{Algorithmen zur Pfadplanung}{Klassifizierung von Pfadplanungsalgorithmen}
+	\begin{columns}
+		\begin{column}[T]{0.7\textwidth}
+	\begin{itemize}
+		\item Abhängigkeit vom Einsatz dadurch stark Heterogen.
+		\item Planen im \alert<2>{diskreten} und \alert<3->{kontinuierlichen} Zustandsraum.
+		\begin{itemize}
+			\item<4-> Alle Umgebungsinformationen (Industrieroboter, kontrollierte Umgebung)
+			\item<5-> Unsicherheit (Roboter mit Kameras)
+			\item<6-> Bewegungseinschränkung (Roboter mit Rädern, Auto)
+		\end{itemize}
+		\item Vorherrschaft von diskreten Algorithmen auch für kontinuierliches Pfadplanen. 
+	\end{itemize}
+\end{column}
+	\begin{column}[T]{0.3\textwidth}
+	\end{column}
+\end{columns}
+\end{frame}
+
+\subsection{Diskrete Pfadplanung}
+\begin{frame}{Algorithmen zur Pfadplanung}{Diskrete Pfadplanung}
+	\begin{columns}
+		\begin{column}[T]{0.7\textwidth}
+			\begin{itemize}
+				\item Zustandsraum ist abzählbar unendlich 
+				\begin{itemize}
+				\item Es müssen keine geometrischen Modelle beachtet werden.
+				\item Es gibt grundsätzlich keine Bewegungseinschränkungen.
+			\end{itemize}
+				\item Systematisch: \alert<2>{wenn ein pfad existiert wird er gefunden}
+				\item Feasible Planning: \alert<3>{ein Ziel wird gefunden}
+				\item Optimales Planen: \alert<4>{ Optimierung auf Zeit, Distanz, Anzahl Drehungen, usw.}
 			\end{itemize}
 		\end{column}
-		\begin{column}[T]{0.5\textwidth}
-			\begin{figure}
-				\includegraphics[width=6.5cm]{images/hierarchical.png}
-				\caption{Testbild in einem figure float} 
-			\end{figure}
+		\begin{column}[T]{0.3\textwidth}
 		\end{column}
 	\end{columns}
 \end{frame}
-\begin{frame}{Graphen}{Sichtbarkeitsgraphen}
+
+
+\begin{frame}{Algorithmen zur Pfadplanung}{Feasible Planning}
 	\begin{columns}
-		\begin{column}[T]{0.5\textwidth}
+		\begin{column}[T]{0.7\textwidth}
 			\begin{itemize}
-				\item Roadmap aus sichtbare Punkte bilden
-				\item Die Eckpunkte der Hindernisse verbinden
-				\item Sensoren nehmen neue Information für den Roboter, um neue  Kanten zu bilden
+				
+				\item Algorithmen des Typ Foreward Search werden hier verwendet.
+				\item Systematisches Vorgehen
+				\begin{itemize} 
+					\item Endlich viele Zustände müssen alle besucht werden. 
+					\item Bei unendlich vielen Zuständen reicht es aus zu einer Lösung zu kommen. 
+				\end{itemize}
+				\item Entdecktes Feld, Unentdecktes Feld und Totes Feld
+				\item Einfluss der Sortierung auf das Verhalten
+				\begin{itemize}
+					\item FIFO
+					\item LIFO
+				 	\item Djikstra
+					\item A*
+				\end{itemize}
 			\end{itemize}
 		\end{column}
-		\begin{column}[T]{0.5\textwidth}
+		\begin{column}[T]{0.3\textwidth}
 			\begin{figure}
-				\includegraphics[width=6.5cm]{images/img225.png}
-				\caption{Testbild in einem figure float} 
+				\includegraphics[width=4.5cm]{images/img225.png}
+				\caption{} 
 			\end{figure}
 		\end{column}
 	\end{columns}
 \end{frame}
+
+
+\begin{frame}{Algorithmen zur Pfadplanung}{Feasible Planning}
+	\begin{columns}[T]
+		\begin{column}[T]{0.5\textwidth}
+			\begin{center}
+				\begin{tikzpicture}
+				\useasboundingbox (-2,-2) rectangle (2,2);
+				\node<1>[draw,circle,fill=lightgray] (A) at (0,0) {$A$}; 
+				\node<2->[draw,circle,fill=red,text=white] (A) at (0,0) {$A$}; 
+				\node[draw,circle,fill=lightgray] (A) at (-1.5,0) {$0$}; 
+				 \node[draw,circle,fill=lightgray] (A) at (0,-1.5) {$1$};
+				 
+				
+				\node[draw,circle,fill=lightgray] (A) at (1.5,0) {$2$};
+				\node[draw,circle,fill=lightgray] (A) at (0,1.5) {$3$}; 
+				\node[draw,circle,fill=lightgray] (A) at (-1.5,-1.5) {$4$}; 
+				\node[draw,circle,fill=lightgray] (B) at ( 1.5,-1.5) {$5$};
+				\node[draw,circle,fill=lightgray] (A) at (1.5,1.5) {$6$}; 
+				\node[draw,circle,fill=lightgray] (A) at (-1.5,1.5) {$7$}; 
+				
+				
+				\draw<5->[->] (A) to[out=45,in=135] (B);
+				\draw<7->[->] (B) to[out=225,in=315] (A);			
+				\end{tikzpicture}
+			\end{center}
+		\end{column}
+		\begin{column}[T]{0.5\textwidth}
+			\begin{itemize}
+				\item Sei ein Knoten $A$ als Startknoten gegeben
+				\item Sei eine Menge $U(x)$ gegeben, die alle unentdeckten Knoten enthält.
+				$$U(x)=\{A,0,1,2,3,4,5,6,7\}$$
+				\item <2-> Knoten $4$ wird als Zielknoten definiert.
+				\only<2>{\item Dieser Hinweis wird nur für Schritt 2 angezeigt.}
+				
+			\end{itemize}
+		\end{column}
+	\end{columns}	
+\end{frame}
+
+
 
 \section{tutorial}
 \begin{frame}{Was ist Beamer?}{Eine Übersicht}

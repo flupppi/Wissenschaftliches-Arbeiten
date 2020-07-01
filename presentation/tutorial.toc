@@ -3,10 +3,13 @@
 \beamer@sectionintoc {1}{Grundlagen}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Darstellung des Raums}{4}{0}{1}
 \beamer@subsectionintoc {1}{2}{Graphen}{8}{0}{1}
-\beamer@sectionintoc {2}{Algorithmen}{13}{0}{2}
-\beamer@sectionintoc {3}{tutorial}{17}{0}{3}
-\beamer@subsectionintoc {3}{1}{Environments}{25}{0}{3}
-\beamer@subsectionintoc {3}{2}{Blocks}{27}{0}{3}
-\beamer@sectionintoc {4}{Anwendungen}{28}{0}{4}
-\beamer@sectionintoc {5}{Animationen}{31}{0}{5}
-\beamer@sectionintoc {6}{Zeichnungen mit Animationen}{72}{0}{6}
+\beamer@sectionintoc {2}{Algorithmen zur Pfadplanung}{13}{0}{2}
+\beamer@subsectionintoc {2}{1}{Definition von Pfadplanungsalgorithmen}{13}{0}{2}
+\beamer@subsectionintoc {2}{2}{Klassifizierung von Pfadplanungsalgorithmen}{31}{0}{2}
+\beamer@subsectionintoc {2}{3}{Diskrete Pfadplanung}{37}{0}{2}
+\beamer@sectionintoc {3}{tutorial}{49}{0}{3}
+\beamer@subsectionintoc {3}{1}{Environments}{57}{0}{3}
+\beamer@subsectionintoc {3}{2}{Blocks}{59}{0}{3}
+\beamer@sectionintoc {4}{Anwendungen}{60}{0}{4}
+\beamer@sectionintoc {5}{Animationen}{63}{0}{5}
+\beamer@sectionintoc {6}{Zeichnungen mit Animationen}{104}{0}{6}

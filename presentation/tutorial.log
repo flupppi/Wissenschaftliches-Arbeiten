@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.7)  30 JUN 2020 15:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.7)  1 JUL 2020 12:24
 entering extended mode
 **./tutorial.tex
 (tutorial.tex
@@ -1175,7 +1175,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
 ts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<HochschuleLogo.pdf, id=57, 812.03375pt x 157.58875pt>
+<HochschuleLogo.pdf, id=69, 812.03375pt x 157.58875pt>
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 78.
@@ -1207,7 +1207,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 114.
-<images/Bild1.png, id=97, 207.02344pt x 232.61906pt>
+<images/Bild1.png, id=114, 207.02344pt x 232.61906pt>
 File: images/Bild1.png Graphic file (type png)
 <use images/Bild1.png>
 Package pdftex.def Info: images/Bild1.png  used on input line 114.
@@ -1224,7 +1224,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [3
 
  <./images/Bild1.png>]
-<images/Bild2.png, id=107, 315.42844pt x 248.42813pt>
+<images/Bild2.png, id=124, 315.42844pt x 248.42813pt>
 File: images/Bild2.png Graphic file (type png)
 <use images/Bild2.png>
 Package pdftex.def Info: images/Bild2.png  used on input line 137.
@@ -1241,7 +1241,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [4
 
  <./images/Bild2.png>]
-<images/Potential_Field.png, id=114, 465.99094pt x 139.27031pt>
+<images/Potential_Field.png, id=131, 465.99094pt x 139.27031pt>
 File: images/Potential_Field.png Graphic file (type png)
 <use images/Potential_Field.png>
 Package pdftex.def Info: images/Potential_Field.png  used on input line 152.
@@ -1258,7 +1258,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [5
 
  <./images/Potential_Field.png>]
-<images/Bild3.png, id=122, 337.26pt x 271.76532pt>
+<images/Bild3.png, id=139, 337.26pt x 271.76532pt>
 File: images/Bild3.png Graphic file (type png)
 <use images/Bild3.png>
 Package pdftex.def Info: images/Bild3.png  used on input line 174.
@@ -1275,7 +1275,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [6
 
  <./images/Bild3.png>]
-<images/Bild4.png, id=130, 329.73187pt x 221.32687pt>
+<images/Bild4.png, id=147, 329.73187pt x 221.32687pt>
 File: images/Bild4.png Graphic file (type png)
 <use images/Bild4.png>
 Package pdftex.def Info: images/Bild4.png  used on input line 189.
@@ -1292,7 +1292,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [7
 
  <./images/Bild4.png>]
-<images/kk_graph_S6.png, id=139, 721.94719pt x 336.50719pt>
+<images/kk_graph_S6.png, id=156, 721.94719pt x 336.50719pt>
 File: images/kk_graph_S6.png Graphic file (type png)
 <use images/kk_graph_S6.png>
 Package pdftex.def Info: images/kk_graph_S6.png  used on input line 202.
@@ -1309,7 +1309,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [8
 
  <./images/kk_graph_S6.png>]
-<images/Bild5.png, id=146, 414.04688pt x 205.5178pt>
+<images/Bild5.png, id=163, 414.04688pt x 205.5178pt>
 File: images/Bild5.png Graphic file (type png)
 <use images/Bild5.png>
 Package pdftex.def Info: images/Bild5.png  used on input line 215.
@@ -1330,7 +1330,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [9
 
  <./images/Bild5.png>]
-<images/mesh_with_path.png, id=154, 1104.125pt x 599.23875pt>
+<images/mesh_with_path.png, id=171, 1104.125pt x 599.23875pt>
 File: images/mesh_with_path.png Graphic file (type png)
 <use images/mesh_with_path.png>
 Package pdftex.def Info: images/mesh_with_path.png  used on input line 232.
@@ -1347,7 +1347,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [10
 
  <./images/mesh_with_path.png>]
-<images/Grid_Tiles.png, id=162, 1647.15375pt x 536.0025pt>
+<images/Grid_Tiles.png, id=179, 1647.15375pt x 536.0025pt>
 File: images/Grid_Tiles.png Graphic file (type png)
 <use images/Grid_Tiles.png>
 Package pdftex.def Info: images/Grid_Tiles.png  used on input line 246.
@@ -1364,7 +1364,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [11
 
  <./images/Grid_Tiles.png>]
-<images/Robot_Motion_Visibility_Graph.png, id=169, 377.91188pt x 209.28188pt>
+<images/Robot_Motion_Visibility_Graph.png, id=186, 377.91188pt x 209.28188pt>
 File: images/Robot_Motion_Visibility_Graph.png Graphic file (type png)
 <use images/Robot_Motion_Visibility_Graph.png>
 Package pdftex.def Info: images/Robot_Motion_Visibility_Graph.png  used on inpu
@@ -1382,14 +1382,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [12
 
  <./images/Robot_Motion_Visibility_Graph.png>]
-<images/img224.png, id=177, 908.10696pt x 296.39304pt>
-File: images/img224.png Graphic file (type png)
-<use images/img224.png>
-Package pdftex.def Info: images/img224.png  used on input line 283.
-(pdftex.def)             Requested size: 184.9429pt x 60.36298pt.
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 284.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 283.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 284.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1398,15 +1395,15 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 [13
 
- <./images/img224.png>]
-<images/img247.png, id=185, 1051.35643pt x 313.17pt>
-File: images/img247.png Graphic file (type png)
-<use images/img247.png>
-Package pdftex.def Info: images/img247.png  used on input line 300.
-(pdftex.def)             Requested size: 184.9429pt x 55.0875pt.
+]
+<images/img224.png, id=201, 908.10696pt x 296.39304pt>
+File: images/img224.png Graphic file (type png)
+<use images/img224.png>
+Package pdftex.def Info: images/img224.png  used on input line 307.
+(pdftex.def)             Requested size: 184.9429pt x 60.36298pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 300.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 307.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1415,19 +1412,14 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 [14
 
- <./images/img247.png>]
-<images/hierarchical.png, id=193, 669.78804pt x 497.28642pt>
-File: images/hierarchical.png Graphic file (type png)
-<use images/hierarchical.png>
-Package pdftex.def Info: images/hierarchical.png  used on input line 317.
-(pdftex.def)             Requested size: 184.9429pt x 137.3119pt.
-
-Overfull \vbox (3.03822pt too high) detected at line 317
- []
-
+ <./images/img224.png>]
+File: images/img224.png Graphic file (type png)
+<use images/img224.png>
+Package pdftex.def Info: images/img224.png  used on input line 307.
+(pdftex.def)             Requested size: 184.9429pt x 60.36298pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 317.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 307.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1436,15 +1428,14 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 [15
 
- <./images/hierarchical.png>]
-<images/img225.png, id=201, 1056.51857pt x 526.53857pt>
-File: images/img225.png Graphic file (type png)
-<use images/img225.png>
-Package pdftex.def Info: images/img225.png  used on input line 334.
-(pdftex.def)             Requested size: 184.9429pt x 92.16972pt.
+]
+File: images/img224.png Graphic file (type png)
+<use images/img224.png>
+Package pdftex.def Info: images/img224.png  used on input line 307.
+(pdftex.def)             Requested size: 184.9429pt x 60.36298pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 334.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 307.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1453,10 +1444,14 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 [16
 
- <./images/img225.png>]
+]
+File: images/img224.png Graphic file (type png)
+<use images/img224.png>
+Package pdftex.def Info: images/img224.png  used on input line 307.
+(pdftex.def)             Requested size: 184.9429pt x 60.36298pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 340.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 307.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1466,9 +1461,13 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [17
 
 ]
+File: images/img224.png Graphic file (type png)
+<use images/img224.png>
+Package pdftex.def Info: images/img224.png  used on input line 307.
+(pdftex.def)             Requested size: 184.9429pt x 60.36298pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 344.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 307.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1478,9 +1477,14 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [18
 
 ]
+<images/img247.png, id=233, 1051.35643pt x 313.17pt>
+File: images/img247.png Graphic file (type png)
+<use images/img247.png>
+Package pdftex.def Info: images/img247.png  used on input line 332.
+(pdftex.def)             Requested size: 184.9429pt x 55.0875pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 349.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 332.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1489,10 +1493,14 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 [19
 
-]
+ <./images/img247.png>]
+File: images/img247.png Graphic file (type png)
+<use images/img247.png>
+Package pdftex.def Info: images/img247.png  used on input line 332.
+(pdftex.def)             Requested size: 184.9429pt x 55.0875pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 355.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 332.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1502,9 +1510,13 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [20
 
 ]
+File: images/img247.png Graphic file (type png)
+<use images/img247.png>
+Package pdftex.def Info: images/img247.png  used on input line 332.
+(pdftex.def)             Requested size: 184.9429pt x 55.0875pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 374.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 332.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1514,9 +1526,13 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [21
 
 ]
+File: images/img247.png Graphic file (type png)
+<use images/img247.png>
+Package pdftex.def Info: images/img247.png  used on input line 332.
+(pdftex.def)             Requested size: 184.9429pt x 55.0875pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 383.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 332.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1526,9 +1542,13 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [22
 
 ]
+File: images/img247.png Graphic file (type png)
+<use images/img247.png>
+Package pdftex.def Info: images/img247.png  used on input line 332.
+(pdftex.def)             Requested size: 184.9429pt x 55.0875pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 383.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 332.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1538,9 +1558,13 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [23
 
 ]
+File: images/img247.png Graphic file (type png)
+<use images/img247.png>
+Package pdftex.def Info: images/img247.png  used on input line 332.
+(pdftex.def)             Requested size: 184.9429pt x 55.0875pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 383.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 332.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1550,21 +1574,18 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [24
 
 ]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 401.
-(pdftex.def)             Requested size: 99.58464pt x 19.32582pt.
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 401.
-(pdftex.def)             Requested size: 99.58464pt x 19.32582pt.
+<images/hierarchical.png, id=272, 669.78804pt x 497.28642pt>
+File: images/hierarchical.png Graphic file (type png)
+<use images/hierarchical.png>
+Package pdftex.def Info: images/hierarchical.png  used on input line 356.
+(pdftex.def)             Requested size: 184.9429pt x 137.3119pt.
 
-Overfull \vbox (4.613pt too high) detected at line 401
+Overfull \vbox (3.03822pt too high) detected at line 356
  []
 
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 401.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 356.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1573,17 +1594,18 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 [25
 
-]
-LaTeX Font Info:    Trying to load font information for U+euf on input line 406
-.
+ <./images/hierarchical.png>]
+File: images/hierarchical.png Graphic file (type png)
+<use images/hierarchical.png>
+Package pdftex.def Info: images/hierarchical.png  used on input line 356.
+(pdftex.def)             Requested size: 184.9429pt x 137.3119pt.
 
-("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
-ts\ueuf.fd"
-File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
-)
+Overfull \vbox (3.03822pt too high) detected at line 356
+ []
+
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 406.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 356.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1593,9 +1615,17 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [26
 
 ]
+File: images/hierarchical.png Graphic file (type png)
+<use images/hierarchical.png>
+Package pdftex.def Info: images/hierarchical.png  used on input line 356.
+(pdftex.def)             Requested size: 184.9429pt x 137.3119pt.
+
+Overfull \vbox (3.03822pt too high) detected at line 356
+ []
+
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 419.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 356.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1605,9 +1635,17 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [27
 
 ]
+File: images/hierarchical.png Graphic file (type png)
+<use images/hierarchical.png>
+Package pdftex.def Info: images/hierarchical.png  used on input line 356.
+(pdftex.def)             Requested size: 184.9429pt x 137.3119pt.
+
+Overfull \vbox (3.03822pt too high) detected at line 356
+ []
+
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 429.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 356.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1617,9 +1655,17 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [28
 
 ]
+File: images/hierarchical.png Graphic file (type png)
+<use images/hierarchical.png>
+Package pdftex.def Info: images/hierarchical.png  used on input line 356.
+(pdftex.def)             Requested size: 184.9429pt x 137.3119pt.
+
+Overfull \vbox (3.03822pt too high) detected at line 356
+ []
+
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 429.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 356.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1627,6 +1673,427 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
  []
 
 [29
+
+]
+File: images/hierarchical.png Graphic file (type png)
+<use images/hierarchical.png>
+Package pdftex.def Info: images/hierarchical.png  used on input line 356.
+(pdftex.def)             Requested size: 184.9429pt x 137.3119pt.
+
+Overfull \vbox (3.03822pt too high) detected at line 356
+ []
+
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 356.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[30
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 375.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[31
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 375.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[32
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 375.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[33
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 375.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[34
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 375.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[35
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 375.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[36
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 395.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[37
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 395.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[38
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 395.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[39
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 395.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[40
+
+]
+<images/img225.png, id=371, 574.71857pt x 511.48232pt>
+File: images/img225.png Graphic file (type png)
+<use images/img225.png>
+Package pdftex.def Info: images/img225.png  used on input line 426.
+(pdftex.def)             Requested size: 128.0374pt x 113.94688pt.
+
+Overfull \hbox (8.5346pt too wide) in paragraph at lines 426--426
+ [] 
+ []
+
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 426.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[41
+
+ <./images/img225.png>]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 465.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[42
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 465.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[43
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 465.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[44
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 465.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[45
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 465.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[46
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 465.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[47
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 465.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[48
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 473.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[49
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 477.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[50
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 482.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[51
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 488.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[52
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 507.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[53
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 516.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[54
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 516.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[55
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 516.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[56
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 534.
+(pdftex.def)             Requested size: 99.58464pt x 19.32582pt.
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 534.
+(pdftex.def)             Requested size: 99.58464pt x 19.32582pt.
+
+Overfull \vbox (4.71504pt too high) detected at line 534
+ []
+
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 534.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[57
+
+]
+LaTeX Font Info:    Trying to load font information for U+euf on input line 539
+.
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
+ts\ueuf.fd"
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 539.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[58
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 552.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[59
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 562.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[60
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 562.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[61
 
 
 ]
@@ -1642,391 +2109,7 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ))
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 441.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[30
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 453.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[31
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 453.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[32
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 463.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[33
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 463.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[34
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 463.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[35
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 463.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[36
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 472.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[37
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 472.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[38
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 472.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[39
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 472.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[40
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 481.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[41
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 481.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[42
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 481.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[43
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 481.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[44
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 481.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[45
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 498.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[46
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 498.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[47
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 498.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[48
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 498.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[49
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 498.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[50
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 498.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[51
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 524.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[52
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 524.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[53
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 524.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[54
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 524.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[55
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 524.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[56
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 524.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[57
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 524.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[58
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 524.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[59
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 537.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[60
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 537.
-(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
-
-Overfull \hbox (28.97128pt too wide) has occurred while \output is active
- []  
- []
-
-[61
-
-]
-File: HochschuleLogo.pdf Graphic file (type pdf)
-<use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 537.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 574.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2038,7 +2121,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 537.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 586.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2048,12 +2131,9 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [63
 
 ]
-Overfull \vbox (2.65pt too high) detected at line 551
- []
-
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 551.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 586.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2063,12 +2143,9 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [64
 
 ]
-Overfull \vbox (2.65pt too high) detected at line 551
- []
-
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 551.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 596.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2078,12 +2155,9 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [65
 
 ]
-Overfull \vbox (2.65pt too high) detected at line 551
- []
-
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 551.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 596.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2093,12 +2167,9 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [66
 
 ]
-Overfull \vbox (2.65pt too high) detected at line 551
- []
-
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 551.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 596.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2110,7 +2181,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 563.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 596.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2122,7 +2193,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 563.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 605.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2134,7 +2205,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 563.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 605.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2146,7 +2217,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 563.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 605.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2158,7 +2229,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 588.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 605.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2170,7 +2241,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 588.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 614.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2182,7 +2253,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 588.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 614.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2194,7 +2265,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 588.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 614.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2206,7 +2277,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 588.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 614.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2218,7 +2289,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 588.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 614.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2230,7 +2301,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 588.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 631.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2242,7 +2313,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 598.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 631.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2251,10 +2322,10 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 [79
 
-] (tutorial.bbl)
+]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 602.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 631.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2262,6 +2333,402 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
  []
 
 [80
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 631.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[81
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 631.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[82
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 631.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[83
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 657.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[84
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 657.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[85
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 657.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[86
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 657.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[87
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 657.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[88
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 657.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[89
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 657.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[90
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 657.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[91
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 670.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[92
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 670.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[93
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 670.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[94
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 670.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[95
+
+]
+Overfull \vbox (2.65pt too high) detected at line 684
+ []
+
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 684.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[96
+
+]
+Overfull \vbox (2.65pt too high) detected at line 684
+ []
+
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 684.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[97
+
+]
+Overfull \vbox (2.65pt too high) detected at line 684
+ []
+
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 684.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[98
+
+]
+Overfull \vbox (2.65pt too high) detected at line 684
+ []
+
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 684.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[99
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 696.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[100
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 696.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[101
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 696.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[102
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 696.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[103
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 721.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[104
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 721.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[105
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 721.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[106
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 721.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[107
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 721.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[108
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 721.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[109
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 721.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[110
+
+]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 731.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[111
+
+] (tutorial.bbl)
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 735.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[112
 
 ]
 \tf@nav=\write6
@@ -2273,20 +2740,20 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `tutorial.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 605.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 605.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 738.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 738.
  (tutorial.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 605.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 605.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 738.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 738.
 Package rerunfilecheck Info: File `tutorial.out' has not changed.
-(rerunfilecheck)             Checksum: 40528C9DE8EE84118D1554B22141A797;576.
+(rerunfilecheck)             Checksum: 3862035A564391C0A0F9460694067458;846.
  ) 
 Here is how much of TeX's memory you used:
- 25382 strings out of 480930
- 506181 string characters out of 2894132
- 1038355 words of memory out of 3000000
- 40442 multiletter control sequences out of 15000+200000
- 563516 words of font info for 87 fonts, out of 3000000 for 9000
+ 25616 strings out of 480930
+ 510371 string characters out of 2894132
+ 1038707 words of memory out of 3000000
+ 40606 multiletter control sequences out of 15000+200000
+ 566908 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,18n,82p,777b,1284s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
@@ -2306,12 +2773,13 @@ pfb><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
 rw/courier/ucrb8a.pfb><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Felix Kalchschmid/AppData/Loc
 al/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Felix Kalc
-hschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><
-C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/he
-lvetic/uhvro8a.pfb>
-Output written on tutorial.pdf (80 pages, 2559620 bytes).
+hschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb>
+<C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/h
+elvetic/uhvr8a.pfb><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on tutorial.pdf (112 pages, 2638096 bytes).
 PDF statistics:
- 694 PDF objects out of 1000 (max. 8388607)
- 173 named destinations out of 1000 (max. 500000)
- 206 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 926 PDF objects out of 1000 (max. 8388607)
+ 240 named destinations out of 1000 (max. 500000)
+ 230 words of extra memory for PDF output out of 10000 (max. 10000000)
 
