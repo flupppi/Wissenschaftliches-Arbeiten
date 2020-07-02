@@ -1,8 +1,8 @@
-\begin{thebibliography}{TWM17}
+\begin{thebibliography}{LaV06}
 
-\bibitem[TWM17]{BeamerDoc}
-{\sc Tantau, Till}, {\sc Joseph Wright} \btxandlong{}\ {\sc Vedran Miletić}:
-  {\em Beamer Documentation}, 2017.
-\newblock \url{https://www.ctan.org/pkg/beamer}.
+\bibitem[LaV06]{Lav06}
+{\sc LaValle, S.~M.}: {\em Planning Algorithms}.
+\newblock Cambridge University Press, ,Cambridge U.K., 2006.
+\newblock Available at http://planning.cs.uiuc.edu/.
 
 \end{thebibliography}

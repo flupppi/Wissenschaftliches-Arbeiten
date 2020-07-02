@@ -1,0 +1,489 @@
+% BibTeX database for AFT at i3A
+
+%% bibtexfile{
+%%  author	= " ",
+%%  version	= "1.0",
+%%  date	= "10 April 2003",
+%%  filename	= "fuzzy.bib",
+%%  adress	= "Fachhochschule Trier
+%%		   University of Applied Sciences Trier
+%%		   Postfach 1826
+%%		   D-54208 Trier
+%%		   Germany",
+%%  email	= "<i3a.fh-trier.de>" }
+
+
+% How to use this file within an german document!
+%
+% - set 'german' as global option to documentclass
+%   e.g.: '\documentclass[12pt,a4paper,oneside,german,epsfig]{ai-paper}'
+% - use package 'babel': '\usepackage{babel}'
+% - use package 'bibgerm': '\usepackage{bibgerm}'
+% - use bibstyle 'geralpha', 'gerplain', ...
+%   e.g.: '\bibliographystyle{geralpha}'
+%
+% Within this .bib-file use 'and' to specify more than one author. 
+% You have to use only the english abbreviations WITHOUT curly brackets
+% for months! e.g.: 'jan', 'feb', 'mar', 'apr', 'mai', 'jun', 'jul',
+% 'aug', 'sep', 'oct', 'nov', 'dec'.
+
+
+
+% Short explanation of entry types:
+%
+% Article:          An article from a journal or magazine.
+% Book:             A Book with an explicit publisher.
+% Booklet:          A work that is printed and bound, but without a 
+%                   named publisher or sponsoring institution.
+% InBook:           A part of a book which may be a chapter (or section
+%                   or whatever) and/or a range of pages.
+% InCollection:     A part of a book having ots own title.
+% InProceedings:    An article in a conference proceedings.
+% Manual:           Technical documentation.
+% Mastersthesis:    A Master's thesis.
+% Misc:             Use this type when nothing else fits.
+% PhDthesis:        A PhD thesis.
+% Proceedings:      The proceedings of a conference. See also: inproceedings.
+% Techreport:       A report published by a school or other institution, 
+%                   usally numbered within a series.
+%
+% Further Information may be found at www.din1505.informationskompetenz.net
+
+
+
+%%%%%%%% article
+%%
+%% An article from a journal or magazine.
+%%
+%% Required fields:
+%% author, title, journal, year
+%%
+%% Optional fields:
+%% volume, number, pages, month, note
+@article{dijkstra:59,
+	title={A note on two problems in connexion with graphs},
+	author={Dijkstra, Edsger W and others},
+	journal={Numerische mathematik},
+	volume={1},
+	number={1},
+	pages={269--271},
+	year={1959}
+}
+
+%%%%%%%% book
+%%
+%% A Book with an explicit publisher.
+%%
+%% Required fields:
+%% author or editor, title, publisher, year
+%%
+%% Optional fields:
+%% volume or number, series, address, edition, month, isbn, note
+
+%Image
+@techreport{Petersen:15,
+	title={Pfadplanung und Ausf"uhrung f"ur einen mobilen Roboter im Kontext des RoboCup Wettbewerbs},
+	author={Hauke Petersen},
+	institution={Otto-von-Guericke-Universit"at Magdeburg},
+	year = 2015,
+}
+
+@book{Turau:15,
+	title={Algorithmische Graphentheorie},
+	author={Turau, V. and Weyer, C.},
+	isbn={9783110420005},
+	series={De Gruyter Studium},
+	url={https://books.google.com.ec/books?id=E9ZaCwAAQBAJ},
+	year={2015},
+	publisher={De Gruyter}
+}
+
+@inproceedings{Mesh:16,
+	author = {van Toll, Wouter and Triesscheijn, Roy and Kallmann, Marcelo and Oliva, Ramon and Pelechano, Nuria and Pettr\'{e}, Julien and Geraerts, Roland},
+	title = {A Comparative Study of Navigation Meshes},
+	year = {2016},
+	isbn = {9781450345927},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/2994258.2994262},
+	doi = {10.1145/2994258.2994262},
+	booktitle = {Proceedings of the 9th International Conference on Motion in Games},
+	pages = {91--100},
+	numpages = {10},
+	keywords = {path planning, comparative study, navigation meshes},
+	location = {Burlingame, California},
+	series = {MIG ‘16}
+}
+
+%Image
+@ONLINE{Mesh:18,
+	author = {MiiMii1205},
+	publisher = {jb-dev},
+	title = {Navigation Meshes and Pathfinding},
+	year = 2018,
+	url =  {https://www.gamedev.net/tutorials/programming/artificial-intelligence/navigation-meshes-and-pathfinding-r4880/},
+	urldate = {2020-05-29}
+}
+
+@INPROCEEDINGS{Mesh:11,
+	author={W. {van Toll} and A. F. {Cook} and R. {Geraerts}},
+	booktitle={2011 IEEE/RSJ International Conference on Intelligent Robots and Systems}, 
+	title={Navigation meshes for realistic multi-layered environments}, 
+	year={2011},
+	volume={},
+	number={},
+	pages={3526-3532},
+}
+
+@InProceedings{Grid:02,
+	author={Yap, Peter},
+	editor={Cohen, Robin and Spencer, Bruce},
+	title={Grid-Based Path-Finding},
+	booktitle={Advances in Artificial Intelligence},
+	year={2002},
+	publisher={Springer Berlin Heidelberg},
+	address={Berlin, Heidelberg},
+	pages={44--55},
+	abstract={Path-finding is an important problem for many applications, including network traffic, robot planning, military simulations, and computer games. Typically, a grid is superimposed over a region, and a graph search is used to find the optimal (minimal cost) path. The most common scenario is to use a grid of tiles and to search using A*. This paper discusses the tradeoffs for different grid representations and grid search algorithms. Grid representations discussed are 4-way tiles, 8-way tiles, and hexes. This paper introduces texes as an efficient representation of hexes. The search algorithms used are A* and iterative deepening A* (IDA*). Application-dependent properties dictate which grid representation and search algorithm will yield the best results.},
+	isbn={978-3-540-47922-2}
+}
+
+@ARTICLE{Yong:92,
+	author = {Yong K. Hwang and Narendra Ahuja and Senior Member},
+	title = {A potential field approach to path planning},
+	journal = {T-RA},
+	year = {1992}
+}
+
+@book{Principles:05,
+	author	= { Howie Choset and Kevin M. Lynch and Seth Hutchinson and George A. Kantor and Wolfram Burgard and Lydia E. Kavraki and Sebastian Thrun },
+	title		= {Principles of Robot Motion: Theory, Algorithms, and Implementations},
+	publisher	= {MIT Press},
+	year		= 2005,
+	isbn		= {0-262-03327-5}
+}
+
+@book{Lav06,
+	author       = {S. M. LaValle},
+	title        = {Planning Algorithms},
+	publisher    = {Cambridge University Press},
+	address      = {,Cambridge U.K.},
+	note         = {Available at http://planning.cs.uiuc.edu/},
+	year         = {2006}
+}
+
+@article{Schw:83,
+	author = {Schwartz, Jacob T. and Sharir, Micha},
+	title = {On the piano movers' problem I. The case of a two-dimensional rigid polygonal body moving amidst polygonal barriers},
+	journal = {Communications on Pure and Applied Mathematics},
+	volume = {36},
+	number = {3},
+	pages = {345-398},
+	doi = {10.1002/cpa.3160360305},
+	url = {https://onlinelibrary.wiley.com/doi/abs/10.1002/cpa.3160360305%7D},
+	eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1002/cpa.3160360305%7D},
+	abstract = {Abstract We present an algorithm that solves a two-dimensional case of the following problem which arises in robotics: Given a body B, and a region bounded by a collection of ?walls?, either find a continuous motion connecting two given positions and orientations of B during which B avoids collision with the walls, or else establish that no such motion exists. The algorithm is polynomial in the number of walls (O(n5) if n is the number of walls), but for typical wall configurations can run more efficiently. It is somewhat related to a technique outlined by Reif.},
+	year = {1983}
+}
+@INPROCEEDINGS{Levinson:2011,
+	author={J. {Levinson} and J. {Askeland} and J. {Becker} and J. {Dolson} and D. {Held} and S. {Kammel} and J. Z. {Kolter} and D. {Langer} and O. {Pink} and V. {Pratt} and M. {Sokolsky} and G. {Stanek} and D. {Stavens} and A. {Teichman} and M. {Werling} and S. {Thrun}},
+	booktitle={2011 IEEE Intelligent Vehicles Symposium (IV)}, 
+	title={Towards fully autonomous driving: Systems and algorithms}, 
+	year={2011},
+	volume={},
+	number={},
+	pages={163-168},
+}
+@article{cui:2011,
+	title={A*-based pathfinding in modern computer games},
+	author={Cui, Xiao and Shi, Hao},
+	journal={International Journal of Computer Science and Network Security},
+	volume={11},
+	number={1},
+	pages={125--130},
+	year={2011},
+	publisher={International Journal of Computer Science and Network Security (IJCSNS)}
+}
+
+@book{Coulouris:02,
+  author	= {George Coulouris and Jean Dollimore and Tim Kindberg},
+  title		= {{Verteilte Systeme: Konzepte und Design}},
+  publisher	= {Addison-Wesley-Verlag},
+  howpublished	= {3. überarbeitete Auflage},
+  year		= 2002,
+  isbn		= {3-8273-7022-1}
+}
+
+@book{Cormen:90,
+  author	= {Thomas H. Cormen and Charles E. Leiserson and Ronald L. Rivest},
+  title		= {{Introduction to Algorithms}},
+  year		= 1990,
+  isbn		= {0-262-03141-8}
+}
+
+@book{Heckenthaler:96,
+  author	= {Thomas Heckenthaler},
+  title		= {{Systematischer Entwurf fast-zeitoptimaler Fuzzy-Regelungen.}},
+  publisher	= {Shaker Verlag, Aachen},
+  year		= 1996,
+}
+
+
+%%%%%%%% booklet
+%%
+%% A work that is printed and bound, but without a named publisher or
+%% sponsoring institution.
+%%
+%% Required fields:
+%% title
+%%
+%% Optional fields:
+%% author, howpublished, address, month, year, note
+
+
+
+%%%%%%%% inbook
+%%
+%% A part of a book which may be a chapter (or section or whatever) and/or 
+%% a range of pages.
+%%
+%% Required fields:
+%% author or editor, title, chapter and/or pages, publisher, year
+%%
+%% Optional fields:
+%% volume or number, series, type, address, edition, month, note
+
+
+
+%%%%%%%% incollection
+%%
+%% A part of a book having its own title.
+%%
+%% Required fields:
+%% author, title, booktitle, publisher, year
+%%
+%% Optional fields:
+%% editor, volume or number, series, type, chapter, pages, address, 
+%% edition, month, note
+
+
+
+
+%%%%%%%% inproceedings
+%%
+%% An article in a conference preceedings.
+%%
+%% Required fields:
+%% author, title, booktitle, year
+%%
+%% Optional fields:
+%% editor, volume or number, series, pages, address, month, organization, 
+%% publisher, note
+
+@misc{Cheriton:85,
+    author	= {David R. Cheriton},
+    title	= {
+    {Preliminary Thoughts on Problem-oriented Shared Memory: A Decentralized Approach to Distributed Systems}
+    },
+    editor      = {ACM Operating Systems Review},
+    organization= {Stanford University},
+    year	= 1985,
+    number      = {4, Vol. 19},
+    pages	= {26-33}
+}
+
+%%%%%%%% manual
+%%
+%% Technical documentation.
+%%
+%% Required fields:
+%% title
+%%
+%% Optional fields:
+%% author, editor, organization, address, edition, month, year, note
+
+%%%%%%%% mastersthesis
+%%
+%% A Master's thesis.
+%%
+%% Required fields:
+%% author, title, school, year
+%%
+%% Optional fields:
+%% type, address, month, note
+
+
+@mastersthesis{Gottwald:03,
+    author      = {Tim Gottwald and Rainer Oechsle},
+    title       = {
+    {DisASTer (Distributed Algorithms Simulation Terrain) A Platform for the Implementation of Distributed Algorithms}
+    },
+    school      = {Fachhochschule Trier Fachbereich Angewandte Informatik},
+    year        = 2003,
+    type	= {Diplomarbeit}
+}
+
+@mastersthesis{Weinhold:03,
+    author      = {Jens-Ole Weinhold and Andreas Meister},
+    title       = {
+    {Effiziente Lösung restrigierter Least-Squares-Probleme zur Parameteroptimierung in TSK-Fuzzy-Systemen}
+    },
+    school      = {Universität zu Lübeck},
+    year        = 2003,
+    type	= {Diplomarbeit}
+}
+%%%%%%%% misc
+%%
+%% Use this type when nothing else fits.
+%%
+%% Required fields:
+%% none.
+%%
+%% Optional fields:
+%% author, title, url, month, year, note
+
+
+@misc{ wiki:01,
+	author = {Wikipedia},
+	title = {Turingmaschine --- Wikipedia{,} Die freie Enzyklopädie},
+	year = {2019},
+	url = {https://de.wikipedia.org/w/index.php?title=Turingmaschine&oldid=193749361},
+	note = {[Online; Stand 20. Juni 2020]}
+}
+@misc{ wiki:02,
+	author = {Wikipedia},
+	title = {Zustandsraum (Informatik) --- Wikipedia{,} Die freie Enzyklopädie},
+	year = {2015},
+	url = {https://de.wikipedia.org/w/index.php?title=Zustandsraum_(Informatik)&oldid=147593578},
+	note = {[Online; Stand 19. Juni 2020]}
+}
+@misc{Zeller:03,
+	author	={Andreas Zeller},
+	title		= {{Software-Metriken}},
+	url			={www.st.cs.uni-sb.de/edu/se/2003/metriken.pdf},
+	note		={Lehrstuhl Softwaretechnik, Universität des Saarlandes, Saarbrücken
+						\\ \url{http://www.st.cs.uni-sb.de/edu/se/2003/metriken.pdf}},
+	year		={2003}
+}
+
+
+@misc{Janko:04,
+	author	={Wolfgang H. Janko and Stefan Koch},
+	title		={{Informationswirtschaft 3, Software-Metriken}},
+	url			={wwwai.wu-wien.ac.at/~koch/lehre/inf-wirt-3-pi-ws-05/metriken.pdf},
+	note		={Institut für Informationsverarbeitung und Informationswirtschaft,
+Wirtschaftsuniversität Wien
+						\\
+\url{http://wwwai.wu-wien.ac.at/~koch/lehre/inf-wirt-3-pi-ws-05/metriken.pdf}},
+	year		={2004}
+}
+
+
+
+%%%%%%%% phdthesis
+%%
+%% A PhD thesis.
+%%
+%% Required fields:
+%% author, title, school, year
+%% 
+%% Optional fields:
+%% type, address, month, note
+
+@phdthesis{cortes:03,
+	title={Motion planning algorithms for general closed-chain mechanisms},
+	pages={99},
+	school = {Institut National Polytechnique de Toulouse},
+	address = {France},
+	author={Cort{\'e}s, Juan},
+	year={2003}
+}
+
+%%%%%%%% proceedings
+%%
+%% The proceedings of a conference. See also: inproceedings.
+%%
+%% Required fields:
+%% title, year
+%%
+%% Optional fields:
+%% editor, volume or number, series, address, month, organization, publisher, note
+
+%%%%%%%% techreport
+%%
+%% A report published by a school or other institution, usally 
+%% numbered within a series.
+%%
+%% Required fields:
+%% author, title, institution, year
+%%
+%% Optional fields:
+%% type, number, address, month, note
+
+
+@techreport{Mosberger:93,
+  author	= {David Mosberger},
+  title		= {{Memory Consistency Models}},
+  year		= 1993,
+  month		= Nov,
+  type		= {Technical Report 93/11},
+  institution	= {University of Arizona}
+}
+
+@techreport{Malte:97,
+  author	= {Peter Malte},
+  title		= {{Replikation in Mobil Computing}},
+  institution	= {Institut f{\"u}r Telematik der Universit{\"a}t Karlsruhe},
+  year		= 1997,
+  type		= {Seminar},
+  address	= {Karsruhe},
+  number	= {No 31/1997},
+  url		= {http://www.ubka.uni-karlsruhe.de/cgi-bin/psview?document=/ira/1997/31},
+  note={\\{\url{http://www.ubka.uni-karlsruhe.de/cgi-bin/psview?document=/ira/1997/31}}}
+}
+
+@techreport{Moser:97,
+  author	= {Boris Moser},
+  title		= {{Memory Consistency Modelle}},
+  institution	= {Institut f{\"u}r Telematik der Universit{\"a}t Karlsruhe},
+  year		= 1997,
+  type		= {Seminar},
+  address	= {Karsruhe},
+  number	= {No 31/1997},
+  url		= {http://www.ubka.uni-karlsruhe.de/cgi-bin/psview?document=/ira/1997/31},
+  note={\\ {\url{http://www.ubka.uni-karlsruhe.de/cgi-bin/psview?document=/ira/1997/31}}}
+}
+
+@techreport{Bastian:02,
+  author	= {Peter Bastian},
+  title		= {{Paralleles Rechnen}},
+  year		= 2002,
+  type		= {Vorlesungsskript},
+  institution	= {Uni Heidelberg},
+  url		= {http://hal.iwr.uni-heidelberg.de/~peter/Papers/pr1.pdf},
+  note={\\ {\url{http://hal.iwr.uni-heidelberg.de/~peter/Papers/pr1.pdf}}}
+}
+
+  @techreport{Schmitz:19,
+	author	= {Heinz Schmitz},
+	title		= {{Theoretische Informatik}},
+	year		= 2019,
+	type		= {Vorlesungsskript},
+	institution	= {Hochschule Trier}
+}
+
+@techreport{Nguyen:03,
+  author	= {Van-Phai Nguyen},
+  title		= {{Fenite Elemente Methode}},
+  year		= 2003,
+  type		= {Vorlesungsskript},
+  institution	= {FH-Trier}
+  }
+  @techreport{Heitmann:16,
+  author	= {Frank Heitmann},
+  title		= {{Automatentheorie}},
+  year		= 2016,
+  url = {http://fgi1-skript.de/turingmaschinen/}
+  type		= {Vorlesungsskript},
+  institution	= {Universität Hamburg}
+}

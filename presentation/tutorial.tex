@@ -26,6 +26,7 @@
 \usepackage{tikz}
 \usepackage{lipsum}
 \usepackage{listings}
+\hyphenation{Ele-men-tar-ob-jek-te  ab-ge-tas-tet Aus-wer-tung House-holder-Matrix Le-ast-Squa-res-Al-go-ri-th-men Verschiebe-operationen Ver-bes-ser-rungs-pro-zess} 		% Weitere Silbentrennung bei Bedarf angeben
 \lstset
 {
 	basicstyle=\ttfamily, 
@@ -79,84 +80,81 @@
 \begin{frame}
 	\titlepage
 \end{frame}
-
-	\begin{frame}{Gliederung}{Aufteilung}
-		\begin{columns}[T]
-			\begin{column}[T]{0.33\textwidth}
-			\begin{alertblock}{Grundlagen}
+\begin{frame}{Gliederung der Präsentation}
+	\begin{columns}[T]
+		\begin{column}[T]{0.33\textwidth}
+			\begin{block}{Grundlagen}
 				\begin{itemize}
 					\item Was ist Pfadplanung?
 					\item Darstellung des Raums
 					\item Graphen
 					\newline\newline\newline
 				\end{itemize}
-			\end{alertblock}
-			\end{column}
-			\begin{column}[T]{0.33\textwidth}
-				\begin{block}{Algorithmen}
-				\begin{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}[T]{0.33\textwidth}
+			\begin{block}{Algorithmen}
+				\begin{itemize}\color{lightgray}
 					\item Definition von Pfadplanungsalgorithmen
 					\item Diskrete Pfadplanung: Beispiel Feasible Planning
 					\item kontinuierliche Pfadplanung
 				\end{itemize}
 			\end{block}
-			\end{column}
+		\end{column}
 		\begin{column}[T]{0.33\textwidth}
 			\begin{block}{Anwendungen}
-			\begin{itemize}
-				\item Anwendungen der diskreten Pfadplanung
-				\item Anwendungen der kontinuierlichen Pfadplanung
-				\newline\newline
-			\end{itemize}		
-		\end{block}
+				\begin{itemize}\color{lightgray}
+					\item Rubik's Cube Rätsel
+					\item Videospiele
+					\item Digitales Planen von Fabrikrobotern
+					\item Autonomes Fahren
+					\newline\newline
+				\end{itemize}		
+			\end{block}
 		\end{column}
-		\end{columns}	
-	\end{frame}
-
-
-%\begin{frame}
-%\frametitle{Agenda}
-%\tableofcontents
-%%\tableofcontents[hideallsubsections] % Subsections ausblenden
-%%\tableofcontents[pausesections] %Sections Schritt-fuer-Schritt einblenden
-%\end{frame}
+	\end{columns}	
+\end{frame}
 
 \section{Grundlagen}
-
+%TODO Animationen?
 \begin{frame}{Was ist Pfadplanung?}{Eine Einführung}
 	\begin{columns}[T]
 		\begin{column}[T]{0.6\textwidth}
-		\begin{itemize}
-		\item Pfadplanung ist die Spezifizierung einer Aufgabe in einer Hochsprache, die ein Roboter verstehen und ausführen soll.
-		\newline\newline
-		\item \textit{Roboter}, \textit{Agent} oder \textit{Player} ist der Nutzer eines Plans, mit dem er Entscheidungen trifft.
-	
-		\begin{itemize}
-		\item Roboter sollen seiner Umgebung verstehen
-		\item Roboter haben Bewegungseinschränkungen
-		\end{itemize}
-		\end{itemize}
+			\begin{itemize}
+				\item Pfadplanung ist die Spezifizierung einer Aufgabe in einer Hochsprache, die ein Roboter verstehen und ausführen soll.
+				\newline\newline
+				\item Ein \textit{Roboter}, \textit{Agent} oder \textit{Player} ist der Nutzer eines Plans, mit dem er Entscheidungen trifft.
+				
+				\begin{itemize}
+					\item Roboter sollen seiner Umgebung verstehen
+					\item Roboter haben Bewegungseinschränkungen
+				\end{itemize}
+			\end{itemize}
 		\end{column}
 		\begin{column}[T]{0.4\textwidth}
 			\begin{figure}
-			\includegraphics[width=2.5cm]{images/Bild1.png}
-%			\caption{Testbild in einem figure float}
-		\end{figure}
+				\includegraphics[width=4.0cm]{images/Bild1.png}
+				\caption{Ein Roboterarm}
+				%TODO Welche Bildunterschift und welches Zitat?
+			\end{figure}
 		\end{column}
 	\end{columns}
 \end{frame}
+
 \subsection{Darstellung des Raums}
+
 \begin{frame}{Darstellung des Raums}{Arbeitsraum und Konfigurationssraum}
+	%TODO Animation?
 	\begin{columns}
 		\begin{column}[T]{0.6\textwidth}
 			\begin{itemize}
-				\item Der Arbeitsraum ist die Welt, in dem der Roboter sich befindet\newline
-				\item Konfigurationsraum ist der Raum aller seine Konfigurationen
+				\item Der Arbeitsraum ist die Welt, in dem sich der Roboter befindet\newline
+				\item Der Konfigurationsraum ist die Menge aller seiner Konfigurationen
 				\begin{itemize}
 					\item Konfiguration ist die Position der Roboter in seiner verständliche Sprache
 					\item Hindernisse sind ungültige Konfigurationen
 					\item Freier Raum ist die Gruppe von Konfigurationen ohne Kollisionen
-					
+					%TODO Korregieren
 				\end{itemize}
 			\end{itemize}
 		\end{column}
@@ -164,29 +162,35 @@
 			\begin{figure}
 				\includegraphics[width=4.5cm]{images/Bild2.png}
 %				\caption{Testbild in einem figure float} 
+				%TODO Bildunterschrift?
 			\end{figure}
 		\end{column}
 	\end{columns}
 \end{frame}
 
 \begin{frame}{Darstellung des Raums}{Potentialfeld}
-			\begin{itemize}
-				\item Punkte in dem Konfigurationsraum bekommen eine Potentialvektor.
-				\begin{itemize}
-					\item Sie wehren Hindernisse ab
-					\item Sie werden vom Ziel angezogen
-				\end{itemize}
-			\end{itemize}
-		
-			\begin{figure}
-				\includegraphics[width=10.5cm]{images/Potential_Field.png}
-%				\caption{Testbild in einem figure float} 
-			\end{figure}
+	%TODO Animation?
+	\begin{itemize}
+		\item Punkte in dem Konfigurationsraum bekommen eine Potentialvektor.
+		\begin{itemize}
+			\item Sie wehren Hindernisse ab
+			\item Sie werden vom Ziel angezogen
+			%TODO Korrektur?
+		\end{itemize}
+	\end{itemize}
+	
+	\begin{figure}
+		\includegraphics[width=10.5cm]{images/Potential_Field.png}
+		%				\caption{Testbild in einem figure float} 
+		%TODO Bildunterschrift?
+	\end{figure}
 \end{frame}
 \begin{frame}{Darstellung des Raums}{Roadmap}
+	%TODO Animation?
 	\begin{columns}
 		\begin{column}[T]{0.6\textwidth}
 			\begin{itemize}
+				%TODO Korrektur
 				\item Die Punkte des Konfigurationsraum verbinden
 				\item Bewegung in Roadmap durch:
 				\begin{itemize}
@@ -200,37 +204,44 @@
 		\begin{column}[T]{0.4\textwidth}
 			\begin{figure}
 				\includegraphics[width=4.5cm]{images/Bild3.png}
-%				\caption{Testbild in einem figure float} 
+				%				\caption{Testbild in einem figure float} 
+				%TODO Bildunterschrift?
 			\end{figure}
 		\end{column}
 	\end{columns}
 \end{frame}
 
 \begin{frame}{Darstellung des Raums}{Zelldekomposition}
+	%TODO Animation?
 	\begin{itemize}
 		\item Teilung des freies Raums in Zellen
 		\begin{itemize}
 			\item Verbindungen zwischen anliegenden Zellen speichern
 		\end{itemize}
-	    \item Zellen enthalten Start- und Endkonfigurationen beim Pfadfindung.
+	    \item Zellen enthalten Start- und Endkonfigurationen bei der Pfadfindung.
 	\end{itemize}
 	
 	\begin{figure}
 		\includegraphics[width=5.0cm]{images/Bild4.png}
 %		\caption{Testbild in einem figure float} 
+%TODO Bildunterschrift?
 	\end{figure}
 \end{frame}
+
 \subsection{Graphen}
+
 \begin{frame}{Graphen}{Eine Einführung}
+	%TODO Animation?
 	\begin{itemize}
 		\item Graphen sind gut für Pfadfindung
 		\item Ein Graph besteht aus Knoten, Kanten und Kosten
-		\item Gerichteter Graphen unterscheiden ausgehende und eingehende Kanten
+		\item Ein gerichteter Graph unterscheiden ausgehende und eingehende Kanten
 	\end{itemize}
 	
 	\begin{figure}
 		\includegraphics[width=7.0cm]{images/kk_graph_S6.png}
 %		\caption{Testbild in einem figure float} 
+%TODO Bildunterschrift?
 	\end{figure}
 \end{frame}
 
@@ -252,13 +263,14 @@
 			\begin{itemize}
 				\item Navigationsnetze definieren der freie Raum als polygonale Bereiche
 				\item Verbindungen zwischen Bereiche sind in Navigationsgraph gespeichert
-				\item Start und Endkonfigurationen befinden sich in die Bereiche
+				\item Start und Endkonfigurationen befinden sich in den Bereichen
 			\end{itemize}
 		\end{column}
 		\begin{column}[T]{0.5\textwidth}
 			\begin{figure}
 				\includegraphics[width=6.5cm]{images/mesh_with_path.png}
 %				\caption{Testbild in einem figure float} 
+%TODO Bildunterschrift?
 			\end{figure}
 		\end{column}
 	\end{columns}
@@ -282,7 +294,7 @@
 	\begin{columns}
 		\begin{column}[T]{0.5\textwidth}
 			\begin{itemize}
-				\item Roadmap aus sichtbare Punkte bilden
+				\item Roadmap aus sichtbaren Punkten bilden
 				\item Die Eckpunkte der Hindernisse verbinden
 				\item Sensoren nehmen neue Information für den Roboter, um neue  Kanten zu bilden
 			\end{itemize}
@@ -297,7 +309,8 @@
 \end{frame}
 
 \section{Algorithmen zur Pfadplanung}
-	\begin{frame}{Gliederung}{Aufteilung}
+
+\begin{frame}{Gliederung der Präsentation}
 	\begin{columns}[T]
 		\begin{column}[T]{0.33\textwidth}
 			\begin{block}{Grundlagen}
@@ -310,238 +323,184 @@
 			\end{block}
 		\end{column}
 		\begin{column}[T]{0.33\textwidth}
-			\begin{alertblock}{Algorithmen}
+			\begin{block}{Algorithmen}
 				\begin{itemize}
 					\item Definition von Pfadplanungsalgorithmen
 					\item Diskrete Pfadplanung: Beispiel Feasible Planning
 					\item kontinuierliche Pfadplanung
 				\end{itemize}
-			\end{alertblock}
+			\end{block}
 		\end{column}
 		\begin{column}[T]{0.33\textwidth}
 			\begin{block}{Anwendungen}
-				\begin{itemize}
-					\item Anwendungen der diskreten Pfadplanung
-					\item Anwendungen der kontinuierlichen Pfadplanung
+				\begin{itemize}\color{lightgray}
+					\item Rubik's Cube Rätsel
+					\item Videospiele
+					\item Digitales Planen von Fabrikrobotern
+					\item Autonomes Fahren
 					\newline\newline
 				\end{itemize}		
 			\end{block}
 		\end{column}
 	\end{columns}	
 \end{frame}
+
 \subsection{Definition von Pfadplanungsalgorithmen}
-\begin{frame}{Algorithmen zur Pfadplanung}{Definition von Pfadplanungsalorithmen}
-	
-	\begin{itemize}
-				\item Es gibt keine einfache Definition für Pfadplanungsalgorithmen.
-				\item Die Algorithmen Definition wird aus der \textit{Church-Turing-These} hergeleitet.
-				
-	\end{itemize}
-		\begin{theorem}[Turing-Vollständigkeit]
-			Ein Berechnungsmodell, mit dem alle Funktionen
-			der Klasse WHILE berechnet werden können, heißt
-			Turing-vollständig.
-		\end{theorem}
-		\begin{theorem}[Church-Turing-These]
-			Jede im intuitiven Sinne berechenbare Funktion ist \textbf{WHILE}-berechenbar.
-		\end{theorem}
-\end{frame}
 	
 \begin{frame}{Algorithmen zur Pfadplanung} {Definition von Pfadplanungsalgorithmen}
 	\begin{columns}
-		\begin{column}[T]{0.5\textwidth}
-	\begin{itemize}[<+->]
-		\item Diese Definitionen ist Unvollständig
-		\item Es fehlt die Repräsentation der Interaktion des Roboters mit der Umgebung.
-		\item \textbf{Lösung:} Ein Planer ist ein Algorithmus der einen Plan erstellt.
-		\begin{itemize}
-			\item kann einer Turing-Maschine entsprechen.
-			\item kann optional erweitert werden.
-		\end{itemize}	
-	\end{itemize}
-	\end{column}
-		\begin{column}[T]{0.5\textwidth}
-			\begin{figure}[<+->]
+		\begin{column}[T]{0.6\textwidth}
+			\begin{itemize}
+				\item  Definition mit Hilfe der \textit{Church-Turing-These}
+			\end{itemize}
+			\begin{block}{Church-Turing-These}
+				Jede im intuitiven Sinne berechenbare Funktion ist \textbf{WHILE}-berechenbar.
+			\end{block}
+			\begin{itemize}
+				\item <2->Diese Definitionen ist Unvollständig
+				\item <2->Ein Planer ist ein Algorithmus der einen Plan erstellt
+				\item <2->Ein Plan kann so die Interaktion abbilden	
+			\end{itemize}
+		\end{column}
+		\begin{column}[T]{0.4\textwidth}
+			\begin{figure}
 				\includegraphics[width=6.5cm]{images/img224.png}
-				\caption{(a) Grenze zwischen Maschine und Umgebung ist fließend.\newline
-						(b) Maschine M interagiert mit der Umgebung U durch Sensorik und Antrieb. } 
+				\caption{(a) Grenze zwischen Maschine und Umgebung ist fließend.
+					(b) Maschine $M$ interagiert mit der Umgebung $E$ durch Sensorik und Antrieb. } 
 			\end{figure}
 		\end{column}
 	\end{columns}	
 \end{frame}
 
-\begin{frame}{Algorithmen zur Pfadplanung}{Plan}
-	\begin{columns}
-		\begin{column}[T]{0.5\textwidth}
-			\begin{itemize}[<+->]
-				\item Ausführen 
-				\begin{itemize}
-					\item als kodierte Eingabe den Roboter programmieren
-					\item als Spezialmaschine eine spezielle Aufgabe lösen. 
-				\end{itemize}
-				\item Verbesserung
-				\begin{itemize}
-					\item Den Plan dem Planer übergeben und mit Fokus auf verschiedene Aspekte neu berechnen. 
-					\item Es entsteht ein Verbesserungsprozess der viele Aspekte mit einbezieht.
-				\end{itemize}
-			\end{itemize}
-		\end{column}
-		\begin{column}[T]{0.5\textwidth}
-			\begin{figure}
-				\includegraphics[width=6.5cm]{images/img247.png}
-				\caption{Ein Verbesserungsprozess der sich in der Robotik bewährt hat.} 
-			\end{figure}
-		\end{column}
-	\end{columns}
-\end{frame}
-\begin{frame}{Algorithmen zur Pfadplanung}{Plan}
-\begin{columns}
-	\begin{column}[T]{0.5\textwidth}
-		\begin{itemize}[<+->]
-			\item Hierarchische Inklusion
-			\begin{itemize}
-				\item Plan wird als Aktion in einen Größeren Plan aufgenommen
-				\item Ein problem wird in viele kleine Probleme zerteilt
-				\item Es entsteht eine Baumstruktur
-			\end{itemize}
-			\item Wie kann das Objekt von seiner Ursprungsposition (oben, links) zur finalen Position (unten, links) bewegt werden?
-			\item Die Lösung (rechts) erfordert mehrere \textit{Verschiebeoperationen}.
-			 
+\begin{frame}{Algorithmen zur Pfadplanung}{Verwendung des Plans}
+	\only<1,2,4>{
+		\begin{columns}
+			\begin{column}[T]{0.3\textwidth}
+				\begin{block}{Ausführen}
+					\begin{itemize}
+						\item mit kodierter Eingabe den Roboter programmieren
+						\item Spezialmaschine für Aufgabe erstellen 
+						\newline
+					\end{itemize}
+				\end{block}
+			\end{column}
 			
-		\end{itemize}
-	\end{column}
-	\begin{column}[T]{0.5\textwidth}
+			\begin{column}<2->[T]{0.3\textwidth}
+				\begin{block}{Verbesserung} 
+					\begin{itemize}
+						\item Den Plan dem Planer übergeben.
+						\item Neuberechnung unter Beachtung anderer Aspekte
+						\item Verbesserungs- prozess führt zum gewünschten Plan
+					\end{itemize}
+				\end{block}
+			\end{column}
+			\begin{column}<4->[T]{0.4\textwidth}
+				\begin{block}{Hierarchische Inklusion}
+					\begin{itemize}
+						\item Plan als Teilstück eines \textit{Masterplan}
+						\item Zerteilung des Problems zur leichteren Berechnung
+						\item Eine Baumstruktur entsteht
+						\item Mehrere Verschiebe- operationen für die Lösung erforderlich.
+					\end{itemize}
+				\end{block}
+			\end{column}
+		\end{columns}
+	}
+	\only<3>{
 		\begin{figure}
-			\includegraphics[width=6.5cm]{images/hierarchical.png}
-			\caption{} 
+			\includegraphics[width=12.5cm]{images/img247.png}
+			\caption{Ein Verbesserungsprozess der sich in der Robotik bewährt hat.} 
 		\end{figure}
-	\end{column}
-\end{columns}
+	}	
 \end{frame}
+
+\begin{frame}{Algorithmen zur Pfadplanung}{Plan}
+	\begin{figure}
+		\includegraphics[width=7cm]{images/hierarchical.png}
+		\caption{Roboter bewegt Stab von der Ausgangsposition zur Endposition} 
+	\end{figure}
+\end{frame}
+
 \subsection{Klassifizierung von Pfadplanungsalgorithmen}
+
 \begin{frame}{Algorithmen zur Pfadplanung}{Klassifizierung von Pfadplanungsalgorithmen}
 	\begin{columns}
-		\begin{column}[T]{0.7\textwidth}
-	\begin{itemize}
-		\item Abhängigkeit vom Einsatz dadurch stark Heterogen.
-		\item Planen im \alert<2>{diskreten} und \alert<3->{kontinuierlichen} Zustandsraum.
-		\begin{itemize}
-			\item<4-> Alle Umgebungsinformationen (Industrieroboter, kontrollierte Umgebung)
-			\item<5-> Unsicherheit (Roboter mit Kameras)
-			\item<6-> Bewegungseinschränkung (Roboter mit Rädern, Auto)
+		\begin{column}[T]{0.5\textwidth}
+			\begin{center} diskret \end{center}
+			\begin{itemize}[<1->]
+			\item Zustandsraum ist abzählbar unendlich 
+			\item Geometrische Modelle finden keine Beachtung
+			\item keine Bewegungseinschränkungen
+			\item Systematisch: wenn ein Pfad existiert wird er gefunden
+			\end{itemize}
+		\end{column}
+		\begin{column}[T]{0.5\textwidth}
+			\begin{center} kontinuierlich \end{center}
+				\begin{itemize}[<2>]
+			\item Alle Umgebungsinformationen (Industrieroboter, kontrollierte Umgebung)
+			\item Unsicherheit (Roboter mit Kameras)
+			\item Bewegungseinschränkung (Roboter mit Rädern, Auto)
+			\item Vorherrschaft von diskreten Algorithmen auch für konti- nuierliches Pfadplanen. 
 		\end{itemize}
-		\item Vorherrschaft von diskreten Algorithmen auch für kontinuierliches Pfadplanen. 
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\begin{frame}{Algorithmen zur Pfadplanung}{Feasible Planning}
+	\begin{itemize}
+		\item Feasible Planning: ein Pfad zum Ziel wird gefunden
+		\item Optimales Planen: Optimierung auf Zeit, Distanz, Anzahl Drehungen, usw.
+		\begin{columns}
+			\begin{column}[T]{0.5\textwidth}
+				\begin{itemize}[<2>]
+					\item Die Liste Q enthält den aktuellen Knoten
+					\item Knoten $X_I$ ist als Startknoten gegeben
+					\item Die Menge $U(x)$ enthält alle unentdeckten Knoten
+					\item Die Menge $X_G$ enthält alle Zielzustände
+					\item Vorgängerknoten müssen gespeichert werden
+				\end{itemize}
+			\end{column}
+			\begin{column}[T]{0.5\textwidth}
+				\begin{figure}
+					\includegraphics[width=6.0cm]{images/img225.png}
+				\end{figure}
+			\end{column}
+		\end{columns}
 	\end{itemize}
-\end{column}
-	\begin{column}[T]{0.3\textwidth}
-	\end{column}
-\end{columns}
-\end{frame}
-
-\subsection{Diskrete Pfadplanung}
-\begin{frame}{Algorithmen zur Pfadplanung}{Diskrete Pfadplanung}
-	\begin{columns}
-		\begin{column}[T]{0.7\textwidth}
-			\begin{itemize}
-				\item Zustandsraum ist abzählbar unendlich 
-				\begin{itemize}
-				\item Es müssen keine geometrischen Modelle beachtet werden.
-				\item Es gibt grundsätzlich keine Bewegungseinschränkungen.
-			\end{itemize}
-				\item Systematisch: \alert<2>{wenn ein pfad existiert wird er gefunden}
-				\item Feasible Planning: \alert<3>{ein Ziel wird gefunden}
-				\item Optimales Planen: \alert<4>{ Optimierung auf Zeit, Distanz, Anzahl Drehungen, usw.}
-			\end{itemize}
-		\end{column}
-		\begin{column}[T]{0.3\textwidth}
-		\end{column}
-	\end{columns}
 \end{frame}
 
 
-\begin{frame}{Algorithmen zur Pfadplanung}{Feasible Planning}
-	\begin{columns}
-		\begin{column}[T]{0.7\textwidth}
-			\begin{itemize}
-				
-				\item Algorithmen des Typ Foreward Search werden hier verwendet.
-				\item Systematisches Vorgehen
-				\begin{itemize} 
-					\item Endlich viele Zustände müssen alle besucht werden. 
-					\item Bei unendlich vielen Zuständen reicht es aus zu einer Lösung zu kommen. 
-				\end{itemize}
-				\item Entdecktes Feld, Unentdecktes Feld und Totes Feld
-				\item Einfluss der Sortierung auf das Verhalten
-				\begin{itemize}
-					\item FIFO
-					\item LIFO
-				 	\item Djikstra
-					\item A*
-				\end{itemize}
-			\end{itemize}
-		\end{column}
-		\begin{column}[T]{0.3\textwidth}
-			\begin{figure}
-				\includegraphics[width=4.5cm]{images/img225.png}
-				\caption{} 
-			\end{figure}
-		\end{column}
-	\end{columns}
-\end{frame}
-
-
-\begin{frame}{Algorithmen zur Pfadplanung}{Feasible Planning}
-	\begin{columns}[T]
-		\begin{column}[T]{0.5\textwidth}
-			\begin{center}
-				\begin{tikzpicture}
-				\useasboundingbox (-2,-2) rectangle (2,2);
-				\node<1>[draw,circle,fill=lightgray] (A) at (0,0) {$A$}; 
-				\node<2->[draw,circle,fill=red,text=white] (A) at (0,0) {$A$}; 
-				\node[draw,circle,fill=lightgray] (A) at (-1.5,0) {$0$}; 
-				 \node[draw,circle,fill=lightgray] (A) at (0,-1.5) {$1$};
-				 
-				
-				\node[draw,circle,fill=lightgray] (A) at (1.5,0) {$2$};
-				\node[draw,circle,fill=lightgray] (A) at (0,1.5) {$3$}; 
-				\node[draw,circle,fill=lightgray] (A) at (-1.5,-1.5) {$4$}; 
-				\node[draw,circle,fill=lightgray] (B) at ( 1.5,-1.5) {$5$};
-				\node[draw,circle,fill=lightgray] (A) at (1.5,1.5) {$6$}; 
-				\node[draw,circle,fill=lightgray] (A) at (-1.5,1.5) {$7$}; 
-				
-				
-				\draw<5->[->] (A) to[out=45,in=135] (B);
-				\draw<7->[->] (B) to[out=225,in=315] (A);			
-				\end{tikzpicture}
-			\end{center}
-		\end{column}
-		\begin{column}[T]{0.5\textwidth}
-			\begin{itemize}
-				\item Sei ein Knoten $A$ als Startknoten gegeben
-				\item Sei eine Menge $U(x)$ gegeben, die alle unentdeckten Knoten enthält.
-				$$U(x)=\{A,0,1,2,3,4,5,6,7\}$$
-				\item <2-> Knoten $4$ wird als Zielknoten definiert.
-				\only<2>{\item Dieser Hinweis wird nur für Schritt 2 angezeigt.}
-				
-			\end{itemize}
-		\end{column}
-	\end{columns}	
+\begin{frame}{Algorithmen zur Pfadplanung}{Unterscheidung von Algorithmen}
+	
+	\begin{center}
+		Einfluss der Sortierung der Warteschlange
+	\end{center}
+	
+	\textbf{Breadth-first Suchalgorithmus} verwendet FIFO Sortierung
+	\begin{itemize}
+		\item Systematisch, nicht zielgerichtet	
+	\end{itemize}
+	\textbf{Depht-first Suchalgorithmus} verwendet LIFO Sortierung
+	\begin{itemize}
+	\item teilweise systematisch, aggressive expansion, schwer kontrollierbar	
+	\end{itemize}
+	\textbf{Djikstra-Algorithmus} bevorzugt kleine Kantengewichte
+	\begin{itemize}
+		\item optimal, unnötige schritte
+	\end{itemize}
+	\textbf{A*-Algorithmus} schätzt Kosten zum Ziel
+	\begin{itemize}
+		\item optimal, zielgerichtet, schnell
+	\end{itemize}	
 \end{frame}
 
 \subsection{Kontinuierliche Pfadplanung}
 \begin{frame}{Algorithmen zur Pfadplanung}{Kontinuierliche Pfadplanung}
 %	\begin{columns}
 %		\begin{column}[T]{0.7\textwidth}
-			\begin{block}{Unterschiede zur diskreten Pfadplanung}
-			\begin{itemize}
-				\item Der Zustandsraum ist überabzählbar unendlich
-				\item Der Zustandsraum ist zu groß, um explizit dargestellt zu werden
-				\begin{itemize} 
-					\item Die Anzahl Zustände ist zu groß.
-					\item Die kombinatorische Komplexität ist zu groß.
-				\end{itemize}
-			\end{itemize}
-			\end{block}
+			
+		
+			
 %		\end{column}
 %	\end{columns}
 \end{frame}
@@ -549,36 +508,44 @@
 \begin{frame}{Algorithmen zur Pfadplanung}{Kontinuierliche Pfadplanung}
 \begin{columns}
 	\begin{column}[T]{0.5\textwidth}
-		\begin{block}{Das Piano Mover's Problem}
-		\begin{itemize}
-			\item Ein Körper muss einen kontinuierlichen Bewegungspfad finden.
-			\item Geometrische Einschränkungen
-			\item kein Kontakt mit Hindernissen im Raum
+			\begin{itemize}[<+->]
+			\item Unterschiede zur diskreten Pfadplanung
+			\begin{itemize}
+				\item<2-> Der Zustandsraum ist überabzählbar unendlich
+				\item<2-> Der Zustandsraum ist zu groß, um explizit dargestellt zu werden
+			\end{itemize}
+		
+			\item<3-> Piano Mover's Problem
+			\begin{itemize}
+				\item<4-> Ein Körper muss einen kontinuierlichen Bewegungspfad finden.
+				\item<4-> Geometrische Einschränkungen
+				\item<4-> kein Kontakt mit Hindernissen im Raum
+			\end{itemize}	
 		\end{itemize}
-		\end{block}
 	\end{column}
 	\begin{column}[T]{0.5\textwidth}
 		\begin{figure}
 			\includegraphics[width=4.0cm]{images/img233.png}
-			\caption{mobile Roboter bewegen einen Flügel \cite[Abb. 1.5, S.9]{Lav06}} 
+			\caption{mobile Roboter bewegen einen Flügel \cite[Abb.1.5, S.9]{Lav06}}
 		\end{figure}
 	\end{column}
 \end{columns}
 \end{frame}
 
 \begin{frame}{Algorithmen zur Pfadplanung}{Kontinuierliche Pfadplanung}
-	Zwei wichtige Motive in der Pfadplanung:\\
+	\begin{center}
+		Zwei wichtige Motive in der Pfadplanung
+	\end{center}
 	\begin{columns}
-		\begin{column}[T]{0.5\textwidth}
+		\begin{column}[T]{0.5\textwidth}<2->
 			\begin{block}{Implizite Räpresentation des Zustandsraumes}
 			\begin{itemize}
 				\item Explizite Darstellung des Zustandsraumes nicht möglich
 				\item Daher Implizite Darstellung
-				\item kein Kontakt mit Hindernissen im Raum
 			\end{itemize}
 			\end{block}
 		\end{column}
-		\begin{column}[T]{0.5\textwidth}
+		\begin{column}[T]{0.5\textwidth}<3->
 			\begin{block}{Transformation von kontinuierlichen Modellen in diskrete}
 			\begin{itemize}
 				\item combinatorial motion planning
@@ -588,7 +555,40 @@
 		\end{column}
 	\end{columns}
 \end{frame}
-
+\begin{frame}{Gliederung der Präsentation}
+	\begin{columns}[T]
+		\begin{column}[T]{0.33\textwidth}
+			\begin{block}{Grundlagen}
+				\begin{itemize}
+					\item Was ist Pfadplanung?
+					\item Darstellung des Raums
+					\item Graphen
+					\newline\newline\newline
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}[T]{0.33\textwidth}
+			\begin{block}{Algorithmen}
+				\begin{itemize}
+					\item Definition von Pfadplanungsalgorithmen
+					\item Diskrete Pfadplanung: Beispiel Feasible Planning
+					\item kontinuierliche Pfadplanung
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}[T]{0.33\textwidth}
+			\begin{block}{Anwendungen}
+				\begin{itemize}
+					\item Rubik's Cube Rätsel
+					\item Videospiele
+					\item Digitales Planen von Fabrikrobotern
+					\item Autonomes Fahren
+					\newline\newline
+				\end{itemize}		
+			\end{block}
+		\end{column}
+	\end{columns}	
+\end{frame}
 \section{Anwendungen der Pfadplanungs}
 \subsection{Rubic's Cube Rätsel}
 \begin{frame}{Anwendungen der Pfadplanung}{Das Rubic's Cube Rätsel}
@@ -596,7 +596,7 @@
 		\begin{column}[T]{0.5\textwidth}
 				\begin{itemize}
 					\item Zustandsraum: Alle möglichen Farbverteilungen
-					\item Aktionsrahmen: Die Menge aller möglichen Drehungen (12)
+					\item Aktionsrahmen: Die Menge aller möglichen Drehungen
 					\item bestmöglicher Pfad: die geringste Anzahl an Drehungen, bis der Würfel einfarbige Seiten hat
 					\item diskret
 				\end{itemize}
@@ -604,7 +604,7 @@
 		\begin{column}[T]{0.5\textwidth}
 			\begin{figure}
 				\includegraphics[width=4.5cm]{images/img229_a.png}
-				\caption{mobile Roboter bewegen einen Flügel} 
+				\caption{Der Rubik's Cube und sein Aktionsrahmen \cite[In Anlehnung an Abb.1.1, S.5]{Lav06}}
 			\end{figure}
 		\end{column}
 	\end{columns}
@@ -675,274 +675,8 @@
 	\end{columns}
 \end{frame}
 
-
-
-\section{tutorial}
-\begin{frame}{Was ist Beamer?}{Eine Übersicht}
-Das Beamer Paket für \LaTeX{} ermöglicht es, Präsentationsfolien zu erstellen und unterstützt dabei Features wie Animationen, die manuell nur mit viel Aufwand umgesetzt werden können.
-Für die Details zu den Features siehe den Beamer User Guide\cite{BeamerDoc}.
-\end{frame}
-
-\begin{frame}
-Folien in Beamer werden durch frame-Umgebungen definiert.
-\end{frame}
-
-\begin{frame}{Festlegen des Titels}{... und des Subtitels}
-Die Frames verfügen über einen Titel und einen Subtitel.
-Diese können entweder beim Öffnen der frame-Umgebung angegeben werden.
-\end{frame}
-
-\begin{frame}
-	\frametitle{Festlegen des Titels}
-	\framesubtitle{... und des Subtitels}
-	Oder sie werden durch entsprechende Befehle angegeben.
-\end{frame}
-
-\begin{frame}{Strukturierung}{Aufzählungen}
-\begin{itemize}
-	\item Fließtext ist meistens nicht sinnvoll für Präsentationen
-	\item Aufzählungen sind oft besser geeignet
-	\begin{itemize}
-		\item Geben Struktur
-		\item Sorgen für Übersicht
-	\end{itemize}
-\end{itemize}
-\begin{enumerate}
-	\item Auf nummerierte Aufzählungen können verwendet werden
-	\item Wie hier zu sehen ist
-	\begin{enumerate}
-		\item Auch mit
-		\item Unterpunkten
-	\end{enumerate} 
-\end{enumerate}
-\end{frame}
-
-\begin{frame}{alert-Text}
-	Wichtige Teile im Text können \alert<2>{durch alert hervorgehoben} werden.
-	\begin{itemize}[<+-|alert@+>]
-		\item Schritt 1
-		\item Schritt 2
-		\item Schritt 3
-	\end{itemize}
-\end{frame}
-
-\subsection{Environments}
-\begin{frame}{Environments}
-\begin{theorem}
-	Umgebungen wie theorem können auch in Beamer genutzt werden.
-\end{theorem}
-\begin{proof}
-	Proof wird auch unterstützt.
-\end{proof}
-\begin{figure}
-	\includegraphics[width=3.5cm]{HochschuleLogo}
-	\caption{Testbild in einem figure float}
-\end{figure}
-\begin{center}
-	\includegraphics[width=3.5cm]{HochschuleLogo}\\
-	\emph{Testbild in center-Umgebung}
-\end{center}
-\end{frame}
-
-\begin{frame}{Mathe-Modus}
-	Der Mathe-Modus kann wie in LaTeX üblich benutzt werden:\\ 
-	$\mathcal{F}: x = y + \frac{\mathsf{z}}{3}, y \in \mathbb{N}, \mathsf{z} \in \mathfrak{B}$ 
-\end{frame}
-
-\subsection{Blocks}
-\begin{frame}{Blocks}
-\begin{block}{Dies ist ein Block}
-	Blocks können zur Strukturierung des Frame-Inhalts genutzt werden.
-\end{block}
-\begin{exampleblock}{Dies ist ein Beispielblock}
-	Inhalt...
-\end{exampleblock}
-\begin{alertblock}{Dies ist ein Alert-Block}
-	Inhalt...
-\end{alertblock}
-\end{frame}
-
-\section{Anwendungen}
-
-
-
-\begin{frame}[allowframebreaks]{allowframebreaks}
-	Die Option allowframebreaks erlaubt es frames mit zu viel Inhalt umzubrechen. Dies ist besonders bei generiertem Inhalt wie dem Quellenverzeichnis sinnvoll.
-	\\[1cm]
-	\lipsum[1-2]
-\end{frame}
-
-\begin{frame}[fragile]{fragile}
-\begin{lstlisting}
-//Quellcode-Listings
-//und andere Verbatim-Umgebungen
-//setzen die fragile-Option des Frames voraus.
-#include <iostream>
-void main(){
-	std::cout<<"Hallo Welt"<<std::endl;
-}
-\end{lstlisting}
-\end{frame}
-
-\section{Animationen}
-
-\begin{frame}{Animieren mit Pause}
-\begin{itemize}
-	\item Schritt 1
-	\item Schritt 2
-	\pause
-	\item Schritt 3
-	\item Schritt 4
-\end{itemize}
-\end{frame}
-
-\begin{frame}[<+->]{Ganzen Frame automatisch animieren}
-	 %Das + steht immer fuer den naechsten Animationsschritt
-\begin{itemize}
-	\item Schritt 1
-	\item Schritt 2
-	\item Schritt 3
-	\item Schritt 4
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Einzelne Umgebung automatisch animieren}
-\begin{itemize}[<+->]
-	\item Schritt 1
-	\item Schritt 2
-	\item Schritt 3
-	\item Schritt 4
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Abweichende Animationsreihenfolge}{selbstdefiniert}
-\begin{itemize}
-	\item<1,3> Schritt 1
-	\item<2-> Schritt 2
-	\item<3-4> Schritt 3
-	\item<5> Schritt 4
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Block-übergreifende Animation}{Übereinander}
-\begin{block}{Bereich 1}
-	\begin{itemize}
-		\item<1-> Schritt 1
-		\item<3-> Schritt 2
-		\item<5-> Schritt 3
-	\end{itemize}
-\end{block}
-\begin{block}{Bereich 2}
-	\begin{itemize}
-		\item<2-> Schritt 1
-		\item<4-> Schritt 2
-		\item<6-> Schritt 3
-	\end{itemize}
-\end{block}
-\end{frame}
-\note{Foliennotizen werden mit dem note-Befehl hinzugefügt.}
-
-\begin{frame}{Block-übergreifende Animation}{Nebeneinander}
-\begin{columns}[T]
-\begin{column}[T]{0.5\textwidth}
-\begin{block}{Bereich 1}
-	\begin{itemize}
-		\item<1-> Schritt 1
-		\item<3-> Schritt 2
-		\item<5-> Schritt 3
-		\item<6-> Schritt 4
-	\end{itemize}
-\end{block}
-\end{column}
-\begin{column}[T]{0.5\textwidth}
-\begin{block}{Bereich 2}
-	\begin{itemize}
-		\item<2-> Schritt 1
-		\item<4-> Schritt 2
-		\item<7-> Schritt 3
-		\item<8-> Schritt 4
-	\end{itemize}
-\end{block}
-\end{column}
-\end{columns}
-\end{frame}
-\note{Diese Notizen werden nur ausgegeben, wenn die Option show notes gesetzt ist.}
-
-\begin{frame}{Beliebige Inhalte ein- und ausblenden}
-	\begin{itemize}[<+->]
-		\item Schritt 1
-		\item Schritt 2
-		\item Schritt 3
-		\item Schritt 4
-	\end{itemize}
-	\only<2>{Dieser Hinweis wird nur für Schritt 2 angezeigt.}
-	\only<3>{Dieser Hinweis wird nur für Schritt 3 angezeigt.}
-	Nachfolgender Text kann sich aber verschieben.
-\end{frame}
-
-\begin{frame}{Beliebige Inhalte ein- und ausblenden}
-	\begin{itemize}[<+->]
-		\item Schritt 1
-		\item Schritt 2
-		\item Schritt 3
-		\item Schritt 4
-	\end{itemize}
-	\begin{overlayarea}{\textwidth}{1em}
-		\only<2>{Dieser Hinweis wird nur für Schritt 2 angezeigt.}
-		\only<3>{Dieser Hinweis wird nur für Schritt 3 angezeigt.}
-	\end{overlayarea}
-	Mit overlayarea verschiebt sich nachfolgender Text nicht.
-\end{frame}
-
-\begin{frame}{Beliebige Inhalte ein- und ausblenden}
-	\begin{itemize}[<+->]
-		\item Schritt 1
-		\item Schritt 2
-		\item Schritt 3
-		\item Schritt 4
-	\end{itemize}
-	Inhalte können auch durch Animationen aufgedeckt werden.\\
-	\uncover<2>{Dieser Hinweis wird nur für Schritt 2 angezeigt.}\\
-	\uncover<3>{Dieser Hinweis wird nur für Schritt 3 angezeigt.}
-\end{frame}
-
-\section{Zeichnungen mit Animationen}
-\begin{frame}{Animationen in Verbindung mit Zeichnungen}{Integration von Beamer mit tikz}
-\begin{columns}[T]
-	\begin{column}[T]{0.5\textwidth}
-		\begin{center}
-		\begin{tikzpicture}
-			\useasboundingbox (-2,-2) rectangle (2,2);
-			\node[draw,circle,fill=Senfgelb] (A) at (-1,0) {$A$}; 
-			\node<3->[draw,circle,fill=Petrol,text=Senfgelb] (B) at ( 1,0) {$B$};
-			\draw<5->[->] (A) to[out=45,in=135] (B);
-			\draw<7->[->] (B) to[out=225,in=315] (A);			
-		\end{tikzpicture}
-		\end{center}
-	\end{column}
-	\begin{column}[T]{0.5\textwidth}
-		\begin{itemize}
-			\item Sei ein Knoten $A$ gegeben
-			\item<2-> Wir fügen einen weiteren Knoten $B$ hinzu 
-			\item<4-> Dann ziehen wir eine Kante von $A$ nach $B$
-			\item<6-> ... und eine von $B$ nach $A$
-		\end{itemize}
-	\end{column}
-\end{columns}	
-\end{frame}
-
-\section*{Schluss}
-\begin{frame}
-	\begin{center}
-		\huge{Vielen Dank für die Aufmerksamkeit}
-	\end{center}
-	\begin{center}
-		\Huge{Fragen?}
-	\end{center}
-\end{frame}
-
 \begin{frame}[allowframebreaks]{\bibname}
-\bibliography{tutorial}     %BibTeX-Datei literatur.bib
+\bibliography{literatur}     %BibTeX-Datei literatur.bib
 \end{frame}
 
 
