@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7440 64-bit) (preloaded format=pdflatex 2020.5.27)  2 JUL 2020 14:16
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7400 64-bit) (preloaded format=pdflatex 2020.5.7)  2 JUL 2020 14:35
+>>>>>>> b
 entering extended mode
 **./tutorial.tex
 (tutorial.tex
 LaTeX2e <2020-02-02> patch level 5
+<<<<<<< HEAD
 L3 programming layer <2020-05-15>
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamer.cls"
 Document Class: beamer 2020/05/06 v3.58 A class for typesetting presentations
@@ -11,6 +16,17 @@ Document Class: beamer 2020/05/06 v3.58 A class for typesetting presentations
 odes.sty"
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbox.
 sty"
+=======
+L3 programming layer <2020-04-06>
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamer.cls"
+Document Class: beamer 2020/05/06 v3.58 A class for typesetting presentations
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbasemodes.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolb
+ox\etoolbox.sty"
+>>>>>>> b
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count167
 )
@@ -18,8 +34,13 @@ Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \beamer@tempcount=\count168
 \c@beamerpauses=\count169
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbased
 ecode.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbasedecode.sty"
+>>>>>>> b
 \beamer@slideinframe=\count170
 \beamer@minimum=\count171
 \beamer@decode@box=\box46
@@ -27,9 +48,18 @@ ecode.sty"
 \beamer@commentbox=\box47
 \beamer@modecount=\count172
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifpdf.sty"
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifte
+x\ifpdf.sty"
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifte
+x\iftex.sty"
+>>>>>>> b
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
 \headdp=\dimen134
@@ -75,22 +105,38 @@ Package: iftex 2020/03/06 v1.0d TeX engine tests
 \beamer@sectionadjust=\count190
 \beamer@tocsectionnumber=\count191
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseo
 ptions.sty"
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\keyval.st
 y"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbaseoptions.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs\keyval.sty"
+>>>>>>> b
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 ))
 \beamer@paperwidth=\skip48
 \beamer@paperheight=\skip49
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
 sty"
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\ifvtex.sty
 "
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geomet
+ry\geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ifte
+x\ifvtex.sty"
+>>>>>>> b
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count192
@@ -106,6 +152,7 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layoutvoffset=\dimen157
 \Gm@dimlist=\toks16
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geometry\geometry.
 cfg"))
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\size11.clo"
@@ -126,27 +173,66 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\graph
 ics.cfg"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/geomet
+ry\geometry.cfg"))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\s
+ize11.clo"
+File: size11.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/ba
+siclayer\pgfcore.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs\graphicx.sty"
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs\graphics.sty"
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs-cfg\graphics.cfg"
+>>>>>>> b
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdfte
 x.def"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs-def\pdftex.def"
+>>>>>>> b
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen158
 \Gin@req@width=\dimen159
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/systemlayer\pg
 fsys.sty"
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\pgfr
 cs.sty"
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
 futil-common.tex"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/sy
+stemlayer\pgfsys.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/ut
+ilities\pgfrcs.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+utilities\pgfutil-common.tex"
+>>>>>>> b
 \pgfutil@everybye=\toks17
 \pgfutil@tempdima=\dimen160
 \pgfutil@tempdimb=\dimen161
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
 futil-common-lists.tex"))
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
@@ -173,6 +259,35 @@ fkeys.code.tex"
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/utilities\pg
 fkeysfiltered.code.tex"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+utilities\pgfutil-common-lists.tex"))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+utilities\pgfutil-latex.def"
+\pgfutil@abb=\box54
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ms\eve
+ryshi.sty"
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+utilities\pgfrcs.code.tex"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf\
+pgf.revision.tex")
+Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+systemlayer\pgfsys.code.tex"
+Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+utilities\pgfkeys.code.tex"
+\pgfkeys@pathtoks=\toks18
+\pgfkeys@temptoks=\toks19
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+utilities\pgfkeysfiltered.code.tex"
+>>>>>>> b
 \pgfkeys@tmptoks=\toks20
 ))
 \pgf@x=\dimen162
@@ -196,12 +311,18 @@ fkeysfiltered.code.tex"
 \t@pgf@tokc=\toks23
 \pgf@sys@id@count=\count199
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
 pgf.cfg"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+systemlayer\pgf.cfg"
+>>>>>>> b
 File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
 pgfsys-pdftex.def"
 File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
@@ -212,10 +333,23 @@ File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
 )))
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
 pgfsyssoftpath.code.tex"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+systemlayer\pgfsys-pdftex.def"
+File: pgfsys-pdftex.def 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+systemlayer\pgfsys-common-pdf.def"
+File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+)))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+systemlayer\pgfsyssoftpath.code.tex"
+>>>>>>> b
 File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfsyssoftpath@smallbuffer@items=\count266
 \pgfsyssoftpath@bigbuffer@items=\count267
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/systemlayer\
 pgfsysprotocol.code.tex"
 File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -225,6 +359,18 @@ Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-cfg\color
 .cfg"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+systemlayer\pgfsysprotocol.code.tex"
+File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/xcolor
+\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs-cfg\color.cfg"
+>>>>>>> b
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -238,6 +384,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\dvipsnam.
 def"
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
@@ -254,6 +401,24 @@ calc.code.tex"
 util.code.tex")
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
 parser.code.tex"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphi
+cs\dvipsnam.def"
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcore.code.tex"
+Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfmath.code.tex"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfmathcalc.code.tex"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfmathutil.code.tex")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfmathparser.code.tex"
+>>>>>>> b
 \pgfmath@dimen=\dimen172
 \pgfmath@count=\count268
 \pgfmath@box=\box55
@@ -261,6 +426,7 @@ parser.code.tex"
 \pgfmath@stack@operand=\toks25
 \pgfmath@stack@operation=\toks26
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
 functions.code.tex"
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
@@ -287,6 +453,34 @@ float.code.tex"
 code.tex")
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorepoints.code.tex"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfmathfunctions.code.tex"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfmathfunctions.basic.code.tex")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfmathfunctions.trigonometric.code.tex")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfmathfunctions.random.code.tex")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfmathfunctions.comparison.code.tex")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfmathfunctions.base.code.tex")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfmathfunctions.round.code.tex")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfmathfunctions.misc.code.tex")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfmathfunctions.integerarithmetics.code.tex")))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfmathfloat.code.tex"
+\c@pgfmathroundto@lastzeros=\count269
+))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfint.code.tex")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcorepoints.code.tex"
+>>>>>>> b
 File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@picminx=\dimen173
 \pgf@picmaxx=\dimen174
@@ -303,26 +497,42 @@ File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@zx=\dimen185
 \pgf@zy=\dimen186
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorepathconstruct.code.tex"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcorepathconstruct.code.tex"
+>>>>>>> b
 File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@path@lastx=\dimen187
 \pgf@path@lasty=\dimen188
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorepathusage.code.tex"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcorepathusage.code.tex"
+>>>>>>> b
 File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@shorten@end@additional=\dimen189
 \pgf@shorten@start@additional=\dimen190
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorescopes.code.tex"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcorescopes.code.tex"
+>>>>>>> b
 File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfpic=\box56
 \pgf@hbox=\box57
 \pgf@layerbox@main=\box58
 \pgf@picture@serial@count=\count270
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcoregraphicstate.code.tex"
 File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -330,11 +540,21 @@ File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcoretransformations.code.tex"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcoregraphicstate.code.tex"
+File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgflinewidth=\dimen191
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcoretransformations.code.tex"
+>>>>>>> b
 File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@pt@x=\dimen192
 \pgf@pt@y=\dimen193
 \pgf@pt@temp=\dimen194
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcorequick.code.tex"
 File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -354,11 +574,33 @@ File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcoreshade.code.tex"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcorequick.code.tex"
+File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcoreobjects.code.tex"
+File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcorepathprocessing.code.tex"
+File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcorearrows.code.tex"
+File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfarrowsep=\dimen195
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcoreshade.code.tex"
+>>>>>>> b
 File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@max=\dimen196
 \pgf@sys@shading@range@num=\count271
 \pgf@shadingcount=\count272
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/basiclayer\p
 gfcoreimage.code.tex"
 File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -386,10 +628,40 @@ File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/utilities\xxco
 lor.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcoreimage.code.tex"
+File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcoreexternal.code.tex"
+File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfexternal@startupbox=\box59
+))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcorelayers.code.tex"
+File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcoretransparency.code.tex"
+File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcorepatterns.code.tex"
+File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+basiclayer\pgfcorerdf.code.tex"
+File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/ut
+ilities\xxcolor.sty"
+>>>>>>> b
 Package: xxcolor 2003/10/24 ver 0.1
 \XC@nummixins=\count273
 \XC@countmixins=\count274
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbegshi\atbegsh
 i.sty"
 Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
@@ -408,12 +680,33 @@ Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdftexc
 mds.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/atbe
+gshi\atbegshi.sty"
+Package: atbegshi 2019/12/05 v1.19 At begin shipout hook (HO)
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infw
+arerr\infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxc
+mds\ltxcmds.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperr
+ef\hyperref.sty"
+Package: hyperref 2020/01/14 v7.00d Hypertext links for LaTeX
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftex
+cmds\pdftexcmds.sty"
+>>>>>>> b
 Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvsetk
 eys.sty"
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
@@ -440,12 +733,41 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvoption
 s.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvse
+tkeys\kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvde
+finekeys\kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pdfe
+scape\pdfescape.sty"
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hycolo
+r\hycolor.sty"
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/letltx
+macro\letltxmacro.sty"
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/auxhoo
+k\auxhook.sty"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvopti
+ons\kvoptions.sty"
+>>>>>>> b
 Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 )
 \@linkdim=\dimen197
 \Hy@linkcounter=\count275
 \Hy@pagecounter=\count276
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\pd1enc.de
 f"
 File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
@@ -458,6 +780,20 @@ Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etexcmds\etexcmd
 s.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperr
+ef\pd1enc.def"
+File: pd1enc.def 2020/01/14 v7.00d Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/intc
+alc\intcalc.sty"
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/etex
+cmds\etexcmds.sty"
+>>>>>>> b
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count277
@@ -472,19 +808,34 @@ Package hyperref Info: Backreferencing OFF on input line 4484.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
 Package hyperref Info: Bookmarks ON on input line 4717.
 \c@Hy@tempcnt=\count278
+<<<<<<< HEAD
  ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\url.sty"
+=======
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/url\ur
+l.sty"
+>>>>>>> b
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5076.
 \XeTeXLinkMargin=\dimen198
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bitset\bitset.st
 y"
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigintcalc\bigin
 tcalc.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bits
+et\bitset.sty"
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/bigi
+ntcalc\bigintcalc.sty"
+>>>>>>> b
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
@@ -508,28 +859,47 @@ Package hyperref Message: Stopped early.
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\hpdftex.d
 ef"
 File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atveryend\atveryen
 d.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperr
+ef\hpdftex.def"
+File: hpdftex.def 2020/01/14 v7.00d Hyperref driver for pdfTeX
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/atvery
+end\atveryend.sty"
+>>>>>>> b
 Package: atveryend 2019-12-11 v1.11 Hooks at the very end of document (HO)
 )
 \Fld@listcount=\count281
 \c@bookmark@seq@number=\count282
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunfilecheck\rer
 unfilecheck.sty"
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniquecounter\un
 iquecounter.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/rerunf
+ilecheck\rerunfilecheck.sty"
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/uniq
+uecounter\uniquecounter.sty"
+>>>>>>> b
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 ))
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaser
 equires.sty"
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasec
@@ -542,6 +912,20 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\amsfonts.
 sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbaserequires.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbasecompatibility.sty")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbasefont.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
+ts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
+ts\amsfonts.sty"
+>>>>>>> b
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks27
 \symAMSa=\mathgroup4
@@ -550,6 +934,7 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sansmathaccent\san
 smathaccent.sty"
 Package: sansmathaccent 2020/01/31
@@ -570,22 +955,56 @@ isc.sty")
 woscreens.sty")
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseo
 verlay.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/sansma
+thaccent\sansmathaccent.sty"
+Package: sansmathaccent 2020/01/31
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/koma-s
+cript\scrlfile.sty"
+Package: scrlfile 2020/04/19 v3.30 KOMA-Script package (loading files)
+)))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbasetranslator.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/transl
+ator\translator.sty"
+Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
+))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbasemisc.sty")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbasetwoscreens.sty")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbaseoverlay.sty"
+>>>>>>> b
 \beamer@argscount=\count283
 \beamer@lastskipcover=\skip50
 \beamer@trivlistdepth=\count284
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaset
 itle.sty")
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbases
 ection.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbasetitle.sty")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbasesection.sty"
+>>>>>>> b
 \c@lecture=\count285
 \c@part=\count286
 \c@section=\count287
 \c@subsection=\count288
 \c@subsubsection=\count289
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasef
 rame.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbaseframe.sty"
+>>>>>>> b
 \beamer@framebox=\box60
 \beamer@frametitlebox=\box61
 \beamer@zoombox=\box62
@@ -601,18 +1020,28 @@ rame.sty"
 \framewidth=\dimen258
 \c@framenumber=\count293
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasev
 erbatim.sty"
 \beamer@verbatimfileout=\write4
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasef
 ramesize.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbaseverbatim.sty"
+\beamer@verbatimfileout=\write4
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbaseframesize.sty"
+>>>>>>> b
 \beamer@splitbox=\box63
 \beamer@autobreakcount=\count294
 \beamer@autobreaklastheight=\dimen259
 \beamer@frametitletoks=\toks29
 \beamer@framesubtitletoks=\toks30
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasef
 ramecomponents.sty"
 \beamer@footins=\box64
@@ -633,6 +1062,28 @@ emplates.sty"
 uxtemplates.sty"
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaseb
 oxes.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbaseframecomponents.sty"
+\beamer@footins=\box64
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbasecolor.sty")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbasenotes.sty"
+\beamer@frameboxcopy=\box65
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbasetoc.sty")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbasetemplates.sty"
+\beamer@sbttoks=\toks31
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbaseauxtemplates.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbaseboxes.sty"
+>>>>>>> b
 \bmb@box=\box66
 \bmb@colorbox=\box67
 \bmb@boxshadow=\box68
@@ -645,10 +1096,17 @@ oxes.sty"
 )
 \beamer@blockheadheight=\dimen264
 ))
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasel
 ocalstructure.sty"
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\enumerate.st
 y"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbaselocalstructure.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\
+enumerate.sty"
+>>>>>>> b
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks32
 )
@@ -657,6 +1115,7 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \abovecaptionskip=\skip55
 \belowcaptionskip=\skip56
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbasen
 avigation.sty"
 \beamer@section@min@dim=\dimen265
@@ -665,21 +1124,41 @@ avigation.sty"
 heorems.sty"
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsmath.st
 y"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbasenavigation.sty"
+\beamer@section@min@dim=\dimen265
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbasetheorems.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmat
+h\amsmath.sty"
+>>>>>>> b
 Package: amsmath 2020/01/20 v2.17e AMS math features
 \@mathmargin=\skip57
 
 For additional information on amsmath, use the `?' option.
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amstext.st
 y"
 Package: amstext 2000/06/29 v2.01 AMS text
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsgen.sty
 "
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmat
+h\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmat
+h\amsgen.sty"
+>>>>>>> b
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks33
 \ex@=\dimen266
 ))
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsbsy.sty
 "
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
@@ -687,6 +1166,15 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmath\amsopn.sty
 "
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmat
+h\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen267
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsmat
+h\amsopn.sty"
+>>>>>>> b
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count297
@@ -727,7 +1215,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amscls\amsthm.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amscls
+\amsthm.sty"
+>>>>>>> b
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks38
 \thm@bodyfont=\toks39
@@ -741,6 +1234,7 @@ Package: amsthm 2020/05/29 v2.20.6
 )
 \c@theorem=\count309
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerbaset
 hemes.sty"))
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamertheme
@@ -773,6 +1267,36 @@ File: babel.def 2020/05/13 3.44 Babel common definitions
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel.d
 ef")
 \bbl@readstream=\read3
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerbasethemes.sty"))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerthemedefault.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerfontthemedefault.sty")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamercolorthemedefault.sty")
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerinnerthemedefault.sty"
+\beamer@dima=\dimen275
+\beamer@dimb=\dimen276
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerouterthemedefault.sty")))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\i
+nputenc.sty"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks44
+\inpenc@posthook=\toks45
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
+l\babel.sty"
+Package: babel 2020/03/22 3.42 The Babel package
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
+l\switch.def"
+File: switch.def 2020/03/22 3.42 Babel switching mechanism
+>>>>>>> b
 )
 LaTeX Info: Redefining \textlatin on input line 674.
 \bbl@dirlevel=\count311
@@ -780,6 +1304,7 @@ LaTeX Info: Redefining \textlatin on input line 674.
 *************************************
 * Local config file bblopts.cfg used
 *
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\bblopts.cfg"
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
@@ -797,6 +1322,40 @@ Package babel Info: Making " an active character on input line 121.
 )))
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/germbib\bibgerm.st
 y"
+=======
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/arabi\
+bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-
+german\ngerman.ldf"
+Language: ngerman 2018/12/08 v2.11 German support for babel (post-1996 orthogra
+phy)
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/babel-
+german\ngermanb.ldf"
+Language: ngermanb 2018/12/08 v2.11 German support for babel (post-1996 orthogr
+aphy)
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
+l\babel.def"
+File: babel.def 2020/03/22 3.42 Babel common definitions
+\babel@savecnt=\count310
+\U@D=\dimen277
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babe
+l\txtbabel.def")
+\bbl@readstream=\read3
+LaTeX Info: Redefining \textlatin on input line 2435.
+\bbl@dirlevel=\count311
+)
+Package babel Info: Making " an active character on input line 121.
+)))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/germbi
+b\bibgerm.sty"
+>>>>>>> b
 Package: bibgerm 2000/08/18 v0.1 Support for mixed language bibliographies
 
 ** Macros for german `BibTeX'ing added to Style Option `german' 20 Apr 1993 **
@@ -814,12 +1373,22 @@ hschuleTrier
 Package: beamerinnerthemeHochschuleTrier 2017/01/16 package beamerinnerthemeHoc
 hschuleTrier
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerinner
 themecircles.sty")) (beamerouterthemeHochschuleTrier.sty
 Package: beamerouterthemeHochschuleTrier 2017/01/16 package beamerouterthemeHoc
 hschuleTrier
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerinnerthemecircles.sty")) (beamerouterthemeHochschuleTrier.sty
+Package: beamerouterthemeHochschuleTrier 2017/01/16 package beamerouterthemeHoc
+hschuleTrier
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\
+calc.sty"
+>>>>>>> b
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count312
 \calc@Bcount=\count313
@@ -831,6 +1400,7 @@ LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count314
 \calc@Cskip=\skip65
+<<<<<<< HEAD
 ))) ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\helvet.
 sty"
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
@@ -856,10 +1426,39 @@ File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
 pgfcomp-version-0-65.sty"
+=======
+)))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss
+\helvet.sty"
+Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss
+\courier.sty"
+Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/fr
+ontendlayer\tikz.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/ba
+siclayer\pgf.sty"
+Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+modules\pgfmoduleshapes.code.tex"
+File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+\pgfnodeparttextbox=\box73
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+modules\pgfmoduleplot.code.tex"
+File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/co
+mpatibility\pgfcomp-version-0-65.sty"
+>>>>>>> b
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@nodesepstart=\dimen280
 \pgf@nodesepend=\dimen281
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/compatibility\
 pgfcomp-version-1-18.sty"
 Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
@@ -880,17 +1479,48 @@ Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/math\pgfmath
 .code.tex")
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/co
+mpatibility\pgfcomp-version-1-18.sty"
+Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/ut
+ilities\pgffor.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/ut
+ilities\pgfkeys.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+utilities\pgfkeys.code.tex"))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pgf/ma
+th\pgfmath.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfmath.code.tex"))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+utilities\pgffor.code.tex"
+Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+math\pgfmath.code.tex")
+>>>>>>> b
 \pgffor@iter=\dimen282
 \pgffor@skip=\dimen283
 \pgffor@stack=\toks46
 \pgffor@toks=\toks47
 ))
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
 r/tikz\tikz.code.tex"
 Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/libraries\pg
 flibraryplothandlers.code.tex"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+frontendlayer/tikz\tikz.code.tex"
+Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+libraries\pgflibraryplothandlers.code.tex"
+>>>>>>> b
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@plot@mark@count=\count315
 \pgfplotmarksize=\dimen284
@@ -912,8 +1542,13 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikznumberofcurrentchild=\count318
 \tikz@fig@count=\count319
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/modules\pgfm
 odulematrix.code.tex"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+modules\pgfmodulematrix.code.tex"
+>>>>>>> b
 File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgfmatrixcurrentrow=\count320
 \pgfmatrixcurrentcolumn=\count321
@@ -921,6 +1556,7 @@ File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 \tikz@expandcount=\count323
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendlaye
 r/tikz/libraries\tikzlibrarytopaths.code.tex"
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
@@ -952,6 +1588,37 @@ Package: xparse 2020-05-15 L3 Experimental document command parser
 
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xparse\
 xparse-generic.tex"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex"
+File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+frontendlayer/tikz/libraries\tikzlibrarycalc.code.tex"
+File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/
+frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex"
+File: tikzlibrarypositioning.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer
+\beamerfontthemeserif.sty"))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum
+\lipsum.sty"
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kern
+el\expl3.sty"
+Package: expl3 2020-04-06 L3 programming layer (loader) 
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3back
+end\l3backend-pdfmode.def"
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count324
+\l__pdf_internal_box=\box78
+))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3pack
+ages/xparse\xparse.sty"
+Package: xparse 2020-03-06 L3 Experimental document command parser
+>>>>>>> b
 \l__xparse_current_arg_int=\count325
 \g__xparse_grabber_int=\count326
 \l__xparse_m_args_int=\count327
@@ -959,12 +1626,21 @@ xparse-generic.tex"
 ))
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum\lipsum.ltd.
 tex"
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
 sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lipsum
+\lipsum.ltd.tex"
+File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
+))
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listin
+gs\listings.sty"
+>>>>>>> b
 \lst@mode=\count329
 \lst@gtempboxa=\box79
 \lst@token=\toks48
@@ -978,19 +1654,30 @@ sty"
 \lst@lineno=\count334
 \lst@maxwidth=\dimen296
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.s
 ty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listin
+gs\lstmisc.sty"
+>>>>>>> b
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 \c@lstnumber=\count335
 \lst@skipnumbers=\count336
 \lst@framebox=\box80
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\listings.
 cfg"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listin
+gs\listings.cfg"
+>>>>>>> b
 File: listings.cfg 2020/03/24 1.8d listings configuration
 ))
 Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlang1.
 sty"
 File: lstlang1.sty 2020/03/24 1.8d listings language file
@@ -1001,6 +1688,18 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmisc.s
 ty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listin
+gs\lstlang1.sty"
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listin
+gs\lstlang1.sty"
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listin
+gs\lstmisc.sty"
+>>>>>>> b
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 ) (tutorial.aux)
 \openout1 = `tutorial.aux'.
@@ -1024,7 +1723,12 @@ LaTeX Font Info:    ... okay on input line 78.
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 7
 8.
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ot1phv.fd"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss
+\ot1phv.fd"
+>>>>>>> b
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
 *geometry* driver: auto-detecting
@@ -1062,8 +1766,13 @@ File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp-p
 df.mkii"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/context/base
+/mkii\supp-pdf.mkii"
+>>>>>>> b
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count337
 \scratchdimen=\dimen297
@@ -1077,8 +1786,13 @@ df.mkii"
 \makeMPintoPDFobject=\count342
 \everyMPtoPDFconversion=\toks50
 )
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\epsto
 pdf-base.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstop
+df-pkg\epstopdf-base.sty"
+>>>>>>> b
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -1086,6 +1800,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 \AtBeginShipoutBox=\box82
 Package hyperref Info: Link coloring OFF on input line 78.
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\nameref.s
 ty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1096,6 +1811,18 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gettitlestring\g
 ettitlestring.sty"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperr
+ef\nameref.sty"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/refcou
+nt\refcount.sty"
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/generic/gett
+itlestring\gettitlestring.sty"
+>>>>>>> b
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count343
@@ -1108,6 +1835,7 @@ LaTeX Info: Redefining \nameref on input line 78.
 \openout5 = `tutorial.out'.
 
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\transla
 tor-basic-dictionary-English.dict"
 Dictionary: translator-basic-dictionary, Language: English 
@@ -1130,6 +1858,30 @@ Dictionary: translator-numbers-dictionary, Language: English
 )
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\transla
 tor-theorem-dictionary-English.dict"
+=======
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/transl
+ator\translator-basic-dictionary-English.dict"
+Dictionary: translator-basic-dictionary, Language: English 
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/transl
+ator\translator-bibliography-dictionary-English.dict"
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/transl
+ator\translator-environment-dictionary-English.dict"
+Dictionary: translator-environment-dictionary, Language: English 
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/transl
+ator\translator-months-dictionary-English.dict"
+Dictionary: translator-months-dictionary, Language: English 
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/transl
+ator\translator-numbers-dictionary-English.dict"
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/transl
+ator\translator-theorem-dictionary-English.dict"
+>>>>>>> b
 Dictionary: translator-theorem-dictionary, Language: English 
 )
 
@@ -1143,12 +1895,24 @@ Overfull \hbox (28.97128pt too wide) in paragraph at lines 78--78
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+=======
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
+ts\umsa.fd"
+>>>>>>> b
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
 
+<<<<<<< HEAD
 ("C:\Users\simon\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+=======
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
+ts\umsb.fd"
+>>>>>>> b
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 <HochschuleLogo.pdf, id=93, 812.03375pt x 157.58875pt>
@@ -1158,7 +1922,7 @@ Package pdftex.def Info: HochschuleLogo.pdf  used on input line 78.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 82.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 81.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1167,14 +1931,19 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 [1
 
+<<<<<<< HEAD
 {C:/Users/simon/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Hochschul
 eLogo.pdf>] (tutorial.toc)
 Overfull \vbox (85.8461pt too high) detected at line 89
  []
 
+=======
+{C:/Users/Felix Kalchschmid/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} 
+<./HochschuleLogo.pdf>]
+>>>>>>> b
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 89.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 114.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1185,15 +1954,20 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10.95> not available
+<<<<<<< HEAD
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 114.
 <images/Bild1.png, id=149, 207.02344pt x 232.61906pt>
+=======
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 147.
+<images/Bild1.png, id=90, 207.02344pt x 232.61906pt>
+>>>>>>> b
 File: images/Bild1.png Graphic file (type png)
 <use images/Bild1.png>
-Package pdftex.def Info: images/Bild1.png  used on input line 114.
+Package pdftex.def Info: images/Bild1.png  used on input line 147.
 (pdftex.def)             Requested size: 71.13188pt x 79.92711pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 114.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 147.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1203,14 +1977,18 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [3
 
  <./images/Bild1.png>]
+<<<<<<< HEAD
 <images/Bild2.png, id=159, 315.42844pt x 248.42813pt>
+=======
+<images/Bild2.png, id=100, 315.42844pt x 248.42813pt>
+>>>>>>> b
 File: images/Bild2.png Graphic file (type png)
 <use images/Bild2.png>
-Package pdftex.def Info: images/Bild2.png  used on input line 137.
+Package pdftex.def Info: images/Bild2.png  used on input line 170.
 (pdftex.def)             Requested size: 128.0374pt x 100.84027pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 137.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 170.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1220,14 +1998,18 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [4
 
  <./images/Bild2.png>]
+<<<<<<< HEAD
 <images/Potential_Field.png, id=166, 465.99094pt x 139.27031pt>
+=======
+<images/Potential_Field.png, id=108, 465.99094pt x 139.27031pt>
+>>>>>>> b
 File: images/Potential_Field.png Graphic file (type png)
 <use images/Potential_Field.png>
-Package pdftex.def Info: images/Potential_Field.png  used on input line 152.
+Package pdftex.def Info: images/Potential_Field.png  used on input line 185.
 (pdftex.def)             Requested size: 298.75394pt x 89.29207pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 152.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 185.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1237,14 +2019,18 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [5
 
  <./images/Potential_Field.png>]
+<<<<<<< HEAD
 <images/Bild3.png, id=174, 337.26pt x 271.76532pt>
+=======
+<images/Bild3.png, id=116, 337.26pt x 271.76532pt>
+>>>>>>> b
 File: images/Bild3.png Graphic file (type png)
 <use images/Bild3.png>
-Package pdftex.def Info: images/Bild3.png  used on input line 174.
+Package pdftex.def Info: images/Bild3.png  used on input line 207.
 (pdftex.def)             Requested size: 128.0374pt x 103.17236pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 174.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 207.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1254,14 +2040,18 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [6
 
  <./images/Bild3.png>]
+<<<<<<< HEAD
 <images/Bild4.png, id=182, 329.73187pt x 221.32687pt>
+=======
+<images/Bild4.png, id=124, 329.73187pt x 221.32687pt>
+>>>>>>> b
 File: images/Bild4.png Graphic file (type png)
 <use images/Bild4.png>
-Package pdftex.def Info: images/Bild4.png  used on input line 189.
+Package pdftex.def Info: images/Bild4.png  used on input line 222.
 (pdftex.def)             Requested size: 142.26378pt x 95.49289pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 189.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 222.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1271,14 +2061,18 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [7
 
  <./images/Bild4.png>]
+<<<<<<< HEAD
 <images/kk_graph_S6.png, id=191, 721.94719pt x 336.50719pt>
+=======
+<images/kk_graph_S6.png, id=133, 721.94719pt x 336.50719pt>
+>>>>>>> b
 File: images/kk_graph_S6.png Graphic file (type png)
 <use images/kk_graph_S6.png>
-Package pdftex.def Info: images/kk_graph_S6.png  used on input line 202.
+Package pdftex.def Info: images/kk_graph_S6.png  used on input line 235.
 (pdftex.def)             Requested size: 199.16928pt x 92.83499pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 202.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 235.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1288,14 +2082,18 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [8
 
  <./images/kk_graph_S6.png>]
+<<<<<<< HEAD
 <images/Bild5.png, id=198, 414.04688pt x 205.5178pt>
+=======
+<images/Bild5.png, id=141, 414.04688pt x 205.5178pt>
+>>>>>>> b
 File: images/Bild5.png Graphic file (type png)
 <use images/Bild5.png>
-Package pdftex.def Info: images/Bild5.png  used on input line 215.
+Package pdftex.def Info: images/Bild5.png  used on input line 248.
 (pdftex.def)             Requested size: 199.16928pt x 98.8638pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 215.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 248.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1305,14 +2103,18 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [9
 
  <./images/Bild5.png>]
+<<<<<<< HEAD
 <images/mesh_with_path.png, id=206, 1104.125pt x 599.23875pt>
+=======
+<images/mesh_with_path.png, id=149, 1104.125pt x 599.23875pt>
+>>>>>>> b
 File: images/mesh_with_path.png Graphic file (type png)
 <use images/mesh_with_path.png>
-Package pdftex.def Info: images/mesh_with_path.png  used on input line 232.
+Package pdftex.def Info: images/mesh_with_path.png  used on input line 265.
 (pdftex.def)             Requested size: 184.9429pt x 100.36967pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 232.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 265.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1322,14 +2124,18 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [10
 
  <./images/mesh_with_path.png>]
+<<<<<<< HEAD
 <images/Grid_Tiles.png, id=214, 1647.15375pt x 536.0025pt>
+=======
+<images/Grid_Tiles.png, id=157, 1647.15375pt x 536.0025pt>
+>>>>>>> b
 File: images/Grid_Tiles.png Graphic file (type png)
 <use images/Grid_Tiles.png>
-Package pdftex.def Info: images/Grid_Tiles.png  used on input line 246.
+Package pdftex.def Info: images/Grid_Tiles.png  used on input line 279.
 (pdftex.def)             Requested size: 284.52756pt x 92.5832pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 246.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 279.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1339,15 +2145,19 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [11
 
  <./images/Grid_Tiles.png>]
+<<<<<<< HEAD
 <images/Robot_Motion_Visibility_Graph.png, id=222, 377.91188pt x 209.28188pt>
+=======
+<images/Robot_Motion_Visibility_Graph.png, id=165, 377.91188pt x 209.28188pt>
+>>>>>>> b
 File: images/Robot_Motion_Visibility_Graph.png Graphic file (type png)
 <use images/Robot_Motion_Visibility_Graph.png>
 Package pdftex.def Info: images/Robot_Motion_Visibility_Graph.png  used on inpu
-t line 264.
+t line 297.
 (pdftex.def)             Requested size: 184.9429pt x 102.41808pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 264.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 297.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1357,11 +2167,9 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [12
 
  <./images/Robot_Motion_Visibility_Graph.png>]
-LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10.95> not available
-(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 284.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 284.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 331.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1371,14 +2179,19 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [13
 
 ]
+<<<<<<< HEAD
 <images/img224.png, id=237, 908.10696pt x 296.39304pt>
 File: images/img224.png Graphic file (type png)
 <use images/img224.png>
 Package pdftex.def Info: images/img224.png  used on input line 307.
 (pdftex.def)             Requested size: 184.9429pt x 60.36298pt.
+=======
+LaTeX Font Info:    Font shape `OT1/phv/b/it' in size <10.95> not available
+(Font)              Font shape `OT1/phv/b/sl' tried instead on input line 348.
+>>>>>>> b
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 307.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 348.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1387,14 +2200,15 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 [14
 
- <./images/img224.png>]
+]
+<images/img224.png, id=187, 908.10696pt x 296.39304pt>
 File: images/img224.png Graphic file (type png)
 <use images/img224.png>
-Package pdftex.def Info: images/img224.png  used on input line 307.
+Package pdftex.def Info: images/img224.png  used on input line 371.
 (pdftex.def)             Requested size: 184.9429pt x 60.36298pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 307.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 371.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1403,14 +2217,14 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 [15
 
-]
+ <./images/img224.png>]
 File: images/img224.png Graphic file (type png)
 <use images/img224.png>
-Package pdftex.def Info: images/img224.png  used on input line 307.
+Package pdftex.def Info: images/img224.png  used on input line 371.
 (pdftex.def)             Requested size: 184.9429pt x 60.36298pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 307.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 371.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1422,11 +2236,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: images/img224.png Graphic file (type png)
 <use images/img224.png>
-Package pdftex.def Info: images/img224.png  used on input line 307.
+Package pdftex.def Info: images/img224.png  used on input line 371.
 (pdftex.def)             Requested size: 184.9429pt x 60.36298pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 307.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 371.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1438,11 +2252,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: images/img224.png Graphic file (type png)
 <use images/img224.png>
-Package pdftex.def Info: images/img224.png  used on input line 307.
+Package pdftex.def Info: images/img224.png  used on input line 371.
 (pdftex.def)             Requested size: 184.9429pt x 60.36298pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 307.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 371.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1452,14 +2266,21 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [18
 
 ]
+<<<<<<< HEAD
 <images/img247.png, id=269, 1051.35643pt x 313.17pt>
 File: images/img247.png Graphic file (type png)
 <use images/img247.png>
 Package pdftex.def Info: images/img247.png  used on input line 332.
 (pdftex.def)             Requested size: 184.9429pt x 55.0875pt.
+=======
+File: images/img224.png Graphic file (type png)
+<use images/img224.png>
+Package pdftex.def Info: images/img224.png  used on input line 371.
+(pdftex.def)             Requested size: 184.9429pt x 60.36298pt.
+>>>>>>> b
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 332.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 371.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1468,14 +2289,15 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 [19
 
- <./images/img247.png>]
+]
+<images/img247.png, id=220, 1051.35643pt x 313.17pt>
 File: images/img247.png Graphic file (type png)
 <use images/img247.png>
-Package pdftex.def Info: images/img247.png  used on input line 332.
+Package pdftex.def Info: images/img247.png  used on input line 396.
 (pdftex.def)             Requested size: 184.9429pt x 55.0875pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 332.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 396.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1484,14 +2306,14 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 [20
 
-]
+ <./images/img247.png>]
 File: images/img247.png Graphic file (type png)
 <use images/img247.png>
-Package pdftex.def Info: images/img247.png  used on input line 332.
+Package pdftex.def Info: images/img247.png  used on input line 396.
 (pdftex.def)             Requested size: 184.9429pt x 55.0875pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 332.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 396.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1503,11 +2325,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: images/img247.png Graphic file (type png)
 <use images/img247.png>
-Package pdftex.def Info: images/img247.png  used on input line 332.
+Package pdftex.def Info: images/img247.png  used on input line 396.
 (pdftex.def)             Requested size: 184.9429pt x 55.0875pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 332.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 396.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1519,11 +2341,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: images/img247.png Graphic file (type png)
 <use images/img247.png>
-Package pdftex.def Info: images/img247.png  used on input line 332.
+Package pdftex.def Info: images/img247.png  used on input line 396.
 (pdftex.def)             Requested size: 184.9429pt x 55.0875pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 332.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 396.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1535,11 +2357,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: images/img247.png Graphic file (type png)
 <use images/img247.png>
-Package pdftex.def Info: images/img247.png  used on input line 332.
+Package pdftex.def Info: images/img247.png  used on input line 396.
 (pdftex.def)             Requested size: 184.9429pt x 55.0875pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 332.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 396.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1549,6 +2371,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [24
 
 ]
+<<<<<<< HEAD
 <images/hierarchical.png, id=308, 669.78804pt x 497.28642pt>
 File: images/hierarchical.png Graphic file (type png)
 <use images/hierarchical.png>
@@ -1558,9 +2381,15 @@ Package pdftex.def Info: images/hierarchical.png  used on input line 356.
 Overfull \vbox (3.03822pt too high) detected at line 356
  []
 
+=======
+File: images/img247.png Graphic file (type png)
+<use images/img247.png>
+Package pdftex.def Info: images/img247.png  used on input line 396.
+(pdftex.def)             Requested size: 184.9429pt x 55.0875pt.
+>>>>>>> b
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 356.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 396.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1569,18 +2398,19 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 [25
 
- <./images/hierarchical.png>]
+]
+<images/hierarchical.png, id=259, 669.78804pt x 497.28642pt>
 File: images/hierarchical.png Graphic file (type png)
 <use images/hierarchical.png>
-Package pdftex.def Info: images/hierarchical.png  used on input line 356.
+Package pdftex.def Info: images/hierarchical.png  used on input line 420.
 (pdftex.def)             Requested size: 184.9429pt x 137.3119pt.
 
-Overfull \vbox (3.03822pt too high) detected at line 356
+Overfull \vbox (3.03822pt too high) detected at line 420
  []
 
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 356.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 420.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1589,18 +2419,18 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 [26
 
-]
+ <./images/hierarchical.png>]
 File: images/hierarchical.png Graphic file (type png)
 <use images/hierarchical.png>
-Package pdftex.def Info: images/hierarchical.png  used on input line 356.
+Package pdftex.def Info: images/hierarchical.png  used on input line 420.
 (pdftex.def)             Requested size: 184.9429pt x 137.3119pt.
 
-Overfull \vbox (3.03822pt too high) detected at line 356
+Overfull \vbox (3.03822pt too high) detected at line 420
  []
 
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 356.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 420.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1612,15 +2442,15 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: images/hierarchical.png Graphic file (type png)
 <use images/hierarchical.png>
-Package pdftex.def Info: images/hierarchical.png  used on input line 356.
+Package pdftex.def Info: images/hierarchical.png  used on input line 420.
 (pdftex.def)             Requested size: 184.9429pt x 137.3119pt.
 
-Overfull \vbox (3.03822pt too high) detected at line 356
+Overfull \vbox (3.03822pt too high) detected at line 420
  []
 
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 356.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 420.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1632,15 +2462,15 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: images/hierarchical.png Graphic file (type png)
 <use images/hierarchical.png>
-Package pdftex.def Info: images/hierarchical.png  used on input line 356.
+Package pdftex.def Info: images/hierarchical.png  used on input line 420.
 (pdftex.def)             Requested size: 184.9429pt x 137.3119pt.
 
-Overfull \vbox (3.03822pt too high) detected at line 356
+Overfull \vbox (3.03822pt too high) detected at line 420
  []
 
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 356.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 420.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1652,15 +2482,15 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: images/hierarchical.png Graphic file (type png)
 <use images/hierarchical.png>
-Package pdftex.def Info: images/hierarchical.png  used on input line 356.
+Package pdftex.def Info: images/hierarchical.png  used on input line 420.
 (pdftex.def)             Requested size: 184.9429pt x 137.3119pt.
 
-Overfull \vbox (3.03822pt too high) detected at line 356
+Overfull \vbox (3.03822pt too high) detected at line 420
  []
 
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 356.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 420.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1670,9 +2500,17 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [30
 
 ]
+File: images/hierarchical.png Graphic file (type png)
+<use images/hierarchical.png>
+Package pdftex.def Info: images/hierarchical.png  used on input line 420.
+(pdftex.def)             Requested size: 184.9429pt x 137.3119pt.
+
+Overfull \vbox (3.03822pt too high) detected at line 420
+ []
+
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 375.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 420.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1684,7 +2522,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 375.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 439.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1696,7 +2534,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 375.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 439.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1708,7 +2546,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 375.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 439.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1720,7 +2558,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 375.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 439.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1732,7 +2570,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 375.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 439.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1744,7 +2582,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 395.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 439.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1756,7 +2594,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 395.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 459.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1768,7 +2606,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 395.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 459.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1780,7 +2618,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 395.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 459.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1790,6 +2628,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [40
 
 ]
+<<<<<<< HEAD
 <images/img225.png, id=407, 574.71857pt x 511.48232pt>
 File: images/img225.png Graphic file (type png)
 <use images/img225.png>
@@ -1800,9 +2639,11 @@ Overfull \hbox (8.5346pt too wide) in paragraph at lines 426--426
  [] 
  []
 
+=======
+>>>>>>> b
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 426.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 459.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1811,10 +2652,20 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 [41
 
- <./images/img225.png>]
+]
+<images/img225.png, id=359, 574.71857pt x 511.48232pt>
+File: images/img225.png Graphic file (type png)
+<use images/img225.png>
+Package pdftex.def Info: images/img225.png  used on input line 490.
+(pdftex.def)             Requested size: 128.0374pt x 113.94688pt.
+
+Overfull \hbox (8.5346pt too wide) in paragraph at lines 490--490
+ [] 
+ []
+
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 465.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 490.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1823,10 +2674,10 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 
 [42
 
-]
+ <./images/img225.png>]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 465.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 529.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1838,7 +2689,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 465.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 529.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1850,7 +2701,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 465.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 529.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1862,7 +2713,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 465.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 529.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1874,7 +2725,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 465.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 529.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1886,7 +2737,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 465.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 529.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1898,7 +2749,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 483.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 529.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1926,7 +2781,11 @@ Overfull \vbox (10.96288pt too high) detected at line 503
 
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 503.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 537.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1938,7 +2797,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
  <./images/img233.png>]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 526.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 541.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1955,7 +2818,11 @@ Package pdftex.def Info: images/img229_a.png  used on input line 547.
 (pdftex.def)             Requested size: 128.0374pt x 119.23064pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 547.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 546.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1972,7 +2839,11 @@ Package pdftex.def Info: images/Civ5.png  used on input line 566.
 (pdftex.def)             Requested size: 170.71652pt x 97.16301pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 566.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 552.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -1989,7 +2860,11 @@ Package pdftex.def Info: images/img231.png  used on input line 585.
 (pdftex.def)             Requested size: 170.71652pt x 72.83525pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 585.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 571.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2011,7 +2886,11 @@ Overfull \hbox (11.38353pt too wide) in paragraph at lines 612--612
 
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 612.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 580.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2023,7 +2902,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
  <./images/img239.png>]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 620.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 580.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2035,7 +2918,10 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 624.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 580.
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2047,7 +2933,20 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 629.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 598.
+(pdftex.def)             Requested size: 99.58464pt x 19.32582pt.
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 598.
+(pdftex.def)             Requested size: 99.58464pt x 19.32582pt.
+
+Overfull \vbox (4.71504pt too high) detected at line 598
+ []
+
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 598.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2057,9 +2956,22 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [58
 
 ]
+<<<<<<< HEAD
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 635.
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 629.
+=======
+LaTeX Font Info:    Trying to load font information for U+euf on input line 603
+.
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfon
+ts\ueuf.fd"
+File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
+)
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 603.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2071,7 +2983,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 654.
+<<<<<<< HEAD
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 635.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 616.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2083,7 +2999,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
-Package pdftex.def Info: HochschuleLogo.pdf  used on input line 663.
+<<<<<<< HEAD
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 654.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 626.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2093,6 +3013,23 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [61
 
 ]
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+<<<<<<< HEAD
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 663.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 626.
+>>>>>>> b
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[62
+
+]
+<<<<<<< HEAD
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 663.
@@ -2108,6 +3045,21 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 663.
+=======
+\openout4 = `tutorial.vrb'.
+
+ (tutorial.vrb
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 2
+.
+
+("C:\Users\Felix Kalchschmid\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss
+\ot1pcr.fd"
+File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
+))
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 638.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2119,6 +3071,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 681.
 (pdftex.def)             Requested size: 99.58464pt x 19.32582pt.
 File: HochschuleLogo.pdf Graphic file (type pdf)
@@ -2132,6 +3085,9 @@ Overfull \vbox (4.71504pt too high) detected at line 681
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 681.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 650.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2149,7 +3105,11 @@ File: ueuf.fd 2013/01/14 v3.01 Euler Fraktur
 )
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 686.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 650.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2161,7 +3121,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 699.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 660.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2173,7 +3137,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 709.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 660.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2185,7 +3153,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 709.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 660.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2207,7 +3179,11 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 ))
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 721.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 660.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2219,7 +3195,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 733.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 669.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2231,7 +3211,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 733.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 669.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2243,7 +3227,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 743.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 669.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2255,7 +3243,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 743.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 669.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2267,7 +3259,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 743.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 678.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2279,7 +3275,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 743.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 678.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2291,7 +3291,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 752.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 678.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2303,7 +3307,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 752.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 678.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2315,7 +3323,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 752.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 678.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2327,7 +3339,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 752.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 695.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2339,7 +3355,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 761.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 695.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2351,7 +3371,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 761.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 695.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2363,7 +3387,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 761.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 695.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2375,7 +3403,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 761.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 695.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2387,7 +3419,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 761.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 695.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2399,7 +3435,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 778.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 721.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2411,7 +3451,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 778.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 721.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2423,7 +3467,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 778.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 721.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2435,7 +3483,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 778.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 721.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2447,7 +3499,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 778.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 721.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2459,7 +3515,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 778.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 721.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2471,7 +3531,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 804.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 721.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2483,7 +3547,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 804.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 721.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2495,7 +3563,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 804.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 734.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2507,7 +3579,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 804.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 734.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2519,7 +3595,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 804.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 734.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2531,7 +3611,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 804.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 734.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2541,9 +3625,18 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [96
 
 ]
+<<<<<<< HEAD
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 804.
+=======
+Overfull \vbox (2.65pt too high) detected at line 748
+ []
+
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 748.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2553,9 +3646,18 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [97
 
 ]
+<<<<<<< HEAD
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 804.
+=======
+Overfull \vbox (2.65pt too high) detected at line 748
+ []
+
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 748.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2565,9 +3667,18 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [98
 
 ]
+<<<<<<< HEAD
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 817.
+=======
+Overfull \vbox (2.65pt too high) detected at line 748
+ []
+
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 748.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2577,9 +3688,16 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 [99
 
 ]
+Overfull \vbox (2.65pt too high) detected at line 748
+ []
+
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 817.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 748.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2591,7 +3709,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 817.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 760.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2603,7 +3725,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 817.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 760.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2618,7 +3744,11 @@ Overfull \vbox (2.65pt too high) detected at line 831
 
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 831.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 760.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2633,7 +3763,11 @@ Overfull \vbox (2.65pt too high) detected at line 831
 
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 831.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 760.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2648,7 +3782,11 @@ Overfull \vbox (2.65pt too high) detected at line 831
 
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 831.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 785.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2663,7 +3801,11 @@ Overfull \vbox (2.65pt too high) detected at line 831
 
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 831.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 785.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2675,7 +3817,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 843.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 785.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2687,7 +3833,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 843.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 785.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2699,7 +3849,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 843.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 785.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2711,7 +3865,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 843.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 785.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2723,7 +3881,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 868.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 785.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2735,7 +3897,11 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
 <use HochschuleLogo.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: HochschuleLogo.pdf  used on input line 868.
+=======
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 795.
+>>>>>>> b
 (pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
 
 Overfull \hbox (28.97128pt too wide) has occurred while \output is active
@@ -2743,6 +3909,18 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
  []
 
 [112
+
+] (tutorial.bbl)
+File: HochschuleLogo.pdf Graphic file (type pdf)
+<use HochschuleLogo.pdf>
+Package pdftex.def Info: HochschuleLogo.pdf  used on input line 799.
+(pdftex.def)             Requested size: 109.95436pt x 21.33955pt.
+
+Overfull \hbox (28.97128pt too wide) has occurred while \output is active
+ []  
+ []
+
+[113
 
 ]
 File: HochschuleLogo.pdf Graphic file (type pdf)
@@ -2838,6 +4016,7 @@ Overfull \hbox (28.97128pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `tutorial.snm'.
 
+<<<<<<< HEAD
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 885.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 885.
  (tutorial.aux)
@@ -2882,4 +4061,48 @@ PDF statistics:
  1015 PDF objects out of 1200 (max. 8388607)
  260 named destinations out of 1000 (max. 500000)
  303 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 802.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 802.
+ (tutorial.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 802.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 802.
+Package rerunfilecheck Info: File `tutorial.out' has not changed.
+(rerunfilecheck)             Checksum: F9863EE432A58603A0178E5ED383595D;846.
+ ) 
+Here is how much of TeX's memory you used:
+ 25577 strings out of 480930
+ 508853 string characters out of 2894132
+ 1038542 words of memory out of 3000000
+ 40567 multiletter control sequences out of 15000+200000
+ 566908 words of font info for 91 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 58i,18n,82p,777b,1284s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
+/base/8r.enc}<C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Felix Kalchschmid/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Felix K
+alchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
+8.pfb><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmss10.pfb><C:/Users/Felix Kalchschmid/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/Felix Kalchsch
+mid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmsy6.pfb><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/Felix Kalchschmi
+d/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.
+pfb><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/u
+rw/courier/ucrb8a.pfb><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Users/Felix Kalchschmid/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/Felix Kalc
+hschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvbo8a.pfb>
+<C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/h
+elvetic/uhvr8a.pfb><C:/Users/Felix Kalchschmid/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on tutorial.pdf (113 pages, 2638098 bytes).
+PDF statistics:
+ 921 PDF objects out of 1000 (max. 8388607)
+ 242 named destinations out of 1000 (max. 500000)
+ 230 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> b
 

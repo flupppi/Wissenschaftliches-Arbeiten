@@ -54,7 +54,7 @@
 
 %Bitte ausfuellen:
 \title{Funktionsprinzipien und Anwendung von Algorithmen zur Pfadplanung}
-\subtitle{Eine kurze Einführung mit Beispielen}
+%\subtitle{Eine kurze Einführung mit Beispielen}
 \author{Bernardo Cordero, Simon Deutscher, Felix Kalchschmid}							% Autor der Arbeit
 \institute{Hochschule Trier}
 \date{\today}
@@ -76,17 +76,50 @@
 %\beamerdefaultoverlayspecification{<+->}
 
 \begin{document}
-
 \begin{frame}
-\titlepage
+	\titlepage
 \end{frame}
 
-\begin{frame}
-\frametitle{Agenda}
-\tableofcontents
-%\tableofcontents[hideallsubsections] % Subsections ausblenden
-%\tableofcontents[pausesections] %Sections Schritt-fuer-Schritt einblenden
-\end{frame}
+	\begin{frame}{Gliederung}{Aufteilung}
+		\begin{columns}[T]
+			\begin{column}[T]{0.33\textwidth}
+			\begin{alertblock}{Grundlagen}
+				\begin{itemize}
+					\item Was ist Pfadplanung?
+					\item Darstellung des Raums
+					\item Graphen
+					\newline\newline\newline
+				\end{itemize}
+			\end{alertblock}
+			\end{column}
+			\begin{column}[T]{0.33\textwidth}
+				\begin{block}{Algorithmen}
+				\begin{itemize}
+					\item Definition von Pfadplanungsalgorithmen
+					\item Diskrete Pfadplanung: Beispiel Feasible Planning
+					\item kontinuierliche Pfadplanung
+				\end{itemize}
+			\end{block}
+			\end{column}
+		\begin{column}[T]{0.33\textwidth}
+			\begin{block}{Anwendungen}
+			\begin{itemize}
+				\item Anwendungen der diskreten Pfadplanung
+				\item Anwendungen der kontinuierlichen Pfadplanung
+				\newline\newline
+			\end{itemize}		
+		\end{block}
+		\end{column}
+		\end{columns}	
+	\end{frame}
+
+
+%\begin{frame}
+%\frametitle{Agenda}
+%\tableofcontents
+%%\tableofcontents[hideallsubsections] % Subsections ausblenden
+%%\tableofcontents[pausesections] %Sections Schritt-fuer-Schritt einblenden
+%\end{frame}
 
 \section{Grundlagen}
 
@@ -263,8 +296,39 @@
 	\end{columns}
 \end{frame}
 
-
 \section{Algorithmen zur Pfadplanung}
+	\begin{frame}{Gliederung}{Aufteilung}
+	\begin{columns}[T]
+		\begin{column}[T]{0.33\textwidth}
+			\begin{block}{Grundlagen}
+				\begin{itemize}
+					\item Was ist Pfadplanung?
+					\item Darstellung des Raums
+					\item Graphen
+					\newline\newline\newline
+				\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}[T]{0.33\textwidth}
+			\begin{alertblock}{Algorithmen}
+				\begin{itemize}
+					\item Definition von Pfadplanungsalgorithmen
+					\item Diskrete Pfadplanung: Beispiel Feasible Planning
+					\item kontinuierliche Pfadplanung
+				\end{itemize}
+			\end{alertblock}
+		\end{column}
+		\begin{column}[T]{0.33\textwidth}
+			\begin{block}{Anwendungen}
+				\begin{itemize}
+					\item Anwendungen der diskreten Pfadplanung
+					\item Anwendungen der kontinuierlichen Pfadplanung
+					\newline\newline
+				\end{itemize}		
+			\end{block}
+		\end{column}
+	\end{columns}	
+\end{frame}
 \subsection{Definition von Pfadplanungsalgorithmen}
 \begin{frame}{Algorithmen zur Pfadplanung}{Definition von Pfadplanungsalorithmen}
 	
