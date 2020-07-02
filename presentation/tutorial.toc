@@ -1,14 +1,14 @@
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \beamer@sectionintoc {1}{Grundlagen}{3}{0}{1}
-\beamer@subsectionintoc {1}{1}{Darstellung des Raums}{4}{0}{1}
-\beamer@subsectionintoc {1}{2}{Graphen}{8}{0}{1}
-\beamer@sectionintoc {2}{Algorithmen zur Pfadplanung}{13}{0}{2}
-\beamer@subsectionintoc {2}{1}{Definition von Pfadplanungsalgorithmen}{14}{0}{2}
-\beamer@subsectionintoc {2}{2}{Klassifizierung von Pfadplanungsalgorithmen}{21}{0}{2}
-\beamer@subsectionintoc {2}{3}{Kontinuierliche Pfadplanung}{26}{0}{2}
-\beamer@sectionintoc {3}{Anwendungen der Pfadplanungs}{35}{0}{3}
-\beamer@subsectionintoc {3}{1}{Rubic's Cube Rätsel}{35}{0}{3}
-\beamer@subsectionintoc {3}{2}{Videospiele}{36}{0}{3}
-\beamer@subsectionintoc {3}{3}{Digitales Planen von Fabrikrobotern}{37}{0}{3}
-\beamer@subsectionintoc {3}{4}{Autonomes Fahren}{38}{0}{3}
+\beamer@subsectionintoc {1}{1}{Darstellung des Raums}{5}{0}{1}
+\beamer@subsectionintoc {1}{2}{Graphen}{11}{0}{1}
+\beamer@sectionintoc {2}{Algorithmen zur Pfadplanung}{16}{0}{2}
+\beamer@subsectionintoc {2}{1}{Definition von Pfadplanungsalgorithmen}{17}{0}{2}
+\beamer@subsectionintoc {2}{2}{Klassifizierung von Pfadplanungsalgorithmen}{24}{0}{2}
+\beamer@subsectionintoc {2}{3}{Kontinuierliche Pfadplanung}{29}{0}{2}
+\beamer@sectionintoc {3}{Anwendungen der Pfadplanungs}{37}{0}{3}
+\beamer@subsectionintoc {3}{1}{Rubic's Cube Rätsel}{37}{0}{3}
+\beamer@subsectionintoc {3}{2}{Videospiele}{41}{0}{3}
+\beamer@subsectionintoc {3}{3}{Digitales Planen von Fabrikrobotern}{45}{0}{3}
+\beamer@subsectionintoc {3}{4}{Autonomes Fahren}{49}{0}{3}

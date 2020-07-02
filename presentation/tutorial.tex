@@ -26,6 +26,7 @@
 \usepackage{tikz}
 \usepackage{lipsum}
 \usepackage{listings}
+
 \hyphenation{Ele-men-tar-ob-jek-te  ab-ge-tas-tet Aus-wer-tung House-holder-Matrix Le-ast-Squa-res-Al-go-ri-th-men Verschiebe-operationen Ver-bes-ser-rungs-pro-zess} 		% Weitere Silbentrennung bei Bedarf angeben
 \lstset
 {
@@ -56,7 +57,7 @@
 %Bitte ausfuellen:
 \title{Funktionsprinzipien und Anwendung von Algorithmen zur Pfadplanung}
 %\subtitle{Eine kurze Einführung mit Beispielen}
-\author{Bernardo Cordero, Simon Deutscher, Felix Kalchschmid}							% Autor der Arbeit
+\author{Bernardo Barcia, Simon Deutscher, Felix Kalchschmid}							% Autor der Arbeit
 \institute{Hochschule Trier}
 \date{\today}
 \subject{}
@@ -116,18 +117,18 @@
 \end{frame}
 
 \section{Grundlagen}
-%TODO Animationen?
+
 \begin{frame}{Was ist Pfadplanung?}{Eine Einführung}
 	\begin{columns}[T]
 		\begin{column}[T]{0.6\textwidth}
 			\begin{itemize}
 				\item Pfadplanung ist die Spezifizierung einer Aufgabe in einer Hochsprache, die ein Roboter verstehen und ausführen soll.
 				\newline\newline
-				\item Ein \textit{Roboter}, \textit{Agent} oder \textit{Player} ist der Nutzer eines Plans, mit dem er Entscheidungen trifft.
+				\item<2-> Ein \textit{Roboter}, \textit{Agent} oder \textit{Player} ist der Nutzer eines Plans, mit dem er Entscheidungen trifft.
 				
 				\begin{itemize}
-					\item Roboter sollen seiner Umgebung verstehen
-					\item Roboter haben Bewegungseinschränkungen
+					\item<2-> Roboter sollen seiner Umgebung verstehen
+					\item<2-> Roboter haben Bewegungseinschränkungen
 				\end{itemize}
 			\end{itemize}
 		\end{column}
@@ -135,7 +136,7 @@
 			\begin{figure}
 				\includegraphics[width=4.0cm]{images/Bild1.png}
 				\caption{Ein Roboterarm}
-				%TODO Welche Bildunterschift und welches Zitat?
+				
 			\end{figure}
 		\end{column}
 	\end{columns}
@@ -144,57 +145,55 @@
 \subsection{Darstellung des Raums}
 
 \begin{frame}{Darstellung des Raums}{Arbeitsraum und Konfigurationssraum}
-	%TODO Animation?
+	
 	\begin{columns}
 		\begin{column}[T]{0.6\textwidth}
 			\begin{itemize}
-				\item Der Arbeitsraum ist die Welt, in dem sich der Roboter befindet\newline
+				\item Der Arbeitsraum ist die Umgebung, in der sich der Roboter befindet\newline
 				\item Der Konfigurationsraum ist die Menge aller seiner Konfigurationen
-				\begin{itemize}
-					\item Konfiguration ist die Position der Roboter in seiner verständliche Sprache
+				\begin{itemize}[<+->]
+					\item Konfiguration ist die Position des Roboters in einer für ihn verständlichen Sprache
 					\item Hindernisse sind ungültige Konfigurationen
 					\item Freier Raum ist die Gruppe von Konfigurationen ohne Kollisionen
-					%TODO Korregieren
-				\end{itemize}
+					\end{itemize}
 			\end{itemize}
 		\end{column}
 		\begin{column}[T]{0.4\textwidth}
 			\begin{figure}
 				\includegraphics[width=4.5cm]{images/Bild2.png}
-%				\caption{Testbild in einem figure float} 
-				%TODO Bildunterschrift?
+				\caption{Konfigurationsraum eines Roboterarms} 
 			\end{figure}
 		\end{column}
 	\end{columns}
 \end{frame}
 
 \begin{frame}{Darstellung des Raums}{Potentialfeld}
-	%TODO Animation?
+
 	\begin{itemize}
-		\item Punkte in dem Konfigurationsraum bekommen eine Potentialvektor.
+		\item Punkte in dem Konfigurationsraum bekommen eine Potentialvektor
 		\begin{itemize}
-			\item Sie wehren Hindernisse ab
+			\item Sie werden von Hindernisse abgestoßen
 			\item Sie werden vom Ziel angezogen
-			%TODO Korrektur?
+			
 		\end{itemize}
 	\end{itemize}
 	
 	\begin{figure}
 		\includegraphics[width=10.5cm]{images/Potential_Field.png}
 		%				\caption{Testbild in einem figure float} 
-		%TODO Bildunterschrift?
+	
 	\end{figure}
 \end{frame}
 \begin{frame}{Darstellung des Raums}{Roadmap}
-	%TODO Animation?
+	
 	\begin{columns}
 		\begin{column}[T]{0.6\textwidth}
 			\begin{itemize}
-				%TODO Korrektur
-				\item Die Punkte des Konfigurationsraum verbinden
-				\item Bewegung in Roadmap durch:
+				
+				\item Die Punkte des Konfigurationsraum verbinden, um eine Roadmap zu erzeugen
+				\item Bewegung in Roadmap:
 				\begin{itemize}
-					\item Roadmap eintreten
+					\item Roadmap betreten
 					\item Roadmap durchlaufen
 					\item Ziel erreichen
 				\end{itemize}
@@ -203,16 +202,16 @@
 		\end{column}
 		\begin{column}[T]{0.4\textwidth}
 			\begin{figure}
-				\includegraphics[width=4.5cm]{images/Bild3.png}
-				%				\caption{Testbild in einem figure float} 
-				%TODO Bildunterschrift?
+				\includegraphics[width=5.5cm]{images/Bild3.png}
+				\caption{Sichtbarkeitsgraph} 
+
 			\end{figure}
 		\end{column}
 	\end{columns}
 \end{frame}
 
 \begin{frame}{Darstellung des Raums}{Zelldekomposition}
-	%TODO Animation?
+
 	\begin{itemize}
 		\item Teilung des freies Raums in Zellen
 		\begin{itemize}
@@ -223,25 +222,23 @@
 	
 	\begin{figure}
 		\includegraphics[width=5.0cm]{images/Bild4.png}
-%		\caption{Testbild in einem figure float} 
-%TODO Bildunterschrift?
+		\caption{Zelldekomposition mit Polygonalen Hindernissen} 
+
 	\end{figure}
 \end{frame}
 
 \subsection{Graphen}
 
 \begin{frame}{Graphen}{Eine Einführung}
-	%TODO Animation?
 	\begin{itemize}
 		\item Graphen sind gut für Pfadfindung
-		\item Ein Graph besteht aus Knoten, Kanten und Kosten
-		\item Ein gerichteter Graph unterscheiden ausgehende und eingehende Kanten
+		\item Ein Graph besteht aus Knoten, Kanten mit Kosten
+		\item Ein gerichteter Graph unterscheidet ausgehende und eingehende Kanten
 	\end{itemize}
 	
 	\begin{figure}
-		\includegraphics[width=7.0cm]{images/kk_graph_S6.png}
-%		\caption{Testbild in einem figure float} 
-%TODO Bildunterschrift?
+		\includegraphics[width=8.0cm]{images/kk_graph_S6.png}
+
 	\end{figure}
 \end{frame}
 
@@ -249,7 +246,7 @@
 	\begin{itemize}
 		\item Hierarchische Darstellung von Graphen
 		\item Ein Baum hat ein Wurzel
-		\item Knoten haben Tiefe: Entfernung von Wurzel
+		\item Die Entfernung von der Wurzel ist die Tiefe des Knotens
 	\end{itemize}
 	
 	\begin{figure}
@@ -262,15 +259,14 @@
 		\begin{column}[T]{0.5\textwidth}
 			\begin{itemize}
 				\item Navigationsnetze definieren der freie Raum als polygonale Bereiche
-				\item Verbindungen zwischen Bereiche sind in Navigationsgraph gespeichert
+				\item Verbindungen zwischen Bereichen sind im Navigationsgraph gespeichert
 				\item Start und Endkonfigurationen befinden sich in den Bereichen
 			\end{itemize}
 		\end{column}
 		\begin{column}[T]{0.5\textwidth}
 			\begin{figure}
 				\includegraphics[width=6.5cm]{images/mesh_with_path.png}
-%				\caption{Testbild in einem figure float} 
-%TODO Bildunterschrift?
+				\caption{Navigationsnetz mit drei Ebenen} 
 			\end{figure}
 		\end{column}
 	\end{columns}
@@ -278,15 +274,15 @@
 
 \begin{frame}{Graphen}{Rastergraphen}
 	\begin{itemize}
-		\item Raum in Felder definieren
+		\item Der Konfigurationsraum wird in Feldern definiert
 		\begin{itemize}
-			\item Felder können verschieden Formen haben
+			\item Felder können verschiedene Formen haben
 		\end{itemize} 
 		\item Die Felder kennen ihre Nachbarn
 	\end{itemize}
 	\begin{figure}
 		\includegraphics[width=10.0cm]{images/Grid_Tiles.png}
-%		\caption{Testbild in einem figure float} 
+		\caption{Drei verschiedene Rastergraphen} 
 	\end{figure}
 \end{frame}
 
@@ -296,13 +292,13 @@
 			\begin{itemize}
 				\item Roadmap aus sichtbaren Punkten bilden
 				\item Die Eckpunkte der Hindernisse verbinden
-				\item Sensoren nehmen neue Information für den Roboter, um neue  Kanten zu bilden
+				\item Sensoren nehmen neue Information für den Roboter wahr, um neue  Kanten zu bilden
 			\end{itemize}
 		\end{column}
 		\begin{column}[T]{0.5\textwidth}
 			\begin{figure}
 				\includegraphics[width=6.5cm]{images/Robot_Motion_Visibility_Graph.png}
-%				\caption{Testbild in einem figure float} 
+				\caption{Sichtbarkeitsgraph mit polygonalen Hindernissen} 
 			\end{figure}
 		\end{column}
 	\end{columns}
@@ -495,15 +491,7 @@
 \end{frame}
 
 \subsection{Kontinuierliche Pfadplanung}
-\begin{frame}{Algorithmen zur Pfadplanung}{Kontinuierliche Pfadplanung}
-%	\begin{columns}
-%		\begin{column}[T]{0.7\textwidth}
-			
-		
-			
-%		\end{column}
-%	\end{columns}
-\end{frame}
+
 
 \begin{frame}{Algorithmen zur Pfadplanung}{Kontinuierliche Pfadplanung}
 \begin{columns}
@@ -538,7 +526,7 @@
 	\end{center}
 	\begin{columns}
 		\begin{column}[T]{0.5\textwidth}<2->
-			\begin{block}{Implizite Räpresentation des Zustandsraumes}
+			\begin{block}{Implizite Repräsentation des Zustandsraumes}
 			\begin{itemize}
 				\item Explizite Darstellung des Zustandsraumes nicht möglich
 				\item Daher Implizite Darstellung
@@ -594,7 +582,7 @@
 \begin{frame}{Anwendungen der Pfadplanung}{Das Rubic's Cube Rätsel}
 	\begin{columns}
 		\begin{column}[T]{0.5\textwidth}
-				\begin{itemize}
+				\begin{itemize}[<+->]
 					\item Zustandsraum: Alle möglichen Farbverteilungen
 					\item Aktionsrahmen: Die Menge aller möglichen Drehungen
 					\item bestmöglicher Pfad: die geringste Anzahl an Drehungen, bis der Würfel einfarbige Seiten hat
@@ -604,7 +592,7 @@
 		\begin{column}[T]{0.5\textwidth}
 			\begin{figure}
 				\includegraphics[width=4.5cm]{images/img229_a.png}
-				\caption{Der Rubik's Cube und sein Aktionsrahmen \cite[In Anlehnung an Abb.1.1, S.5]{Lav06}}
+				\caption{Der Rubik's Cube und sein Aktionsrahmen }
 			\end{figure}
 		\end{column}
 	\end{columns}
@@ -613,7 +601,7 @@
 \begin{frame}{Anwendungen der Pfadplanung}{Videospiele}
 	\begin{columns}
 		\begin{column}[T]{0.5\textwidth}
-			\begin{itemize}
+			\begin{itemize}[<+->]
 				\item Zustandsraum: Alle möglichen Positionen der zu bewegenden Einheit und alle möglichen Map-Gegebenheiten
 				\item Aktionsrahmen: alle möglichen Bewegungsrichtungen
 				\item bestmöglicher Pfad: der schnellste Weg um Ziel
@@ -623,7 +611,7 @@
 		\begin{column}[T]{0.5\textwidth}
 			\begin{figure}
 				\includegraphics[width=6.0cm]{images/Civ5.png}
-				\caption{Screenshot of Civilisation V} 
+				\caption{Screenshot aus Civilisation V}
 			\end{figure}
 		\end{column}
 	\end{columns}
@@ -632,7 +620,7 @@
 \begin{frame}{Anwendungen der Pfadplanung}{Digitales Planen von Fabrikrobotern}
 	\begin{columns}
 		\begin{column}[T]{0.5\textwidth}
-			\begin{itemize}
+			\begin{itemize}[<+->]
 				\item Zustandsraum: Alle möglichen Position der Fabrikroboter, des Autos und des zu montierenden Teils
 				\item Aktionsrahmen: Die Menge aller möglichen Bewegungen des Roboters
 				\item kontinuierlich
@@ -641,8 +629,8 @@
 		\end{column}
 		\begin{column}[T]{0.5\textwidth}
 			\begin{figure}
-				\includegraphics[width=6.0cm]{images/img231.png}
-				\caption{} 
+				\includegraphics[width=7.0cm]{images/img231.png}
+				\caption{Scheibenwischer wird an Auto angebracht} 
 			\end{figure}
 		\end{column}
 	\end{columns}
@@ -651,10 +639,10 @@
 \begin{frame}{Anwendungen der Pfadplanung}{Autonomes Fahren}
 	\begin{columns}
 		\begin{column}[T]{0.6\textwidth}
-			\begin{itemize}
+			\begin{itemize}[<+->]
 				\item Zustandsraum: Jede mögliche Position auf der Welt und jede mögliche Umgebung
 				\item Aktionsrahmen:
-				\begin{itemize}
+				\begin{itemize}[<2->]
 					\item Beschleunigen
 					\item Bremsen
 					\item Lenken
@@ -669,14 +657,24 @@
 		\begin{column}[T]{0.4\textwidth}
 			\begin{figure}
 				\includegraphics[width=6.0cm]{images/img239.png}
-				\caption{} 
+				\caption{Autonomes Einparken} 
 			\end{figure}
 		\end{column}
 	\end{columns}
 \end{frame}
 
-\begin{frame}[allowframebreaks]{\bibname}
-\bibliography{literatur}     %BibTeX-Datei literatur.bib
+\begin{frame}
+\begin{center}
+\huge Danke für eure Aufmerksamkeit!
+\end{center}
+
+\begin{figure}
+	\includegraphics[width=4.0cm]{images/smiley.jpg}
+	
+\end{figure}
+\begin{center}
+	Fragen gerne im Forum stellen!
+\end{center}
 \end{frame}
 
 
