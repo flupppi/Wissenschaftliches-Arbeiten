@@ -464,6 +464,153 @@
 	\end{columns}	
 \end{frame}
 
+\subsection{Kontinuierliche Pfadplanung}
+\begin{frame}{Algorithmen zur Pfadplanung}{Kontinuierliche Pfadplanung}
+%	\begin{columns}
+%		\begin{column}[T]{0.7\textwidth}
+			\begin{block}{Unterschiede zur diskreten Pfadplanung}
+			\begin{itemize}
+				\item Der Zustandsraum ist überabzählbar unendlich
+				\item Der Zustandsraum ist zu groß, um explizit dargestellt zu werden
+				\begin{itemize} 
+					\item Die Anzahl Zustände ist zu groß.
+					\item Die kombinatorische Komplexität ist zu groß.
+				\end{itemize}
+			\end{itemize}
+			\end{block}
+%		\end{column}
+%	\end{columns}
+\end{frame}
+
+\begin{frame}{Algorithmen zur Pfadplanung}{Kontinuierliche Pfadplanung}
+\begin{columns}
+	\begin{column}[T]{0.5\textwidth}
+		\begin{block}{Das Piano Mover's Problem}
+		\begin{itemize}
+			\item Ein Körper muss einen kontinuierlichen Bewegungspfad finden.
+			\item Geometrische Einschränkungen
+			\item kein Kontakt mit Hindernissen im Raum
+		\end{itemize}
+		\end{block}
+	\end{column}
+	\begin{column}[T]{0.5\textwidth}
+		\begin{figure}
+			\includegraphics[width=4.0cm]{images/img233.png}
+			\caption{mobile Roboter bewegen einen Flügel \cite[Abb. 1.5, S.9]{Lav06}} 
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Algorithmen zur Pfadplanung}{Kontinuierliche Pfadplanung}
+	Zwei wichtige Motive in der Pfadplanung:\\
+	\begin{columns}
+		\begin{column}[T]{0.5\textwidth}
+			\begin{block}{Implizite Räpresentation des Zustandsraumes}
+			\begin{itemize}
+				\item Explizite Darstellung des Zustandsraumes nicht möglich
+				\item Daher Implizite Darstellung
+				\item kein Kontakt mit Hindernissen im Raum
+			\end{itemize}
+			\end{block}
+		\end{column}
+		\begin{column}[T]{0.5\textwidth}
+			\begin{block}{Transformation von kontinuierlichen Modellen in diskrete}
+			\begin{itemize}
+				\item combinatorial motion planning
+				\item sampling based motion planning
+			\end{itemize}
+			\end{block}
+		\end{column}
+	\end{columns}
+\end{frame}
+
+\section{Anwendungen der Pfadplanungs}
+\subsection{Rubic's Cube Rätsel}
+\begin{frame}{Anwendungen der Pfadplanung}{Das Rubic's Cube Rätsel}
+	\begin{columns}
+		\begin{column}[T]{0.5\textwidth}
+				\begin{itemize}
+					\item Zustandsraum: Alle möglichen Farbverteilungen
+					\item Aktionsrahmen: Die Menge aller möglichen Drehungen (12)
+					\item bestmöglicher Pfad: die geringste Anzahl an Drehungen, bis der Würfel einfarbige Seiten hat
+					\item diskret
+				\end{itemize}
+		\end{column}
+		\begin{column}[T]{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=4.5cm]{images/img229_a.png}
+				\caption{mobile Roboter bewegen einen Flügel} 
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+\subsection{Videospiele}
+\begin{frame}{Anwendungen der Pfadplanung}{Videospiele}
+	\begin{columns}
+		\begin{column}[T]{0.5\textwidth}
+			\begin{itemize}
+				\item Zustandsraum: Alle möglichen Positionen der zu bewegenden Einheit und alle möglichen Map-Gegebenheiten
+				\item Aktionsrahmen: alle möglichen Bewegungsrichtungen
+				\item bestmöglicher Pfad: der schnellste Weg um Ziel
+				\item diskret
+			\end{itemize}
+		\end{column}
+		\begin{column}[T]{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=6.0cm]{images/Civ5.png}
+				\caption{Screenshot of Civilisation V} 
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+\subsection{Digitales Planen von Fabrikrobotern}
+\begin{frame}{Anwendungen der Pfadplanung}{Digitales Planen von Fabrikrobotern}
+	\begin{columns}
+		\begin{column}[T]{0.5\textwidth}
+			\begin{itemize}
+				\item Zustandsraum: Alle möglichen Position der Fabrikroboter, des Autos und des zu montierenden Teils
+				\item Aktionsrahmen: Die Menge aller möglichen Bewegungen des Roboters
+				\item kontinuierlich
+				\item Alle Umgebungsinformationen sind bekannt
+			\end{itemize}
+		\end{column}
+		\begin{column}[T]{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=6.0cm]{images/img231.png}
+				\caption{} 
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+\subsection{Autonomes Fahren}
+\begin{frame}{Anwendungen der Pfadplanung}{Autonomes Fahren}
+	\begin{columns}
+		\begin{column}[T]{0.6\textwidth}
+			\begin{itemize}
+				\item Zustandsraum: Jede mögliche Position auf der Welt und jede mögliche Umgebung
+				\item Aktionsrahmen:
+				\begin{itemize}
+					\item Beschleunigen
+					\item Bremsen
+					\item Lenken
+					\item blinken
+					\item Gang wechseln		
+				\end{itemize}
+				\item kontinuierlich
+				\item Planung mit Ungewissheit
+				\item Planung mit Bewegungseinschränkungen
+			\end{itemize}
+		\end{column}
+		\begin{column}[T]{0.4\textwidth}
+			\begin{figure}
+				\includegraphics[width=6.0cm]{images/img239.png}
+				\caption{} 
+			\end{figure}
+		\end{column}
+	\end{columns}
+\end{frame}
+
 
 
 \section{tutorial}
